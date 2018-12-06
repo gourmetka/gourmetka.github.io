@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3F5161!important;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-title {
+  text-align: center;
+  padding: 10vh 5vw 0vh 5vw;
+  background: linear-gradient(to bottom, #0069b2 0%, #add4f4 100%);
+}
+
+.sections {
+  padding: 0px 15vw;
+}
+
+.section {
+  padding: 8vh 0px;
+  text-align: center;
+}
+
+.section-even {
+  background: #EFF4F9;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+}
+
+.footer {
+  text-align: center;
+  padding: 3vh 10px;
+  background: #427CAC;
+  color: white;
+  font-size: 12px;
+}
+
+.icon-title {
+  font-size: 40px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.card-content {
+  font-size: 14px;
+}
