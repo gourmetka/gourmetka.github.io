@@ -1,0 +1,19 @@
+body {
+  font-size: 13px;
+}
+
+.small-font-size {
+  font-size: 13px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.infected-text {
+  color: #BB0000;
+}
+
+.cured-text {
+  color: #2B7D2B;
+}
