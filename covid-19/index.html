@@ -56,14 +56,14 @@
           <table class="table table-striped small-font-size">
             <thead>
               <tr>
-                <th scope="col">联邦州</th>
-                <th scope="col" class="text-align-center">全部</th>
-                <th scope="col" class="text-align-center">现存</th>
-                <th scope="col" class="text-align-center">治愈</th>
+                <th @click="sort('stateName')" scope="col">联邦州 {{stateSortIcon}}</th>
+                <th @click="sort('totalInfectedState')" scope="col" class="text-align-center">全部 {{totalSortIcon}}</th>
+                <th @click="sort('infected')" scope="col" class="text-align-center">现存 {{infectedSortIcon}}</th>
+                <th @click="sort('cured')" scope="col" class="text-align-center">治愈 {{curedSortIcon}}</th>
               </tr>
             </thead>
             <tbody>
-              <tr v-for="d in data" :key="d.id">
+              <tr v-for="d in sortedData" :key="d.id">
                 <td> {{ d.stateName }} </td>
                 <td class="text-align-center infected-text"> 
                   <span v-if="d">

@@ -103,10 +103,35 @@ $(document).ready(() => {
     el: '#app',
     data () {
       return {
-        data: data
+        data: data,
+        currentSort:'stateName',
+        currentSortDir:'asc',
+        stateSortIcon:'',
+        totalSortIcon:'',
+        infectedSortIcon:'',
+        curedSortIcon:''
       }
     },
     methods: {
+      sort:function(s) {
+        if(s === this.currentSort) {
+          this.currentSortDir =
+          this.currentSortDir==='asc'?'desc':'asc';
+        }
+        var currentSortIcon =
+          this.currentSortDir==='asc'?'▴':'▾';
+        this.currentSort = s
+
+        this.stateSortIcon = ''
+        this.totalSortIcon = ''
+        this.infectedSortIcon = ''
+        this.curedSortIcon = ''
+
+        if(s === 'totalInfectedState') this.totalSortIcon = currentSortIcon
+        else if(s === 'stateName') this.stateSortIcon = currentSortIcon        
+        else if(s === 'infected') this.infectedSortIcon = currentSortIcon
+        else if(s === 'cured') this.curedSortIcon = currentSortIcon
+      },
       loadMap: function () {
         let deChart = echarts.init(document.getElementById('mapContainer'))
         let options = {
@@ -191,6 +216,27 @@ $(document).ready(() => {
           return Math.max(...this.data.map(d => d.infected))
         }
         return 0
+      },
+      stateSortDir () {
+        if(this.currentSort === 'totalInfectedState') this.totalSortDir = currentSortIcon
+        if(s === 'totalInfectedState') this.totalSortDir = currentSortIcon
+        else if(s === 'stateName') this.stateSortDir = currentSortIcon        
+        else if(s === 'infected') this.infectedSortDir = currentSortIcon
+        else if(s === 'cured') this.curedSortDir = currentSortIcon
+      },
+      sortedData:function() {
+        return this.data.sort((a,b) => {
+          let modifier = 1;
+          if(this.currentSortDir === 'desc') modifier = -1;
+          if(a[this.currentSort] < b[this.currentSort]) return -1 * modifier;
+          if(a[this.currentSort] > b[this.currentSort]) return 1 * modifier;
+
+          if(this.currentSort==='totalInfectedState') {
+            if(a.infected+a.cured < b.infected+b.cured) return -1 * modifier;
+            if(a.infected+a.cured > b.infected+b.cured) return 1 * modifier;
+          }
+          return 0;
+        });
       },
       visualData () {
         if (this.data) {
