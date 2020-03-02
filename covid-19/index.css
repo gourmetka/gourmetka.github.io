@@ -17,3 +17,8 @@ body {
 .cured-text {
   color: #2B7D2B;
 }
+
+.update-text {
+  color: rgb(122, 122, 122);
+  font-size: 11px;
+}

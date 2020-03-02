@@ -106,10 +106,10 @@ $(document).ready(() => {
         data: data,
         currentSort:'stateName',
         currentSortDir:'asc',
-        stateSortIcon:'',
-        totalSortIcon:'',
-        infectedSortIcon:'',
-        curedSortIcon:''
+        stateSortIcon:' ',
+        totalSortIcon:' ',
+        infectedSortIcon:' ',
+        curedSortIcon:' '
       }
     },
     methods: {
@@ -122,10 +122,10 @@ $(document).ready(() => {
           this.currentSortDir==='asc'?'▴':'▾';
         this.currentSort = s
 
-        this.stateSortIcon = ''
-        this.totalSortIcon = ''
-        this.infectedSortIcon = ''
-        this.curedSortIcon = ''
+        this.stateSortIcon = ' '
+        this.totalSortIcon = ' '
+        this.infectedSortIcon = ' '
+        this.curedSortIcon = ' '
 
         if(s === 'totalInfectedState') this.totalSortIcon = currentSortIcon
         else if(s === 'stateName') this.stateSortIcon = currentSortIcon        
