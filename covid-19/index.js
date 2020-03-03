@@ -3,21 +3,21 @@ let data = [
     id: 1,
     stateName: 'Baden-Württemberg',
     geo: [0, 0],
-    infected: 28,
+    infected: 37,
     cured: 0,
     death: 0
   }, {
     id: 2,
     stateName: 'Bayern',
     geo: [0, 0],
-    infected: 37,
+    infected: 36,
     cured: 14,
     death: 0
   }, {
     id: 3,
     stateName: 'Berlin',
     geo: [0, 0],
-    infected: 3,
+    infected: 6,
     cured: 0,
     death: 0
   }, {
@@ -31,14 +31,14 @@ let data = [
     id: 5,
     stateName: 'Bremen',
     geo: [0, 0],
-    infected: 1,
+    infected: 3,
     cured: 0,
     death: 0
   }, {
     id: 6,
     stateName: 'Hamburg',
     geo: [0, 0],
-    infected: 3,
+    infected: 4,
     cured: 0,
     death: 0
   }, {
@@ -52,35 +52,35 @@ let data = [
     id: 8,
     stateName: 'Mecklenburg-Vorpommern',
     geo: [0, 0],
-    infected: 0,
+    infected: 2,
     cured: 0,
     death: 0
   }, {
     id: 9,
     stateName: 'Niedersachsen',
     geo: [0, 0],
-    infected: 2,
+    infected: 4,
     cured: 0,
     death: 0
   }, {
     id: 10,
     stateName: 'Nordrhein-Westfalen',
     geo: [0, 0],
-    infected: 103,
+    infected: 100,
     cured: 0,
     death: 0
   }, {
     id: 11,
     stateName: 'Rheinland-Pfalz',
     geo: [0, 0],
-    infected: 5,
+    infected: 7,
     cured: 0,
     death: 0
   }, {
     id: 12,
     stateName: 'Saarland',
     geo: [0, 0],
-    infected: 0,
+    infected: 1,
     cured: 0,
     death: 0
   }, {
@@ -101,7 +101,7 @@ let data = [
     id: 15,
     stateName: 'Schleswig-Holstein',
     geo: [0, 0],
-    infected: 2,
+    infected: 3,
     cured: 0,
     death: 0
   }, {
