@@ -3,98 +3,114 @@ let data = [
     id: 1,
     stateName: 'Baden-Württemberg',
     geo: [0, 0],
-    infected: 15,
-    cured: 0
+    infected: 28,
+    cured: 0,
+    death: 0
   }, {
     id: 2,
     stateName: 'Bayern',
     geo: [0, 0],
-    infected: 4,
-    cured: 14
+    infected: 37,
+    cured: 14,
+    death: 0
   }, {
     id: 3,
     stateName: 'Berlin',
     geo: [0, 0],
-    infected: 0,
-    cured: 0
+    infected: 3,
+    cured: 0,
+    death: 0
   }, {
     id: 4,
     stateName: 'Brandenburg',
     geo: [0, 0],
-    infected: 0,
-    cured: 0
+    infected: 1,
+    cured: 0,
+    death: 0
   }, {
     id: 5,
     stateName: 'Bremen',
     geo: [0, 0],
     infected: 1,
-    cured: 0
+    cured: 0,
+    death: 0
   }, {
     id: 6,
     stateName: 'Hamburg',
     geo: [0, 0],
-    infected: 2,
-    cured: 0
+    infected: 3,
+    cured: 0,
+    death: 0
   }, {
     id: 7,
     stateName: 'Hessen',
     geo: [0, 0],
-    infected: 3,
-    cured: 0
+    infected: 12,
+    cured: 0,
+    death: 0
   }, {
     id: 8,
     stateName: 'Mecklenburg-Vorpommern',
     geo: [0, 0],
     infected: 0,
-    cured: 0
+    cured: 0,
+    death: 0
   }, {
     id: 9,
     stateName: 'Niedersachsen',
     geo: [0, 0],
-    infected: 1,
-    cured: 0
+    infected: 2,
+    cured: 0,
+    death: 0
   }, {
     id: 10,
     stateName: 'Nordrhein-Westfalen',
     geo: [0, 0],
-    infected: 65,
-    cured: 0
+    infected: 103,
+    cured: 0,
+    death: 0
   }, {
     id: 11,
     stateName: 'Rheinland-Pfalz',
     geo: [0, 0],
     infected: 5,
-    cured: 0
+    cured: 0,
+    death: 0
   }, {
     id: 12,
     stateName: 'Saarland',
     geo: [0, 0],
     infected: 0,
-    cured: 0
+    cured: 0,
+    death: 0
   }, {
     id: 13,
     stateName: 'Sachsen',
     geo: [0, 0],
-    infected: 0,
-    cured: 0
+    infected: 1,
+    cured: 0,
+    death: 0
   }, {
     id: 14,
     stateName: 'Sachsen-Anhalt',
     geo: [0, 0],
     infected: 0,
-    cured: 0
+    cured: 0,
+    death: 0
   }, {
     id: 15,
     stateName: 'Schleswig-Holstein',
     geo: [0, 0],
-    infected: 0,
-    cured: 0
+    infected: 2,
+    cured: 0,
+    death: 0
   }, {
     id: 16,
     stateName: 'Thüringen',
     geo: [0, 0],
-    infected: 0,
-    cured: 0
+    infected: 1,
+    cured: 0,
+    death: 0
   },
 ]
 
@@ -137,8 +153,13 @@ $(document).ready(() => {
             max: this.maxInfectedNumber,
             text: ['High', 'Low'],
             realtime: false,
+            range: [1, this.maxInfectedNumber],
             inRange: {
-              color: ['#FFF', '#BB0000']
+              color: ['#FABD64', '#BB0000'],
+              symbolSize: [30, 100]
+            },
+            outOfRange: {
+              color: ['#FFF']
             }
           },
           series: [{
