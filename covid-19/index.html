@@ -127,5 +127,16 @@
         NEWS
       </div> -->
     </div>
+
+    <script>
+      import ga from 'vue-ga';
+      ga(collect => {
+        // when hash changes
+        window.onhashchange = () => {
+          collect(location.pathname + location.hash)
+        }
+      }, 'UA-159669321-1')
+    </script>
+
   </body>
 </html>
