@@ -39,6 +39,10 @@ $(document).ready(async () => {
       loadMap: function () {
         let deChart = echarts.init(document.getElementById('mapContainer'))
         let options = {
+          grid: {
+            left: '2%',
+            right: '2%'
+          },
           tooltip: {
             trigger: 'item',
             backgroundColor: 'rgba(255, 255, 255, 0.9)',
@@ -53,9 +57,6 @@ $(document).ready(async () => {
                     ${name}
                     <hr style="margin: 1px; padding: 0px;"/>
                     现存确诊： <span style="color: #BB0000;">${d.infected}</span>
-                    <br/>
-                    治愈人数： <span style="color: #2B7D2B;">${d.cured}</span>
-                    <br/>
                   </div>
                 `
                 return html
@@ -63,14 +64,15 @@ $(document).ready(async () => {
             }
           },
           visualMap: {
+            orient: 'horizontal',
+            left: 'center',
             min: 0,
             max: this.maxInfectedNumber,
-            text: ['High', 'Low'],
+            text: [`最高：${this.maxInfectedNumber}`, `最低：${this.minInfectedNumber}`],
             realtime: false,
             range: [1, this.maxInfectedNumber],
             inRange: {
-              color: ['#FABD64', '#BB0000'],
-              symbolSize: [30, 100]
+              color: ['#FABD64', '#BB0000']
             },
             outOfRange: {
               color: ['#FFF']
@@ -83,8 +85,8 @@ $(document).ready(async () => {
             roam: false,
             name: '现存确诊',
             label: {
-              show: false,
-              formatter: '{b}: {c}'
+              show: true,
+              formatter: '{c}'
             },
             nameMap: {
               'Baden-Württemberg': 'Baden-Württemberg',
@@ -125,6 +127,12 @@ $(document).ready(async () => {
       maxInfectedNumber () {
         if (this.data) {
           return Math.max(...this.data.map(d => d.infected))
+        }
+        return 0
+      },
+      minInfectedNumber () {
+        if (this.data) {
+          return Math.min(...this.data.map(d => d.infected))
         }
         return 0
       },
