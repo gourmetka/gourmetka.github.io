@@ -63,7 +63,7 @@ for region in regionlist:
 ts = int(datetime.now().timestamp()) * 1000
 existing_data["ts"] = ts
 
-output = json.dumps(existing_data, indent=4)
+output = json.dumps(existing_data, indent=2)
 
 with open(os.path.join(script_dir, '../data.json'), 'w', encoding="utf-8") as f:
   f.write(output)
