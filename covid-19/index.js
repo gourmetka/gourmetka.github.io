@@ -195,7 +195,8 @@ $(document).ready(() => {
             roam: false,
             name: '现存确诊',
             label: {
-              show: false
+              show: false,
+              formatter: '{b}: {c}'
             },
             nameMap: {
               'Baden-Württemberg': 'Baden-Württemberg',

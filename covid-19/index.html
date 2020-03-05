@@ -38,15 +38,15 @@
     <script src="index.js" language="javascript"></script>
   </head>
   <body>
-    <nav id="navbar-top" class="navbar navbar-light bg-light">
+    <nav id="navbar-top" class="navbar navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#">德国 COVID-19 现状 (03.03.2020)</a>
+        <p class="navbar-brand" style="color: white;">德国 COVID-19 现状 (03.03.2020)</p>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active" href="#map">地图</a>
+            <a class="nav-link active" style="color: white;" href="#map">地图</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#data">数据</a>
+            <a class="nav-link" style="color: white;" href="#data">数据</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#news">新闻</a>
@@ -63,21 +63,21 @@
         </div>
       </div>
 
-      <div id="map" class="row">
-        <nav class="navbar navbar-light bg-light">
+      <div id="map" class="row page-content">
+        <nav class="navbar navbar-light container-nav">
           <div class="container">
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a class="nav-link" href="#mapContainer">德国</a>
+                <a class="nav-link" style="color: white;" href="#mapContainer">德国</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#bwMapContainer">BW</a>
+                <a class="nav-link" style="color: white;" href="#bwMapContainer">BW</a>
               </li>
             </ul>
           </div>
         </nav>
         <div align="center" style=" width: 100%; height: 500px;">
-          <div id="mapContainer" align="center" style="height: 100%;"></div>
+          <div id="mapContainer" align="center" style="height: 100%; border-radius: 10px;"></div>
           <div id="bwMapContainer" align="center" style="height: 100%;"></div>
         </div>
       </div>

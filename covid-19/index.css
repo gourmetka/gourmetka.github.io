@@ -29,10 +29,16 @@ body {
   margin: 0px auto;
   position: fixed;
   left: 0;
-  height: 80px;
+  height: 100px;
   z-index: 20;
+  background-color: #1b262c;
+}
+
+.container-nav {
+  background-color: #0f4c81;
+  width: 100%;
 }
 
 .page-content {
-  padding-top: 80px;
+  padding-top: 100px;
 }
