@@ -167,6 +167,7 @@ $(document).ready(() => {
                     现存确诊： <span style="color: #BB0000;">${d.infected}</span>
                     <br/>
                     治愈人数： <span style="color: #2B7D2B;">${d.cured}</span>
+                    <br/>
                   </div>
                 `
                 return html
