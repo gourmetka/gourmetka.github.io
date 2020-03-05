@@ -1,5 +1,5 @@
 $(document).ready(async () => {
-  let obj = await $.getJSON("data.json")
+  let obj = await $.getJSON(`data.json?nocache=${new Date().getTime()}`)
   let data = obj.data
   let ts = obj.ts
   let app = new Vue({
