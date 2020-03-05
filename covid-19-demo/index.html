@@ -88,22 +88,22 @@
               <thead>
                 <tr>
                   <th @click="sort('stateName')" scope="col">联邦州 {{stateSortIcon}}</th>
-                  <!-- <th @click="sort('totalInfectedState')" scope="col" class="text-align-center">全部 {{totalSortIcon}}</th> -->
+                  <th @click="sort('totalInfectedState')" scope="col" class="text-align-center">全部 {{totalSortIcon}}</th>
                   <th @click="sort('infected')" scope="col" class="text-align-center">现存确诊 {{infectedSortIcon}}</th>
-                  <!-- <th @click="sort('cured')" scope="col" class="text-align-center">治愈 {{curedSortIcon}}</th> -->
+                  <th @click="sort('cured')" scope="col" class="text-align-center">治愈 {{curedSortIcon}}</th>
                 </tr>
               </thead>
               <tbody>
                 <tr v-for="d in sortedData" :key="d.id">
                   <td> {{ d.stateName }} </td>
-                  <!-- <td class="text-align-center infected-text"> 
+                  <td class="text-align-center infected-text"> 
                     <span v-if="d">
                       {{ d.infected + d.cured }} 
                     </span>
                     <span v-else>
                       ...
                     </span>
-                  </td> -->
+                  </td>
                   <td class="text-align-center infected-text"> 
                     <span v-if="d">
                       {{ d.infected }} 
@@ -112,27 +112,27 @@
                       ...
                     </span>
                   </td>
-                  <!-- <td class="text-align-center cured-text">
+                  <td class="text-align-center cured-text">
                     <span v-if="d">
                       {{ d.cured }} 
                     </span>
                     <span v-else>
                       ...
                     </span>
-                  </td> -->
+                  </td>
                 </tr>
               </tbody>
               <tfoot>
                 <tr class="">
                   <td><strong>总计</strong></td>
-                  <!-- <td class="text-align-center infected-text"> 
+                  <td class="text-align-center infected-text"> 
                     <span v-if="totalInfected && totalCured">
                       <strong> {{ totalInfected + totalCured }} </strong>
                     </span>
                     <span v-else>
                       ...
                     </span>
-                  </td> -->
+                  </td>
                   <td class="text-align-center infected-text"> 
                     <span v-if="totalInfected">
                       <strong> {{ totalInfected }} </strong>
@@ -141,14 +141,14 @@
                       ...
                     </span>
                   </td>
-                  <!-- <td class="text-align-center cured-text">
+                  <td class="text-align-center cured-text">
                     <span v-if="totalCured">
                       <strong> {{ totalCured }}  </strong>
                     </span>
                     <span v-else>
                       ...
                     </span>
-                  </td> -->
+                  </td>
                 </tr>
               </tfoot>
             </table>
@@ -157,10 +157,6 @@
         <!-- <div id="news" class="row">
           NEWS
         </div> -->
-        <div style="text-align: center; padding: 10px; margin-bottom: 20px;">
-          数据源：<a href="https://gcber.org/corona/" target="_blank">https://gcber.org/corona/</a>
-          每天想起来的时候就更新一下。
-        </div>
       </div>
     </div>
   </body>
