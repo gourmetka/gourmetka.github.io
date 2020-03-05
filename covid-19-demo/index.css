@@ -1,0 +1,44 @@
+body {
+  font-size: 13px;
+  display: block;
+}
+
+.small-font-size {
+  font-size: 13px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.infected-text {
+  color: #BB0000;
+}
+
+.cured-text {
+  color: #2B7D2B;
+}
+
+.update-text {
+  color: rgb(122, 122, 122);
+  font-size: 11px;
+}
+
+#navbar-top {
+  width: 100%;
+  margin: 0px auto;
+  position: fixed;
+  left: 0;
+  height: 100px;
+  z-index: 20;
+  background-color: #1b262c;
+}
+
+.container-nav {
+  background-color: #0f4c81;
+  width: 100%;
+}
+
+.page-content {
+  padding-top: 100px;
+}
