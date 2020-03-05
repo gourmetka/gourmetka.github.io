@@ -23,6 +23,16 @@
     <!-- vue -->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159669321-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-159669321-1');
+    </script>
+
     <!-- self -->
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="index.js" language="javascript"></script>
@@ -127,16 +137,5 @@
         NEWS
       </div> -->
     </div>
-
-    <script>
-      import ga from 'vue-ga';
-      ga(collect => {
-        // when hash changes
-        window.onhashchange = () => {
-          collect(location.pathname + location.hash)
-        }
-      }, 'UA-159669321-1')
-    </script>
-
   </body>
 </html>
