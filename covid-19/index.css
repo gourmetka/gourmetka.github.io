@@ -1,6 +1,7 @@
 body {
   font-size: 13px;
   display: block;
+  background-color: #EFF4F9;
 }
 
 .small-font-size {
@@ -25,18 +26,10 @@ body {
 }
 
 #navbar-top {
-  width: 100%;
-  margin: 0px auto;
-  position: fixed;
-  left: 0;
-  height: 100px;
-  z-index: 20;
-  background-color: #1b262c;
-}
-
-.container-nav {
-  background-color: #0f4c81;
-  width: 100%;
+  color: #333;
+  font-size: 1rem;
+  padding: 1rem 0px;
+  background-color: #A9C6DE;
 }
 
 .page-content {
