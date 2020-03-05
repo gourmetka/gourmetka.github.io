@@ -46,15 +46,15 @@
       </nav>
   
       <div class="container">
-        <div id="map" class="row page-content">
+        <div id="map" class="row">
           <div align="center" style=" width: 100%; height: 500px;">
             <div id="mapContainer" align="center" style="height: 100%; border-radius: 10px;"></div>
             <div id="bwMapContainer" align="center" style="height: 100%;"></div>
           </div>
         </div>
-        <div id="data" class="row page-content">
+        <div id="data" class="row" style="margin-top: 20px;">
           <div class="table-responsive" v-if="data && data.length > 0">
-            <table class="table table-striped small-font-size">
+            <table class="table table-striped small-font-size" style="background-color: #EFF4F9;">
               <thead>
                 <tr>
                   <th @click="sort('stateName')" scope="col">联邦州 {{stateSortIcon}}</th>
@@ -127,9 +127,9 @@
         <!-- <div id="news" class="row">
           NEWS
         </div> -->
-        <div style="text-align: center; padding: 10px; margin-bottom: 20px;">
-          数据源：<a href="https://gcber.org/corona/" target="_blank">https://gcber.org/corona/</a>
-          每天想起来的时候就更新一下。
+        <div style="text-align: center; padding: 10px; margin-bottom: 20px; font-size: 12px;">
+          数据源：<a href="https://gcber.org/corona/" target="_blank">https://gcber.org/corona/</a> ★☆ 每天想起来的时候就更新一下 <br/>
+          Color theme: <a href="https://experience.sap.com/fiori-design-web/" target="_blank">SAP Fiori</a>
         </div>
       </div>
     </div>
