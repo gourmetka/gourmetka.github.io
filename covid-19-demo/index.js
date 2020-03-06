@@ -195,6 +195,7 @@ $(document).ready(async () => {
         totalSortIcon:' ',
         infectedSortIcon:' ',
         curedSortIcon:' ',
+        deathSortIcon: ' ',
         updateTimestamp: ts
       }
     },
@@ -212,11 +213,13 @@ $(document).ready(async () => {
         this.totalSortIcon = ' '
         this.infectedSortIcon = ' '
         this.curedSortIcon = ' '
+        this.deathSortIcon = ' '
 
         if(s === 'totalInfectedState') this.totalSortIcon = currentSortIcon
         else if(s === 'stateName') this.stateSortIcon = currentSortIcon        
         else if(s === 'infected') this.infectedSortIcon = currentSortIcon
         else if(s === 'cured') this.curedSortIcon = currentSortIcon
+        else if(s === 'death') this.deathSortIcon = currentSortIcon
       },
       loadMap: function () {
         let deChart = echarts.init(document.getElementById('mapContainer'))
@@ -305,6 +308,12 @@ $(document).ready(async () => {
       totalCured () {
         if (this.data && this.data.length > 0) {
           return this.data.map(d => d.cured).reduce((cur, acc) => cur + acc)
+        }
+        return 0
+      },
+      totalDeath () {
+        if(this.data && this.data.length > 0) {
+          return this.data.map(d => d.death).reduce((cur, acc) => cur + acc)
         }
         return 0
       },

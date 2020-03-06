@@ -11,6 +11,10 @@ body {
   text-align: center;
 }
 
+.text-align-right {
+  text-align: right;
+}
+
 .infected-text {
   color: #BB0000;
 }

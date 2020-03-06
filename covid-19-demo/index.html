@@ -41,7 +41,7 @@
     <div id="app">
       <nav id="navbar-top" class="navbar navbar-light">
         <div class="container">
-          <p class="navbar-brand" style="color: white;">德国 COVID-19 现状 ({{ updateTimestamp | toDEDate }})</p>
+          <p class="navbar-brand" style="color: white;">德国 COVID-19 分布</p>
           <ul class="nav justify-content-end">
             <li class="nav-item">
               <a class="nav-link active" style="color: white;" href="#map">地图</a>
@@ -54,6 +54,7 @@
             </li> -->
           </ul>
         </div>
+        <p class="container" style="color: white; font-size: 10px;">更新({{ updateTimestamp | toDEDate }})</p>
       </nav>
   
       <div class="container">
@@ -88,15 +89,16 @@
               <thead>
                 <tr>
                   <th @click="sort('stateName')" scope="col">联邦州 {{stateSortIcon}}</th>
-                  <th @click="sort('totalInfectedState')" scope="col" class="text-align-center">全部 {{totalSortIcon}}</th>
-                  <th @click="sort('infected')" scope="col" class="text-align-center">现存确诊 {{infectedSortIcon}}</th>
-                  <th @click="sort('cured')" scope="col" class="text-align-center">治愈 {{curedSortIcon}}</th>
+                  <th @click="sort('totalInfectedState')" scope="col">全部 {{totalSortIcon}}</th>
+                  <th @click="sort('infected')" scope="col">现存确诊 {{infectedSortIcon}}</th>
+                  <th @click="sort('cured')" scope="col">治愈 {{curedSortIcon}}</th>
+                  <th @click="sort('death')" scope="col">死亡 {{deathSortIcon}}</th>
                 </tr>
               </thead>
               <tbody>
                 <tr v-for="d in sortedData" :key="d.id">
                   <td> {{ d.stateName }} </td>
-                  <td class="text-align-center infected-text"> 
+                  <td class="text-align-right infected-text"> 
                     <span v-if="d">
                       {{ d.infected + d.cured }} 
                     </span>
@@ -104,7 +106,7 @@
                       ...
                     </span>
                   </td>
-                  <td class="text-align-center infected-text"> 
+                  <td class="text-align-right infected-text"> 
                     <span v-if="d">
                       {{ d.infected }} 
                     </span>
@@ -112,9 +114,17 @@
                       ...
                     </span>
                   </td>
-                  <td class="text-align-center cured-text">
+                  <td class="text-align-right cured-text">
                     <span v-if="d">
                       {{ d.cured }} 
+                    </span>
+                    <span v-else>
+                      ...
+                    </span>
+                  </td>
+                  <td class="text-align-right infected-text">
+                    <span v-if="d">
+                      {{ d.death }}
                     </span>
                     <span v-else>
                       ...
@@ -125,7 +135,7 @@
               <tfoot>
                 <tr class="">
                   <td><strong>总计</strong></td>
-                  <td class="text-align-center infected-text"> 
+                  <td class="text-align-right infected-text"> 
                     <span v-if="totalInfected && totalCured">
                       <strong> {{ totalInfected + totalCured }} </strong>
                     </span>
@@ -133,7 +143,7 @@
                       ...
                     </span>
                   </td>
-                  <td class="text-align-center infected-text"> 
+                  <td class="text-align-right infected-text"> 
                     <span v-if="totalInfected">
                       <strong> {{ totalInfected }} </strong>
                     </span>
@@ -141,12 +151,20 @@
                       ...
                     </span>
                   </td>
-                  <td class="text-align-center cured-text">
+                  <td class="text-align-right cured-text">
                     <span v-if="totalCured">
                       <strong> {{ totalCured }}  </strong>
                     </span>
                     <span v-else>
                       ...
+                    </span>
+                  </td>
+                  <td class="text-align-right infected-text">
+                    <span v-if="totalDeath">
+                      <strong> {{ totalDeath }} </strong>
+                    </span>
+                    <span v-else>
+                      0
                     </span>
                   </td>
                 </tr>
