@@ -48,91 +48,90 @@
       </nav>
   
       <div class="container">
-        <div id="map" class="row">
-          <div align="center" style=" width: 100%; height: 500px;">
-            <div id="mapContainer" align="center" style="height: 100%; border-radius: 10px;"></div>
-            <div id="bwMapContainer" align="center" style="height: 100%;"></div>
+        <div class="row">
+          <div id="map" class="col-lg-6">
+            <div align="center" style="width: 100%; height: 500px;">
+              <div id="mapContainer" align="center" style="height: 100%; border-radius: 10px;"></div>
+              <div id="bwMapContainer" align="center" style="height: 100%;"></div>
+            </div>
+          </div>
+          <div id="data" class="col-lg-6" style="margin-top: 20px;">
+            <div class="table-responsive" v-if="data && data.length > 0">
+              <table class="table table-striped small-font-size" style="background-color: #EFF4F9;">
+                <thead>
+                  <tr>
+                    <th @click="sort('stateName')" scope="col">联邦州 {{stateSortIcon}}</th>
+                    <!-- <th @click="sort('totalInfectedState')" scope="col" class="text-align-center">全部 {{totalSortIcon}}</th> -->
+                    <th @click="sort('infected')" scope="col" class="text-align-center">现存确诊 {{infectedSortIcon}}</th>
+                    <!-- <th @click="sort('cured')" scope="col" class="text-align-center">治愈 {{curedSortIcon}}</th> -->
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="d in sortedData" :key="d.id">
+                    <td> {{ d.stateName }} </td>
+                    <!-- <td class="text-align-center infected-text"> 
+                      <span v-if="d">
+                        {{ d.infected + d.cured }} 
+                      </span>
+                      <span v-else>
+                        ...
+                      </span>
+                    </td> -->
+                    <td class="text-align-center infected-text"> 
+                      <span v-if="d">
+                        {{ d.infected }} 
+                      </span>
+                      <span v-else>
+                        ...
+                      </span>
+                    </td>
+                    <!-- <td class="text-align-center cured-text">
+                      <span v-if="d">
+                        {{ d.cured }} 
+                      </span>
+                      <span v-else>
+                        ...
+                      </span>
+                    </td> -->
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr class="">
+                    <td><strong>总计</strong></td>
+                    <!-- <td class="text-align-center infected-text"> 
+                      <span v-if="totalInfected && totalCured">
+                        <strong> {{ totalInfected + totalCured }} </strong>
+                      </span>
+                      <span v-else>
+                        ...
+                      </span>
+                    </td> -->
+                    <td class="text-align-center infected-text"> 
+                      <span v-if="totalInfected">
+                        <strong> {{ totalInfected }} </strong>
+                      </span>
+                      <span v-else>
+                        ...
+                      </span>
+                    </td>
+                    <!-- <td class="text-align-center cured-text">
+                      <span v-if="totalCured">
+                        <strong> {{ totalCured }}  </strong>
+                      </span>
+                      <span v-else>
+                        ...
+                      </span>
+                    </td> -->
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
           </div>
         </div>
-        <div id="data" class="row" style="margin-top: 20px;">
-          <div class="table-responsive" v-if="data && data.length > 0">
-            <table class="table table-striped small-font-size" style="background-color: #EFF4F9;">
-              <thead>
-                <tr>
-                  <th @click="sort('stateName')" scope="col">联邦州 {{stateSortIcon}}</th>
-                  <!-- <th @click="sort('totalInfectedState')" scope="col" class="text-align-center">全部 {{totalSortIcon}}</th> -->
-                  <th @click="sort('infected')" scope="col" class="text-align-center">现存确诊 {{infectedSortIcon}}</th>
-                  <!-- <th @click="sort('cured')" scope="col" class="text-align-center">治愈 {{curedSortIcon}}</th> -->
-                </tr>
-              </thead>
-              <tbody>
-                <tr v-for="d in sortedData" :key="d.id">
-                  <td> {{ d.stateName }} </td>
-                  <!-- <td class="text-align-center infected-text"> 
-                    <span v-if="d">
-                      {{ d.infected + d.cured }} 
-                    </span>
-                    <span v-else>
-                      ...
-                    </span>
-                  </td> -->
-                  <td class="text-align-center infected-text"> 
-                    <span v-if="d">
-                      {{ d.infected }} 
-                    </span>
-                    <span v-else>
-                      ...
-                    </span>
-                  </td>
-                  <!-- <td class="text-align-center cured-text">
-                    <span v-if="d">
-                      {{ d.cured }} 
-                    </span>
-                    <span v-else>
-                      ...
-                    </span>
-                  </td> -->
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr class="">
-                  <td><strong>总计</strong></td>
-                  <!-- <td class="text-align-center infected-text"> 
-                    <span v-if="totalInfected && totalCured">
-                      <strong> {{ totalInfected + totalCured }} </strong>
-                    </span>
-                    <span v-else>
-                      ...
-                    </span>
-                  </td> -->
-                  <td class="text-align-center infected-text"> 
-                    <span v-if="totalInfected">
-                      <strong> {{ totalInfected }} </strong>
-                    </span>
-                    <span v-else>
-                      ...
-                    </span>
-                  </td>
-                  <!-- <td class="text-align-center cured-text">
-                    <span v-if="totalCured">
-                      <strong> {{ totalCured }}  </strong>
-                    </span>
-                    <span v-else>
-                      ...
-                    </span>
-                  </td> -->
-                </tr>
-              </tfoot>
-            </table>
-          </div>
-        </div>
-        <!-- <div id="news" class="row">
-          NEWS
-        </div> -->
-        <div style="text-align: center; padding: 10px; margin-bottom: 20px; font-size: 12px;">
-          数据源：<a href="https://gcber.org/corona/" target="_blank">https://gcber.org/corona/</a> ★☆ 每天想起来的时候就更新一下 <br/>
-          Color theme: <a href="https://experience.sap.com/fiori-design-web/" target="_blank">SAP Fiori</a>
-        </div>
+      </div>
+      <div style="text-align: center; padding: 10px; margin-bottom: 20px; font-size: 12px;">
+        数据源：<a href="https://gcber.org/corona/" target="_blank">https://gcber.org/corona/</a> ★☆ 每天想起来的时候就更新一下 <br/>
+        Color theme: <a href="https://experience.sap.com/fiori-design-web/" target="_blank">SAP Fiori</a>
       </div>
     </div>
   </body>
