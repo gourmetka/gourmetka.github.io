@@ -100,10 +100,31 @@ $(document).ready(async () => {
               color: ['#FABD64', '#BB0000']
             },
             outOfRange: {
-              color: ['#FFF']
-            }
+              color: ["#FFF"]
+            },
+            seriesIndex: [1]
+          },
+          geo: {
+            center: [10.48834, 51.15757],
+            boundingCoords: [[0, 0], [14.98853, 54.9079]],
+            zoom: 6.9,
+            map: 'world',
+            roam: false,
+            silent: true
           },
           series: [{
+            name: 'cities',
+            type: 'scatter',
+            mapType: '德国',
+            data: this.visualCityData,
+            coordinateSystem: 'geo',
+            symbolSize: function (val) {
+              return Math.log2(val[2]) + 2;
+            },
+            itemStyle: {
+              color: 'rgba(20,20,20,0.9)'
+            }
+          }, {
             mapType: '德国',
             data: this.visualData,
             type: 'map',
@@ -210,6 +231,14 @@ $(document).ready(async () => {
               value: d.infected,
               data: d
             }
+          })
+        }
+        return []
+      },
+      visualCityData () {
+        if (this.cityData) {
+          return this.cityData.map(d => {
+            return [d.geo[1], d.geo[0], d.infected]
           })
         }
         return []
