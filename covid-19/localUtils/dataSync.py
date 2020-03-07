@@ -51,7 +51,7 @@ city_objects = []
 for city in city_list:
   city_object = {
     "city_name": city[2],
-    "infected": city[3],
+    "infected": int(city[3]),
     "geo": [city[0], city[1]],
     "state": ""
   }
