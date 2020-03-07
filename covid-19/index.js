@@ -1,5 +1,6 @@
 $(document).ready(async () => {
   let obj = await $.getJSON(`data.json?nocache=${new Date().getTime()}`)
+  let cityData = await $.getJSON(`city_data.json?nocache=${new Date().getTime()}`) || undefined
   let data = obj.data
   let ts = obj.ts
   let app = new Vue({
@@ -7,13 +8,20 @@ $(document).ready(async () => {
     data () {
       return {
         data: data,
+        cityData: cityData,
         currentSort:'stateName',
         currentSortDir:'asc',
-        stateSortIcon:' ',
+        stateSortIcon:'▴',
         totalSortIcon:' ',
         infectedSortIcon:' ',
         curedSortIcon:' ',
-        updateTimestamp: ts
+        updateTimestamp: ts,
+        sortCityBy: 'city_name',
+        sortCityOrder: 'asc',
+        citySort: {
+          category: 'city_name',
+          icon: '▴'
+        }
       }
     },
     methods: {
@@ -35,6 +43,23 @@ $(document).ready(async () => {
         else if(s === 'stateName') this.stateSortIcon = currentSortIcon        
         else if(s === 'infected') this.infectedSortIcon = currentSortIcon
         else if(s === 'cured') this.curedSortIcon = currentSortIcon
+      },
+      sortCity: function (s) {
+        if (s === this.sortCityBy) {
+          if (this.sortCityOrder === 'asc') {
+            this.sortCityOrder =  'desc'
+            this.citySort.icon = '▾'
+          } else {
+            this.sortCityOrder =  'asc'
+            this.citySort.icon = '▴'
+          }
+          
+        } else {
+          this.sortCityBy = s
+          this.citySort.category = s
+          this.sortCityOrder = 'asc'
+          this.citySort.icon = '▴'
+        }
       },
       loadMap: function () {
         let deChart = echarts.init(document.getElementById('mapContainer'))
@@ -145,17 +170,37 @@ $(document).ready(async () => {
       },
       sortedData:function() {
         return this.data.sort((a,b) => {
-          let modifier = 1;
-          if(this.currentSortDir === 'desc') modifier = -1;
-          if(a[this.currentSort] < b[this.currentSort]) return -1 * modifier;
-          if(a[this.currentSort] > b[this.currentSort]) return 1 * modifier;
+          let modifier = 1
+          if(this.currentSortDir === 'desc') modifier = -1
+          if(a[this.currentSort] < b[this.currentSort]) return -1 * modifier
+          if(a[this.currentSort] > b[this.currentSort]) return 1 * modifier
 
           if(this.currentSort==='totalInfectedState') {
-            if(a.infected+a.cured < b.infected+b.cured) return -1 * modifier;
-            if(a.infected+a.cured > b.infected+b.cured) return 1 * modifier;
+            if(a.infected+a.cured < b.infected+b.cured) return -1 * modifier
+            if(a.infected+a.cured > b.infected+b.cured) return 1 * modifier
           }
-          return 0;
-        });
+          return 0
+        })
+      },
+      sortedCityData: function () {
+        if (this.cityData) {
+          return this.cityData.sort((a, b) => {
+            if (this.sortCityBy === 'city_name') {
+              if (this.sortCityOrder === 'asc') {
+                return a[this.sortCityBy] > b[this.sortCityBy] ? 1 : -1
+              } else {
+                return a[this.sortCityBy] > b[this.sortCityBy] ? -1 : 1
+              }
+            } else if (this.sortCityBy === 'infected') {
+              if (this.sortCityOrder === 'asc') {
+                return a.infected - b.infected
+              } else {
+                return b.infected - a.infected
+              }
+            }
+          })
+        }
+        return []
       },
       visualData () {
         if (this.data) {

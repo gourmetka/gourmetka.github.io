@@ -55,28 +55,18 @@
               <div id="bwMapContainer" align="center" style="height: 100%;"></div>
             </div>
           </div>
-          <div id="data" class="col-lg-6" style="margin-top: 20px;">
+          <div id="data" class="col-lg-6" style="margin-top: 40px;">
             <div class="table-responsive" v-if="data && data.length > 0">
               <table class="table table-striped small-font-size" style="background-color: #EFF4F9;">
                 <thead>
                   <tr>
                     <th @click="sort('stateName')" scope="col">联邦州 {{stateSortIcon}}</th>
-                    <!-- <th @click="sort('totalInfectedState')" scope="col" class="text-align-center">全部 {{totalSortIcon}}</th> -->
                     <th @click="sort('infected')" scope="col" class="text-align-center">现存确诊 {{infectedSortIcon}}</th>
-                    <!-- <th @click="sort('cured')" scope="col" class="text-align-center">治愈 {{curedSortIcon}}</th> -->
                   </tr>
                 </thead>
                 <tbody>
                   <tr v-for="d in sortedData" :key="d.id">
                     <td> {{ d.stateName }} </td>
-                    <!-- <td class="text-align-center infected-text"> 
-                      <span v-if="d">
-                        {{ d.infected + d.cured }} 
-                      </span>
-                      <span v-else>
-                        ...
-                      </span>
-                    </td> -->
                     <td class="text-align-center infected-text"> 
                       <span v-if="d">
                         {{ d.infected }} 
@@ -85,27 +75,11 @@
                         ...
                       </span>
                     </td>
-                    <!-- <td class="text-align-center cured-text">
-                      <span v-if="d">
-                        {{ d.cured }} 
-                      </span>
-                      <span v-else>
-                        ...
-                      </span>
-                    </td> -->
                   </tr>
                 </tbody>
                 <tfoot>
                   <tr class="">
                     <td><strong>总计</strong></td>
-                    <!-- <td class="text-align-center infected-text"> 
-                      <span v-if="totalInfected && totalCured">
-                        <strong> {{ totalInfected + totalCured }} </strong>
-                      </span>
-                      <span v-else>
-                        ...
-                      </span>
-                    </td> -->
                     <td class="text-align-center infected-text"> 
                       <span v-if="totalInfected">
                         <strong> {{ totalInfected }} </strong>
@@ -114,16 +88,36 @@
                         ...
                       </span>
                     </td>
-                    <!-- <td class="text-align-center cured-text">
-                      <span v-if="totalCured">
-                        <strong> {{ totalCured }}  </strong>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </div>
+
+          <div id="data" class="col-lg-12" style="margin-top: 40px;">
+            <div class="table-responsive" v-if="data && data.length > 0">
+              <table class="table table-striped small-font-size" style="background-color: #EFF4F9;">
+                <thead>
+                  <tr>
+                    <th style="width: 50px;">#</th>
+                    <th @click="sortCity('city_name')" scope="col">城市 {{ citySort.category === "city_name" ? citySort.icon : '' }}</th>
+                    <th @click="sortCity('infected')" scope="col" class="text-align-center">现存确诊 {{ citySort.category === "infected" ? citySort.icon : '' }}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(d, i) in sortedCityData" :key="i">
+                    <td> {{ i + 1 }} </td>
+                    <td> {{ d.city_name }} </td>
+                    <td class="text-align-center infected-text"> 
+                      <span v-if="d">
+                        {{ d.infected }} 
                       </span>
                       <span v-else>
                         ...
                       </span>
-                    </td> -->
+                    </td>
                   </tr>
-                </tfoot>
+                </tbody>
               </table>
             </div>
           </div>

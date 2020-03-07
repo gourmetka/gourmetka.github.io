@@ -27,21 +27,41 @@ web = urllib.request.urlopen(req)
 print ("code: %d" % web.getcode())
 data = web.readlines()
 
-regionlist = []
+region_list = []
 for d in data:
   if "Bavaria" in d.decode("utf-8"):
     source = d.decode("utf-8")
     source = source.strip()[:-1].replace("'", '"')
     source = "[%s]" % source
     source_obj = json.loads(source)
-    regionlist = source_obj
+    region_list = source_obj
     break
+
+city_list = []
+for d in data:
+  if "Biberach" in d.decode("utf-8"):
+    source = d.decode("utf-8")
+    source = source.strip()[:-1].replace("'", '"')
+    source = "[%s]" % source
+    source_obj = json.loads(source)
+    city_list = source_obj
+    break
+
+city_objects = []
+for city in city_list:
+  city_object = {
+    "city_name": city[2],
+    "infected": city[3],
+    "geo": [city[0], city[1]],
+    "state": ""
+  }
+  city_objects.append(city_object)
 
 existing_data = {}
 with open(os.path.join(script_dir, '../data.json')) as f:
   existing_data = json.load(f)
 
-for region in regionlist:
+for region in region_list:
   region_name = region[2]
   number_text = region[3].replace("confirmed cases", "").replace("confirmed case", "").strip()
   number_cases = int(number_text)
@@ -66,8 +86,12 @@ ts = int(datetime.now().timestamp()) * 1000
 existing_data["ts"] = ts
 
 output = json.dumps(existing_data, indent=2)
-
 with open(os.path.join(script_dir, '../data.json'), 'w', encoding="utf-8") as f:
+  f.write(output)
+  f.close()
+
+output = json.dumps(city_objects, indent=2)
+with open(os.path.join(script_dir, '../city_data.json'), 'w+', encoding="utf-8") as f:
   f.write(output)
   f.close()
 
