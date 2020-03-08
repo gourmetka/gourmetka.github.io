@@ -84,6 +84,13 @@ $(document).ready(async () => {
               }
             }
           },
+          toolbox: {
+            top: '40px',
+            right: '40px',
+            feature: {
+              saveAsImage: {}
+            }
+          },
           visualMap: {
             orient: 'horizontal',
             left: 'center',
