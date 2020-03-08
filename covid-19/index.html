@@ -107,7 +107,7 @@
                 <tbody>
                   <tr v-for="(d, i) in sortedCityData" :key="i">
                     <td> {{ i + 1 }} </td>
-                    <td> {{ d.city_name }} </td>
+                    <td> <a :href="`https://www.google.com/maps/place/${d.geo[0]},${d.geo[1]}`" target="_blank">{{ d.city_name }}</a> </td>
                     <td class="text-align-center infected-text"> 
                       <span v-if="d">
                         {{ d.infected }} 
