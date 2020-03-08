@@ -999,6 +999,15 @@
     "state": ""
   },
   {
+    "city_name": "Bielefeld",
+    "infected": 2,
+    "geo": [
+      52.02042,
+      8.53188
+    ],
+    "state": ""
+  },
+  {
     "city_name": "Bochum",
     "infected": 3,
     "geo": [
@@ -1108,7 +1117,7 @@
   },
   {
     "city_name": "Heinsberg",
-    "infected": 227,
+    "infected": 277,
     "geo": [
       50.983056,
       6
@@ -1256,6 +1265,15 @@
     "geo": [
       50.9768,
       7.1432
+    ],
+    "state": ""
+  },
+  {
+    "city_name": "Steinfurt",
+    "infected": 2,
+    "geo": [
+      52.21,
+      7.58
     ],
     "state": ""
   },
@@ -1463,33 +1481,6 @@
     "geo": [
       53.72,
       10.33
-    ],
-    "state": ""
-  },
-  {
-    "city_name": "Erfurt",
-    "infected": 1,
-    "geo": [
-      50.978056,
-      11.029167
-    ],
-    "state": ""
-  },
-  {
-    "city_name": "Saale-Orla-Kreis",
-    "infected": 1,
-    "geo": [
-      50.58,
-      11.71
-    ],
-    "state": ""
-  },
-  {
-    "city_name": "Steinfurt",
-    "infected": 2,
-    "geo": [
-      52.21,
-      7.58
     ],
     "state": ""
   }
