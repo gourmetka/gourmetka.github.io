@@ -64,10 +64,6 @@ $(document).ready(async () => {
       loadMap: function () {
         let deChart = echarts.init(document.getElementById('mapContainer'))
         let options = {
-          grid: {
-            left: '2%',
-            right: '2%'
-          },
           tooltip: {
             trigger: 'item',
             backgroundColor: 'rgba(255, 255, 255, 0.9)',
