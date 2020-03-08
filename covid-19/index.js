@@ -122,8 +122,9 @@ $(document).ready(async () => {
             data: this.visualCityData,
             coordinateSystem: 'geo',
             symbolSize: function (val) {
-              return Math.log2(val[2]) + 2;
+              return Math.log2(val[2]) + 4
             },
+            symbol: `image://images/virus-svgrepo-com.svg`,
             itemStyle: {
               color: '#333'
             },
