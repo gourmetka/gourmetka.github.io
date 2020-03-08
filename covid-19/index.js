@@ -105,9 +105,9 @@ $(document).ready(async () => {
             seriesIndex: [1]
           },
           geo: {
-            center: [10.48834, 51.15757],
-            boundingCoords: [[0, 0], [14.98853, 54.9079]],
-            zoom: 6.9,
+            center: [10.38834, 51.15757],
+            boundingCoords: [[5.98815, 47.40724], [14.98853, 54.9079]],
+            zoom: 0,
             map: 'world',
             roam: false,
             silent: true
@@ -122,11 +122,14 @@ $(document).ready(async () => {
               return Math.log2(val[2]) + 2;
             },
             itemStyle: {
-              color: 'rgba(20,20,20,0.9)'
-            }
+              color: '#333'
+            },
+            silent: true
           }, {
             mapType: '德国',
             data: this.visualData,
+            boundingCoords: [[5.98815, 47.40724], [14.98853, 54.9079]],
+            coordinateSystem: 'geo',
             type: 'map',
             roam: false,
             name: '现存确诊',
