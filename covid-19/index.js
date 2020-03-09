@@ -3,12 +3,16 @@ $(document).ready(async () => {
   let cityData = await $.getJSON(`city_data.json?nocache=${new Date().getTime()}`) || undefined
   let data = obj.data
   let ts = obj.ts
+  let recoveries = obj.recoveries
+  let deaths = obj.deaths
   let app = new Vue({
     el: '#app',
     data () {
       return {
         data: data,
         cityData: cityData,
+        recoveries: recoveries,
+        deaths: deaths,
         currentSort:'stateName',
         currentSortDir:'asc',
         stateSortIcon:'▴',
