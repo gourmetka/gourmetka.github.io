@@ -693,6 +693,24 @@
     "state": ""
   },
   {
+    "city_name": "Oberspreewald-Lausitz",
+    "infected": 1,
+    "geo": [
+      51.518889,
+      14.005556
+    ],
+    "state": ""
+  },
+  {
+    "city_name": "Spree-Nei\u00dfe",
+    "infected": 1,
+    "geo": [
+      51.75,
+      14.652778
+    ],
+    "state": ""
+  },
+  {
     "city_name": "Teltow-Fl\u00e4ming",
     "infected": 1,
     "geo": [
@@ -775,7 +793,7 @@
   },
   {
     "city_name": "Kassel",
-    "infected": 2,
+    "infected": 1,
     "geo": [
       51.311111,
       9.485903
@@ -1391,6 +1409,24 @@
     "geo": [
       50.56,
       7.47
+    ],
+    "state": ""
+  },
+  {
+    "city_name": "Merzig-Wadern",
+    "infected": 1,
+    "geo": [
+      49.5,
+      6.68
+    ],
+    "state": ""
+  },
+  {
+    "city_name": "Regionalverband Saarbr\u00fccken",
+    "infected": 1,
+    "geo": [
+      49.25,
+      6.96
     ],
     "state": ""
   },
