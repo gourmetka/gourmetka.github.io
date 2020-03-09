@@ -1009,7 +1009,7 @@
   },
   {
     "city_name": "Bochum",
-    "infected": 3,
+    "infected": 4,
     "geo": [
       51.4825,
       7.216944
@@ -1036,7 +1036,7 @@
   },
   {
     "city_name": "Coesfeld",
-    "infected": 18,
+    "infected": 19,
     "geo": [
       51.9442,
       7.1744
@@ -1054,7 +1054,7 @@
   },
   {
     "city_name": "Duisburg",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       51.435147,
       6.762692
@@ -1063,7 +1063,7 @@
   },
   {
     "city_name": "D\u00fcren",
-    "infected": 4,
+    "infected": 5,
     "geo": [
       50.8,
       6.483333
@@ -1116,8 +1116,17 @@
     "state": ""
   },
   {
+    "city_name": "Hagen",
+    "infected": 1,
+    "geo": [
+      51.359444,
+      7.475
+    ],
+    "state": ""
+  },
+  {
     "city_name": "Heinsberg",
-    "infected": 277,
+    "infected": 292,
     "geo": [
       50.983056,
       6
@@ -1279,7 +1288,7 @@
   },
   {
     "city_name": "St\u00e4dteregion Aachen",
-    "infected": 57,
+    "infected": 58,
     "geo": [
       50.775556,
       6.083611
