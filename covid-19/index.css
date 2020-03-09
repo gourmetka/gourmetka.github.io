@@ -3,6 +3,7 @@ body {
   color: #333;
   font-size: 13px;
   font-weight: 400;
+  font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
   display: block;
   background-color: #E7ECF0;
 }
