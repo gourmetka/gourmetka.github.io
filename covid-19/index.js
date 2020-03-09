@@ -254,7 +254,13 @@ $(document).ready(async () => {
     filters: {
       toDEDate: function (ts) {
         if (ts) {
-          return new Date(ts).toLocaleDateString("de-DE")
+          return new Date(ts).toLocaleDateString('de-DE')
+        }
+        return 'n.a.'
+      },
+      numberWithCommas: function (n) {
+        if (n) {
+          return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.')
         }
         return 'n.a.'
       }
