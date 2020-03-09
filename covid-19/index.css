@@ -41,12 +41,17 @@ body::-webkit-scrollbar {
 
 .stats_red {
   color: #BB0000;
-  font-size: 2rem;
-  font-weight: 700;
 }
 
 .stats_green {
   color: #2B7D2B;
+}
+
+.stats_black {
+  color: #333;
+}
+
+.stats_font {
   font-size: 2rem;
   font-weight: 700;
 }
