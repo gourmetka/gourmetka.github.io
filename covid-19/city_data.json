@@ -667,7 +667,7 @@
   },
   {
     "city_name": "Berlin",
-    "infected": 40,
+    "infected": 48,
     "geo": [
       52.518611,
       13.408333
@@ -712,7 +712,7 @@
   },
   {
     "city_name": "Hamburg",
-    "infected": 15,
+    "infected": 17,
     "geo": [
       53.550556,
       9.993333
@@ -1481,6 +1481,24 @@
     "geo": [
       53.72,
       10.33
+    ],
+    "state": ""
+  },
+  {
+    "city_name": "Erfurt",
+    "infected": 1,
+    "geo": [
+      50.978056,
+      11.029167
+    ],
+    "state": ""
+  },
+  {
+    "city_name": "Saale-Orla-Kreis",
+    "infected": 1,
+    "geo": [
+      50.58,
+      11.71
     ],
     "state": ""
   }
