@@ -18,6 +18,26 @@ diff_name_region_map = {
   "Thuringia": "Thüringen"
 }
 
+def loader(data, keyword):
+  loader_state = False
+  region_array_str = ""
+  for d in data:
+    if keyword in d.decode("utf-8"):
+      loader_state = True
+      continue
+
+    if loader_state == True:
+      source = d.decode("utf-8")
+      region_array_str += source.strip()
+    
+    if "];" in d.decode("utf-8") and loader_state == True:
+      loader_state = False
+      break
+
+  source = "[%s]" % region_array_str.replace("'", '"').replace("];", "")[:-1]
+  return json.loads(source)
+  
+
 url = "https://www.gcber.org/corona/"
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36"
 headers = { 'User-Agent' : user_agent }
@@ -27,24 +47,18 @@ web = urllib.request.urlopen(req)
 print ("code: %d" % web.getcode())
 data = web.readlines()
 
-region_list = []
-for d in data:
-  if "Bavaria" in d.decode("utf-8"):
-    source = d.decode("utf-8")
-    source = source.strip()[:-1].replace("'", '"')
-    source = "[%s]" % source
-    source_obj = json.loads(source)
-    region_list = source_obj
-    break
+region_list = loader(data, "var regionList")
+city_list = loader(data, "var entryList")
 
-city_list = []
+germany_recoveries = 0
+germany_deaths = 0
+
 for d in data:
-  if "Biberach" in d.decode("utf-8"):
+  if "L.marker" in d.decode("utf-8") and "Germany" in d.decode("utf-8"):
     source = d.decode("utf-8")
-    source = source.strip()[:-1].replace("'", '"')
-    source = "[%s]" % source
-    source_obj = json.loads(source)
-    city_list = source_obj
+    germany_status = source.split("+")[3].replace('"', '').split("|")
+    germany_recoveries = int(germany_status[0].replace("recoveries", "").strip())
+    germany_deaths = int(germany_status[1].replace("deaths", "").strip())
     break
 
 city_objects = []
@@ -84,6 +98,8 @@ for region in region_list:
 
 ts = int(datetime.now().timestamp()) * 1000
 existing_data["ts"] = ts
+existing_data["recoveries"] = germany_recoveries
+existing_data["deaths"] = germany_deaths
 
 output = json.dumps(existing_data, indent=2)
 with open(os.path.join(script_dir, '../data.json'), 'w', encoding="utf-8") as f:
