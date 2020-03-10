@@ -146,8 +146,9 @@ $(document).ready(async () => {
             },
             showEffectOn: 'render',
             rippleEffect: {
-              brushType: 'fill',
+              brushType: 'stroke',
               shadowBlur: 10,
+              period: 10,
               scale: 10
             },
             silent: true
