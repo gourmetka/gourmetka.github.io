@@ -147,7 +147,6 @@ $(document).ready(async () => {
             showEffectOn: 'render',
             rippleEffect: {
               brushType: 'stroke',
-              shadowBlur: 10,
               period: 10,
               scale: 10
             },
