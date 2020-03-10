@@ -25,8 +25,7 @@ $(document).ready(async () => {
         citySort: {
           category: 'city_name',
           icon: '▴'
-        },
-        yourLoc: [0, 0]
+        }
       }
     },
     methods: {
@@ -134,24 +133,6 @@ $(document).ready(async () => {
             },
             silent: true
           }, {
-            name: 'yourloc',
-            type: 'effectScatter',
-            data: [this.yourLoc],
-            coordinateSystem: 'geo',
-            symbolSize: 10,
-            symbol: `circle`,
-            itemStyle: {
-              color: '#427CAC',
-              opacity: 0.7
-            },
-            showEffectOn: 'render',
-            rippleEffect: {
-              brushType: 'stroke',
-              period: 10,
-              scale: 10
-            },
-            silent: true
-          }, {
             mapType: '德国',
             data: this.visualData,
             boundingCoords: [[5.98815, 47.40724], [14.98853, 54.9079]],
@@ -184,10 +165,6 @@ $(document).ready(async () => {
           }]
         }
         deChart.setOption(options)
-      },
-      setYourLoc: function (position) {
-        this.yourLoc = [position.coords.longitude, position.coords.latitude]
-        this.loadMap()
       }
     },
     computed: {
@@ -293,11 +270,6 @@ $(document).ready(async () => {
     },
     mounted () {
       setTimeout(() => {
-        // if (navigator.geolocation) {
-        //   navigator.geolocation.getCurrentPosition(this.setYourLoc);
-        // } else {
-        //   this.loadMap()
-        // }
         this.loadMap()
       }, 500)
     }
