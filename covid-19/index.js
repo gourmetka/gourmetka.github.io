@@ -25,7 +25,8 @@ $(document).ready(async () => {
         citySort: {
           category: 'city_name',
           icon: '▴'
-        }
+        },
+        yourLoc: [0, 0]
       }
     },
     methods: {
@@ -104,12 +105,12 @@ $(document).ready(async () => {
             realtime: false,
             range: [1, this.maxInfectedNumber],
             inRange: {
-              color: ['#FABD64', '#BB0000']
+              color: ['#fff', '#BB0000']
             },
             outOfRange: {
               color: ["#FFF"]
             },
-            seriesIndex: [1]
+            seriesIndex: [2]
           },
           geo: {
             center: [10.38834, 51.15757],
@@ -122,7 +123,6 @@ $(document).ready(async () => {
           series: [{
             name: 'cities',
             type: 'scatter',
-            mapType: '德国',
             data: this.visualCityData,
             coordinateSystem: 'geo',
             symbolSize: function (val) {
@@ -131,6 +131,24 @@ $(document).ready(async () => {
             symbol: `image://images/virus-svgrepo-com.svg`,
             itemStyle: {
               color: '#333'
+            },
+            silent: true
+          }, {
+            name: 'yourloc',
+            type: 'effectScatter',
+            data: [this.yourLoc],
+            coordinateSystem: 'geo',
+            symbolSize: 10,
+            symbol: `circle`,
+            itemStyle: {
+              color: '#427CAC',
+              opacity: 0.7
+            },
+            showEffectOn: 'render',
+            rippleEffect: {
+              brushType: 'fill',
+              shadowBlur: 10,
+              scale: 10
             },
             silent: true
           }, {
@@ -166,6 +184,10 @@ $(document).ready(async () => {
           }]
         }
         deChart.setOption(options)
+      },
+      setYourLoc: function (position) {
+        this.yourLoc = [position.coords.longitude, position.coords.latitude]
+        this.loadMap()
       }
     },
     computed: {
@@ -200,7 +222,7 @@ $(document).ready(async () => {
         else if(s === 'infected') this.infectedSortDir = currentSortIcon
         else if(s === 'cured') this.curedSortDir = currentSortIcon
       },
-      sortedData:function() {
+      sortedData () {
         return this.data.sort((a,b) => {
           let modifier = 1
           if(this.currentSortDir === 'desc') modifier = -1
@@ -214,7 +236,7 @@ $(document).ready(async () => {
           return 0
         })
       },
-      sortedCityData: function () {
+      sortedCityData () {
         if (this.cityData) {
           return this.cityData.sort((a, b) => {
             if (this.sortCityBy === 'city_name' || this.sortCityBy === 'state') {
@@ -271,7 +293,11 @@ $(document).ready(async () => {
     },
     mounted () {
       setTimeout(() => {
-        this.loadMap()
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(this.setYourLoc);
+        } else {
+          this.loadMap()
+        }
       }, 500)
     }
   })
