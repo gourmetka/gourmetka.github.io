@@ -4,6 +4,12 @@ import urllib.request
 import simplejson as json
 import os
 from datetime import datetime
+import geopy.geocoders
+from geopy.geocoders import Nominatim
+
+geopy.geocoders.options.default_user_agent = 'covid-19'
+geopy.geocoders.options.default_timeout = 7
+geolocator = Nominatim()
 
 script_dir = os.path.dirname(__file__)
 
@@ -36,7 +42,10 @@ def loader(data, keyword):
 
   source = "[%s]" % region_array_str.replace("'", '"').replace("];", "")[:-1]
   return json.loads(source)
-  
+
+def stateofCity(city):
+  location = geolocator.geocode(city, addressdetails=True)
+  return location.raw['address']['state']
 
 url = "https://www.gcber.org/corona/"
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36"
@@ -67,7 +76,7 @@ for city in city_list:
     "city_name": city[2],
     "infected": int(city[3]),
     "geo": [city[0], city[1]],
-    "state": ""
+    "state": stateofCity(city[2])
   }
   city_objects.append(city_object)
 
