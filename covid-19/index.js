@@ -293,11 +293,12 @@ $(document).ready(async () => {
     },
     mounted () {
       setTimeout(() => {
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(this.setYourLoc);
-        } else {
-          this.loadMap()
-        }
+        // if (navigator.geolocation) {
+        //   navigator.geolocation.getCurrentPosition(this.setYourLoc);
+        // } else {
+        //   this.loadMap()
+        // }
+        this.loadMap()
       }, 500)
     }
   })
