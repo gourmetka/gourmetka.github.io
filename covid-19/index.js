@@ -217,7 +217,7 @@ $(document).ready(async () => {
       sortedCityData: function () {
         if (this.cityData) {
           return this.cityData.sort((a, b) => {
-            if (this.sortCityBy === 'city_name') {
+            if (this.sortCityBy === 'city_name' || this.sortCityBy === 'state') {
               if (this.sortCityOrder === 'asc') {
                 return a[this.sortCityBy] > b[this.sortCityBy] ? 1 : -1
               } else {

@@ -118,6 +118,7 @@
                   <tr>
                     <th style="width: 50px;">#</th>
                     <th @click="sortCity('city_name')" scope="col">地区 {{ citySort.category === "city_name" ? citySort.icon : '' }}</th>
+                    <th @click="sortCity('state')" scope="col">联邦州 {{ citySort.category === "state" ? citySort.icon : '' }}</th>
                     <th @click="sortCity('infected')" scope="col" class="text-align-center">现存 {{ citySort.category === "infected" ? citySort.icon : '' }}</th>
                   </tr>
                 </thead>
@@ -125,6 +126,7 @@
                   <tr v-for="(d, i) in sortedCityData" :key="i">
                     <td> {{ i + 1 }} </td>
                     <td> <a :href="`https://www.google.com/maps/place/${d.geo[0]},${d.geo[1]}`" target="_blank">{{ d.city_name }}</a> </td>
+                    <td>{{ d.state }}</td>
                     <td class="text-align-center infected-text"> 
                       <span v-if="d">
                         {{ d.infected }} 
