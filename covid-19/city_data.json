@@ -255,8 +255,8 @@
     "city_name": "Rhein-Neckar-Kreis",
     "infected": 13,
     "geo": [
-      49.405833,
-      8.683889
+      49.35,
+      8.85
     ],
     "state": ""
   },
@@ -1054,7 +1054,7 @@
   },
   {
     "city_name": "Stade",
-    "infected": 7,
+    "infected": 11,
     "geo": [
       53.599014,
       9.473678
@@ -1107,6 +1107,15 @@
     "state": ""
   },
   {
+    "city_name": "Bottrop",
+    "infected": 1,
+    "geo": [
+      51.524722,
+      6.922778
+    ],
+    "state": ""
+  },
+  {
     "city_name": "Coesfeld",
     "infected": 19,
     "geo": [
@@ -1144,7 +1153,7 @@
   },
   {
     "city_name": "D\u00fcsseldorf",
-    "infected": 3,
+    "infected": 5,
     "geo": [
       51.225556,
       6.782778
@@ -1198,7 +1207,7 @@
   },
   {
     "city_name": "Heinsberg",
-    "infected": 292,
+    "infected": 323,
     "geo": [
       50.983056,
       6
@@ -1252,7 +1261,7 @@
   },
   {
     "city_name": "M\u00e4rkischer Kreis",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       51.216667,
       7.633333
@@ -1360,7 +1369,7 @@
   },
   {
     "city_name": "St\u00e4dteregion Aachen",
-    "infected": 57,
+    "infected": 58,
     "geo": [
       50.775556,
       6.083611
@@ -1575,6 +1584,15 @@
     "state": ""
   },
   {
+    "city_name": "Pl\u00f6n",
+    "infected": 2,
+    "geo": [
+      54.24,
+      10.36
+    ],
+    "state": ""
+  },
+  {
     "city_name": "Segeberg",
     "infected": 2,
     "geo": [
@@ -1602,11 +1620,29 @@
     "state": ""
   },
   {
+    "city_name": "Kyffh\u00e4userkreis",
+    "infected": 2,
+    "geo": [
+      51.32,
+      10.98
+    ],
+    "state": ""
+  },
+  {
     "city_name": "Saale-Orla-Kreis",
-    "infected": 1,
+    "infected": 3,
     "geo": [
       50.58,
       11.71
+    ],
+    "state": ""
+  },
+  {
+    "city_name": "Merzig-Wadern",
+    "infected": 1,
+    "geo": [
+      49.5,
+      6.68
     ],
     "state": ""
   }
