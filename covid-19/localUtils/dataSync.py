@@ -84,7 +84,6 @@ if os.path.exists(os.path.join(script_dir, '../city_data.json')):
 city_data_exists_state = {}
 
 for d in existing_city_data:
-  print (d)
   if d["state"].strip() != "":
     city_data_exists_state[d["city_name"]] = d["state"].strip()
 
