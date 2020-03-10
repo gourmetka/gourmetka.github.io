@@ -23,6 +23,7 @@ diff_name_region_map = {
   "North Rhine-Westphalia": "Nordrhein-Westfalen",
   "Rhineland-Palatinate": "Rheinland-Pfalz",
   "Saxony": "Sachsen",
+  "Saxony-Anhalt": "Sachsen-Anhalt",
   "Thuringia": "Thüringen"
 }
 
