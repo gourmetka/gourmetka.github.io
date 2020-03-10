@@ -109,7 +109,7 @@ $(document).ready(async () => {
             outOfRange: {
               color: ["#FFF"]
             },
-            seriesIndex: [2]
+            seriesIndex: [1]
           },
           geo: {
             center: [10.38834, 51.15757],
