@@ -1009,7 +1009,7 @@
   },
   {
     "city_name": "Mecklenburgische Seenplatte",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       53.55,
       12.98
@@ -1036,7 +1036,7 @@
   },
   {
     "city_name": "Vorpommern-R\u00fcgen",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       54.25,
       13.02
@@ -1323,6 +1323,15 @@
     "state": "Nordrhein-Westfalen"
   },
   {
+    "city_name": "Ennepe-Ruhr-Kreis",
+    "infected": 1,
+    "geo": [
+      51.346667,
+      7.323889
+    ],
+    "state": "Nordrhein-Westfalen"
+  },
+  {
     "city_name": "Essen",
     "infected": 9,
     "geo": [
@@ -1405,7 +1414,7 @@
   },
   {
     "city_name": "K\u00f6ln",
-    "infected": 43,
+    "infected": 51,
     "geo": [
       50.936389,
       6.952778
@@ -1873,7 +1882,7 @@
   },
   {
     "city_name": "L\u00fcbeck",
-    "infected": 2,
+    "infected": 7,
     "geo": [
       53.866111,
       10.683889
@@ -1989,12 +1998,12 @@
     "state": "Th\u00fcringen"
   },
   {
-    "city_name": "Ennepe-Ruhr-Kreis",
+    "city_name": "Schwerin",
     "infected": 1,
     "geo": [
-      51.346667,
-      7.323889
+      53.633333,
+      11.416667
     ],
-    "state": "Nordrhein-Westfalen"
+    "state": "Mecklenburg-Vorpommern"
   }
 ]
