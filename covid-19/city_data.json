@@ -837,6 +837,15 @@
     "state": "Brandenburg"
   },
   {
+    "city_name": "Frankfurt (Oder)",
+    "infected": 1,
+    "geo": [
+      52.341667,
+      14.550833
+    ],
+    "state": "Brandenburg"
+  },
+  {
     "city_name": "Havelland",
     "infected": 2,
     "geo": [
@@ -1495,7 +1504,7 @@
   },
   {
     "city_name": "Krefeld",
-    "infected": 2,
+    "infected": 4,
     "geo": [
       51.336944,
       6.564167
@@ -2194,14 +2203,5 @@
       11.329722
     ],
     "state": "Th\u00fcringen"
-  },
-  {
-    "city_name": "Frankfurt (Oder)",
-    "infected": 1,
-    "geo": [
-      52.341667,
-      14.550833
-    ],
-    "state": "Brandenburg"
   }
 ]
