@@ -757,7 +757,7 @@
   },
   {
     "city_name": "Berlin",
-    "infected": 48,
+    "infected": 58,
     "geo": [
       52.518611,
       13.408333
@@ -955,7 +955,7 @@
   },
   {
     "city_name": "Marburg-Biedenkopf",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       50.786173,
       8.771918
@@ -973,7 +973,7 @@
   },
   {
     "city_name": "Rheingau-Taunus-Kreis",
-    "infected": 2,
+    "infected": 5,
     "geo": [
       50.148403,
       8.073264
@@ -982,7 +982,7 @@
   },
   {
     "city_name": "Vogelsbergkreis",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       50.640764,
       9.399792
@@ -1018,7 +1018,7 @@
   },
   {
     "city_name": "Rostock",
-    "infected": 4,
+    "infected": 5,
     "geo": [
       54.08816,
       12.13468
@@ -1126,7 +1126,7 @@
   },
   {
     "city_name": "Hannover",
-    "infected": 11,
+    "infected": 17,
     "geo": [
       52.42,
       9.72
@@ -1189,7 +1189,7 @@
   },
   {
     "city_name": "Rotenburg (W\u00fcmme)",
-    "infected": 3,
+    "infected": 4,
     "geo": [
       53.23,
       9.31
@@ -1202,6 +1202,15 @@
     "geo": [
       53.599014,
       9.473678
+    ],
+    "state": "Niedersachsen"
+  },
+  {
+    "city_name": "Uelzen",
+    "infected": 1,
+    "geo": [
+      52.98,
+      10.55
     ],
     "state": "Niedersachsen"
   },
@@ -1315,7 +1324,7 @@
   },
   {
     "city_name": "Essen",
-    "infected": 6,
+    "infected": 9,
     "geo": [
       51.458069,
       7.014761
@@ -1333,7 +1342,7 @@
   },
   {
     "city_name": "Gelsenkirchen",
-    "infected": 3,
+    "infected": 4,
     "geo": [
       51.511111,
       7.100556
@@ -1342,7 +1351,7 @@
   },
   {
     "city_name": "G\u00fctersloh",
-    "infected": 1,
+    "infected": 5,
     "geo": [
       51.93,
       8.35
@@ -1377,6 +1386,24 @@
     "state": "Nordrhein-Westfalen"
   },
   {
+    "city_name": "Hochsauerlandkreis",
+    "infected": 1,
+    "geo": [
+      51.306667,
+      8.384722
+    ],
+    "state": "Nordrhein-Westfalen"
+  },
+  {
+    "city_name": "Kleve",
+    "infected": 1,
+    "geo": [
+      51.781,
+      6.1382
+    ],
+    "state": "Nordrhein-Westfalen"
+  },
+  {
     "city_name": "K\u00f6ln",
     "infected": 43,
     "geo": [
@@ -1405,7 +1432,7 @@
   },
   {
     "city_name": "Mettmann",
-    "infected": 6,
+    "infected": 8,
     "geo": [
       51.25,
       6.966667
@@ -1414,7 +1441,7 @@
   },
   {
     "city_name": "Minden-L\u00fcbbecke",
-    "infected": 6,
+    "infected": 9,
     "geo": [
       52.281944,
       8.911111
@@ -1432,7 +1459,7 @@
   },
   {
     "city_name": "M\u00f6nchengladbach",
-    "infected": 7,
+    "infected": 8,
     "geo": [
       51.191111,
       6.441944
@@ -1441,7 +1468,7 @@
   },
   {
     "city_name": "M\u00fcnster",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       51.962944,
       7.628694
@@ -1450,7 +1477,7 @@
   },
   {
     "city_name": "Oberbergischer Kreis",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       51.01,
       7.52
@@ -1504,7 +1531,7 @@
   },
   {
     "city_name": "Rhein-Sieg-Kreis",
-    "infected": 7,
+    "infected": 11,
     "geo": [
       50.793,
       7.2071
@@ -1513,10 +1540,19 @@
   },
   {
     "city_name": "Rheinisch-Bergischer Kreis",
-    "infected": 9,
+    "infected": 11,
     "geo": [
       50.9768,
       7.1432
+    ],
+    "state": "Nordrhein-Westfalen"
+  },
+  {
+    "city_name": "Solingen",
+    "infected": 4,
+    "geo": [
+      51.171389,
+      7.083333
     ],
     "state": "Nordrhein-Westfalen"
   },
@@ -1747,7 +1783,7 @@
   },
   {
     "city_name": "S\u00e4chsische Schweiz/Osterzgebirge",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       50.92,
       13.87
@@ -1827,6 +1863,15 @@
     "state": "Schleswig-Holstein"
   },
   {
+    "city_name": "Kiel",
+    "infected": 3,
+    "geo": [
+      54.32321,
+      10.14019
+    ],
+    "state": "Schleswig-Holstein"
+  },
+  {
     "city_name": "L\u00fcbeck",
     "infected": 2,
     "geo": [
@@ -1859,6 +1904,24 @@
     "geo": [
       54.24,
       10.36
+    ],
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "city_name": "Rendsburg-Eckernf\u00f6rde",
+    "infected": 1,
+    "geo": [
+      54.29,
+      9.78
+    ],
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "city_name": "Schleswig-Flensburg",
+    "infected": 1,
+    "geo": [
+      54.62,
+      9.51
     ],
     "state": "Schleswig-Holstein"
   },
@@ -1924,5 +1987,14 @@
       11.329722
     ],
     "state": "Th\u00fcringen"
+  },
+  {
+    "city_name": "Ennepe-Ruhr-Kreis",
+    "infected": 1,
+    "geo": [
+      51.346667,
+      7.323889
+    ],
+    "state": "Nordrhein-Westfalen"
   }
 ]
