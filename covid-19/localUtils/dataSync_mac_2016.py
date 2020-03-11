@@ -8,6 +8,7 @@ import os
 from datetime import datetime
 import geopy.geocoders
 from geopy.geocoders import Nominatim
+import re
 
 geopy.geocoders.options.default_user_agent = 'covid-19'
 geopy.geocoders.options.default_timeout = 7
@@ -23,6 +24,7 @@ diff_name_region_map = {
   "North Rhine-Westphalia": "Nordrhein-Westfalen",
   "Rhineland-Palatinate": "Rheinland-Pfalz",
   "Saxony": "Sachsen",
+  "Saxony-Anhalt": "Sachsen-Anhalt",
   "Thuringia": "Thüringen"
 }
 
@@ -41,17 +43,47 @@ def loader(data, keyword):
     if "];" in d.decode("utf-8") and loader_state == True:
       loader_state = False
       break
-
   source = "[%s]" % region_array_str.replace("'", '"').replace("];", "")[:-1]
   return json.loads(source)
 
-def stateofCity(city_name_obj, city):
+def get_state_city_map(data):
+  loader_state = False
+  state_city_map = {}
+  current_state = ""
+  for d in data:
+    if "var entryTable" in d.decode("utf-8"):
+      loader_state = True
+      continue
+
+    if ";" in d.decode("utf-8") and loader_state == True:
+      loader_state = False
+      break
+
+    if loader_state == True:
+      source = d.decode("utf-8")
+      if 'class="head"' in source:
+        raw_state_name = re.sub("<(.*?)>", "", source.strip()).replace("'" ,"").strip()[1:]
+        current_state = diff_name_region_map[raw_state_name] if raw_state_name in diff_name_region_map else raw_state_name
+      else:
+        city_name = re.sub("<(.*?)>", "", source.split("</td><td>")[0]).replace("'" ,"").strip()[1:]
+        state_city_map[city_name] = current_state
+  return state_city_map
+
+
+def stateofCity(city_name_obj, city, lat, long):
   print ("Getting state info of: %s" % city)
   if city in city_name_obj.keys():
     return city_name_obj[city]
   else:
-    location = geolocator.geocode(city, addressdetails=True)
+    location = locationofGeo(city, lat, long)
   return location.raw['address']['state']
+
+def locationofGeo(city,lat,long):
+  geoPoint = geopy.point.Point(lat, long)
+  location = geolocator.reverse(geoPoint)
+  if location.raw['address'].get('state') == None:
+    location = geolocator.geocode(city,addressdetails=True)
+  return location
 
 url = "https://www.gcber.org/corona/"
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36"
@@ -64,6 +96,7 @@ data = web.readlines()
 
 region_list = loader(data, "var regionList")
 city_list = loader(data, "var entryList")
+region_city_map = get_state_city_map(data)
 
 germany_recoveries = 0
 germany_deaths = 0
@@ -84,7 +117,6 @@ if os.path.exists(os.path.join(script_dir, '../city_data.json')):
 city_data_exists_state = {}
 
 for d in existing_city_data:
-  print (d)
   if d["state"].strip() != "":
     city_data_exists_state[d["city_name"]] = d["state"].strip()
 
@@ -94,7 +126,7 @@ for city in city_list:
     "city_name": city[2],
     "infected": int(city[3]),
     "geo": [city[0], city[1]],
-    "state": stateofCity(city_data_exists_state, city[2])
+    "state": stateofCity(region_city_map, city[2], city[0], city[1])
   }
   city_objects.append(city_object)
 
