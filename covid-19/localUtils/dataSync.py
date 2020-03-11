@@ -46,13 +46,20 @@ def loader(data, keyword):
   source = "[%s]" % region_array_str.replace("'", '"').replace("];", "")[:-1]
   return json.loads(source)
 
-def stateofCity(city_name_obj, city):
+def stateofCity(city_name_obj, city, lat, long):
   print ("Getting state info of: %s" % city)
   if city in city_name_obj.keys():
     return city_name_obj[city]
   else:
-    location = geolocator.geocode(city, addressdetails=True)
+    location = locationofGeo(city, lat, long)
   return location.raw['address']['state']
+
+def locationofGeo(city,lat,long):
+  geoPoint = geopy.point.Point(lat, long)
+  location = geolocator.reverse(geoPoint)
+  if location.raw['address'].get('state') == None:
+    location = geolocator.geocode(city,addressdetails=True)
+  return location
 
 url = "https://www.gcber.org/corona/"
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36"
@@ -94,7 +101,7 @@ for city in city_list:
     "city_name": city[2],
     "infected": int(city[3]),
     "geo": [city[0], city[1]],
-    "state": stateofCity(city_data_exists_state, city[2])
+    "state": stateofCity(city_data_exists_state, city[2], city[0], city[1])
   }
   city_objects.append(city_object)
 
