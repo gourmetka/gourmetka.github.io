@@ -1026,6 +1026,15 @@
     "state": "Mecklenburg-Vorpommern"
   },
   {
+    "city_name": "Schwerin",
+    "infected": 1,
+    "geo": [
+      53.633333,
+      11.416667
+    ],
+    "state": "Mecklenburg-Vorpommern"
+  },
+  {
     "city_name": "Vorpommern-Greifswald",
     "infected": 2,
     "geo": [
@@ -1297,7 +1306,7 @@
   },
   {
     "city_name": "Duisburg",
-    "infected": 3,
+    "infected": 7,
     "geo": [
       51.435147,
       6.762692
@@ -1378,7 +1387,7 @@
   },
   {
     "city_name": "Heinsberg",
-    "infected": 365,
+    "infected": 443,
     "geo": [
       50.983056,
       6
@@ -1459,7 +1468,7 @@
   },
   {
     "city_name": "M\u00e4rkischer Kreis",
-    "infected": 6,
+    "infected": 8,
     "geo": [
       51.216667,
       7.633333
@@ -1576,7 +1585,7 @@
   },
   {
     "city_name": "St\u00e4dteregion Aachen",
-    "infected": 61,
+    "infected": 63,
     "geo": [
       50.775556,
       6.083611
@@ -1612,7 +1621,7 @@
   },
   {
     "city_name": "Wesel",
-    "infected": 1,
+    "infected": 10,
     "geo": [
       51.50467,
       6.54587
@@ -1765,7 +1774,7 @@
   },
   {
     "city_name": "Dresden",
-    "infected": 4,
+    "infected": 3,
     "geo": [
       51.049259,
       13.73836
@@ -1774,7 +1783,7 @@
   },
   {
     "city_name": "G\u00f6rlitz",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       51.28,
       14.82
@@ -1783,10 +1792,19 @@
   },
   {
     "city_name": "Leipzig",
-    "infected": 8,
+    "infected": 7,
     "geo": [
       51.340333,
       12.37475
+    ],
+    "state": "Sachsen"
+  },
+  {
+    "city_name": "Mei\u00dfen",
+    "infected": 2,
+    "geo": [
+      51.166667,
+      13.483333
     ],
     "state": "Sachsen"
   },
@@ -1962,6 +1980,15 @@
     "state": "Th\u00fcringen"
   },
   {
+    "city_name": "Ilm-Kreis",
+    "infected": 1,
+    "geo": [
+      50.74,
+      10.97
+    ],
+    "state": "Th\u00fcringen"
+  },
+  {
     "city_name": "Kyffh\u00e4userkreis",
     "infected": 2,
     "geo": [
@@ -1998,12 +2025,12 @@
     "state": "Th\u00fcringen"
   },
   {
-    "city_name": "Schwerin",
+    "city_name": "Oberhausen",
     "infected": 1,
     "geo": [
-      53.633333,
-      11.416667
+      51.470278,
+      6.852222
     ],
-    "state": "Mecklenburg-Vorpommern"
+    "state": "Nordrhein-Westfalen"
   }
 ]
