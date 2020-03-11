@@ -810,6 +810,15 @@
     "state": "Berlin"
   },
   {
+    "city_name": "Barnim",
+    "infected": 2,
+    "geo": [
+      52.82,
+      13.7
+    ],
+    "state": "Brandenburg"
+  },
+  {
     "city_name": "Cottbus",
     "infected": 3,
     "geo": [
@@ -856,7 +865,7 @@
   },
   {
     "city_name": "Oberspreewald-Lausitz",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       51.518889,
       14.005556
@@ -864,8 +873,17 @@
     "state": "Brandenburg"
   },
   {
+    "city_name": "Oder-Spree",
+    "infected": 1,
+    "geo": [
+      52.24,
+      14.22
+    ],
+    "state": "Brandenburg"
+  },
+  {
     "city_name": "Spree-Nei\u00dfe",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       51.75,
       14.652778
@@ -892,7 +910,7 @@
   },
   {
     "city_name": "Hamburg",
-    "infected": 33,
+    "infected": 52,
     "geo": [
       53.550556,
       9.993333
@@ -1126,7 +1144,7 @@
   },
   {
     "city_name": "Celle",
-    "infected": 4,
+    "infected": 5,
     "geo": [
       52.71,
       10.1
@@ -1243,7 +1261,7 @@
   },
   {
     "city_name": "Rotenburg (W\u00fcmme)",
-    "infected": 4,
+    "infected": 5,
     "geo": [
       53.23,
       9.31
@@ -1252,7 +1270,7 @@
   },
   {
     "city_name": "Stade",
-    "infected": 11,
+    "infected": 13,
     "geo": [
       53.599014,
       9.473678
@@ -1288,7 +1306,7 @@
   },
   {
     "city_name": "Bielefeld",
-    "infected": 2,
+    "infected": 5,
     "geo": [
       52.02042,
       8.53188
@@ -1297,7 +1315,7 @@
   },
   {
     "city_name": "Bochum",
-    "infected": 4,
+    "infected": 5,
     "geo": [
       51.4825,
       7.216944
@@ -1306,7 +1324,7 @@
   },
   {
     "city_name": "Bonn",
-    "infected": 6,
+    "infected": 13,
     "geo": [
       50.733992,
       7.099814
@@ -1315,7 +1333,7 @@
   },
   {
     "city_name": "Borken",
-    "infected": 6,
+    "infected": 7,
     "geo": [
       51.8515,
       6.8424
@@ -1342,7 +1360,7 @@
   },
   {
     "city_name": "Dortmund",
-    "infected": 4,
+    "infected": 12,
     "geo": [
       51.514167,
       7.463889
@@ -1423,7 +1441,7 @@
   },
   {
     "city_name": "Hagen",
-    "infected": 1,
+    "infected": 3,
     "geo": [
       51.359444,
       7.475
@@ -1449,6 +1467,15 @@
     "state": "Nordrhein-Westfalen"
   },
   {
+    "city_name": "Herne",
+    "infected": 2,
+    "geo": [
+      51.541944,
+      7.223889
+    ],
+    "state": "Nordrhein-Westfalen"
+  },
+  {
     "city_name": "Hochsauerlandkreis",
     "infected": 1,
     "geo": [
@@ -1459,10 +1486,19 @@
   },
   {
     "city_name": "Kleve",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       51.781,
       6.1382
+    ],
+    "state": "Nordrhein-Westfalen"
+  },
+  {
+    "city_name": "Krefeld",
+    "infected": 2,
+    "geo": [
+      51.336944,
+      6.564167
     ],
     "state": "Nordrhein-Westfalen"
   },
@@ -1477,7 +1513,7 @@
   },
   {
     "city_name": "Leverkusen",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       51.033333,
       6.983333
@@ -1486,7 +1522,7 @@
   },
   {
     "city_name": "Lippe",
-    "infected": 11,
+    "infected": 19,
     "geo": [
       51.93619,
       8.847872
@@ -1495,7 +1531,7 @@
   },
   {
     "city_name": "Mettmann",
-    "infected": 8,
+    "infected": 11,
     "geo": [
       51.25,
       6.966667
@@ -1530,8 +1566,17 @@
     "state": "Nordrhein-Westfalen"
   },
   {
+    "city_name": "M\u00fclheim an der Ruhr",
+    "infected": 2,
+    "geo": [
+      51.433056,
+      6.883056
+    ],
+    "state": "Nordrhein-Westfalen"
+  },
+  {
     "city_name": "M\u00fcnster",
-    "infected": 6,
+    "infected": 8,
     "geo": [
       51.962944,
       7.628694
@@ -1540,7 +1585,7 @@
   },
   {
     "city_name": "Oberbergischer Kreis",
-    "infected": 6,
+    "infected": 10,
     "geo": [
       51.01,
       7.52
@@ -1558,7 +1603,7 @@
   },
   {
     "city_name": "Paderborn",
-    "infected": 2,
+    "infected": 6,
     "geo": [
       51.719444,
       8.757222
@@ -1567,7 +1612,7 @@
   },
   {
     "city_name": "Recklinghausen",
-    "infected": 2,
+    "infected": 9,
     "geo": [
       51.608889,
       7.204722
@@ -1585,7 +1630,7 @@
   },
   {
     "city_name": "Rhein-Erft-Kreis",
-    "infected": 3,
+    "infected": 6,
     "geo": [
       50.9513,
       6.6308
@@ -1594,7 +1639,7 @@
   },
   {
     "city_name": "Rhein-Kreis Neuss",
-    "infected": 1,
+    "infected": 5,
     "geo": [
       51.1966,
       6.6953
@@ -1603,7 +1648,7 @@
   },
   {
     "city_name": "Rhein-Sieg-Kreis",
-    "infected": 11,
+    "infected": 19,
     "geo": [
       50.793,
       7.2071
@@ -1612,10 +1657,28 @@
   },
   {
     "city_name": "Rheinisch-Bergischer Kreis",
-    "infected": 11,
+    "infected": 12,
     "geo": [
       50.9768,
       7.1432
+    ],
+    "state": "Nordrhein-Westfalen"
+  },
+  {
+    "city_name": "Siegen-Wittgenstein",
+    "infected": 1,
+    "geo": [
+      50.94,
+      8.19
+    ],
+    "state": "Nordrhein-Westfalen"
+  },
+  {
+    "city_name": "Soest",
+    "infected": 1,
+    "geo": [
+      51.56,
+      8.22
     ],
     "state": "Nordrhein-Westfalen"
   },
@@ -1657,7 +1720,7 @@
   },
   {
     "city_name": "Viersen",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       51.252778,
       6.393333
@@ -1666,7 +1729,7 @@
   },
   {
     "city_name": "Warendorf",
-    "infected": 3,
+    "infected": 5,
     "geo": [
       51.9414,
       7.9862
@@ -1864,7 +1927,7 @@
   },
   {
     "city_name": "Bautzen",
-    "infected": 7,
+    "infected": 10,
     "geo": [
       51.18,
       14.43
@@ -1918,7 +1981,7 @@
   },
   {
     "city_name": "S\u00e4chsische Schweiz/Osterzgebirge",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       50.92,
       13.87
@@ -1999,7 +2062,7 @@
   },
   {
     "city_name": "Kiel",
-    "infected": 3,
+    "infected": 6,
     "geo": [
       54.32321,
       10.14019
@@ -2080,7 +2143,7 @@
   },
   {
     "city_name": "Erfurt",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       50.978056,
       11.029167
@@ -2131,5 +2194,14 @@
       11.329722
     ],
     "state": "Th\u00fcringen"
+  },
+  {
+    "city_name": "Frankfurt (Oder)",
+    "infected": 1,
+    "geo": [
+      52.341667,
+      14.550833
+    ],
+    "state": "Brandenburg"
   }
 ]
