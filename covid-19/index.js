@@ -104,12 +104,12 @@ $(document).ready(async () => {
             realtime: false,
             range: [1, this.maxInfectedNumber],
             inRange: {
-              color: ['#fff', '#BB0000']
+              color: ['#fff', '#FF8888']
             },
             outOfRange: {
               color: ["#FFF"]
             },
-            seriesIndex: [1]
+            seriesIndex: [0]
           },
           geo: {
             center: [10.38834, 51.15757],
@@ -120,19 +120,6 @@ $(document).ready(async () => {
             silent: true
           },
           series: [{
-            name: 'cities',
-            type: 'scatter',
-            data: this.visualCityData,
-            coordinateSystem: 'geo',
-            symbolSize: function (val) {
-              return Math.log2(val[2]) + 4
-            },
-            symbol: `image://images/virus-svgrepo-com.svg`,
-            itemStyle: {
-              color: '#333'
-            },
-            silent: true
-          }, {
             mapType: '德国',
             data: this.visualData,
             boundingCoords: [[5.98815, 47.40724], [14.98853, 54.9079]],
@@ -142,7 +129,11 @@ $(document).ready(async () => {
             name: '现存确诊',
             label: {
               show: true,
-              formatter: '{c}'
+              formatter: '{c}',
+              backgroundColor: 'rgba(63, 81, 97, 0.9)',
+              color: '#fff',
+              padding: 2,
+              fontSize: 15
             },
             nameMap: {
               'Baden-Württemberg': 'Baden-Württemberg',
@@ -162,6 +153,22 @@ $(document).ready(async () => {
               'Schleswig-Holstein': 'Schleswig-Holstein',
               'Thuringia': 'Thüringen'
             }
+          }, {
+            name: 'cities',
+            type: 'scatter',
+            data: this.visualCityData,
+            coordinateSystem: 'geo',
+            symbolSize: function (val) {
+              return Math.log2(val[2]) * 3
+            },
+            symbol: `circle`,
+            itemStyle: {
+              color: 'rgba(255, 255, 255, 0.6)',
+              borderWidth: 1.5,
+              borderColor: 'rgba(187, 0, 0, 0.8)',
+              borderType: 'solid'
+            },
+            silent: true
           }]
         }
         deChart.setOption(options)
