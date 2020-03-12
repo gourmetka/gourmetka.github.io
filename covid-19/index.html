@@ -135,7 +135,7 @@
                   <tr>
                     <th style="width: 50px;">#</th>
                     <th @click="sortCity('city_name')" scope="col">地区 {{ citySort.category === "city_name" ? citySort.icon : '' }}</th>
-                    <th @click="sortCity('infected')" scope="col" class="text-align-center">现存 {{ citySort.category === "infected" ? citySort.icon : '' }}</th>
+                    <th style="width: 80px;" @click="sortCity('infected')" scope="col" class="text-align-center">现存 {{ citySort.category === "infected" ? citySort.icon : '' }}</th>
                   </tr>
                 </thead>
                 <tbody>
