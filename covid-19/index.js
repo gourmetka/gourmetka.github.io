@@ -5,6 +5,7 @@ $(document).ready(async () => {
   let ts = obj.ts
   let recoveries = obj.recoveries
   let deaths = obj.deaths
+  let population = obj.population
   let app = new Vue({
     el: '#app',
     data () {
@@ -13,6 +14,7 @@ $(document).ready(async () => {
         cityData: cityData,
         recoveries: recoveries,
         deaths: deaths,
+        population: population,
         currentSort:'stateName',
         currentSortDir:'asc',
         stateSortIcon:'▴',

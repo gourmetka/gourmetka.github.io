@@ -10,7 +10,8 @@
       ],
       "infected": 454,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 11069533
     },
     {
       "id": 2,
@@ -21,7 +22,8 @@
       ],
       "infected": 501,
       "cured": 14,
-      "death": 0
+      "death": 0,
+      "population": 13076721
     },
     {
       "id": 3,
@@ -32,7 +34,8 @@
       ],
       "infected": 123,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 3644826
     },
     {
       "id": 4,
@@ -43,7 +46,8 @@
       ],
       "infected": 31,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 2511917
     },
     {
       "id": 5,
@@ -54,7 +58,8 @@
       ],
       "infected": 42,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 682986
     },
     {
       "id": 6,
@@ -65,7 +70,8 @@
       ],
       "infected": 78,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 1841179
     },
     {
       "id": 7,
@@ -76,7 +82,8 @@
       ],
       "infected": 91,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 6265809
     },
     {
       "id": 8,
@@ -87,7 +94,8 @@
       ],
       "infected": 23,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 1609675
     },
     {
       "id": 9,
@@ -98,7 +106,8 @@
       ],
       "infected": 129,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 7982448
     },
     {
       "id": 10,
@@ -109,7 +118,8 @@
       ],
       "infected": 1072,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 17932651
     },
     {
       "id": 11,
@@ -120,7 +130,8 @@
       ],
       "infected": 52,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 4084844
     },
     {
       "id": 12,
@@ -131,7 +142,8 @@
       ],
       "infected": 24,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 990509
     },
     {
       "id": 13,
@@ -142,7 +154,8 @@
       ],
       "infected": 49,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 4077937
     },
     {
       "id": 14,
@@ -153,7 +166,8 @@
       ],
       "infected": 27,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 2208321
     },
     {
       "id": 15,
@@ -164,7 +178,8 @@
       ],
       "infected": 33,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 2896712
     },
     {
       "id": 16,
@@ -175,9 +190,11 @@
       ],
       "infected": 18,
       "cured": 0,
-      "death": 0
+      "death": 0,
+      "population": 2143145
     }
   ],
   "recoveries": 24,
-  "deaths": 6
+  "deaths": 6,
+  "population": 83019213
 }
