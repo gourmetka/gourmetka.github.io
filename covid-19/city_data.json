@@ -811,7 +811,7 @@
   },
   {
     "city_name": "Berlin",
-    "infected": 90,
+    "infected": 118,
     "geo": [
       52.518611,
       13.408333
@@ -1171,7 +1171,7 @@
   },
   {
     "city_name": "Braunschweig",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       52.269167,
       10.521111
@@ -1180,7 +1180,7 @@
   },
   {
     "city_name": "Celle",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       52.71,
       10.1
@@ -1188,8 +1188,17 @@
     "state": "Niedersachsen"
   },
   {
+    "city_name": "Cloppenburg",
+    "infected": 1,
+    "geo": [
+      52.91,
+      7.9
+    ],
+    "state": "Niedersachsen"
+  },
+  {
     "city_name": "Cuxhaven",
-    "infected": 3,
+    "infected": 4,
     "geo": [
       53.8617,
       8.694067
@@ -1206,8 +1215,26 @@
     "state": "Niedersachsen"
   },
   {
-    "city_name": "Emsland",
+    "city_name": "Diepholz",
+    "infected": 10,
+    "geo": [
+      52.72,
+      8.73
+    ],
+    "state": "Niedersachsen"
+  },
+  {
+    "city_name": "Emden",
     "infected": 1,
+    "geo": [
+      53.366944,
+      7.2055556
+    ],
+    "state": "Niedersachsen"
+  },
+  {
+    "city_name": "Emsland",
+    "infected": 3,
     "geo": [
       52.74,
       7.4
@@ -1233,17 +1260,17 @@
     "state": "Niedersachsen"
   },
   {
-    "city_name": "Hannover",
-    "infected": 17,
+    "city_name": "Hameln-Pyrmont",
+    "infected": 1,
     "geo": [
-      52.42,
-      9.72
+      52.1,
+      9.39
     ],
     "state": "Niedersachsen"
   },
   {
     "city_name": "Harburg",
-    "infected": 5,
+    "infected": 3,
     "geo": [
       53.32,
       9.96
@@ -1260,11 +1287,38 @@
     "state": "Niedersachsen"
   },
   {
+    "city_name": "Holzminden",
+    "infected": 1,
+    "geo": [
+      51.88,
+      9.55
+    ],
+    "state": "Niedersachsen"
+  },
+  {
     "city_name": "Leer",
     "infected": 1,
     "geo": [
       53.24,
       7.48
+    ],
+    "state": "Niedersachsen"
+  },
+  {
+    "city_name": "Nienburg/Weser",
+    "infected": 2,
+    "geo": [
+      52.61,
+      9.11
+    ],
+    "state": "Niedersachsen"
+  },
+  {
+    "city_name": "Northeim",
+    "infected": 3,
+    "geo": [
+      51.74,
+      9.85
     ],
     "state": "Niedersachsen"
   },
@@ -1288,10 +1342,19 @@
   },
   {
     "city_name": "Osterholz",
-    "infected": 2,
+    "infected": 8,
     "geo": [
       53.25,
       8.81
+    ],
+    "state": "Niedersachsen"
+  },
+  {
+    "city_name": "Region Hannover",
+    "infected": 25,
+    "geo": [
+      52.42,
+      9.72
     ],
     "state": "Niedersachsen"
   },
@@ -1323,8 +1386,17 @@
     "state": "Niedersachsen"
   },
   {
-    "city_name": "Verden",
+    "city_name": "Vechta",
     "infected": 2,
+    "geo": [
+      52.69,
+      8.22
+    ],
+    "state": "Niedersachsen"
+  },
+  {
+    "city_name": "Verden",
+    "infected": 5,
     "geo": [
       52.97,
       9.18
@@ -1333,10 +1405,19 @@
   },
   {
     "city_name": "Wilhelmshaven",
-    "infected": 3,
+    "infected": 2,
     "geo": [
       53.521944,
       8.1075
+    ],
+    "state": "Niedersachsen"
+  },
+  {
+    "city_name": "Wittmund",
+    "infected": 1,
+    "geo": [
+      53.58,
+      7.71
     ],
     "state": "Niedersachsen"
   },
@@ -1958,6 +2039,15 @@
     "geo": [
       49.316667,
       7.333333
+    ],
+    "state": "Saarland"
+  },
+  {
+    "city_name": "St. Wendel",
+    "infected": 8,
+    "geo": [
+      49.52,
+      7.1
     ],
     "state": "Saarland"
   },
