@@ -136,7 +136,7 @@ with open(os.path.join(script_dir, '../data.json')) as f:
 
 for region in region_list:
   region_name = region[2]
-  number_text = region[3].replace("confirmed cases", "").replace("confirmed case", "").strip()
+  number_text = region[3].replace("confirmed cases", "").replace("confirmed case", "").replace("&thinsp;", "").strip()
   number_cases = int(number_text)
   data = existing_data["data"]
   found = False
