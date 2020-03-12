@@ -127,14 +127,6 @@ $(document).ready(async () => {
             type: 'map',
             roam: false,
             name: '现存确诊',
-            label: {
-              show: true,
-              formatter: '{c}',
-              backgroundColor: 'rgba(63, 81, 97, 0.9)',
-              color: '#fff',
-              padding: 2,
-              fontSize: 15
-            },
             nameMap: {
               'Baden-Württemberg': 'Baden-Württemberg',
               'Free State of Bavaria': 'Bayern',
@@ -159,7 +151,7 @@ $(document).ready(async () => {
             data: this.visualCityData,
             coordinateSystem: 'geo',
             symbolSize: function (val) {
-              return Math.log2(val[2]) * 3
+              return Math.log1p(val[2]) * 3
             },
             symbol: `circle`,
             itemStyle: {
