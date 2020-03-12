@@ -1,5 +1,5 @@
 {
-  "ts": 1584035141000,
+  "ts": 1584044420000,
   "data": [
     {
       "id": 1,
@@ -8,7 +8,7 @@
         0,
         0
       ],
-      "infected": 335,
+      "infected": 454,
       "cured": 0,
       "death": 0
     },
@@ -30,7 +30,7 @@
         0,
         0
       ],
-      "infected": 118,
+      "infected": 123,
       "cured": 0,
       "death": 0
     },
@@ -41,7 +41,7 @@
         0,
         0
       ],
-      "infected": 27,
+      "infected": 31,
       "cured": 0,
       "death": 0
     },
@@ -96,7 +96,7 @@
         0,
         0
       ],
-      "infected": 122,
+      "infected": 129,
       "cured": 0,
       "death": 0
     },
@@ -107,7 +107,7 @@
         0,
         0
       ],
-      "infected": 1070,
+      "infected": 1072,
       "cured": 0,
       "death": 0
     },
@@ -118,7 +118,7 @@
         0,
         0
       ],
-      "infected": 32,
+      "infected": 52,
       "cured": 0,
       "death": 0
     },
@@ -129,7 +129,7 @@
         0,
         0
       ],
-      "infected": 22,
+      "infected": 24,
       "cured": 0,
       "death": 0
     },
@@ -140,7 +140,7 @@
         0,
         0
       ],
-      "infected": 39,
+      "infected": 49,
       "cured": 0,
       "death": 0
     },
@@ -151,7 +151,7 @@
         0,
         0
       ],
-      "infected": 24,
+      "infected": 27,
       "cured": 0,
       "death": 0
     },
@@ -162,7 +162,7 @@
         0,
         0
       ],
-      "infected": 32,
+      "infected": 33,
       "cured": 0,
       "death": 0
     },
@@ -173,11 +173,11 @@
         0,
         0
       ],
-      "infected": 12,
+      "infected": 18,
       "cured": 0,
       "death": 0
     }
   ],
   "recoveries": 24,
-  "deaths": 5
+  "deaths": 6
 }
