@@ -1234,7 +1234,7 @@
   },
   {
     "city_name": "Ammerland",
-    "infected": 1,
+    "infected": 6,
     "geo": [
       53.22,
       8.01
@@ -1297,7 +1297,7 @@
   },
   {
     "city_name": "Diepholz",
-    "infected": 11,
+    "infected": 16,
     "geo": [
       52.72,
       8.73
@@ -1315,7 +1315,7 @@
   },
   {
     "city_name": "Emsland",
-    "infected": 3,
+    "infected": 4,
     "geo": [
       52.74,
       7.4
@@ -1333,7 +1333,7 @@
   },
   {
     "city_name": "Grafschaft Bentheim",
-    "infected": 1,
+    "infected": 3,
     "geo": [
       52.48,
       7.02
@@ -1342,7 +1342,7 @@
   },
   {
     "city_name": "Hameln-Pyrmont",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       52.1,
       9.39
@@ -1360,7 +1360,7 @@
   },
   {
     "city_name": "Hildesheim",
-    "infected": 3,
+    "infected": 7,
     "geo": [
       52.09,
       9.94
@@ -1405,7 +1405,7 @@
   },
   {
     "city_name": "Northeim",
-    "infected": 3,
+    "infected": 4,
     "geo": [
       51.74,
       9.85
@@ -1432,7 +1432,7 @@
   },
   {
     "city_name": "Osterholz",
-    "infected": 8,
+    "infected": 9,
     "geo": [
       53.25,
       8.81
@@ -1441,7 +1441,7 @@
   },
   {
     "city_name": "Region Hannover",
-    "infected": 25,
+    "infected": 46,
     "geo": [
       52.42,
       9.72
@@ -1468,7 +1468,7 @@
   },
   {
     "city_name": "Schaumburg",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       52.29,
       9.21
@@ -1504,7 +1504,7 @@
   },
   {
     "city_name": "Verden",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       52.97,
       9.18
@@ -2404,7 +2404,7 @@
   },
   {
     "city_name": "Kiel",
-    "infected": 7,
+    "infected": 11,
     "geo": [
       54.32321,
       10.14019
@@ -2547,6 +2547,15 @@
     "state": "Th\u00fcringen"
   },
   {
+    "city_name": "Saalfeld-Rudolstadt",
+    "infected": 5,
+    "geo": [
+      50.64,
+      11.31
+    ],
+    "state": "Th\u00fcringen"
+  },
+  {
     "city_name": "Schmalkalden-Meiningen",
     "infected": 1,
     "geo": [
@@ -2561,15 +2570,6 @@
     "geo": [
       50.979444,
       11.329722
-    ],
-    "state": "Th\u00fcringen"
-  },
-  {
-    "city_name": "Saalfeld-Rudolstadt",
-    "infected": 5,
-    "geo": [
-      50.64,
-      11.31
     ],
     "state": "Th\u00fcringen"
   }
