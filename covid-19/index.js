@@ -262,6 +262,12 @@ $(document).ready(async () => {
         }
         return 'n.a.'
       },
+      toDEDateTime: function (ts) {
+        if (ts) {
+          return `${new Date(ts).toLocaleDateString('de-DE')} ${new Date(ts).toLocaleTimeString('de-DE')}`
+        }
+        return 'n.a.'
+      },
       numberWithCommas: function (n) {
         if (n) {
           return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.')
