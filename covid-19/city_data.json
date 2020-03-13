@@ -865,7 +865,7 @@
   },
   {
     "city_name": "Wei\u00dfenburg-Gunzenhausen",
-    "infected": 2,
+    "infected": 6,
     "geo": [
       49.03,
       10.89
@@ -874,7 +874,7 @@
   },
   {
     "city_name": "W\u00fcrzburg",
-    "infected": 32,
+    "infected": 42,
     "geo": [
       49.794444,
       9.929444
@@ -1018,7 +1018,7 @@
   },
   {
     "city_name": "Hamburg",
-    "infected": 78,
+    "infected": 121,
     "geo": [
       53.550556,
       9.993333
@@ -1711,7 +1711,7 @@
   },
   {
     "city_name": "Heinsberg",
-    "infected": 525,
+    "infected": 553,
     "geo": [
       50.983056,
       6
@@ -1972,7 +1972,7 @@
   },
   {
     "city_name": "St\u00e4dteregion Aachen",
-    "infected": 71,
+    "infected": 85,
     "geo": [
       50.775556,
       6.083611
@@ -2314,7 +2314,7 @@
   },
   {
     "city_name": "Dresden",
-    "infected": 6,
+    "infected": 11,
     "geo": [
       51.049259,
       13.73836
@@ -2323,7 +2323,7 @@
   },
   {
     "city_name": "Erzgebirgskreis",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       50.61,
       12.95
@@ -2332,7 +2332,7 @@
   },
   {
     "city_name": "G\u00f6rlitz",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       51.28,
       14.82
@@ -2341,7 +2341,7 @@
   },
   {
     "city_name": "Leipzig",
-    "infected": 14,
+    "infected": 27,
     "geo": [
       51.340333,
       12.37475
@@ -2350,7 +2350,7 @@
   },
   {
     "city_name": "Mei\u00dfen",
-    "infected": 3,
+    "infected": 5,
     "geo": [
       51.166667,
       13.483333
@@ -2358,8 +2358,17 @@
     "state": "Sachsen"
   },
   {
+    "city_name": "Nordsachsen",
+    "infected": 2,
+    "geo": [
+      51.47,
+      12.78
+    ],
+    "state": "Sachsen"
+  },
+  {
     "city_name": "S\u00e4chsische Schweiz-Osterzgebirge",
-    "infected": 6,
+    "infected": 8,
     "geo": [
       50.92,
       13.87
@@ -2529,6 +2538,15 @@
     "state": "Schleswig-Holstein"
   },
   {
+    "city_name": "Nordfriesland",
+    "infected": 1,
+    "geo": [
+      54.477019,
+      9.051147
+    ],
+    "state": "Schleswig-Holstein"
+  },
+  {
     "city_name": "Ostholstein",
     "infected": 1,
     "geo": [
@@ -2566,7 +2584,7 @@
   },
   {
     "city_name": "Schleswig-Flensburg",
-    "infected": 2,
+    "infected": 5,
     "geo": [
       54.62,
       9.51
@@ -2579,6 +2597,15 @@
     "geo": [
       53.92,
       10.14
+    ],
+    "state": "Schleswig-Holstein"
+  },
+  {
+    "city_name": "Steinburg",
+    "infected": 2,
+    "geo": [
+      53.92,
+      9.51
     ],
     "state": "Schleswig-Holstein"
   },
@@ -2698,14 +2725,5 @@
       11.329722
     ],
     "state": "Th\u00fcringen"
-  },
-  {
-    "city_name": "Nordfriesland",
-    "infected": 1,
-    "geo": [
-      54.477019,
-      9.051147
-    ],
-    "state": "Schleswig-Holstein"
   }
 ]
