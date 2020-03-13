@@ -2223,6 +2223,15 @@
     "state": "Sachsen"
   },
   {
+    "city_name": "Erzgebirgskreis",
+    "infected": 1,
+    "geo": [
+      50.61,
+      12.95
+    ],
+    "state": "Sachsen"
+  },
+  {
     "city_name": "G\u00f6rlitz",
     "infected": 5,
     "geo": [
@@ -2255,6 +2264,15 @@
     "geo": [
       50.92,
       13.87
+    ],
+    "state": "Sachsen"
+  },
+  {
+    "city_name": "Zwickau",
+    "infected": 1,
+    "geo": [
+      50.718889,
+      12.492222
     ],
     "state": "Sachsen"
   },
@@ -2543,6 +2561,15 @@
     "geo": [
       50.979444,
       11.329722
+    ],
+    "state": "Th\u00fcringen"
+  },
+  {
+    "city_name": "Saalfeld-Rudolstadt",
+    "infected": 5,
+    "geo": [
+      50.64,
+      11.31
     ],
     "state": "Th\u00fcringen"
   }
