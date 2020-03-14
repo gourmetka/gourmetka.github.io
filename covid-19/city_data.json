@@ -1009,7 +1009,7 @@
   },
   {
     "city_name": "Bremen",
-    "infected": 38,
+    "infected": 42,
     "geo": [
       53.075878,
       8.807311
@@ -1018,7 +1018,7 @@
   },
   {
     "city_name": "Bremerhaven",
-    "infected": 4,
+    "infected": 6,
     "geo": [
       53.541939,
       8.578039
@@ -1054,7 +1054,7 @@
   },
   {
     "city_name": "Frankfurt am Main",
-    "infected": 15,
+    "infected": 21,
     "geo": [
       50.110556,
       8.682222
@@ -1152,7 +1152,7 @@
     "state": "Hessen"
   },
   {
-    "city_name": "Offenbach",
+    "city_name": "Offenbach am Main",
     "infected": 7,
     "geo": [
       50.018236,
@@ -1630,7 +1630,7 @@
   },
   {
     "city_name": "Coesfeld",
-    "infected": 33,
+    "infected": 39,
     "geo": [
       51.9442,
       7.1744
@@ -1684,7 +1684,7 @@
   },
   {
     "city_name": "Essen",
-    "infected": 20,
+    "infected": 28,
     "geo": [
       51.458069,
       7.014761
@@ -1792,7 +1792,7 @@
   },
   {
     "city_name": "K\u00f6ln",
-    "infected": 83,
+    "infected": 123,
     "geo": [
       50.936389,
       6.952778
@@ -1864,7 +1864,7 @@
   },
   {
     "city_name": "M\u00fcnster",
-    "infected": 23,
+    "infected": 41,
     "geo": [
       51.962944,
       7.628694
@@ -2700,6 +2700,15 @@
     "state": "Th\u00fcringen"
   },
   {
+    "city_name": "Jena",
+    "infected": 2,
+    "geo": [
+      50.927222,
+      11.586389
+    ],
+    "state": "Th\u00fcringen"
+  },
+  {
     "city_name": "Kyffh\u00e4userkreis",
     "infected": 6,
     "geo": [
@@ -2750,6 +2759,15 @@
     "geo": [
       50.67,
       10.42
+    ],
+    "state": "Th\u00fcringen"
+  },
+  {
+    "city_name": "Suhl",
+    "infected": 1,
+    "geo": [
+      50.610833,
+      10.693333
     ],
     "state": "Th\u00fcringen"
   },
