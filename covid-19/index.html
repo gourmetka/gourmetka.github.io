@@ -146,7 +146,10 @@
                     <td> 
                       <div class="row">
                         <div class="col-sm-6">
+
                           <a :href="`https://www.google.com/maps/place/${d.geo[0]},${d.geo[1]}`" target="_blank">{{ d.city_name }}</a>
+                           - 
+                          <a :href="`https://www.wikiwand.com/de/${d.city_name}`"  target="_blank" title="Wiki">🕮</a>
                         </div>
                         <div class="col-sm-6">
                           <span style="font-size: 11px; font-weight: 300;">{{ d.state }}</span> 
