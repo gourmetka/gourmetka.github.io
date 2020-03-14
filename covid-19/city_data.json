@@ -1063,7 +1063,7 @@
   },
   {
     "city_name": "Bremen",
-    "infected": 42,
+    "infected": 45,
     "geo": [
       53.075878,
       8.807311
@@ -1072,7 +1072,7 @@
   },
   {
     "city_name": "Bremerhaven",
-    "infected": 6,
+    "infected": 8,
     "geo": [
       53.541939,
       8.578039
@@ -1288,7 +1288,7 @@
   },
   {
     "city_name": "Schwerin",
-    "infected": 4,
+    "infected": 7,
     "geo": [
       53.633333,
       11.416667
@@ -1324,7 +1324,7 @@
   },
   {
     "city_name": "Aurich",
-    "infected": 3,
+    "infected": 5,
     "geo": [
       53.5,
       7.37
@@ -1342,7 +1342,7 @@
   },
   {
     "city_name": "Celle",
-    "infected": 6,
+    "infected": 8,
     "geo": [
       52.71,
       10.1
@@ -1396,7 +1396,7 @@
   },
   {
     "city_name": "Emsland",
-    "infected": 4,
+    "infected": 9,
     "geo": [
       52.74,
       7.4
@@ -1414,10 +1414,19 @@
   },
   {
     "city_name": "Gifhorn",
-    "infected": 5,
+    "infected": 7,
     "geo": [
       52.58,
       10.6
+    ],
+    "state": "Niedersachsen"
+  },
+  {
+    "city_name": "Goslar",
+    "infected": 5,
+    "geo": [
+      51.87,
+      10.4
     ],
     "state": "Niedersachsen"
   },
@@ -1441,7 +1450,7 @@
   },
   {
     "city_name": "Hameln-Pyrmont",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       52.1,
       9.39
@@ -1454,6 +1463,24 @@
     "geo": [
       53.32,
       9.96
+    ],
+    "state": "Niedersachsen"
+  },
+  {
+    "city_name": "Heidekreis",
+    "infected": 1,
+    "geo": [
+      52.92,
+      9.75
+    ],
+    "state": "Niedersachsen"
+  },
+  {
+    "city_name": "Helmstedt",
+    "infected": 2,
+    "geo": [
+      52.26,
+      10.89
     ],
     "state": "Niedersachsen"
   },
@@ -1558,7 +1585,7 @@
   },
   {
     "city_name": "Salzgitter",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       52.153657,
       10.405849
@@ -1594,7 +1621,7 @@
   },
   {
     "city_name": "Vechta",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       52.69,
       8.22
@@ -1630,7 +1657,7 @@
   },
   {
     "city_name": "Wolfsburg",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       52.423056,
       10.787222
@@ -1684,7 +1711,7 @@
   },
   {
     "city_name": "Coesfeld",
-    "infected": 39,
+    "infected": 47,
     "geo": [
       51.9442,
       7.1744
@@ -1738,7 +1765,7 @@
   },
   {
     "city_name": "Essen",
-    "infected": 34,
+    "infected": 51,
     "geo": [
       51.458069,
       7.014761
@@ -1846,7 +1873,7 @@
   },
   {
     "city_name": "K\u00f6ln",
-    "infected": 123,
+    "infected": 154,
     "geo": [
       50.936389,
       6.952778
@@ -1918,7 +1945,7 @@
   },
   {
     "city_name": "M\u00fcnster",
-    "infected": 41,
+    "infected": 43,
     "geo": [
       51.962944,
       7.628694
@@ -2053,7 +2080,7 @@
   },
   {
     "city_name": "St\u00e4dteregion Aachen",
-    "infected": 85,
+    "infected": 100,
     "geo": [
       50.775556,
       6.083611
@@ -2413,7 +2440,7 @@
   },
   {
     "city_name": "Bautzen",
-    "infected": 12,
+    "infected": 14,
     "geo": [
       51.18,
       14.43
@@ -2422,7 +2449,7 @@
   },
   {
     "city_name": "Chemnitz",
-    "infected": 3,
+    "infected": 10,
     "geo": [
       50.832222,
       12.924167
@@ -2458,7 +2485,7 @@
   },
   {
     "city_name": "Leipzig",
-    "infected": 27,
+    "infected": 30,
     "geo": [
       51.340333,
       12.37475
@@ -2467,7 +2494,7 @@
   },
   {
     "city_name": "Mei\u00dfen",
-    "infected": 5,
+    "infected": 9,
     "geo": [
       51.166667,
       13.483333
@@ -2485,7 +2512,7 @@
   },
   {
     "city_name": "S\u00e4chsische Schweiz-Osterzgebirge",
-    "infected": 8,
+    "infected": 11,
     "geo": [
       50.92,
       13.87
@@ -2494,7 +2521,7 @@
   },
   {
     "city_name": "Zwickau",
-    "infected": 1,
+    "infected": 4,
     "geo": [
       50.718889,
       12.492222
@@ -2620,7 +2647,7 @@
   },
   {
     "city_name": "Flensburg",
-    "infected": 1,
+    "infected": 4,
     "geo": [
       54.781944,
       9.436667
@@ -2674,7 +2701,7 @@
   },
   {
     "city_name": "Pinneberg",
-    "infected": 5,
+    "infected": 18,
     "geo": [
       53.71,
       9.73
@@ -2781,6 +2808,15 @@
     "state": "Th\u00fcringen"
   },
   {
+    "city_name": "Gotha",
+    "infected": 1,
+    "geo": [
+      50.91,
+      10.69
+    ],
+    "state": "Th\u00fcringen"
+  },
+  {
     "city_name": "Ilm-Kreis",
     "infected": 1,
     "geo": [
@@ -2863,7 +2899,7 @@
   },
   {
     "city_name": "Weimar",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       50.979444,
       11.329722
