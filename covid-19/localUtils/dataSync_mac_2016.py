@@ -30,7 +30,7 @@ def get_city_wikidata(city, country):
     ?city rdfs:label ?cityLabel.
     ?country rdfs:label ?countryLabel.
     FILTER(LANG(?cityLabel) = "de").
-    FILTER(LANG(?countryLabel) = "en").
+    FILTER(LANG(?countryLabel) = "de").
     FILTER(CONTAINS(?countryLabel, "%s")).
   }
   """ % (city, country)
@@ -100,7 +100,7 @@ def get_state_city_map(data):
 
 
 def stateofCity(city_name_obj, city, lat, long):
-  print ("Getting state info of: %s" % city)
+  # print ("Getting state info of: %s" % city)
   if city in city_name_obj.keys():
     return city_name_obj[city]
   else:
@@ -110,13 +110,13 @@ def stateofCity(city_name_obj, city, lat, long):
 def getPopupation(city_population_obj, city):
   print ("Get population of: %s" % city)
   if city in city_population_obj.keys():
-    print ("[EXIST] found data for %s" % city)
+    # print ("[EXIST] found data for %s" % city)
     return city_population_obj[city]
-  elif "kreis" in city.lower():
-    print ("[SKIP] skip all city name with kreis")
-    return -2
+  # elif "kreis" in city.lower():
+  #   # print ("[SKIP] skip all city name with kreis")
+  #   return -2
   else:
-    wiki_obj = get_city_wikidata(city, "Germany")
+    wiki_obj = get_city_wikidata(city, "Deutschland")
     if wiki_obj is not None:
       return int(wiki_obj["population"]["value"])
     else:
@@ -165,7 +165,7 @@ city_data_exists_population = {}
 for d in existing_city_data:
   if d["state"].strip() != "":
     city_data_exists_state[d["city_name"]] = d["state"].strip()
-  if "population" in d.keys() and d["population"] != -1:
+  if "population" in d.keys() and d["population"] != -1 and d["population"] != -2:
     city_data_exists_population[d["city_name"]] = d["population"]
 
 city_objects = []

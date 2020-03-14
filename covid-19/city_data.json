@@ -87,7 +87,7 @@
       8.753056
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Esslingen",
@@ -167,7 +167,7 @@
       9.686667
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -2
+    "population": 110181
   },
   {
     "city_name": "Karlsruhe",
@@ -217,7 +217,7 @@
       9.661111
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -2
+    "population": 132181
   },
   {
     "city_name": "Mannheim",
@@ -237,7 +237,7 @@
       9.141944
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -2
+    "population": 141847
   },
   {
     "city_name": "Ortenaukreis",
@@ -247,7 +247,7 @@
       7.941111
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -2
+    "population": 411700
   },
   {
     "city_name": "Ostalbkreis",
@@ -257,7 +257,7 @@
       10.093333
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -2
+    "population": 311587
   },
   {
     "city_name": "Pforzheim",
@@ -297,7 +297,7 @@
       9.316111
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -2
+    "population": 419456
   },
   {
     "city_name": "Reutlingen",
@@ -317,7 +317,7 @@
       8.85
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -2
+    "population": 547625
   },
   {
     "city_name": "Rottweil",
@@ -337,7 +337,7 @@
       8.467778
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Schw\u00e4bisch Hall",
@@ -417,7 +417,7 @@
       8.8575
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -2
+    "population": 188170
   },
   {
     "city_name": "Amberg",
@@ -1307,7 +1307,7 @@
       8.616389
     ],
     "state": "Hessen",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Kassel",
@@ -1337,7 +1337,7 @@
       9.3
     ],
     "state": "Hessen",
-    "population": -2
+    "population": 407619
   },
   {
     "city_name": "Main-Taunus-Kreis",
@@ -1377,7 +1377,7 @@
       8.073264
     ],
     "state": "Hessen",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Schwalm-Eder-Kreis",
@@ -1387,7 +1387,7 @@
       9.400833
     ],
     "state": "Hessen",
-    "population": -2
+    "population": 180279
   },
   {
     "city_name": "Vogelsbergkreis",
@@ -1397,7 +1397,7 @@
       9.399792
     ],
     "state": "Hessen",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Waldeck-Frankenberg",
@@ -1417,7 +1417,7 @@
       8.752431
     ],
     "state": "Hessen",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Wiesbaden",
@@ -1657,7 +1657,7 @@
       9.75
     ],
     "state": "Niedersachsen",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Helmstedt",
@@ -2147,7 +2147,7 @@
       8.911111
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 310710
   },
   {
     "city_name": "M\u00e4rkischer Kreis",
@@ -2157,7 +2157,7 @@
       7.633333
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -2
+    "population": 416171
   },
   {
     "city_name": "M\u00f6nchengladbach",
@@ -2257,7 +2257,7 @@
       6.6308
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Rhein-Kreis Neuss",
@@ -2267,7 +2267,7 @@
       6.6953
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Rhein-Sieg-Kreis",
@@ -2277,7 +2277,7 @@
       7.2071
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Rheinisch-Bergischer Kreis",
@@ -2397,7 +2397,7 @@
       7.10366
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 7546
   },
   {
     "city_name": "Altenkirchen (Westerwald)",
@@ -2407,7 +2407,7 @@
       7.74
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 6263
   },
   {
     "city_name": "Alzey-Worms",
@@ -2467,7 +2467,7 @@
       7.91
     ],
     "state": "Rheinland-Pfalz",
-    "population": -2
+    "population": 75508
   },
   {
     "city_name": "Eifelkreis Bitburg-Pr\u00fcm",
@@ -2477,7 +2477,7 @@
       6.41
     ],
     "state": "Rheinland-Pfalz",
-    "population": -2
+    "population": 95946
   },
   {
     "city_name": "Frankenthal (Pfalz)",
@@ -2597,7 +2597,7 @@
       7.5
     ],
     "state": "Rheinland-Pfalz",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Rhein-Lahn-Kreis",
@@ -2607,7 +2607,7 @@
       7.707049
     ],
     "state": "Rheinland-Pfalz",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Rhein-Pfalz-Kreis",
@@ -2617,7 +2617,7 @@
       8.36
     ],
     "state": "Rheinland-Pfalz",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Speyer",
@@ -2667,7 +2667,7 @@
       7.87
     ],
     "state": "Rheinland-Pfalz",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Merzig-Wadern",
@@ -2717,7 +2717,7 @@
       7.333333
     ],
     "state": "Saarland",
-    "population": -2
+    "population": 142631
   },
   {
     "city_name": "St. Wendel",
@@ -2767,7 +2767,7 @@
       12.95
     ],
     "state": "Sachsen",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "G\u00f6rlitz",
@@ -2857,7 +2857,7 @@
       11.88
     ],
     "state": "Sachsen-Anhalt",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "B\u00f6rde",
@@ -2937,7 +2937,7 @@
       11.64
     ],
     "state": "Sachsen-Anhalt",
-    "population": -2
+    "population": -1
   },
   {
     "city_name": "Wittenberg",
@@ -3207,7 +3207,7 @@
       11.71
     ],
     "state": "Th\u00fcringen",
-    "population": -2
+    "population": 82951
   },
   {
     "city_name": "Saalfeld-Rudolstadt",
