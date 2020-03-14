@@ -34,7 +34,17 @@ $(document).ready(async () => {
     },
     watch: {
       showYourLoc (val) {
-        this.loadMap()
+        if (val) {
+          try {
+            if (navigator.geolocation) {
+              navigator.geolocation.getCurrentPosition(this.setYourLoc)
+            }
+          } catch (err) {
+            // do nothing
+          }
+        } else {
+          this.loadMap()
+        }
       }
     },
     methods: {
@@ -209,6 +219,7 @@ $(document).ready(async () => {
       },
       setYourLoc: function (position) {
         this.yourLoc = [position.coords.longitude, position.coords.latitude]
+        this.loadMap()
       }
     },
     computed: {
@@ -321,15 +332,6 @@ $(document).ready(async () => {
     mounted () {
       setTimeout(() => {
         this.loadMap()
-
-        try {
-          if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(this.setYourLoc)
-            this.loadMap()
-          }
-        } catch (err) {
-          // do nothing
-        }
       }, 500)
     }
   })
