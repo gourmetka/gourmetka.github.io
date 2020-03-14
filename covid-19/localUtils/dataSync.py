@@ -108,7 +108,11 @@ def stateofCity(city_name_obj, city, lat, long):
 def getPopupation(city_population_obj, city):
   print ("Get population of: %s" % city)
   if city in city_population_obj.keys():
+    print ("[EXIST] found data for %s" % city)
     return city_population_obj[city]
+  elif "kreis" in city.lower():
+    print ("[SKIP] skip all city name with kreis")
+    return -2
   else:
     wiki_obj = get_city_wikidata(city, "Germany")
     if wiki_obj is not None:

@@ -87,7 +87,7 @@
       8.753056
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Esslingen",
@@ -167,7 +167,7 @@
       9.686667
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Karlsruhe",
@@ -217,7 +217,7 @@
       9.661111
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Mannheim",
@@ -237,7 +237,7 @@
       9.141944
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Ortenaukreis",
@@ -247,7 +247,7 @@
       7.941111
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Ostalbkreis",
@@ -257,7 +257,7 @@
       10.093333
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Pforzheim",
@@ -277,7 +277,7 @@
       8.213056
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": 227474
   },
   {
     "city_name": "Ravensburg",
@@ -297,7 +297,7 @@
       9.316111
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Reutlingen",
@@ -307,7 +307,7 @@
       9.218056
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": 115966
   },
   {
     "city_name": "Rhein-Neckar-Kreis",
@@ -317,7 +317,7 @@
       8.85
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Rottweil",
@@ -337,7 +337,7 @@
       8.467778
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Schw\u00e4bisch Hall",
@@ -347,7 +347,7 @@
       9.737222
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": 40440
   },
   {
     "city_name": "Sigmaringen",
@@ -357,7 +357,7 @@
       9.214722
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": 17278
   },
   {
     "city_name": "Stuttgart",
@@ -367,7 +367,7 @@
       9.182778
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": 634830
   },
   {
     "city_name": "Tuttlingen",
@@ -377,7 +377,7 @@
       8.8058
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": 132476
   },
   {
     "city_name": "T\u00fcbingen",
@@ -417,7 +417,7 @@
       8.8575
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Amberg",
@@ -427,7 +427,7 @@
       11.848333
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 1476
   },
   {
     "city_name": "Amberg-Sulzbach",
@@ -457,7 +457,7 @@
       10.898333
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 251534
   },
   {
     "city_name": "Bad Kissingen",
@@ -467,7 +467,7 @@
       9.96
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 267400
   },
   {
     "city_name": "Bad T\u00f6lz-Wolfratshausen",
@@ -477,7 +477,7 @@
       11.48
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 126572
   },
   {
     "city_name": "Bamberg",
@@ -487,7 +487,7 @@
       10.891667
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 77592
   },
   {
     "city_name": "Bayreuth",
@@ -517,7 +517,7 @@
       10.966667
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 82033
   },
   {
     "city_name": "Deggendorf",
@@ -527,7 +527,7 @@
       13
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 208400
   },
   {
     "city_name": "Dingolfing-Landau",
@@ -537,7 +537,7 @@
       12.61
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 75517
   },
   {
     "city_name": "Donau-Ries",
@@ -547,7 +547,7 @@
       10.745877
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 117483
   },
   {
     "city_name": "Ebersberg",
@@ -577,7 +577,7 @@
       11.90755
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 36469
   },
   {
     "city_name": "Erlangen",
@@ -587,7 +587,7 @@
       11.054311
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 242500
   },
   {
     "city_name": "Erlangen-H\u00f6chstadt",
@@ -627,7 +627,7 @@
       11.255556
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 172760
   },
   {
     "city_name": "F\u00fcrth",
@@ -637,7 +637,7 @@
       10.990278
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 127748
   },
   {
     "city_name": "Ha\u00dfberge",
@@ -687,7 +687,7 @@
       11.86
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 90040
   },
   {
     "city_name": "Kitzingen",
@@ -697,7 +697,7 @@
       10.26
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 79304
   },
   {
     "city_name": "Kronach",
@@ -747,7 +747,7 @@
       9.66
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 126523
   },
   {
     "city_name": "Memmingen",
@@ -777,7 +777,7 @@
       9.23
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 128484
   },
   {
     "city_name": "M\u00fcnchen",
@@ -797,7 +797,7 @@
       9.998889
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 171011
   },
   {
     "city_name": "Neumarkt in der Oberpfalz",
@@ -867,7 +867,7 @@
       10.64
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 114547
   },
   {
     "city_name": "Passau",
@@ -887,7 +887,7 @@
       11.52
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 25917
   },
   {
     "city_name": "Regen",
@@ -967,7 +967,7 @@
       10.234167
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 256100
   },
   {
     "city_name": "Starnberg",
@@ -987,7 +987,7 @@
       12.466667
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 222400
   },
   {
     "city_name": "Straubing-Bogen",
@@ -1027,7 +1027,7 @@
       12.15
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 42520
   },
   {
     "city_name": "Weilheim-Schongau",
@@ -1087,7 +1087,7 @@
       14.334167
     ],
     "state": "Brandenburg",
-    "population": -1
+    "population": 100219
   },
   {
     "city_name": "Dahme-Spreewald",
@@ -1217,7 +1217,7 @@
       9.993333
     ],
     "state": "Hamburg",
-    "population": -1
+    "population": 1841179
   },
   {
     "city_name": "Bergstra\u00dfe",
@@ -1287,7 +1287,7 @@
       8.481806
     ],
     "state": "Hessen",
-    "population": -1
+    "population": 266000
   },
   {
     "city_name": "Hersfeld-Rotenburg",
@@ -1307,7 +1307,7 @@
       8.616389
     ],
     "state": "Hessen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Kassel",
@@ -1317,7 +1317,7 @@
       9.485903
     ],
     "state": "Hessen",
-    "population": -1
+    "population": 234206
   },
   {
     "city_name": "Lahn-Dill-Kreis",
@@ -1337,7 +1337,7 @@
       9.3
     ],
     "state": "Hessen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Main-Taunus-Kreis",
@@ -1377,7 +1377,7 @@
       8.073264
     ],
     "state": "Hessen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Schwalm-Eder-Kreis",
@@ -1387,7 +1387,7 @@
       9.400833
     ],
     "state": "Hessen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Vogelsbergkreis",
@@ -1397,7 +1397,7 @@
       9.399792
     ],
     "state": "Hessen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Waldeck-Frankenberg",
@@ -1417,7 +1417,7 @@
       8.752431
     ],
     "state": "Hessen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Wiesbaden",
@@ -1457,7 +1457,7 @@
       11.416667
     ],
     "state": "Mecklenburg-Vorpommern",
-    "population": -1
+    "population": 847
   },
   {
     "city_name": "Vorpommern-Greifswald",
@@ -1537,7 +1537,7 @@
       8.694067
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 198670
   },
   {
     "city_name": "Delmenhorst",
@@ -1577,7 +1577,7 @@
       7.4
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 321391
   },
   {
     "city_name": "Friesland",
@@ -1607,7 +1607,7 @@
       10.4
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 137979
   },
   {
     "city_name": "Grafschaft Bentheim",
@@ -1657,7 +1657,7 @@
       9.75
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Helmstedt",
@@ -1667,7 +1667,7 @@
       10.89
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 0
   },
   {
     "city_name": "Hildesheim",
@@ -1697,7 +1697,7 @@
       7.48
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 168253
   },
   {
     "city_name": "L\u00fcneburg",
@@ -1887,7 +1887,7 @@
       7.216944
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 364628
   },
   {
     "city_name": "Bonn",
@@ -1897,7 +1897,7 @@
       7.099814
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 327258
   },
   {
     "city_name": "Borken",
@@ -1907,7 +1907,7 @@
       6.8424
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 42530
   },
   {
     "city_name": "Bottrop",
@@ -1917,7 +1917,7 @@
       6.922778
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 117383
   },
   {
     "city_name": "Coesfeld",
@@ -1957,7 +1957,7 @@
       6.483333
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 262800
   },
   {
     "city_name": "D\u00fcsseldorf",
@@ -2027,7 +2027,7 @@
       7.475
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 188814
   },
   {
     "city_name": "Hamm",
@@ -2057,7 +2057,7 @@
       8.661667
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 66608
   },
   {
     "city_name": "Herne",
@@ -2157,7 +2157,7 @@
       7.633333
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "M\u00f6nchengladbach",
@@ -2177,7 +2177,7 @@
       6.883056
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 170880
   },
   {
     "city_name": "M\u00fcnster",
@@ -2207,7 +2207,7 @@
       6.852222
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 2074
   },
   {
     "city_name": "Olpe",
@@ -2257,7 +2257,7 @@
       6.6308
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Rhein-Kreis Neuss",
@@ -2267,7 +2267,7 @@
       6.6953
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Rhein-Sieg-Kreis",
@@ -2277,7 +2277,7 @@
       7.2071
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Rheinisch-Bergischer Kreis",
@@ -2287,7 +2287,7 @@
       7.1432
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 282700
   },
   {
     "city_name": "Siegen-Wittgenstein",
@@ -2367,7 +2367,7 @@
       7.9862
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 37226
   },
   {
     "city_name": "Wesel",
@@ -2377,7 +2377,7 @@
       6.54587
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 60357
   },
   {
     "city_name": "Wuppertal",
@@ -2427,7 +2427,7 @@
       8.11
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 130927
   },
   {
     "city_name": "Bad Kreuznach",
@@ -2437,7 +2437,7 @@
       7.69
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 155306
   },
   {
     "city_name": "Bernkastel-Wittlich",
@@ -2467,7 +2467,7 @@
       7.91
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Eifelkreis Bitburg-Pr\u00fcm",
@@ -2477,7 +2477,7 @@
       6.41
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Frankenthal (Pfalz)",
@@ -2547,7 +2547,7 @@
       8.271111
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 217118
   },
   {
     "city_name": "Mainz-Bingen",
@@ -2567,7 +2567,7 @@
       7.33
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 210035
   },
   {
     "city_name": "Neustadt an der Weinstra\u00dfe",
@@ -2597,7 +2597,7 @@
       7.5
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Rhein-Lahn-Kreis",
@@ -2607,7 +2607,7 @@
       7.707049
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Rhein-Pfalz-Kreis",
@@ -2617,7 +2617,7 @@
       8.36
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Speyer",
@@ -2647,7 +2647,7 @@
       6.6439
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 110636
   },
   {
     "city_name": "Vulkaneifel",
@@ -2667,7 +2667,7 @@
       7.87
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Merzig-Wadern",
@@ -2707,7 +2707,7 @@
       6.78
     ],
     "state": "Saarland",
-    "population": -1
+    "population": 240800
   },
   {
     "city_name": "Saarpfalz-Kreis",
@@ -2717,7 +2717,7 @@
       7.333333
     ],
     "state": "Saarland",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "St. Wendel",
@@ -2757,7 +2757,7 @@
       13.73836
     ],
     "state": "Sachsen",
-    "population": -1
+    "population": 554649
   },
   {
     "city_name": "Erzgebirgskreis",
@@ -2767,7 +2767,7 @@
       12.95
     ],
     "state": "Sachsen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "G\u00f6rlitz",
@@ -2807,7 +2807,7 @@
       12.78
     ],
     "state": "Sachsen",
-    "population": -1
+    "population": 198629
   },
   {
     "city_name": "S\u00e4chsische Schweiz-Osterzgebirge",
@@ -2847,7 +2847,7 @@
       12.07
     ],
     "state": "Sachsen-Anhalt",
-    "population": -1
+    "population": 168475
   },
   {
     "city_name": "Burgenlandkreis",
@@ -2857,7 +2857,7 @@
       11.88
     ],
     "state": "Sachsen-Anhalt",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "B\u00f6rde",
@@ -2887,7 +2887,7 @@
       10.96
     ],
     "state": "Sachsen-Anhalt",
-    "population": -1
+    "population": 257400
   },
   {
     "city_name": "Jerichower Land",
@@ -2917,7 +2917,7 @@
       11.36
     ],
     "state": "Sachsen-Anhalt",
-    "population": -1
+    "population": 144735
   },
   {
     "city_name": "Saalekreis",
@@ -2927,7 +2927,7 @@
       11.87
     ],
     "state": "Sachsen-Anhalt",
-    "population": -1
+    "population": 186431
   },
   {
     "city_name": "Salzlandkreis",
@@ -2937,7 +2937,7 @@
       11.64
     ],
     "state": "Sachsen-Anhalt",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Wittenberg",
@@ -3027,7 +3027,7 @@
       9.73
     ],
     "state": "Schleswig-Holstein",
-    "population": -1
+    "population": 43280
   },
   {
     "city_name": "Pl\u00f6n",
@@ -3117,7 +3117,7 @@
       10.31586
     ],
     "state": "Th\u00fcringen",
-    "population": -1
+    "population": 42370
   },
   {
     "city_name": "Erfurt",
@@ -3167,7 +3167,7 @@
       11.586389
     ],
     "state": "Th\u00fcringen",
-    "population": -1
+    "population": 111407
   },
   {
     "city_name": "Kyffh\u00e4userkreis",
@@ -3207,7 +3207,7 @@
       11.71
     ],
     "state": "Th\u00fcringen",
-    "population": -1
+    "population": -2
   },
   {
     "city_name": "Saalfeld-Rudolstadt",
@@ -3237,7 +3237,7 @@
       10.693333
     ],
     "state": "Th\u00fcringen",
-    "population": -1
+    "population": 36955
   },
   {
     "city_name": "Weimar",
@@ -3247,7 +3247,7 @@
       11.329722
     ],
     "state": "Th\u00fcringen",
-    "population": -1
+    "population": 65090
   },
   {
     "city_name": "Weimarer Land",
