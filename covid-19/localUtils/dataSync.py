@@ -101,7 +101,8 @@ missing_population_map = {
     "Dithmarschen": -100,
     "Nordfriesland": -100,
     "Ostholstein": 200581,
-    "Schleswig-Flensburg": 200025
+    "Schleswig-Flensburg": 200025,
+    "Münster": 314319
 }
 
 def loader(data, keyword):
