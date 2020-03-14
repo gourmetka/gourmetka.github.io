@@ -1099,7 +1099,7 @@
   },
   {
     "city_name": "Bergstra\u00dfe",
-    "infected": 6,
+    "infected": 15,
     "geo": [
       49.640764,
       8.644375
@@ -1107,8 +1107,17 @@
     "state": "Hessen"
   },
   {
+    "city_name": "Darmstadt",
+    "infected": 2,
+    "geo": [
+      49.866667,
+      8.65
+    ],
+    "state": "Hessen"
+  },
+  {
     "city_name": "Darmstadt-Dieburg",
-    "infected": 4,
+    "infected": 5,
     "geo": [
       49.898472,
       8.675556
@@ -1126,7 +1135,7 @@
   },
   {
     "city_name": "Fulda",
-    "infected": 8,
+    "infected": 10,
     "geo": [
       50.560139,
       9.686111
@@ -1135,7 +1144,7 @@
   },
   {
     "city_name": "Gie\u00dfen",
-    "infected": 5,
+    "infected": 8,
     "geo": [
       50.587222,
       8.669722
@@ -1144,7 +1153,7 @@
   },
   {
     "city_name": "Gro\u00df-Gerau",
-    "infected": 3,
+    "infected": 8,
     "geo": [
       49.921389,
       8.481806
@@ -1162,7 +1171,7 @@
   },
   {
     "city_name": "Hochtaunuskreis",
-    "infected": 5,
+    "infected": 7,
     "geo": [
       50.215417,
       8.616389
@@ -1171,7 +1180,7 @@
   },
   {
     "city_name": "Kassel",
-    "infected": 14,
+    "infected": 20,
     "geo": [
       51.311111,
       9.485903
@@ -1180,7 +1189,7 @@
   },
   {
     "city_name": "Lahn-Dill-Kreis",
-    "infected": 5,
+    "infected": 9,
     "geo": [
       50.5,
       8.500139
@@ -1189,7 +1198,7 @@
   },
   {
     "city_name": "Main-Kinzig-Kreis",
-    "infected": 11,
+    "infected": 13,
     "geo": [
       50.25,
       9.3
@@ -1198,7 +1207,7 @@
   },
   {
     "city_name": "Main-Taunus-Kreis",
-    "infected": 4,
+    "infected": 12,
     "geo": [
       50.079583,
       8.449583
@@ -1207,7 +1216,7 @@
   },
   {
     "city_name": "Marburg-Biedenkopf",
-    "infected": 7,
+    "infected": 8,
     "geo": [
       50.786173,
       8.771918
@@ -1234,7 +1243,7 @@
   },
   {
     "city_name": "Schwalm-Eder-Kreis",
-    "infected": 4,
+    "infected": 9,
     "geo": [
       51.035,
       9.400833
@@ -1243,7 +1252,7 @@
   },
   {
     "city_name": "Vogelsbergkreis",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       50.640764,
       9.399792
@@ -1252,7 +1261,7 @@
   },
   {
     "city_name": "Waldeck-Frankenberg",
-    "infected": 4,
+    "infected": 5,
     "geo": [
       51.269298,
       8.856665
