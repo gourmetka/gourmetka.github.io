@@ -24,7 +24,7 @@ def get_city_wikidata(city, country):
   SELECT ?city ?cityLabel ?country ?countryLabel ?population
   WHERE
   {
-    ?city rdfs:label '%s'@en.
+    ?city rdfs:label '%s'@de.
     ?city wdt:P1082 ?population.
     ?city wdt:P17 ?country.
     ?city rdfs:label ?cityLabel.
@@ -100,7 +100,7 @@ def get_state_city_map(data):
 
 
 def stateofCity(city_name_obj, city, lat, long):
-  print ("Getting state info of: %s" % city)
+  # print ("Getting state info of: %s" % city)
   if city in city_name_obj.keys():
     return city_name_obj[city]
   else:
@@ -108,12 +108,12 @@ def stateofCity(city_name_obj, city, lat, long):
   return location.raw['address']['state']
 
 def getPopupation(city_population_obj, city):
-  print ("Get population of: %s" % city)
+  # print ("Get population of: %s" % city)
   if city in city_population_obj.keys():
-    print ("[EXIST] found data for %s" % city)
+    # print ("[EXIST] found data for %s" % city)
     return city_population_obj[city]
   elif "kreis" in city.lower():
-    print ("[SKIP] skip all city name with kreis")
+    # print ("[SKIP] skip all city name with kreis")
     return -2
   else:
     wiki_obj = get_city_wikidata(city, "Germany")

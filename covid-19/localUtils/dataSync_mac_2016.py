@@ -24,7 +24,7 @@ def get_city_wikidata(city, country):
   SELECT ?city ?cityLabel ?country ?countryLabel ?population
   WHERE
   {
-    ?city rdfs:label '%s'@en.
+    ?city rdfs:label '%s'@de.
     ?city wdt:P1082 ?population.
     ?city wdt:P17 ?country.
     ?city rdfs:label ?cityLabel.
