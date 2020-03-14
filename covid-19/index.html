@@ -49,8 +49,9 @@
   
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" align="center">
             <div id="mapContainer" align="center" style="width: 100%; height: 500px;"></div>
+            <input v-model="showYourLoc" type="checkbox"/> 显示当前地理位置
           </div>
           <div class="col-lg-6" style="margin-top:50px;">
             <div class="table-responsive" v-if="data && data.length > 0">

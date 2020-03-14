@@ -27,7 +27,14 @@ $(document).ready(async () => {
         citySort: {
           category: 'city_name',
           icon: '▴'
-        }
+        },
+        showYourLoc: false,
+        yourLoc: [0, 0]
+      }
+    },
+    watch: {
+      showYourLoc (val) {
+        this.loadMap()
       }
     },
     methods: {
@@ -67,8 +74,83 @@ $(document).ready(async () => {
           this.citySort.icon = '▴'
         }
       },
+      getSeries: function () {
+        let geoSerie = {
+          mapType: '德国',
+          data: this.visualData,
+          boundingCoords: [[5.98815, 47.40724], [14.98853, 54.9079]],
+          coordinateSystem: 'geo',
+          type: 'map',
+          roam: false,
+          name: '现存确诊',
+          nameMap: {
+            'Baden-Württemberg': 'Baden-Württemberg',
+            'Free State of Bavaria': 'Bayern',
+            'Berlin': 'Berlin',
+            'Brandenburg': 'Brandenburg',
+            'Bremen': 'Bremen',
+            'Hamburg': 'Hamburg',
+            'Hesse': 'Hessen',
+            'Mecklenburg-Vorpommern': 'Mecklenburg-Vorpommern',
+            'Lower Saxony': 'Niedersachsen',
+            'North Rhine-Westphalia': 'Nordrhein-Westfalen',
+            'Rhineland-Palatinate': 'Rheinland-Pfalz',
+            'Saarland': 'Saarland',
+            'Saxony': 'Sachsen',
+            'Saxony-Anhalt': 'Sachsen-Anhalt',
+            'Schleswig-Holstein': 'Schleswig-Holstein',
+            'Thuringia': 'Thüringen'
+          }
+        }
+
+        let scatterSerie = {
+          name: 'cities',
+          type: 'scatter',
+          data: this.visualCityData,
+          coordinateSystem: 'geo',
+          symbolSize: function (val) {
+            let r = 2
+            return val[2] / 2 < r ? r : val[2] / 5
+          },
+          symbol: `circle`,
+          itemStyle: {
+            color: 'rgba(255, 255, 255, 0.6)',
+            borderWidth: 1.5,
+            borderColor: 'rgba(187, 0, 0, 0.8)',
+            borderType: 'solid'
+          },
+          silent: true
+        }
+
+        let yourLocSerie = {
+          name: 'yourloc',
+          type: 'effectScatter',
+          data: [this.yourLoc],
+          coordinateSystem: 'geo',
+          symbolSize: 10,
+          symbol: `circle`,
+          itemStyle: {
+            color: '#427CAC',
+            opacity: 0.7
+          },
+          showEffectOn: 'render',
+          rippleEffect: {
+            brushType: 'fill',
+            shadowBlur: 10,
+            scale: 10
+          },
+          silent: true
+        }
+
+        if (this.showYourLoc) {
+          return [geoSerie, scatterSerie, yourLocSerie]
+        } else {
+          return [geoSerie, scatterSerie]
+        }
+      },
       loadMap: function () {
         let deChart = echarts.init(document.getElementById('mapContainer'))
+        deChart.clear()
         let options = {
           tooltip: {
             trigger: 'item',
@@ -121,52 +203,12 @@ $(document).ready(async () => {
             roam: false,
             silent: true
           },
-          series: [{
-            mapType: '德国',
-            data: this.visualData,
-            boundingCoords: [[5.98815, 47.40724], [14.98853, 54.9079]],
-            coordinateSystem: 'geo',
-            type: 'map',
-            roam: false,
-            name: '现存确诊',
-            nameMap: {
-              'Baden-Württemberg': 'Baden-Württemberg',
-              'Free State of Bavaria': 'Bayern',
-              'Berlin': 'Berlin',
-              'Brandenburg': 'Brandenburg',
-              'Bremen': 'Bremen',
-              'Hamburg': 'Hamburg',
-              'Hesse': 'Hessen',
-              'Mecklenburg-Vorpommern': 'Mecklenburg-Vorpommern',
-              'Lower Saxony': 'Niedersachsen',
-              'North Rhine-Westphalia': 'Nordrhein-Westfalen',
-              'Rhineland-Palatinate': 'Rheinland-Pfalz',
-              'Saarland': 'Saarland',
-              'Saxony': 'Sachsen',
-              'Saxony-Anhalt': 'Sachsen-Anhalt',
-              'Schleswig-Holstein': 'Schleswig-Holstein',
-              'Thuringia': 'Thüringen'
-            }
-          }, {
-            name: 'cities',
-            type: 'scatter',
-            data: this.visualCityData,
-            coordinateSystem: 'geo',
-            symbolSize: function (val) {
-              let r = 2
-              return val[2] / 2 < r ? r : val[2] / 5
-            },
-            symbol: `circle`,
-            itemStyle: {
-              color: 'rgba(255, 255, 255, 0.6)',
-              borderWidth: 1.5,
-              borderColor: 'rgba(187, 0, 0, 0.8)',
-              borderType: 'solid'
-            },
-            silent: true
-          }]
+          series: this.getSeries()
         }
-        deChart.setOption(options)
+        deChart.setOption(options, true)
+      },
+      setYourLoc: function (position) {
+        this.yourLoc = [position.coords.longitude, position.coords.latitude]
       }
     },
     computed: {
@@ -279,6 +321,15 @@ $(document).ready(async () => {
     mounted () {
       setTimeout(() => {
         this.loadMap()
+
+        try {
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(this.setYourLoc)
+            this.loadMap()
+          }
+        } catch (err) {
+          // do nothing
+        }
       }, 500)
     }
   })
