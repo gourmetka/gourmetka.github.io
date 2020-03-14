@@ -75,7 +75,7 @@
                       </span>
                     </td>
                     <td class="text-align-center infected-text"> 
-                      <span v-if="d">
+                      <span v-if="d" :title="`人口：${d.population}`">
                         {{ `${((d.infected / d.population) * 100).toFixed(4)}%` }} 
                       </span>
                       <span v-else>
@@ -96,7 +96,7 @@
                       </span>
                     </td>
                     <td class="text-align-center infected-text"> 
-                      <span v-if="totalInfected">
+                      <span v-if="totalInfected" :title="`人口：${population}`">
                         <strong> {{ `${((totalInfected / population) * 100).toFixed(4)}%` }} </strong>
                       </span>
                       <span v-else>
@@ -162,7 +162,7 @@
                       </span>
                     </td>
                     <td class="text-align-center infected-text"> 
-                      <span v-if="d && d.population > 0">
+                      <span v-if="d && d.population > 0" :title="`人口：${d.population}`">
                         {{ `${((d.infected / d.population) * 100).toFixed(4)}%` }} 
                       </span>
                       <span v-else>
