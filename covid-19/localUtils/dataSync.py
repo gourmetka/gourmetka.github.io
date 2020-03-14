@@ -11,6 +11,7 @@ from geopy.geocoders import Nominatim
 import qwikidata
 import qwikidata.sparql
 import re
+import time
 
 geopy.geocoders.options.default_user_agent = 'covid-19'
 geopy.geocoders.options.default_timeout = 7
@@ -18,28 +19,29 @@ geolocator = Nominatim()
 
 # https://stackoverflow.com/questions/42335273/python-getting-the-population-of-a-city-given-its-name
 def get_city_wikidata(city, country):
-    query = """
-    SELECT ?city ?cityLabel ?country ?countryLabel ?population
-    WHERE
-    {
-      ?city rdfs:label '%s'@en.
-      ?city wdt:P1082 ?population.
-      ?city wdt:P17 ?country.
-      ?city rdfs:label ?cityLabel.
-      ?country rdfs:label ?countryLabel.
-      FILTER(LANG(?cityLabel) = "de").
-      FILTER(LANG(?countryLabel) = "en").
-      FILTER(CONTAINS(?countryLabel, "%s")).
-    }
-    """ % (city, country)
-    try:
-      res = qwikidata.sparql.return_sparql_query_results(query)
-      if len(res['results']['bindings']) > 0:
-        out = res['results']['bindings'][0]
-        return out
-    except:
-      print ("[ERR] Error when parsing res.")
-    return None
+  time.sleep(1)
+  query = """
+  SELECT ?city ?cityLabel ?country ?countryLabel ?population
+  WHERE
+  {
+    ?city rdfs:label '%s'@en.
+    ?city wdt:P1082 ?population.
+    ?city wdt:P17 ?country.
+    ?city rdfs:label ?cityLabel.
+    ?country rdfs:label ?countryLabel.
+    FILTER(LANG(?cityLabel) = "de").
+    FILTER(LANG(?countryLabel) = "en").
+    FILTER(CONTAINS(?countryLabel, "%s")).
+  }
+  """ % (city, country)
+  try:
+    res = qwikidata.sparql.return_sparql_query_results(query)
+    if len(res['results']['bindings']) > 0:
+      out = res['results']['bindings'][0]
+      return out
+  except:
+    print ("[ERR] Error when parsing res.")
+  return None
 
 script_dir = os.path.dirname(__file__)
 

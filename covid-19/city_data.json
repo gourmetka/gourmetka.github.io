@@ -617,7 +617,7 @@
       11.748889
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 118518
   },
   {
     "city_name": "F\u00fcrstenfeldbruck",
@@ -647,7 +647,7 @@
       10.61
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 80257
   },
   {
     "city_name": "Hof",
@@ -667,7 +667,7 @@
       11.42434
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 136981
   },
   {
     "city_name": "Kaufbeuren",
@@ -717,7 +717,7 @@
       10.95
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 29132
   },
   {
     "city_name": "Landshut",
@@ -727,7 +727,7 @@
       12.152222
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 72404
   },
   {
     "city_name": "Lindau (Bodensee)",
@@ -767,7 +767,7 @@
       11.81
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 99726
   },
   {
     "city_name": "Miltenberg",
@@ -827,7 +827,7 @@
       12.1
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 94486
   },
   {
     "city_name": "N\u00fcrnberg",
@@ -847,7 +847,7 @@
       11.37
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 149127
   },
   {
     "city_name": "Oberallg\u00e4u",
@@ -897,7 +897,7 @@
       13.1
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 11001
   },
   {
     "city_name": "Regensburg",
@@ -917,7 +917,7 @@
       12.128889
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 317900
   },
   {
     "city_name": "Roth",
@@ -937,7 +937,7 @@
       12.87
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 104013
   },
   {
     "city_name": "Schwabach",
@@ -957,7 +957,7 @@
       12.25
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 271200
   },
   {
     "city_name": "Schweinfurt",
@@ -1007,7 +1007,7 @@
       12.2
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 77865
   },
   {
     "city_name": "Traunstein",
@@ -1047,7 +1047,7 @@
       10.89
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 92331
   },
   {
     "city_name": "W\u00fcrzburg",
@@ -1057,7 +1057,7 @@
       9.929444
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 161340
   },
   {
     "city_name": "Berlin",
@@ -1197,7 +1197,7 @@
       8.807311
     ],
     "state": "Bremen",
-    "population": -1
+    "population": 569352
   },
   {
     "city_name": "Bremerhaven",
@@ -1237,7 +1237,7 @@
       8.65
     ],
     "state": "Hessen",
-    "population": -1
+    "population": 159207
   },
   {
     "city_name": "Darmstadt-Dieburg",
@@ -1257,7 +1257,7 @@
       8.682222
     ],
     "state": "Hessen",
-    "population": -1
+    "population": 753056
   },
   {
     "city_name": "Fulda",
@@ -1277,7 +1277,7 @@
       8.669722
     ],
     "state": "Hessen",
-    "population": -1
+    "population": 88546
   },
   {
     "city_name": "Gro\u00df-Gerau",
@@ -1357,7 +1357,7 @@
       8.771918
     ],
     "state": "Hessen",
-    "population": -1
+    "population": 241279
   },
   {
     "city_name": "Offenbach am Main",
@@ -1367,7 +1367,7 @@
       8.785651
     ],
     "state": "Hessen",
-    "population": -1
+    "population": 128744
   },
   {
     "city_name": "Rheingau-Taunus-Kreis",
@@ -1407,7 +1407,7 @@
       8.856665
     ],
     "state": "Hessen",
-    "population": -1
+    "population": 157293
   },
   {
     "city_name": "Wetteraukreis",
@@ -1517,7 +1517,7 @@
       10.1
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 178370
   },
   {
     "city_name": "Cloppenburg",
@@ -1547,7 +1547,7 @@
       8.633889
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 77607
   },
   {
     "city_name": "Diepholz",
@@ -1557,7 +1557,7 @@
       8.73
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 215082
   },
   {
     "city_name": "Emden",
@@ -1597,7 +1597,7 @@
       10.6
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 174749
   },
   {
     "city_name": "Goslar",
@@ -1647,7 +1647,7 @@
       9.96
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 250326
   },
   {
     "city_name": "Heidekreis",
@@ -1707,7 +1707,7 @@
       10.57
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 181605
   },
   {
     "city_name": "Nienburg/Weser",
@@ -1717,7 +1717,7 @@
       9.11
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 121503
   },
   {
     "city_name": "Northeim",
@@ -1737,7 +1737,7 @@
       8.213889
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 168210
   },
   {
     "city_name": "Osnabr\u00fcck",
@@ -1757,7 +1757,7 @@
       8.81
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 112695
   },
   {
     "city_name": "Region Hannover",
@@ -1777,7 +1777,7 @@
       9.31
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 163372
   },
   {
     "city_name": "Salzgitter",
@@ -1807,7 +1807,7 @@
       9.473678
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 201638
   },
   {
     "city_name": "Uelzen",
@@ -1827,7 +1827,7 @@
       8.22
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 139671
   },
   {
     "city_name": "Verden",
@@ -1847,7 +1847,7 @@
       8.1075
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 76278
   },
   {
     "city_name": "Wittmund",
@@ -1857,7 +1857,7 @@
       7.71
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 56881
   },
   {
     "city_name": "Wolfsburg",
@@ -1947,7 +1947,7 @@
       6.762692
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 498590
   },
   {
     "city_name": "D\u00fcren",
@@ -1967,7 +1967,7 @@
       6.782778
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 619294
   },
   {
     "city_name": "Ennepe-Ruhr-Kreis",
@@ -1987,7 +1987,7 @@
       7.014761
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 583109
   },
   {
     "city_name": "Euskirchen",
@@ -2007,7 +2007,7 @@
       7.100556
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 260400
   },
   {
     "city_name": "G\u00fctersloh",
@@ -2037,7 +2037,7 @@
       7.817117
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 3456
   },
   {
     "city_name": "Heinsberg",
@@ -2067,7 +2067,7 @@
       7.223889
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 156374
   },
   {
     "city_name": "Hochsauerlandkreis",
@@ -2087,7 +2087,7 @@
       6.1382
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 51845
   },
   {
     "city_name": "Krefeld",
@@ -2097,7 +2097,7 @@
       6.564167
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 227020
   },
   {
     "city_name": "K\u00f6ln",
@@ -2117,7 +2117,7 @@
       6.983333
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 163838
   },
   {
     "city_name": "Lippe",
@@ -2167,7 +2167,7 @@
       6.441944
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 260000
   },
   {
     "city_name": "M\u00fclheim an der Ruhr",
@@ -2217,7 +2217,7 @@
       7.976111
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 24688
   },
   {
     "city_name": "Paderborn",
@@ -2227,7 +2227,7 @@
       8.757222
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 150580
   },
   {
     "city_name": "Recklinghausen",
@@ -2317,7 +2317,7 @@
       7.083333
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 159360
   },
   {
     "city_name": "Steinfurt",
@@ -2327,7 +2327,7 @@
       7.58
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 34084
   },
   {
     "city_name": "St\u00e4dteregion Aachen",
@@ -2387,7 +2387,7 @@
       7.150829
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 354382
   },
   {
     "city_name": "Ahrweiler",
@@ -2417,7 +2417,7 @@
       8.16
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 125173
   },
   {
     "city_name": "Bad D\u00fcrkheim",
@@ -2507,7 +2507,7 @@
       7.768889
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 99845
   },
   {
     "city_name": "Koblenz",
@@ -2517,7 +2517,7 @@
       7.593889
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 114024
   },
   {
     "city_name": "Kusel",
@@ -2527,7 +2527,7 @@
       7.47
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 13282
   },
   {
     "city_name": "Ludwigshafen am Rhein",
@@ -2577,7 +2577,7 @@
       8.15
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 53148
   },
   {
     "city_name": "Neuwied",
@@ -2627,7 +2627,7 @@
       8.434167
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 50378
   },
   {
     "city_name": "S\u00fcdliche Weinstra\u00dfe",
@@ -2677,7 +2677,7 @@
       6.68
     ],
     "state": "Saarland",
-    "population": -1
+    "population": 103520
   },
   {
     "city_name": "Neunkirchen",
@@ -2737,7 +2737,7 @@
       14.43
     ],
     "state": "Sachsen",
-    "population": -1
+    "population": 39087
   },
   {
     "city_name": "Chemnitz",
@@ -2747,7 +2747,7 @@
       12.924167
     ],
     "state": "Sachsen",
-    "population": -1
+    "population": 248600
   },
   {
     "city_name": "Dresden",
@@ -2777,7 +2777,7 @@
       14.82
     ],
     "state": "Sachsen",
-    "population": -1
+    "population": 260000
   },
   {
     "city_name": "Leipzig",
@@ -2797,7 +2797,7 @@
       13.483333
     ],
     "state": "Sachsen",
-    "population": -1
+    "population": 245200
   },
   {
     "city_name": "Nordsachsen",
@@ -2827,7 +2827,7 @@
       12.492222
     ],
     "state": "Sachsen",
-    "population": -1
+    "population": 325137
   },
   {
     "city_name": "Altmarkkreis Salzwedel",
@@ -2867,7 +2867,7 @@
       11.35
     ],
     "state": "Sachsen-Anhalt",
-    "population": -1
+    "population": 174001
   },
   {
     "city_name": "Halle (Saale)",
@@ -2877,7 +2877,7 @@
       11.97
     ],
     "state": "Sachsen-Anhalt",
-    "population": -1
+    "population": 239257
   },
   {
     "city_name": "Harz",
@@ -2907,7 +2907,7 @@
       11.616667
     ],
     "state": "Sachsen-Anhalt",
-    "population": -1
+    "population": 238697
   },
   {
     "city_name": "Mansfeld-S\u00fcdharz",
@@ -2977,7 +2977,7 @@
       10.6
     ],
     "state": "Schleswig-Holstein",
-    "population": -1
+    "population": 192999
   },
   {
     "city_name": "Kiel",
@@ -2987,7 +2987,7 @@
       10.14019
     ],
     "state": "Schleswig-Holstein",
-    "population": -1
+    "population": 247548
   },
   {
     "city_name": "L\u00fcbeck",
@@ -2997,7 +2997,7 @@
       10.683889
     ],
     "state": "Schleswig-Holstein",
-    "population": -1
+    "population": 235300
   },
   {
     "city_name": "Nordfriesland",
@@ -3037,7 +3037,7 @@
       10.36
     ],
     "state": "Schleswig-Holstein",
-    "population": -1
+    "population": 8914
   },
   {
     "city_name": "Rendsburg-Eckernf\u00f6rde",
@@ -3047,7 +3047,7 @@
       9.78
     ],
     "state": "Schleswig-Holstein",
-    "population": -1
+    "population": 248700
   },
   {
     "city_name": "Schleswig-Flensburg",
@@ -3077,7 +3077,7 @@
       9.51
     ],
     "state": "Schleswig-Holstein",
-    "population": -1
+    "population": 2743
   },
   {
     "city_name": "Stormarn",
@@ -3107,7 +3107,7 @@
       10.25
     ],
     "state": "Th\u00fcringen",
-    "population": -1
+    "population": 101325
   },
   {
     "city_name": "Eisenach",
@@ -3137,7 +3137,7 @@
       12.083333
     ],
     "state": "Th\u00fcringen",
-    "population": -1
+    "population": 94152
   },
   {
     "city_name": "Gotha",
@@ -3147,7 +3147,7 @@
       10.69
     ],
     "state": "Th\u00fcringen",
-    "population": -1
+    "population": 45733
   },
   {
     "city_name": "Ilm-Kreis",
@@ -3187,7 +3187,7 @@
       10.73
     ],
     "state": "Th\u00fcringen",
-    "population": -1
+    "population": 85355
   },
   {
     "city_name": "Saale-Holzland-Kreis",
@@ -3217,7 +3217,7 @@
       11.31
     ],
     "state": "Th\u00fcringen",
-    "population": -1
+    "population": 109278
   },
   {
     "city_name": "Schmalkalden-Meiningen",
