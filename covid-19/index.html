@@ -137,7 +137,7 @@
                     <th style="width: 50px;">#</th>
                     <th @click="sortCity('city_name')" scope="col">地区 {{ citySort.category === "city_name" ? citySort.icon : '' }}</th>
                     <th style="width: 80px;" @click="sortCity('infected')" scope="col" class="text-align-center">现存 {{ citySort.category === "infected" ? citySort.icon : '' }}</th>
-                    <th scope="col" class="text-align-center">确诊比</th>
+                    <th scope="col" class="text-align-center">确诊比*</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -181,7 +181,7 @@
         ★☆ 每天想起来的时候就更新一下 ☆★<br/>
         最近更新时间：{{ updateTimestamp | toDEDateTime }} <br/>
         各联邦州人口数据来自维基百科 (2018)<br/>
-        各城市人口数据来自维基百科城市最新数据<br/>
+        * 各城市人口数据来自维基百科城市最新数据，由于是直接抓取 wikidata 的数据，数据误差可能很大。城市的确诊比只作为参考。<br/>
         Color theme: <a href="https://experience.sap.com/fiori-design-web/" target="_blank">SAP Fiori</a> <br/>
         Icon: <a href="https://svgrepo.com" target="_blank">svgrepo.com</a>
       </div>
