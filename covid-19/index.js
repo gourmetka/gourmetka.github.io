@@ -153,7 +153,8 @@ $(document).ready(async () => {
             data: this.visualCityData,
             coordinateSystem: 'geo',
             symbolSize: function (val) {
-              return Math.log1p(val[2]) * 3
+              let r = 2
+              return val[2] / 2 < r ? r : val[2] / 5
             },
             symbol: `circle`,
             itemStyle: {
