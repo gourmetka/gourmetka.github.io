@@ -87,7 +87,7 @@
       8.753056
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": 198905
   },
   {
     "city_name": "Esslingen",
@@ -337,7 +337,7 @@
       8.467778
     ],
     "state": "Baden-W\u00fcrttemberg",
-    "population": -1
+    "population": 212381
   },
   {
     "city_name": "Schw\u00e4bisch Hall",
@@ -817,7 +817,7 @@
       10.47
     ],
     "state": "Bayern",
-    "population": -1
+    "population": 100364
   },
   {
     "city_name": "Neustadt an der Waldnaab",
@@ -1077,7 +1077,7 @@
       13.7
     ],
     "state": "Brandenburg",
-    "population": -1
+    "population": -100
   },
   {
     "city_name": "Cottbus",
@@ -1097,7 +1097,7 @@
       13.896389
     ],
     "state": "Brandenburg",
-    "population": -1
+    "population": 169067
   },
   {
     "city_name": "Elbe-Elster",
@@ -1107,7 +1107,7 @@
       13.235556
     ],
     "state": "Brandenburg",
-    "population": -1
+    "population": 102638
   },
   {
     "city_name": "Havelland",
@@ -1117,7 +1117,7 @@
       12.3325
     ],
     "state": "Brandenburg",
-    "population": -1
+    "population": -100
   },
   {
     "city_name": "M\u00e4rkisch-Oderland",
@@ -1127,7 +1127,7 @@
       14.15
     ],
     "state": "Brandenburg",
-    "population": -1
+    "population": 194328
   },
   {
     "city_name": "Oberhavel",
@@ -1137,7 +1137,7 @@
       13.21
     ],
     "state": "Brandenburg",
-    "population": -1
+    "population": 211249
   },
   {
     "city_name": "Oberspreewald-Lausitz",
@@ -1147,7 +1147,7 @@
       14.005556
     ],
     "state": "Brandenburg",
-    "population": -1
+    "population": 110476
   },
   {
     "city_name": "Oder-Spree",
@@ -1157,7 +1157,7 @@
       14.22
     ],
     "state": "Brandenburg",
-    "population": -1
+    "population": 178658
   },
   {
     "city_name": "Potsdam-Mittelmark",
@@ -1167,7 +1167,7 @@
       12.595556
     ],
     "state": "Brandenburg",
-    "population": -1
+    "population": 214664
   },
   {
     "city_name": "Spree-Nei\u00dfe",
@@ -1177,7 +1177,7 @@
       14.652778
     ],
     "state": "Brandenburg",
-    "population": -1
+    "population": 114429
   },
   {
     "city_name": "Teltow-Fl\u00e4ming",
@@ -1187,7 +1187,7 @@
       13.28
     ],
     "state": "Brandenburg",
-    "population": -1
+    "population": 168296
   },
   {
     "city_name": "Bremen",
@@ -1227,7 +1227,7 @@
       8.644375
     ],
     "state": "Hessen",
-    "population": -1
+    "population": -100
   },
   {
     "city_name": "Darmstadt",
@@ -1307,7 +1307,7 @@
       8.616389
     ],
     "state": "Hessen",
-    "population": -1
+    "population": 236564
   },
   {
     "city_name": "Kassel",
@@ -1377,7 +1377,7 @@
       8.073264
     ],
     "state": "Hessen",
-    "population": -1
+    "population": 187157
   },
   {
     "city_name": "Schwalm-Eder-Kreis",
@@ -1397,7 +1397,7 @@
       9.399792
     ],
     "state": "Hessen",
-    "population": -1
+    "population": 105878
   },
   {
     "city_name": "Waldeck-Frankenberg",
@@ -1417,7 +1417,7 @@
       8.752431
     ],
     "state": "Hessen",
-    "population": -1
+    "population": 306460
   },
   {
     "city_name": "Wiesbaden",
@@ -1437,7 +1437,7 @@
       12.98
     ],
     "state": "Mecklenburg-Vorpommern",
-    "population": -1
+    "population": -100
   },
   {
     "city_name": "Rostock",
@@ -1467,7 +1467,7 @@
       13.89
     ],
     "state": "Mecklenburg-Vorpommern",
-    "population": -1
+    "population": 236697
   },
   {
     "city_name": "Vorpommern-R\u00fcgen",
@@ -1477,7 +1477,7 @@
       13.02
     ],
     "state": "Mecklenburg-Vorpommern",
-    "population": -1
+    "population": 224684
   },
   {
     "city_name": "Ammerland",
@@ -1617,7 +1617,7 @@
       7.02
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": -100
   },
   {
     "city_name": "G\u00f6ttingen",
@@ -1637,7 +1637,7 @@
       9.39
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 148559
   },
   {
     "city_name": "Harburg",
@@ -1657,7 +1657,7 @@
       9.75
     ],
     "state": "Niedersachsen",
-    "population": -1
+    "population": 139755
   },
   {
     "city_name": "Helmstedt",
@@ -2127,7 +2127,7 @@
       8.847872
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 348391
   },
   {
     "city_name": "Mettmann",
@@ -2257,7 +2257,7 @@
       6.6308
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 470089
   },
   {
     "city_name": "Rhein-Kreis Neuss",
@@ -2267,7 +2267,7 @@
       6.6953
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 451007
   },
   {
     "city_name": "Rhein-Sieg-Kreis",
@@ -2277,7 +2277,7 @@
       7.2071
     ],
     "state": "Nordrhein-Westfalen",
-    "population": -1
+    "population": 599780
   },
   {
     "city_name": "Rheinisch-Bergischer Kreis",
@@ -2487,7 +2487,7 @@
       8.35
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 48561
   },
   {
     "city_name": "Germersheim",
@@ -2597,7 +2597,7 @@
       7.5
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 102937
   },
   {
     "city_name": "Rhein-Lahn-Kreis",
@@ -2607,7 +2607,7 @@
       7.707049
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 122308
   },
   {
     "city_name": "Rhein-Pfalz-Kreis",
@@ -2617,7 +2617,7 @@
       8.36
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 154201
   },
   {
     "city_name": "Speyer",
@@ -2657,7 +2657,7 @@
       6.75
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": -100
   },
   {
     "city_name": "Westerwaldkreis",
@@ -2667,7 +2667,7 @@
       7.87
     ],
     "state": "Rheinland-Pfalz",
-    "population": -1
+    "population": 201597
   },
   {
     "city_name": "Merzig-Wadern",
@@ -2697,7 +2697,7 @@
       6.96
     ],
     "state": "Saarland",
-    "population": -1
+    "population": 329708
   },
   {
     "city_name": "Saarlouis",
@@ -2767,7 +2767,7 @@
       12.95
     ],
     "state": "Sachsen",
-    "population": -1
+    "population": 337696
   },
   {
     "city_name": "G\u00f6rlitz",
@@ -2857,7 +2857,7 @@
       11.88
     ],
     "state": "Sachsen-Anhalt",
-    "population": -1
+    "population": 180190
   },
   {
     "city_name": "B\u00f6rde",
@@ -2897,7 +2897,7 @@
       12.03
     ],
     "state": "Sachsen-Anhalt",
-    "population": -1
+    "population": 89928
   },
   {
     "city_name": "Magdeburg",
@@ -2937,7 +2937,7 @@
       11.64
     ],
     "state": "Sachsen-Anhalt",
-    "population": -1
+    "population": 190560
   },
   {
     "city_name": "Wittenberg",
@@ -2957,7 +2957,7 @@
       9.11
     ],
     "state": "Schleswig-Holstein",
-    "population": -1
+    "population": -100
   },
   {
     "city_name": "Flensburg",
@@ -3007,7 +3007,7 @@
       9.051147
     ],
     "state": "Schleswig-Holstein",
-    "population": -1
+    "population": -100
   },
   {
     "city_name": "Ostholstein",
@@ -3017,7 +3017,7 @@
       10.82
     ],
     "state": "Schleswig-Holstein",
-    "population": -1
+    "population": 200581
   },
   {
     "city_name": "Pinneberg",
@@ -3057,7 +3057,7 @@
       9.51
     ],
     "state": "Schleswig-Holstein",
-    "population": -1
+    "population": 200025
   },
   {
     "city_name": "Segeberg",

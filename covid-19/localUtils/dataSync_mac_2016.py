@@ -57,6 +57,53 @@ diff_name_region_map = {
   "Thuringia": "Thüringen"
 }
 
+missing_population_map = {
+    "Enzkreis": 198905,
+    "Schwarzwald-Baar-Kreis": 212381,
+    "Neustadt an der Aisch-Bad Windsheim": 100364,
+    "Barnim": -100,
+    "Dahme-Spreewald": 169067,
+    "Elbe-Elster": 102638,
+    "Havelland": -100,
+    "Märkisch-Oderland": 194328,
+    "Oberhavel": 211249,
+    "Oberspreewald-Lausitz": 110476,
+    "Oder-Spree": 178658,
+    "Potsdam-Mittelmark": 214664,
+    "Spree-Neiße": 114429,
+    "Teltow-Fläming": 168296,
+    "Bergstraße": -100,
+    "Hochtaunuskreis": 236564,
+    "Rheingau-Taunus-Kreis": 187157,
+    "Vogelsbergkreis": 	105878,
+    "Wetteraukreis": 306460,
+    "Mecklenburgische Seenplatte": -100,
+    "Vorpommern-Greifswald": 236697,
+    "Vorpommern-Rügen": 224684,
+    "Grafschaft Bentheim": -100,
+    "Hameln-Pyrmont": 148559,
+    "Heidekreis": 139755,
+    "Lippe": 348391,
+    "Rhein-Erft-Kreis": 470089,
+    "Rhein-Kreis Neuss": 451007,
+    "Rhein-Sieg-Kreis": 599780,
+    "Frankenthal (Pfalz)": 48561,
+    "Rhein-Hunsrück-Kreis": 102937,
+    "Rhein-Lahn-Kreis": 122308,
+    "Rhein-Pfalz-Kreis": 154201,
+    "Vulkaneifel": -100,
+    "Westerwaldkreis": 201597,
+    "Regionalverband Saarbrücken": 329708,
+    "Erzgebirgskreis": 337696,
+    "Burgenlandkreis": 180190,
+    "Jerichower Land": 89928,
+    "Salzlandkreis": 190560,
+    "Dithmarschen": -100,
+    "Nordfriesland": -100,
+    "Ostholstein": 200581,
+    "Schleswig-Flensburg": 200025
+}
+
 def loader(data, keyword):
   loader_state = False
   region_array_str = ""
@@ -108,19 +155,19 @@ def stateofCity(city_name_obj, city, lat, long):
   return location.raw['address']['state']
 
 def getPopupation(city_population_obj, city):
-  print ("Get population of: %s" % city)
+  # print ("Get population of: %s" % city)
   if city in city_population_obj.keys():
     # print ("[EXIST] found data for %s" % city)
     return city_population_obj[city]
-  # elif "kreis" in city.lower():
-  #   # print ("[SKIP] skip all city name with kreis")
-  #   return -2
+  elif city in missing_population_map.keys():
+    return missing_population_map[city]
   else:
     wiki_obj = get_city_wikidata(city, "Deutschland")
     if wiki_obj is not None:
       return int(wiki_obj["population"]["value"])
     else:
-      print ("[ERR] Wikidata doesn't have population data for %s" % city)
+      # print ("[ERR] Wikidata doesn't have population data for %s" % city)
+      print (city)
       return -1
 
 def locationofGeo(city,lat,long):
