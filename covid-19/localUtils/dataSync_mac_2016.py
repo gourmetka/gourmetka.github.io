@@ -104,7 +104,8 @@ missing_population_map = {
     "Havelland": 160710,
     "Mecklenburgische Seenplatte": 261816,
     "Helmstedt": 91720,
-    "Holzminden": 19998
+    "Holzminden": 19998,
+    "Ludwigslust-Parchim": 212618
 
 }
 

@@ -1071,7 +1071,7 @@
   },
   {
     "city_name": "Barnim",
-    "infected": 4,
+    "infected": 8,
     "geo": [
       52.82,
       13.7
@@ -1081,7 +1081,7 @@
   },
   {
     "city_name": "Cottbus",
-    "infected": 8,
+    "infected": 13,
     "geo": [
       51.760556,
       14.334167
@@ -1131,7 +1131,7 @@
   },
   {
     "city_name": "Oberhavel",
-    "infected": 1,
+    "infected": 4,
     "geo": [
       52.91,
       13.21
@@ -1151,13 +1151,23 @@
   },
   {
     "city_name": "Oder-Spree",
-    "infected": 4,
+    "infected": 7,
     "geo": [
       52.24,
       14.22
     ],
     "state": "Brandenburg",
     "population": 178658
+  },
+  {
+    "city_name": "Potsdam",
+    "infected": 1,
+    "geo": [
+      52.395833,
+      13.061389
+    ],
+    "state": "Brandenburg",
+    "population": 178089
   },
   {
     "city_name": "Potsdam-Mittelmark",
@@ -1171,7 +1181,7 @@
   },
   {
     "city_name": "Spree-Nei\u00dfe",
-    "infected": 5,
+    "infected": 10,
     "geo": [
       51.75,
       14.652778
@@ -1428,6 +1438,26 @@
     ],
     "state": "Hessen",
     "population": 278342
+  },
+  {
+    "city_name": "currently unknown",
+    "infected": 7,
+    "geo": [
+      -90,
+      0
+    ],
+    "state": "Mecklenburg-Vorpommern",
+    "population": -1
+  },
+  {
+    "city_name": "Ludwigslust-Parchim",
+    "infected": 1,
+    "geo": [
+      53.45,
+      11.55
+    ],
+    "state": "Mecklenburg-Vorpommern",
+    "population": 212618
   },
   {
     "city_name": "Mecklenburgische Seenplatte",
@@ -3161,7 +3191,7 @@
   },
   {
     "city_name": "Jena",
-    "infected": 2,
+    "infected": 8,
     "geo": [
       50.927222,
       11.586389
@@ -3238,6 +3268,16 @@
     ],
     "state": "Th\u00fcringen",
     "population": 36955
+  },
+  {
+    "city_name": "Wartburgkreis",
+    "infected": 1,
+    "geo": [
+      50.89,
+      10.21
+    ],
+    "state": "Th\u00fcringen",
+    "population": 125655
   },
   {
     "city_name": "Weimar",
