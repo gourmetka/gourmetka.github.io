@@ -1471,7 +1471,7 @@
   },
   {
     "city_name": "Rostock",
-    "infected": 14,
+    "infected": 16,
     "geo": [
       54.08816,
       12.13468
@@ -1911,7 +1911,7 @@
   },
   {
     "city_name": "Bochum",
-    "infected": 18,
+    "infected": 20,
     "geo": [
       51.4825,
       7.216944
@@ -1921,7 +1921,7 @@
   },
   {
     "city_name": "Bonn",
-    "infected": 28,
+    "infected": 36,
     "geo": [
       50.733992,
       7.099814
@@ -1941,7 +1941,7 @@
   },
   {
     "city_name": "Bottrop",
-    "infected": 27,
+    "infected": 45,
     "geo": [
       51.524722,
       6.922778
@@ -1961,7 +1961,7 @@
   },
   {
     "city_name": "Dortmund",
-    "infected": 14,
+    "infected": 19,
     "geo": [
       51.514167,
       7.463889
@@ -1981,7 +1981,7 @@
   },
   {
     "city_name": "D\u00fcren",
-    "infected": 18,
+    "infected": 24,
     "geo": [
       50.8,
       6.483333
@@ -1991,7 +1991,7 @@
   },
   {
     "city_name": "D\u00fcsseldorf",
-    "infected": 23,
+    "infected": 36,
     "geo": [
       51.225556,
       6.782778
@@ -2001,7 +2001,7 @@
   },
   {
     "city_name": "Ennepe-Ruhr-Kreis",
-    "infected": 3,
+    "infected": 14,
     "geo": [
       51.346667,
       7.323889
@@ -2011,7 +2011,7 @@
   },
   {
     "city_name": "Essen",
-    "infected": 51,
+    "infected": 52,
     "geo": [
       51.458069,
       7.014761
@@ -2021,7 +2021,7 @@
   },
   {
     "city_name": "Euskirchen",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       50.6692,
       6.7838
@@ -2031,7 +2031,7 @@
   },
   {
     "city_name": "Gelsenkirchen",
-    "infected": 9,
+    "infected": 12,
     "geo": [
       51.511111,
       7.100556
@@ -2041,7 +2041,7 @@
   },
   {
     "city_name": "G\u00fctersloh",
-    "infected": 15,
+    "infected": 45,
     "geo": [
       51.93,
       8.35
@@ -2051,7 +2051,7 @@
   },
   {
     "city_name": "Hagen",
-    "infected": 3,
+    "infected": 5,
     "geo": [
       51.359444,
       7.475
@@ -2071,7 +2071,7 @@
   },
   {
     "city_name": "Heinsberg",
-    "infected": 589,
+    "infected": 650,
     "geo": [
       50.983056,
       6
@@ -2081,7 +2081,7 @@
   },
   {
     "city_name": "Herford",
-    "infected": 19,
+    "infected": 22,
     "geo": [
       52.115833,
       8.661667
@@ -2091,7 +2091,7 @@
   },
   {
     "city_name": "Herne",
-    "infected": 4,
+    "infected": 5,
     "geo": [
       51.541944,
       7.223889
@@ -2101,7 +2101,7 @@
   },
   {
     "city_name": "Hochsauerlandkreis",
-    "infected": 20,
+    "infected": 30,
     "geo": [
       51.306667,
       8.384722
@@ -2111,7 +2111,7 @@
   },
   {
     "city_name": "Kleve",
-    "infected": 14,
+    "infected": 32,
     "geo": [
       51.781,
       6.1382
@@ -2141,7 +2141,7 @@
   },
   {
     "city_name": "Leverkusen",
-    "infected": 5,
+    "infected": 9,
     "geo": [
       51.033333,
       6.983333
@@ -2171,7 +2171,7 @@
   },
   {
     "city_name": "Minden-L\u00fcbbecke",
-    "infected": 32,
+    "infected": 47,
     "geo": [
       52.281944,
       8.911111
@@ -2191,7 +2191,7 @@
   },
   {
     "city_name": "M\u00f6nchengladbach",
-    "infected": 23,
+    "infected": 36,
     "geo": [
       51.191111,
       6.441944
@@ -2211,7 +2211,7 @@
   },
   {
     "city_name": "M\u00fcnster",
-    "infected": 43,
+    "infected": 56,
     "geo": [
       51.962944,
       7.628694
@@ -2221,7 +2221,7 @@
   },
   {
     "city_name": "Oberbergischer Kreis",
-    "infected": 14,
+    "infected": 19,
     "geo": [
       51.01,
       7.52
@@ -2251,7 +2251,7 @@
   },
   {
     "city_name": "Paderborn",
-    "infected": 32,
+    "infected": 36,
     "geo": [
       51.719444,
       8.757222
@@ -2261,7 +2261,7 @@
   },
   {
     "city_name": "Recklinghausen",
-    "infected": 41,
+    "infected": 47,
     "geo": [
       51.608889,
       7.204722
@@ -2271,7 +2271,7 @@
   },
   {
     "city_name": "Remscheid",
-    "infected": 7,
+    "infected": 8,
     "geo": [
       51.178333,
       7.199444
@@ -2281,7 +2281,7 @@
   },
   {
     "city_name": "Rhein-Erft-Kreis",
-    "infected": 24,
+    "infected": 36,
     "geo": [
       50.9513,
       6.6308
@@ -2301,7 +2301,7 @@
   },
   {
     "city_name": "Rhein-Sieg-Kreis",
-    "infected": 32,
+    "infected": 63,
     "geo": [
       50.793,
       7.2071
@@ -2311,7 +2311,7 @@
   },
   {
     "city_name": "Rheinisch-Bergischer Kreis",
-    "infected": 29,
+    "infected": 30,
     "geo": [
       50.9768,
       7.1432
@@ -2341,7 +2341,7 @@
   },
   {
     "city_name": "Solingen",
-    "infected": 6,
+    "infected": 7,
     "geo": [
       51.171389,
       7.083333
@@ -2351,7 +2351,7 @@
   },
   {
     "city_name": "Steinfurt",
-    "infected": 43,
+    "infected": 61,
     "geo": [
       52.21,
       7.58
@@ -2361,7 +2361,7 @@
   },
   {
     "city_name": "St\u00e4dteregion Aachen",
-    "infected": 100,
+    "infected": 155,
     "geo": [
       50.775556,
       6.083611
@@ -2371,7 +2371,7 @@
   },
   {
     "city_name": "Unna",
-    "infected": 13,
+    "infected": 14,
     "geo": [
       51.534722,
       7.688889
@@ -2391,7 +2391,7 @@
   },
   {
     "city_name": "Warendorf",
-    "infected": 27,
+    "infected": 47,
     "geo": [
       51.9414,
       7.9862
@@ -2721,7 +2721,7 @@
   },
   {
     "city_name": "Regionalverband Saarbr\u00fccken",
-    "infected": 10,
+    "infected": 15,
     "geo": [
       49.25,
       6.96
