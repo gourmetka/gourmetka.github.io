@@ -1077,7 +1077,7 @@
       13.7
     ],
     "state": "Brandenburg",
-    "population": -100
+    "population": 180864
   },
   {
     "city_name": "Cottbus",
@@ -1117,7 +1117,7 @@
       12.3325
     ],
     "state": "Brandenburg",
-    "population": -100
+    "population": 160710
   },
   {
     "city_name": "M\u00e4rkisch-Oderland",
@@ -1227,7 +1227,7 @@
       8.644375
     ],
     "state": "Hessen",
-    "population": -100
+    "population": 268780
   },
   {
     "city_name": "Darmstadt",
@@ -1437,7 +1437,7 @@
       12.98
     ],
     "state": "Mecklenburg-Vorpommern",
-    "population": -100
+    "population": 261816
   },
   {
     "city_name": "Rostock",
@@ -1617,7 +1617,7 @@
       7.02
     ],
     "state": "Niedersachsen",
-    "population": -100
+    "population": 135770
   },
   {
     "city_name": "G\u00f6ttingen",
@@ -2657,7 +2657,7 @@
       6.75
     ],
     "state": "Rheinland-Pfalz",
-    "population": -100
+    "population": 60757
   },
   {
     "city_name": "Westerwaldkreis",
@@ -2957,7 +2957,7 @@
       9.11
     ],
     "state": "Schleswig-Holstein",
-    "population": -100
+    "population": 133560
   },
   {
     "city_name": "Flensburg",
@@ -3007,7 +3007,7 @@
       9.051147
     ],
     "state": "Schleswig-Holstein",
-    "population": -100
+    "population": 164926
   },
   {
     "city_name": "Ostholstein",
