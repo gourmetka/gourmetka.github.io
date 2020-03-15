@@ -1221,7 +1221,7 @@
   },
   {
     "city_name": "Hamburg",
-    "infected": 156,
+    "infected": 158,
     "geo": [
       53.550556,
       9.993333
@@ -1231,7 +1231,7 @@
   },
   {
     "city_name": "Bergstra\u00dfe",
-    "infected": 15,
+    "infected": 18,
     "geo": [
       49.640764,
       8.644375
@@ -1241,7 +1241,7 @@
   },
   {
     "city_name": "Darmstadt",
-    "infected": 2,
+    "infected": 6,
     "geo": [
       49.866667,
       8.65
@@ -1251,7 +1251,7 @@
   },
   {
     "city_name": "Darmstadt-Dieburg",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       49.898472,
       8.675556
@@ -1271,7 +1271,7 @@
   },
   {
     "city_name": "Fulda",
-    "infected": 10,
+    "infected": 29,
     "geo": [
       50.560139,
       9.686111
@@ -1281,7 +1281,7 @@
   },
   {
     "city_name": "Gie\u00dfen",
-    "infected": 8,
+    "infected": 13,
     "geo": [
       50.587222,
       8.669722
@@ -1291,7 +1291,7 @@
   },
   {
     "city_name": "Gro\u00df-Gerau",
-    "infected": 8,
+    "infected": 10,
     "geo": [
       49.921389,
       8.481806
@@ -1301,7 +1301,7 @@
   },
   {
     "city_name": "Hersfeld-Rotenburg",
-    "infected": 6,
+    "infected": 12,
     "geo": [
       50.871597,
       9.716042
@@ -1311,7 +1311,7 @@
   },
   {
     "city_name": "Hochtaunuskreis",
-    "infected": 7,
+    "infected": 9,
     "geo": [
       50.215417,
       8.616389
@@ -1321,7 +1321,7 @@
   },
   {
     "city_name": "Kassel",
-    "infected": 20,
+    "infected": 22,
     "geo": [
       51.311111,
       9.485903
@@ -1341,7 +1341,7 @@
   },
   {
     "city_name": "Main-Kinzig-Kreis",
-    "infected": 13,
+    "infected": 21,
     "geo": [
       50.25,
       9.3
@@ -1361,7 +1361,7 @@
   },
   {
     "city_name": "Marburg-Biedenkopf",
-    "infected": 8,
+    "infected": 23,
     "geo": [
       50.786173,
       8.771918
@@ -1370,8 +1370,18 @@
     "population": 241279
   },
   {
+    "city_name": "Odenwaldkreis",
+    "infected": 2,
+    "geo": [
+      49.663354,
+      8.994015
+    ],
+    "state": "Hessen",
+    "population": 96648
+  },
+  {
     "city_name": "Offenbach am Main",
-    "infected": 7,
+    "infected": 9,
     "geo": [
       50.018236,
       8.785651
@@ -1381,7 +1391,7 @@
   },
   {
     "city_name": "Rheingau-Taunus-Kreis",
-    "infected": 14,
+    "infected": 18,
     "geo": [
       50.148403,
       8.073264
@@ -1391,7 +1401,7 @@
   },
   {
     "city_name": "Schwalm-Eder-Kreis",
-    "infected": 9,
+    "infected": 15,
     "geo": [
       51.035,
       9.400833
@@ -1401,7 +1411,7 @@
   },
   {
     "city_name": "Vogelsbergkreis",
-    "infected": 3,
+    "infected": 4,
     "geo": [
       50.640764,
       9.399792
@@ -1411,7 +1421,7 @@
   },
   {
     "city_name": "Waldeck-Frankenberg",
-    "infected": 5,
+    "infected": 8,
     "geo": [
       51.269298,
       8.856665
@@ -1421,7 +1431,7 @@
   },
   {
     "city_name": "Wetteraukreis",
-    "infected": 2,
+    "infected": 8,
     "geo": [
       50.333333,
       8.752431
@@ -1791,7 +1801,7 @@
   },
   {
     "city_name": "Region Hannover",
-    "infected": 59,
+    "infected": 60,
     "geo": [
       52.42,
       9.72
@@ -2701,7 +2711,7 @@
   },
   {
     "city_name": "Merzig-Wadern",
-    "infected": 4,
+    "infected": 6,
     "geo": [
       49.5,
       6.68
@@ -2711,7 +2721,7 @@
   },
   {
     "city_name": "Neunkirchen",
-    "infected": 4,
+    "infected": 9,
     "geo": [
       49.38,
       7.12
@@ -2721,7 +2731,7 @@
   },
   {
     "city_name": "Regionalverband Saarbr\u00fccken",
-    "infected": 15,
+    "infected": 20,
     "geo": [
       49.25,
       6.96
@@ -2731,7 +2741,7 @@
   },
   {
     "city_name": "Saarlouis",
-    "infected": 5,
+    "infected": 10,
     "geo": [
       49.36,
       6.78
@@ -2741,7 +2751,7 @@
   },
   {
     "city_name": "Saarpfalz-Kreis",
-    "infected": 4,
+    "infected": 14,
     "geo": [
       49.316667,
       7.333333
@@ -2751,7 +2761,7 @@
   },
   {
     "city_name": "St. Wendel",
-    "infected": 8,
+    "infected": 15,
     "geo": [
       49.52,
       7.1
@@ -2981,7 +2991,7 @@
   },
   {
     "city_name": "Dithmarschen",
-    "infected": 1,
+    "infected": 6,
     "geo": [
       54.13,
       9.11
@@ -3001,7 +3011,7 @@
   },
   {
     "city_name": "Herzogtum Lauenburg",
-    "infected": 5,
+    "infected": 12,
     "geo": [
       53.59,
       10.6
@@ -3011,7 +3021,7 @@
   },
   {
     "city_name": "Kiel",
-    "infected": 12,
+    "infected": 13,
     "geo": [
       54.32321,
       10.14019
@@ -3031,7 +3041,7 @@
   },
   {
     "city_name": "Nordfriesland",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       54.477019,
       9.051147
@@ -3051,7 +3061,7 @@
   },
   {
     "city_name": "Pinneberg",
-    "infected": 18,
+    "infected": 24,
     "geo": [
       53.71,
       9.73
@@ -3061,7 +3071,7 @@
   },
   {
     "city_name": "Pl\u00f6n",
-    "infected": 2,
+    "infected": 6,
     "geo": [
       54.24,
       10.36
@@ -3081,7 +3091,7 @@
   },
   {
     "city_name": "Schleswig-Flensburg",
-    "infected": 5,
+    "infected": 11,
     "geo": [
       54.62,
       9.51
@@ -3091,7 +3101,7 @@
   },
   {
     "city_name": "Segeberg",
-    "infected": 4,
+    "infected": 6,
     "geo": [
       53.92,
       10.14
@@ -3101,7 +3111,7 @@
   },
   {
     "city_name": "Steinburg",
-    "infected": 2,
+    "infected": 4,
     "geo": [
       53.92,
       9.51
@@ -3131,7 +3141,7 @@
   },
   {
     "city_name": "Eichsfeld",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       51.38,
       10.25
