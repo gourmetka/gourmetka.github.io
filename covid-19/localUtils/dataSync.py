@@ -102,7 +102,9 @@ missing_population_map = {
     "Nordfriesland": 164926,
     "Barnim": 180864,
     "Havelland": 160710,
-    "Mecklenburgische Seenplatte": 261816
+    "Mecklenburgische Seenplatte": 261816,
+    "Helmstedt": 91720,
+    "Holzminden": 19998
 
 }
 
