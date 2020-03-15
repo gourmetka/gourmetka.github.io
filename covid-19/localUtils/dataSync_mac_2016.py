@@ -105,8 +105,9 @@ missing_population_map = {
     "Mecklenburgische Seenplatte": 261816,
     "Helmstedt": 91720,
     "Holzminden": 19998,
-    "Ludwigslust-Parchim": 212618
-
+    "Ludwigslust-Parchim": 212618,
+    "Mittelsachsen": 306185,
+    "Vogtlandkreis": 227796
 }
 
 def loader(data, keyword):
