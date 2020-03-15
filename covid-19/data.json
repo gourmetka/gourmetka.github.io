@@ -1,5 +1,5 @@
 {
-  "ts": 1584261015000,
+  "ts": 1584265085000,
   "data": [
     {
       "id": 1,
@@ -194,7 +194,7 @@
       "population": 2143145
     }
   ],
-  "recoveries": 24,
+  "recoveries": 46,
   "deaths": 7,
   "population": 83019213
 }
