@@ -107,7 +107,10 @@ missing_population_map = {
     "Holzminden": 19998,
     "Ludwigslust-Parchim": 212618,
     "Mittelsachsen": 306185,
-    "Vogtlandkreis": 227796
+    "Vogtlandkreis": 227796,
+    "Aichach-Friedberg": 133596,
+    "Unterallgäu": 144041,
+    "Wunsiedel im Fichtelgebirge": 9259
 }
 
 def loader(data, keyword):
