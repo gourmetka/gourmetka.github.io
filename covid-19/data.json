@@ -1,5 +1,5 @@
 {
-  "ts": 1584298562000,
+  "ts": 1584351889000,
   "data": [
     {
       "id": 1,
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "infected": 64,
+      "infected": 84,
       "cured": 0,
       "death": 0,
       "population": 2511917
@@ -56,7 +56,7 @@
         0,
         0
       ],
-      "infected": 53,
+      "infected": 56,
       "cured": 0,
       "death": 0,
       "population": 682986
@@ -104,7 +104,7 @@
         0,
         0
       ],
-      "infected": 254,
+      "infected": 287,
       "cured": 0,
       "death": 0,
       "population": 7982448
@@ -128,7 +128,7 @@
         0,
         0
       ],
-      "infected": 162,
+      "infected": 200,
       "cured": 0,
       "death": 0,
       "population": 4084844
