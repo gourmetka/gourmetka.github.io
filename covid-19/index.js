@@ -307,6 +307,14 @@ $(document).ready(async () => {
           })
         }
         return []
+      },
+      totalCityPopulation () {
+        if (this.cityData && this.cityData.length > 1) {
+          return this.cityData.map(d => d.population).reduce((cur, acc) => cur + acc)
+        } else if (this.cityData && this.cityData == 1) {
+          return this.cityData[0].population
+        }
+        return 0
       }
     },
     filters: {
