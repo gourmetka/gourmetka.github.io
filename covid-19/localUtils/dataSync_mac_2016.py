@@ -112,7 +112,8 @@ missing_population_map = {
     "Unterallgäu": 144041,
     "Wunsiedel im Fichtelgebirge": 9259,
     "Limburg-Weilburg": 172083,
-    "Werra-Meißner-Kreis": 101017
+    "Werra-Meißner-Kreis": 101017,
+    "Nordwestmecklenburg": 156729
 }
 
 def loader(data, keyword):
