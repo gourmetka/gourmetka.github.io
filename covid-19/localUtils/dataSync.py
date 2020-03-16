@@ -40,7 +40,7 @@ def get_city_wikidata(city, country):
       out = res['results']['bindings'][0]
       return out
   except:
-    print ("[ERR] Error when parsing res.")
+    print ("[ERR] Error when parsing res: %s" % city)
   return None
 
 script_dir = os.path.dirname(__file__)
@@ -110,7 +110,9 @@ missing_population_map = {
     "Vogtlandkreis": 227796,
     "Aichach-Friedberg": 133596,
     "Unterallgäu": 144041,
-    "Wunsiedel im Fichtelgebirge": 9259
+    "Wunsiedel im Fichtelgebirge": 9259,
+    "Limburg-Weilburg": 172083,
+    "Werra-Meißner-Kreis": 101017
 }
 
 def loader(data, keyword):
