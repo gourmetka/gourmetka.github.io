@@ -1,7 +1,7 @@
 [
   {
     "city_name": "Alb-Donau-Kreis",
-    "infected": 13,
+    "infected": 24,
     "geo": [
       48.396389,
       9.790833
@@ -11,7 +11,7 @@
   },
   {
     "city_name": "Baden-Baden",
-    "infected": 7,
+    "infected": 12,
     "geo": [
       48.761944,
       8.240833
@@ -21,7 +21,7 @@
   },
   {
     "city_name": "Biberach",
-    "infected": 5,
+    "infected": 17,
     "geo": [
       48.096111,
       9.792778
@@ -31,7 +31,7 @@
   },
   {
     "city_name": "Bodenseekreis",
-    "infected": 29,
+    "infected": 31,
     "geo": [
       47.657778,
       9.451944
@@ -41,7 +41,7 @@
   },
   {
     "city_name": "Breisgau-Hochschwarzwald",
-    "infected": 45,
+    "infected": 54,
     "geo": [
       47.97,
       7.999
@@ -51,7 +51,7 @@
   },
   {
     "city_name": "B\u00f6blingen",
-    "infected": 9,
+    "infected": 28,
     "geo": [
       48.682222,
       9.009722
@@ -61,7 +61,7 @@
   },
   {
     "city_name": "Calw",
-    "infected": 43,
+    "infected": 51,
     "geo": [
       48.714444,
       8.7375
@@ -71,7 +71,7 @@
   },
   {
     "city_name": "Emmendingen",
-    "infected": 35,
+    "infected": 59,
     "geo": [
       48.121389,
       7.849167
@@ -81,7 +81,7 @@
   },
   {
     "city_name": "Enzkreis",
-    "infected": 4,
+    "infected": 9,
     "geo": [
       48.874722,
       8.753056
@@ -91,7 +91,7 @@
   },
   {
     "city_name": "Esslingen",
-    "infected": 123,
+    "infected": 128,
     "geo": [
       48.734167,
       9.310556
@@ -101,7 +101,7 @@
   },
   {
     "city_name": "Freiburg im Breisgau",
-    "infected": 53,
+    "infected": 62,
     "geo": [
       48,
       7.849881
@@ -111,7 +111,7 @@
   },
   {
     "city_name": "Freudenstadt",
-    "infected": 8,
+    "infected": 10,
     "geo": [
       48.461111,
       8.418056
@@ -121,7 +121,7 @@
   },
   {
     "city_name": "G\u00f6ppingen",
-    "infected": 29,
+    "infected": 39,
     "geo": [
       48.693333,
       9.706667
@@ -141,7 +141,7 @@
   },
   {
     "city_name": "Heidenheim",
-    "infected": 21,
+    "infected": 17,
     "geo": [
       48.681944,
       10.149444
@@ -151,7 +151,7 @@
   },
   {
     "city_name": "Heilbronn (city and county)",
-    "infected": 54,
+    "infected": 66,
     "geo": [
       49.15,
       9.216667
@@ -161,7 +161,7 @@
   },
   {
     "city_name": "Hohenlohekreis",
-    "infected": 29,
+    "infected": 64,
     "geo": [
       49.2775,
       9.686667
@@ -171,7 +171,7 @@
   },
   {
     "city_name": "Karlsruhe (city and county)",
-    "infected": 38,
+    "infected": 73,
     "geo": [
       49.006889,
       8.403653
@@ -181,7 +181,7 @@
   },
   {
     "city_name": "Konstanz",
-    "infected": 20,
+    "infected": 28,
     "geo": [
       47.66336,
       9.17598
@@ -191,7 +191,7 @@
   },
   {
     "city_name": "Ludwigsburg",
-    "infected": 38,
+    "infected": 87,
     "geo": [
       48.890278,
       9.201111
@@ -201,7 +201,7 @@
   },
   {
     "city_name": "L\u00f6rrach",
-    "infected": 10,
+    "infected": 16,
     "geo": [
       47.614444,
       7.662222
@@ -231,7 +231,7 @@
   },
   {
     "city_name": "Neckar-Odenwald-Kreis",
-    "infected": 7,
+    "infected": 14,
     "geo": [
       49.349167,
       9.141944
@@ -241,7 +241,7 @@
   },
   {
     "city_name": "Ortenaukreis",
-    "infected": 28,
+    "infected": 38,
     "geo": [
       48.464722,
       7.941111
@@ -251,7 +251,7 @@
   },
   {
     "city_name": "Ostalbkreis",
-    "infected": 31,
+    "infected": 41,
     "geo": [
       48.835,
       10.093333
@@ -261,7 +261,7 @@
   },
   {
     "city_name": "Pforzheim",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       48.891111,
       8.698889
@@ -271,7 +271,7 @@
   },
   {
     "city_name": "Rastatt",
-    "infected": 34,
+    "infected": 37,
     "geo": [
       48.860833,
       8.213056
@@ -281,7 +281,7 @@
   },
   {
     "city_name": "Ravensburg",
-    "infected": 12,
+    "infected": 13,
     "geo": [
       47.787222,
       9.616944
@@ -291,7 +291,7 @@
   },
   {
     "city_name": "Rems-Murr-Kreis",
-    "infected": 23,
+    "infected": 49,
     "geo": [
       48.829722,
       9.316111
@@ -311,7 +311,7 @@
   },
   {
     "city_name": "Rhein-Neckar-Kreis",
-    "infected": 38,
+    "infected": 76,
     "geo": [
       49.35,
       8.85
@@ -321,7 +321,7 @@
   },
   {
     "city_name": "Rottweil",
-    "infected": 4,
+    "infected": 5,
     "geo": [
       48.161667,
       8.632778
@@ -331,7 +331,7 @@
   },
   {
     "city_name": "Schwarzwald-Baar-Kreis",
-    "infected": 6,
+    "infected": 16,
     "geo": [
       48.06,
       8.467778
@@ -341,7 +341,7 @@
   },
   {
     "city_name": "Schw\u00e4bisch Hall",
-    "infected": 21,
+    "infected": 34,
     "geo": [
       49.116111,
       9.737222
@@ -351,7 +351,7 @@
   },
   {
     "city_name": "Sigmaringen",
-    "infected": 16,
+    "infected": 22,
     "geo": [
       48.086389,
       9.214722
@@ -361,7 +361,7 @@
   },
   {
     "city_name": "Stuttgart",
-    "infected": 60,
+    "infected": 196,
     "geo": [
       48.775556,
       9.182778
@@ -381,7 +381,7 @@
   },
   {
     "city_name": "T\u00fcbingen",
-    "infected": 61,
+    "infected": 67,
     "geo": [
       48.520144,
       9.053363
@@ -391,7 +391,7 @@
   },
   {
     "city_name": "Ulm",
-    "infected": 13,
+    "infected": 19,
     "geo": [
       48.386389,
       9.880833
