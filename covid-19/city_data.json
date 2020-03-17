@@ -1121,7 +1121,7 @@
   },
   {
     "city_name": "Berlin",
-    "infected": 283,
+    "infected": 332,
     "geo": [
       52.518611,
       13.408333
@@ -1271,7 +1271,7 @@
   },
   {
     "city_name": "Bremen",
-    "infected": 48,
+    "infected": 49,
     "geo": [
       53.075878,
       8.807311
@@ -1291,7 +1291,7 @@
   },
   {
     "city_name": "Hamburg",
-    "infected": 260,
+    "infected": 312,
     "geo": [
       53.550556,
       9.993333
@@ -2011,7 +2011,7 @@
   },
   {
     "city_name": "Bielefeld",
-    "infected": 27,
+    "infected": 28,
     "geo": [
       52.02042,
       8.53188
@@ -2031,7 +2031,7 @@
   },
   {
     "city_name": "Bonn",
-    "infected": 41,
+    "infected": 55,
     "geo": [
       50.733992,
       7.099814
@@ -2041,7 +2041,7 @@
   },
   {
     "city_name": "Borken",
-    "infected": 82,
+    "infected": 95,
     "geo": [
       51.8515,
       6.8424
@@ -2061,7 +2061,7 @@
   },
   {
     "city_name": "Coesfeld",
-    "infected": 50,
+    "infected": 53,
     "geo": [
       51.9442,
       7.1744
@@ -2091,7 +2091,7 @@
   },
   {
     "city_name": "D\u00fcren",
-    "infected": 39,
+    "infected": 47,
     "geo": [
       50.8,
       6.483333
@@ -2101,7 +2101,7 @@
   },
   {
     "city_name": "D\u00fcsseldorf",
-    "infected": 36,
+    "infected": 63,
     "geo": [
       51.225556,
       6.782778
@@ -2121,7 +2121,7 @@
   },
   {
     "city_name": "Essen",
-    "infected": 80,
+    "infected": 89,
     "geo": [
       51.458069,
       7.014761
@@ -2171,7 +2171,7 @@
   },
   {
     "city_name": "Hamm",
-    "infected": 4,
+    "infected": 8,
     "geo": [
       51.681069,
       7.817117
@@ -2181,7 +2181,7 @@
   },
   {
     "city_name": "Heinsberg",
-    "infected": 690,
+    "infected": 713,
     "geo": [
       51.061,
       6.1081
@@ -2211,7 +2211,7 @@
   },
   {
     "city_name": "Hochsauerlandkreis",
-    "infected": 31,
+    "infected": 37,
     "geo": [
       51.306667,
       8.384722
@@ -2231,7 +2231,7 @@
   },
   {
     "city_name": "Kleve",
-    "infected": 36,
+    "infected": 41,
     "geo": [
       51.781,
       6.1382
@@ -2241,7 +2241,7 @@
   },
   {
     "city_name": "Krefeld",
-    "infected": 19,
+    "infected": 36,
     "geo": [
       51.336944,
       6.564167
@@ -2251,7 +2251,7 @@
   },
   {
     "city_name": "K\u00f6ln",
-    "infected": 296,
+    "infected": 274,
     "geo": [
       50.936389,
       6.952778
@@ -2261,7 +2261,7 @@
   },
   {
     "city_name": "Leverkusen",
-    "infected": 20,
+    "infected": 21,
     "geo": [
       51.033333,
       6.983333
@@ -2281,7 +2281,7 @@
   },
   {
     "city_name": "Mettmann",
-    "infected": 19,
+    "infected": 39,
     "geo": [
       51.25,
       6.966667
@@ -2291,7 +2291,7 @@
   },
   {
     "city_name": "Minden-L\u00fcbbecke",
-    "infected": 61,
+    "infected": 74,
     "geo": [
       52.281944,
       8.911111
@@ -2301,7 +2301,7 @@
   },
   {
     "city_name": "M\u00e4rkischer Kreis",
-    "infected": 17,
+    "infected": 20,
     "geo": [
       51.216667,
       7.633333
@@ -2321,7 +2321,7 @@
   },
   {
     "city_name": "M\u00fclheim an der Ruhr",
-    "infected": 9,
+    "infected": 12,
     "geo": [
       51.433056,
       6.883056
@@ -2351,7 +2351,7 @@
   },
   {
     "city_name": "Oberhausen",
-    "infected": 8,
+    "infected": 12,
     "geo": [
       51.470278,
       6.852222
@@ -2371,7 +2371,7 @@
   },
   {
     "city_name": "Paderborn",
-    "infected": 37,
+    "infected": 42,
     "geo": [
       51.719444,
       8.757222
@@ -2401,7 +2401,7 @@
   },
   {
     "city_name": "Rhein-Erft-Kreis",
-    "infected": 58,
+    "infected": 82,
     "geo": [
       50.9513,
       6.6308
@@ -2411,7 +2411,7 @@
   },
   {
     "city_name": "Rhein-Kreis Neuss",
-    "infected": 24,
+    "infected": 44,
     "geo": [
       51.1966,
       6.6953
@@ -2461,7 +2461,7 @@
   },
   {
     "city_name": "Solingen",
-    "infected": 7,
+    "infected": 24,
     "geo": [
       51.171389,
       7.083333
@@ -2471,7 +2471,7 @@
   },
   {
     "city_name": "Steinfurt",
-    "infected": 80,
+    "infected": 82,
     "geo": [
       52.21,
       7.58
@@ -2481,7 +2481,7 @@
   },
   {
     "city_name": "St\u00e4dteregion Aachen",
-    "infected": 169,
+    "infected": 175,
     "geo": [
       50.775556,
       6.083611
@@ -2501,7 +2501,7 @@
   },
   {
     "city_name": "Viersen",
-    "infected": 16,
+    "infected": 40,
     "geo": [
       51.252778,
       6.393333
@@ -2511,7 +2511,7 @@
   },
   {
     "city_name": "Warendorf",
-    "infected": 59,
+    "infected": 65,
     "geo": [
       51.9414,
       7.9862
@@ -2521,7 +2521,7 @@
   },
   {
     "city_name": "Wesel",
-    "infected": 36,
+    "infected": 66,
     "geo": [
       51.50467,
       6.54587
@@ -2531,7 +2531,7 @@
   },
   {
     "city_name": "Wuppertal",
-    "infected": 14,
+    "infected": 22,
     "geo": [
       51.256176,
       7.150829
@@ -3001,7 +3001,7 @@
   },
   {
     "city_name": "Altmarkkreis Salzwedel",
-    "infected": 1,
+    "infected": 3,
     "geo": [
       52.68,
       11.23
@@ -3021,7 +3021,7 @@
   },
   {
     "city_name": "Burgenlandkreis",
-    "infected": 4,
+    "infected": 8,
     "geo": [
       51.15,
       11.88
@@ -3031,7 +3031,7 @@
   },
   {
     "city_name": "B\u00f6rde",
-    "infected": 12,
+    "infected": 15,
     "geo": [
       52.22,
       11.35
@@ -3051,7 +3051,7 @@
   },
   {
     "city_name": "Halle (Saale)",
-    "infected": 13,
+    "infected": 18,
     "geo": [
       51.482778,
       11.97
@@ -3061,7 +3061,7 @@
   },
   {
     "city_name": "Harz",
-    "infected": 6,
+    "infected": 8,
     "geo": [
       51.82,
       10.96
@@ -3151,7 +3151,7 @@
   },
   {
     "city_name": "Flensburg",
-    "infected": 6,
+    "infected": 7,
     "geo": [
       54.781944,
       9.436667
@@ -3161,7 +3161,7 @@
   },
   {
     "city_name": "Herzogtum Lauenburg",
-    "infected": 12,
+    "infected": 13,
     "geo": [
       53.59,
       10.6
@@ -3171,7 +3171,7 @@
   },
   {
     "city_name": "Kiel",
-    "infected": 13,
+    "infected": 18,
     "geo": [
       54.32321,
       10.14019
@@ -3190,6 +3190,16 @@
     "population": 235300
   },
   {
+    "city_name": "Neum\u00fcnster",
+    "infected": 1,
+    "geo": [
+      54.071389,
+      9.99
+    ],
+    "state": "Schleswig-Holstein",
+    "population": 79487
+  },
+  {
     "city_name": "Nordfriesland",
     "infected": 2,
     "geo": [
@@ -3201,7 +3211,7 @@
   },
   {
     "city_name": "Ostholstein",
-    "infected": 2,
+    "infected": 4,
     "geo": [
       54.19,
       10.82
@@ -3211,7 +3221,7 @@
   },
   {
     "city_name": "Pinneberg",
-    "infected": 24,
+    "infected": 27,
     "geo": [
       53.71,
       9.73
@@ -3221,7 +3231,7 @@
   },
   {
     "city_name": "Pl\u00f6n",
-    "infected": 6,
+    "infected": 5,
     "geo": [
       54.24,
       10.36
@@ -3231,7 +3241,7 @@
   },
   {
     "city_name": "Rendsburg-Eckernf\u00f6rde",
-    "infected": 8,
+    "infected": 13,
     "geo": [
       54.29,
       9.78
@@ -3241,7 +3251,7 @@
   },
   {
     "city_name": "Schleswig-Flensburg",
-    "infected": 16,
+    "infected": 17,
     "geo": [
       54.62,
       9.51
@@ -3251,7 +3261,7 @@
   },
   {
     "city_name": "Segeberg",
-    "infected": 6,
+    "infected": 9,
     "geo": [
       53.92,
       10.14
@@ -3271,7 +3281,7 @@
   },
   {
     "city_name": "Stormarn",
-    "infected": 7,
+    "infected": 8,
     "geo": [
       53.72,
       10.33
