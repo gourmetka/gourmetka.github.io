@@ -113,7 +113,11 @@ missing_population_map = {
     "Wunsiedel im Fichtelgebirge": 9259,
     "Limburg-Weilburg": 172083,
     "Werra-Meißner-Kreis": 101017,
-    "Nordwestmecklenburg": 156729
+    "Nordwestmecklenburg": 156729,
+    "Berchtesgadener Land": 24420,
+    "Freyung-Grafenau": 78355,
+    "Südwestpfalz": 95113,
+    "Tier-Saarburg": 147833
 }
 
 def loader(data, keyword):

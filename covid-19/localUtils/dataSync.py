@@ -113,7 +113,11 @@ missing_population_map = {
     "Wunsiedel im Fichtelgebirge": 9259,
     "Limburg-Weilburg": 172083,
     "Werra-Meißner-Kreis": 101017,
-    "Nordwestmecklenburg": 156729
+    "Nordwestmecklenburg": 156729,
+    "Berchtesgadener Land": 24420,
+    "Freyung-Grafenau": 78355,
+    "Südwestpfalz": 95113,
+    "Tier-Saarburg": 147833
 }
 
 def loader(data, keyword):
@@ -168,6 +172,7 @@ def stateofCity(city_name_obj, city, lat, long):
 
 def getPopupation(city_population_obj, city):
   # print ("Get population of: %s" % city)
+  city = city.replace("(city and county)", "").strip()
   if city in city_population_obj.keys():
     # print ("[EXIST] found data for %s" % city)
     return city_population_obj[city]
