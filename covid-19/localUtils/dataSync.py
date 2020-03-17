@@ -147,7 +147,7 @@ def get_state_city_map(data):
       loader_state = True
       continue
 
-    if ";" in d.decode("utf-8") and loader_state == True:
+    if "var legend" in d.decode("utf-8") and loader_state == True:
       loader_state = False
       break
 
@@ -230,7 +230,7 @@ for d in existing_city_data:
   if d["state"].strip() != "":
     city_data_exists_state[d["city_name"]] = d["state"].strip()
   if "population" in d.keys() and d["population"] != -1 and d["population"] != -2:
-    city_data_exists_population[d["city_name"]] = d["population"]
+    city_data_exists_population[d["city_name"].replace("(city and county)", "").strip()] = d["population"]
 
 city_objects = []
 for city in city_list:
