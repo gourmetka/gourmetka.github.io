@@ -117,7 +117,9 @@ missing_population_map = {
     "Berchtesgadener Land": 24420,
     "Freyung-Grafenau": 78355,
     "Südwestpfalz": 95113,
-    "Tier-Saarburg": 147833
+    "Tier-Saarburg": 147833,
+    "Ostprignitz-Ruppin": 99078,
+    "Uckermark": 120878
 }
 
 def loader(data, keyword):
