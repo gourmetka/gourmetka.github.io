@@ -119,7 +119,8 @@ missing_population_map = {
     "Südwestpfalz": 95113,
     "Tier-Saarburg": 147833,
     "Ostprignitz-Ruppin": 99078,
-    "Uckermark": 120878
+    "Uckermark": 120878,
+    "Rhön-Grabfeld": 79690
 }
 
 def loader(data, keyword):

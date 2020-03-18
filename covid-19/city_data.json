@@ -1,7 +1,7 @@
 [
   {
     "city_name": "Alb-Donau-Kreis",
-    "infected": 24,
+    "infected": 26,
     "geo": [
       48.396389,
       9.790833
@@ -11,7 +11,7 @@
   },
   {
     "city_name": "Baden-Baden",
-    "infected": 12,
+    "infected": 14,
     "geo": [
       48.761944,
       8.240833
@@ -31,7 +31,7 @@
   },
   {
     "city_name": "Bodenseekreis",
-    "infected": 31,
+    "infected": 39,
     "geo": [
       47.657778,
       9.451944
@@ -41,7 +41,7 @@
   },
   {
     "city_name": "Breisgau-Hochschwarzwald",
-    "infected": 54,
+    "infected": 78,
     "geo": [
       47.97,
       7.999
@@ -61,7 +61,7 @@
   },
   {
     "city_name": "Calw",
-    "infected": 51,
+    "infected": 61,
     "geo": [
       48.714444,
       8.7375
@@ -71,7 +71,7 @@
   },
   {
     "city_name": "Emmendingen",
-    "infected": 59,
+    "infected": 60,
     "geo": [
       48.121389,
       7.849167
@@ -81,7 +81,7 @@
   },
   {
     "city_name": "Enzkreis",
-    "infected": 9,
+    "infected": 12,
     "geo": [
       48.874722,
       8.753056
@@ -91,7 +91,7 @@
   },
   {
     "city_name": "Esslingen",
-    "infected": 128,
+    "infected": 193,
     "geo": [
       48.734167,
       9.310556
@@ -101,7 +101,7 @@
   },
   {
     "city_name": "Freiburg im Breisgau",
-    "infected": 62,
+    "infected": 79,
     "geo": [
       48,
       7.849881
@@ -111,7 +111,7 @@
   },
   {
     "city_name": "Freudenstadt",
-    "infected": 10,
+    "infected": 14,
     "geo": [
       48.461111,
       8.418056
@@ -121,7 +121,7 @@
   },
   {
     "city_name": "G\u00f6ppingen",
-    "infected": 39,
+    "infected": 59,
     "geo": [
       48.693333,
       9.706667
@@ -131,7 +131,7 @@
   },
   {
     "city_name": "Heidelberg",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       49.412222,
       8.71
@@ -151,7 +151,7 @@
   },
   {
     "city_name": "Heilbronn (city and county)",
-    "infected": 66,
+    "infected": 84,
     "geo": [
       49.15,
       9.216667
@@ -161,7 +161,7 @@
   },
   {
     "city_name": "Hohenlohekreis",
-    "infected": 64,
+    "infected": 135,
     "geo": [
       49.2775,
       9.686667
@@ -171,7 +171,7 @@
   },
   {
     "city_name": "Karlsruhe (city and county)",
-    "infected": 73,
+    "infected": 92,
     "geo": [
       49.006889,
       8.403653
@@ -181,7 +181,7 @@
   },
   {
     "city_name": "Konstanz",
-    "infected": 28,
+    "infected": 34,
     "geo": [
       47.66336,
       9.17598
@@ -191,7 +191,7 @@
   },
   {
     "city_name": "Ludwigsburg",
-    "infected": 87,
+    "infected": 112,
     "geo": [
       48.890278,
       9.201111
@@ -201,7 +201,7 @@
   },
   {
     "city_name": "L\u00f6rrach",
-    "infected": 16,
+    "infected": 25,
     "geo": [
       47.614444,
       7.662222
@@ -221,7 +221,7 @@
   },
   {
     "city_name": "Mannheim",
-    "infected": 27,
+    "infected": 71,
     "geo": [
       49.483611,
       8.513056
@@ -231,7 +231,7 @@
   },
   {
     "city_name": "Neckar-Odenwald-Kreis",
-    "infected": 14,
+    "infected": 17,
     "geo": [
       49.349167,
       9.141944
@@ -241,7 +241,7 @@
   },
   {
     "city_name": "Ortenaukreis",
-    "infected": 38,
+    "infected": 45,
     "geo": [
       48.464722,
       7.941111
@@ -251,7 +251,7 @@
   },
   {
     "city_name": "Ostalbkreis",
-    "infected": 41,
+    "infected": 46,
     "geo": [
       48.835,
       10.093333
@@ -261,7 +261,7 @@
   },
   {
     "city_name": "Pforzheim",
-    "infected": 6,
+    "infected": 7,
     "geo": [
       48.891111,
       8.698889
@@ -271,7 +271,7 @@
   },
   {
     "city_name": "Rastatt",
-    "infected": 37,
+    "infected": 53,
     "geo": [
       48.860833,
       8.213056
@@ -281,7 +281,7 @@
   },
   {
     "city_name": "Ravensburg",
-    "infected": 13,
+    "infected": 55,
     "geo": [
       47.787222,
       9.616944
@@ -301,7 +301,7 @@
   },
   {
     "city_name": "Reutlingen",
-    "infected": 31,
+    "infected": 33,
     "geo": [
       48.494167,
       9.218056
@@ -311,7 +311,7 @@
   },
   {
     "city_name": "Rhein-Neckar-Kreis",
-    "infected": 76,
+    "infected": 127,
     "geo": [
       49.35,
       8.85
@@ -321,7 +321,7 @@
   },
   {
     "city_name": "Rottweil",
-    "infected": 5,
+    "infected": 3,
     "geo": [
       48.161667,
       8.632778
@@ -331,7 +331,7 @@
   },
   {
     "city_name": "Schwarzwald-Baar-Kreis",
-    "infected": 16,
+    "infected": 27,
     "geo": [
       48.06,
       8.467778
@@ -341,7 +341,7 @@
   },
   {
     "city_name": "Schw\u00e4bisch Hall",
-    "infected": 34,
+    "infected": 47,
     "geo": [
       49.116111,
       9.737222
@@ -351,7 +351,7 @@
   },
   {
     "city_name": "Sigmaringen",
-    "infected": 22,
+    "infected": 28,
     "geo": [
       48.086389,
       9.214722
@@ -371,7 +371,7 @@
   },
   {
     "city_name": "Tuttlingen",
-    "infected": 5,
+    "infected": 7,
     "geo": [
       47.9822,
       8.8058
@@ -381,7 +381,7 @@
   },
   {
     "city_name": "T\u00fcbingen",
-    "infected": 67,
+    "infected": 85,
     "geo": [
       48.520144,
       9.053363
@@ -401,7 +401,7 @@
   },
   {
     "city_name": "Waldshut",
-    "infected": 4,
+    "infected": 5,
     "geo": [
       47.6225,
       8.205556
@@ -411,7 +411,7 @@
   },
   {
     "city_name": "Zollernalbkreis",
-    "infected": 33,
+    "infected": 51,
     "geo": [
       48.273611,
       8.8575
@@ -421,13 +421,23 @@
   },
   {
     "city_name": "Aichach-Friedberg",
-    "infected": 12,
+    "infected": 15,
     "geo": [
       48.43,
       11.05
     ],
     "state": "Bayern",
     "population": 133596
+  },
+  {
+    "city_name": "Alt\u00f6tting",
+    "infected": 1,
+    "geo": [
+      48.21,
+      12.71
+    ],
+    "state": "Bayern",
+    "population": 12969
   },
   {
     "city_name": "Amberg",
@@ -441,7 +451,7 @@
   },
   {
     "city_name": "Amberg-Sulzbach",
-    "infected": 13,
+    "infected": 15,
     "geo": [
       49.49,
       11.75
@@ -451,7 +461,7 @@
   },
   {
     "city_name": "Ansbach (city and county)",
-    "infected": 3,
+    "infected": 4,
     "geo": [
       49.300833,
       10.571667
@@ -461,7 +471,7 @@
   },
   {
     "city_name": "Aschaffenburg (city and county)",
-    "infected": 35,
+    "infected": 41,
     "geo": [
       49.976703,
       9.147747
@@ -471,7 +481,7 @@
   },
   {
     "city_name": "Augsburg (city and county)",
-    "infected": 40,
+    "infected": 63,
     "geo": [
       48.371667,
       10.898333
@@ -501,7 +511,7 @@
   },
   {
     "city_name": "Bamberg (city and county)",
-    "infected": 11,
+    "infected": 17,
     "geo": [
       49.891667,
       10.891667
@@ -511,7 +521,7 @@
   },
   {
     "city_name": "Bayreuth (city and county)",
-    "infected": 6,
+    "infected": 7,
     "geo": [
       49.88,
       11.56
@@ -521,7 +531,7 @@
   },
   {
     "city_name": "Berchtesgadener Land",
-    "infected": 9,
+    "infected": 10,
     "geo": [
       47.7,
       12.9
@@ -531,7 +541,7 @@
   },
   {
     "city_name": "Cham",
-    "infected": 23,
+    "infected": 29,
     "geo": [
       49.208539,
       12.667589
@@ -561,7 +571,7 @@
   },
   {
     "city_name": "Deggendorf",
-    "infected": 18,
+    "infected": 22,
     "geo": [
       48.78,
       13
@@ -571,7 +581,7 @@
   },
   {
     "city_name": "Dingolfing-Landau",
-    "infected": 14,
+    "infected": 17,
     "geo": [
       48.64,
       12.61
@@ -591,7 +601,7 @@
   },
   {
     "city_name": "Ebersberg",
-    "infected": 29,
+    "infected": 34,
     "geo": [
       48.083333,
       11.966667
@@ -601,7 +611,7 @@
   },
   {
     "city_name": "Eichst\u00e4tt",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       48.9,
       11.37
@@ -611,7 +621,7 @@
   },
   {
     "city_name": "Erding",
-    "infected": 18,
+    "infected": 25,
     "geo": [
       48.306447,
       11.90755
@@ -621,7 +631,7 @@
   },
   {
     "city_name": "Erlangen",
-    "infected": 6,
+    "infected": 9,
     "geo": [
       49.596361,
       11.054311
@@ -641,7 +651,7 @@
   },
   {
     "city_name": "Forchheim",
-    "infected": 7,
+    "infected": 8,
     "geo": [
       49.72,
       11.17
@@ -651,7 +661,7 @@
   },
   {
     "city_name": "Freising",
-    "infected": 93,
+    "infected": 105,
     "geo": [
       48.402778,
       11.748889
@@ -661,7 +671,7 @@
   },
   {
     "city_name": "Freyung-Grafenau",
-    "infected": 7,
+    "infected": 8,
     "geo": [
       48.83,
       13.51
@@ -671,7 +681,7 @@
   },
   {
     "city_name": "F\u00fcrstenfeldbruck",
-    "infected": 22,
+    "infected": 23,
     "geo": [
       48.177778,
       11.255556
@@ -681,13 +691,23 @@
   },
   {
     "city_name": "F\u00fcrth (city and county)",
-    "infected": 12,
+    "infected": 13,
     "geo": [
       49.478333,
       10.990278
     ],
     "state": "Bayern",
     "population": 127748
+  },
+  {
+    "city_name": "Garmisch-Partenkirchen",
+    "infected": 8,
+    "geo": [
+      47.56,
+      11.13
+    ],
+    "state": "Bayern",
+    "population": 27194
   },
   {
     "city_name": "Ha\u00dfberge",
@@ -701,7 +721,7 @@
   },
   {
     "city_name": "Hof (city and county)",
-    "infected": 10,
+    "infected": 11,
     "geo": [
       50.288462,
       11.795197
@@ -731,7 +751,7 @@
   },
   {
     "city_name": "Kelheim",
-    "infected": 4,
+    "infected": 6,
     "geo": [
       48.82,
       11.86
@@ -741,7 +761,7 @@
   },
   {
     "city_name": "Kitzingen",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       49.75,
       10.26
@@ -751,7 +771,7 @@
   },
   {
     "city_name": "Kronach",
-    "infected": 3,
+    "infected": 4,
     "geo": [
       50.33,
       11.37
@@ -761,7 +781,7 @@
   },
   {
     "city_name": "Kulmbach",
-    "infected": 1,
+    "infected": 8,
     "geo": [
       50.086666,
       11.397285
@@ -771,7 +791,7 @@
   },
   {
     "city_name": "Landsberg am Lech",
-    "infected": 10,
+    "infected": 14,
     "geo": [
       48.02,
       10.95
@@ -781,7 +801,7 @@
   },
   {
     "city_name": "Landshut (city and county)",
-    "infected": 12,
+    "infected": 26,
     "geo": [
       48.537222,
       12.152222
@@ -791,7 +811,7 @@
   },
   {
     "city_name": "Lichtenfels",
-    "infected": 3,
+    "infected": 5,
     "geo": [
       50.11,
       11.12
@@ -801,7 +821,7 @@
   },
   {
     "city_name": "Lindau (Bodensee)",
-    "infected": 19,
+    "infected": 21,
     "geo": [
       47.6,
       9.86
@@ -841,7 +861,7 @@
   },
   {
     "city_name": "Miltenberg",
-    "infected": 5,
+    "infected": 9,
     "geo": [
       49.76,
       9.23
@@ -851,7 +871,7 @@
   },
   {
     "city_name": "M\u00fchldorf am Inn",
-    "infected": 1,
+    "infected": 5,
     "geo": [
       48.241074,
       12.383252
@@ -861,7 +881,7 @@
   },
   {
     "city_name": "M\u00fcnchen (city and county)",
-    "infected": 279,
+    "infected": 436,
     "geo": [
       48.133333,
       11.566667
@@ -871,7 +891,7 @@
   },
   {
     "city_name": "Neu-Ulm",
-    "infected": 10,
+    "infected": 17,
     "geo": [
       48.394167,
       9.998889
@@ -881,7 +901,7 @@
   },
   {
     "city_name": "Neumarkt in der Oberpfalz",
-    "infected": 11,
+    "infected": 17,
     "geo": [
       49.22,
       11.57
@@ -901,7 +921,7 @@
   },
   {
     "city_name": "Neustadt an der Waldnaab",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       49.69,
       12.1
@@ -911,7 +931,7 @@
   },
   {
     "city_name": "N\u00fcrnberg",
-    "infected": 28,
+    "infected": 33,
     "geo": [
       49.455556,
       11.078611
@@ -921,7 +941,7 @@
   },
   {
     "city_name": "N\u00fcrnberger Land",
-    "infected": 7,
+    "infected": 11,
     "geo": [
       49.49,
       11.37
@@ -931,7 +951,7 @@
   },
   {
     "city_name": "Oberallg\u00e4u",
-    "infected": 33,
+    "infected": 35,
     "geo": [
       47.57,
       10.26
@@ -941,7 +961,7 @@
   },
   {
     "city_name": "Ostallg\u00e4u",
-    "infected": 14,
+    "infected": 16,
     "geo": [
       47.77,
       10.64
@@ -951,7 +971,7 @@
   },
   {
     "city_name": "Passau (city and county)",
-    "infected": 18,
+    "infected": 23,
     "geo": [
       48.56,
       13.37
@@ -961,7 +981,7 @@
   },
   {
     "city_name": "Pfaffenhofen an der Ilm",
-    "infected": 11,
+    "infected": 15,
     "geo": [
       48.6,
       11.52
@@ -981,7 +1001,7 @@
   },
   {
     "city_name": "Regensburg (city and county)",
-    "infected": 36,
+    "infected": 53,
     "geo": [
       49.017222,
       12.096944
@@ -990,8 +1010,18 @@
     "population": 152610
   },
   {
+    "city_name": "Rh\u00f6n-Grabfeld",
+    "infected": 3,
+    "geo": [
+      50.37,
+      10.25
+    ],
+    "state": "Bayern",
+    "population": 79690
+  },
+  {
     "city_name": "Rosenheim (city and county)",
-    "infected": 36,
+    "infected": 41,
     "geo": [
       47.856111,
       12.128889
@@ -1001,7 +1031,7 @@
   },
   {
     "city_name": "Roth",
-    "infected": 5,
+    "infected": 7,
     "geo": [
       49.2,
       11.12
@@ -1011,7 +1041,7 @@
   },
   {
     "city_name": "Rottal-Inn",
-    "infected": 14,
+    "infected": 29,
     "geo": [
       48.42,
       12.87
@@ -1021,7 +1051,7 @@
   },
   {
     "city_name": "Schwabach",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       49.329167,
       11.020833
@@ -1031,7 +1061,7 @@
   },
   {
     "city_name": "Schwandorf",
-    "infected": 12,
+    "infected": 17,
     "geo": [
       49.37,
       12.25
@@ -1041,7 +1071,7 @@
   },
   {
     "city_name": "Schweinfurt (city and county)",
-    "infected": 5,
+    "infected": 15,
     "geo": [
       50.045,
       10.234167
@@ -1051,7 +1081,7 @@
   },
   {
     "city_name": "Starnberg",
-    "infected": 48,
+    "infected": 49,
     "geo": [
       47.997222,
       11.340556
@@ -1061,7 +1091,7 @@
   },
   {
     "city_name": "Straubing",
-    "infected": 6,
+    "infected": 8,
     "geo": [
       48.883333,
       12.466667
@@ -1071,7 +1101,7 @@
   },
   {
     "city_name": "Straubing-Bogen",
-    "infected": 3,
+    "infected": 9,
     "geo": [
       48.9,
       12.58
@@ -1081,7 +1111,7 @@
   },
   {
     "city_name": "Tirschenreuth",
-    "infected": 27,
+    "infected": 38,
     "geo": [
       49.9,
       12.2
@@ -1091,7 +1121,7 @@
   },
   {
     "city_name": "Traunstein",
-    "infected": 15,
+    "infected": 19,
     "geo": [
       47.866667,
       12.633333
@@ -1121,7 +1151,7 @@
   },
   {
     "city_name": "Weilheim-Schongau",
-    "infected": 17,
+    "infected": 27,
     "geo": [
       47.79,
       11.05
@@ -1141,7 +1171,7 @@
   },
   {
     "city_name": "Wunsiedel im Fichtelgebirge",
-    "infected": 3,
+    "infected": 11,
     "geo": [
       50.09,
       12.04
@@ -1151,7 +1181,7 @@
   },
   {
     "city_name": "W\u00fcrzburg (city and county)",
-    "infected": 87,
+    "infected": 101,
     "geo": [
       49.794444,
       9.929444
@@ -1191,7 +1221,7 @@
   },
   {
     "city_name": "Cottbus",
-    "infected": 17,
+    "infected": 18,
     "geo": [
       51.760556,
       14.334167
@@ -1221,7 +1251,7 @@
   },
   {
     "city_name": "Frankfurt (Oder)",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       52.341667,
       14.550833
@@ -1291,7 +1321,7 @@
   },
   {
     "city_name": "Potsdam",
-    "infected": 4,
+    "infected": 10,
     "geo": [
       52.395833,
       13.061389
@@ -1311,7 +1341,7 @@
   },
   {
     "city_name": "Spree-Nei\u00dfe",
-    "infected": 16,
+    "infected": 20,
     "geo": [
       51.75,
       14.652778
@@ -1361,7 +1391,7 @@
   },
   {
     "city_name": "Hamburg",
-    "infected": 312,
+    "infected": 414,
     "geo": [
       53.550556,
       9.993333
@@ -1371,7 +1401,7 @@
   },
   {
     "city_name": "Bergstra\u00dfe",
-    "infected": 16,
+    "infected": 25,
     "geo": [
       49.640764,
       8.644375
@@ -1391,7 +1421,7 @@
   },
   {
     "city_name": "Darmstadt-Dieburg",
-    "infected": 8,
+    "infected": 13,
     "geo": [
       49.898472,
       8.675556
@@ -1401,7 +1431,7 @@
   },
   {
     "city_name": "Frankfurt am Main",
-    "infected": 51,
+    "infected": 83,
     "geo": [
       50.110556,
       8.682222
@@ -1411,7 +1441,7 @@
   },
   {
     "city_name": "Fulda",
-    "infected": 38,
+    "infected": 42,
     "geo": [
       50.560139,
       9.686111
@@ -1421,7 +1451,7 @@
   },
   {
     "city_name": "Gie\u00dfen",
-    "infected": 17,
+    "infected": 27,
     "geo": [
       50.587222,
       8.669722
@@ -1431,7 +1461,7 @@
   },
   {
     "city_name": "Gro\u00df-Gerau",
-    "infected": 12,
+    "infected": 21,
     "geo": [
       49.921389,
       8.481806
@@ -1451,7 +1481,7 @@
   },
   {
     "city_name": "Hochtaunuskreis",
-    "infected": 20,
+    "infected": 28,
     "geo": [
       50.215417,
       8.616389
@@ -1461,7 +1491,7 @@
   },
   {
     "city_name": "Kassel (city and county)",
-    "infected": 27,
+    "infected": 49,
     "geo": [
       51.311111,
       9.485903
@@ -1481,7 +1511,7 @@
   },
   {
     "city_name": "Limburg-Weilburg",
-    "infected": 5,
+    "infected": 12,
     "geo": [
       50.386875,
       8.059514
@@ -1491,7 +1521,7 @@
   },
   {
     "city_name": "Main-Kinzig-Kreis",
-    "infected": 31,
+    "infected": 32,
     "geo": [
       50.25,
       9.3
@@ -1501,7 +1531,7 @@
   },
   {
     "city_name": "Main-Taunus-Kreis",
-    "infected": 16,
+    "infected": 18,
     "geo": [
       50.079583,
       8.449583
@@ -1511,7 +1541,7 @@
   },
   {
     "city_name": "Marburg-Biedenkopf",
-    "infected": 19,
+    "infected": 23,
     "geo": [
       50.786173,
       8.771918
@@ -1521,7 +1551,7 @@
   },
   {
     "city_name": "Odenwaldkreis",
-    "infected": 2,
+    "infected": 8,
     "geo": [
       49.663354,
       8.994015
@@ -1531,7 +1561,7 @@
   },
   {
     "city_name": "Offenbach am Main (city and county)",
-    "infected": 20,
+    "infected": 30,
     "geo": [
       50.018236,
       8.785651
@@ -1551,7 +1581,7 @@
   },
   {
     "city_name": "Schwalm-Eder-Kreis",
-    "infected": 16,
+    "infected": 32,
     "geo": [
       51.035,
       9.400833
@@ -1561,7 +1591,7 @@
   },
   {
     "city_name": "Vogelsbergkreis",
-    "infected": 4,
+    "infected": 9,
     "geo": [
       50.640764,
       9.399792
@@ -1571,7 +1601,7 @@
   },
   {
     "city_name": "Waldeck-Frankenberg",
-    "infected": 5,
+    "infected": 18,
     "geo": [
       51.269298,
       8.856665
@@ -1601,13 +1631,23 @@
   },
   {
     "city_name": "Wiesbaden",
-    "infected": 5,
+    "infected": 8,
     "geo": [
       50.0825,
       8.24
     ],
     "state": "Hessen",
     "population": 278342
+  },
+  {
+    "city_name": "currently unknown",
+    "infected": 31,
+    "geo": [
+      -90,
+      0
+    ],
+    "state": "Sachsen",
+    "population": -1
   },
   {
     "city_name": "Ludwigslust-Parchim",
@@ -1681,7 +1721,7 @@
   },
   {
     "city_name": "Ammerland",
-    "infected": 8,
+    "infected": 12,
     "geo": [
       53.22,
       8.01
@@ -1691,7 +1731,7 @@
   },
   {
     "city_name": "Aurich",
-    "infected": 13,
+    "infected": 14,
     "geo": [
       53.5,
       7.37
@@ -1701,7 +1741,7 @@
   },
   {
     "city_name": "Braunschweig",
-    "infected": 8,
+    "infected": 12,
     "geo": [
       52.269167,
       10.521111
@@ -1711,7 +1751,7 @@
   },
   {
     "city_name": "Celle",
-    "infected": 14,
+    "infected": 20,
     "geo": [
       52.71,
       10.1
@@ -1731,7 +1771,7 @@
   },
   {
     "city_name": "Cuxhaven",
-    "infected": 6,
+    "infected": 12,
     "geo": [
       53.8617,
       8.694067
@@ -1751,7 +1791,7 @@
   },
   {
     "city_name": "Diepholz",
-    "infected": 25,
+    "infected": 30,
     "geo": [
       52.72,
       8.73
@@ -1771,7 +1811,7 @@
   },
   {
     "city_name": "Emsland",
-    "infected": 26,
+    "infected": 30,
     "geo": [
       52.74,
       7.4
@@ -1791,7 +1831,7 @@
   },
   {
     "city_name": "Gifhorn",
-    "infected": 16,
+    "infected": 22,
     "geo": [
       52.58,
       10.6
@@ -1801,7 +1841,7 @@
   },
   {
     "city_name": "Goslar",
-    "infected": 7,
+    "infected": 10,
     "geo": [
       51.87,
       10.4
@@ -1811,7 +1851,7 @@
   },
   {
     "city_name": "Grafschaft Bentheim",
-    "infected": 5,
+    "infected": 11,
     "geo": [
       52.48,
       7.02
@@ -1821,7 +1861,7 @@
   },
   {
     "city_name": "G\u00f6ttingen (city and county)",
-    "infected": 12,
+    "infected": 17,
     "geo": [
       51.5,
       9.93
@@ -1831,7 +1871,7 @@
   },
   {
     "city_name": "Hameln-Pyrmont",
-    "infected": 9,
+    "infected": 10,
     "geo": [
       52.1,
       9.39
@@ -1841,7 +1881,7 @@
   },
   {
     "city_name": "Harburg",
-    "infected": 18,
+    "infected": 27,
     "geo": [
       53.32,
       9.96
@@ -1861,7 +1901,7 @@
   },
   {
     "city_name": "Helmstedt",
-    "infected": 2,
+    "infected": 5,
     "geo": [
       52.26,
       10.89
@@ -1881,7 +1921,7 @@
   },
   {
     "city_name": "Holzminden",
-    "infected": 8,
+    "infected": 12,
     "geo": [
       51.88,
       9.55
@@ -1901,7 +1941,7 @@
   },
   {
     "city_name": "L\u00fcneburg",
-    "infected": 3,
+    "infected": 21,
     "geo": [
       53.23,
       10.57
@@ -1921,7 +1961,7 @@
   },
   {
     "city_name": "Northeim",
-    "infected": 4,
+    "infected": 6,
     "geo": [
       51.74,
       9.85
@@ -1931,7 +1971,7 @@
   },
   {
     "city_name": "Oldenburg (city and county)",
-    "infected": 26,
+    "infected": 27,
     "geo": [
       53.143889,
       8.213889
@@ -1941,7 +1981,7 @@
   },
   {
     "city_name": "Osnabr\u00fcck (city and county)",
-    "infected": 79,
+    "infected": 95,
     "geo": [
       52.278889,
       8.043056
@@ -1951,7 +1991,7 @@
   },
   {
     "city_name": "Osterholz",
-    "infected": 17,
+    "infected": 20,
     "geo": [
       53.25,
       8.81
@@ -1961,7 +2001,7 @@
   },
   {
     "city_name": "Peine",
-    "infected": 2,
+    "infected": 8,
     "geo": [
       52.3,
       10.26
@@ -1971,7 +2011,7 @@
   },
   {
     "city_name": "Region Hannover",
-    "infected": 121,
+    "infected": 155,
     "geo": [
       52.42,
       9.72
@@ -1981,7 +2021,7 @@
   },
   {
     "city_name": "Rotenburg (W\u00fcmme)",
-    "infected": 15,
+    "infected": 16,
     "geo": [
       53.23,
       9.31
@@ -1991,7 +2031,7 @@
   },
   {
     "city_name": "Salzgitter",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       52.153657,
       10.405849
@@ -2001,7 +2041,7 @@
   },
   {
     "city_name": "Schaumburg",
-    "infected": 5,
+    "infected": 12,
     "geo": [
       52.29,
       9.21
@@ -2021,7 +2061,7 @@
   },
   {
     "city_name": "Uelzen",
-    "infected": 1,
+    "infected": 3,
     "geo": [
       52.98,
       10.55
@@ -2031,7 +2071,7 @@
   },
   {
     "city_name": "Vechta",
-    "infected": 6,
+    "infected": 17,
     "geo": [
       52.69,
       8.22
@@ -2041,7 +2081,7 @@
   },
   {
     "city_name": "Verden",
-    "infected": 13,
+    "infected": 18,
     "geo": [
       52.97,
       9.18
@@ -2051,7 +2091,7 @@
   },
   {
     "city_name": "Wilhelmshaven",
-    "infected": 3,
+    "infected": 5,
     "geo": [
       53.521944,
       8.1075
@@ -2081,7 +2121,7 @@
   },
   {
     "city_name": "Wolfsburg",
-    "infected": 3,
+    "infected": 4,
     "geo": [
       52.423056,
       10.787222
@@ -2091,7 +2131,7 @@
   },
   {
     "city_name": "Bielefeld",
-    "infected": 43,
+    "infected": 59,
     "geo": [
       52.02042,
       8.53188
@@ -2101,7 +2141,7 @@
   },
   {
     "city_name": "Bochum",
-    "infected": 29,
+    "infected": 30,
     "geo": [
       51.4825,
       7.216944
@@ -2111,7 +2151,7 @@
   },
   {
     "city_name": "Bonn",
-    "infected": 64,
+    "infected": 69,
     "geo": [
       50.733992,
       7.099814
@@ -2121,7 +2161,7 @@
   },
   {
     "city_name": "Borken",
-    "infected": 123,
+    "infected": 131,
     "geo": [
       51.8515,
       6.8424
@@ -2161,7 +2201,7 @@
   },
   {
     "city_name": "Duisburg",
-    "infected": 46,
+    "infected": 52,
     "geo": [
       51.435147,
       6.762692
@@ -2171,7 +2211,7 @@
   },
   {
     "city_name": "D\u00fcren",
-    "infected": 54,
+    "infected": 57,
     "geo": [
       50.8,
       6.483333
@@ -2191,7 +2231,7 @@
   },
   {
     "city_name": "Ennepe-Ruhr-Kreis",
-    "infected": 22,
+    "infected": 32,
     "geo": [
       51.346667,
       7.323889
@@ -2211,7 +2251,7 @@
   },
   {
     "city_name": "Euskirchen",
-    "infected": 12,
+    "infected": 19,
     "geo": [
       50.6692,
       6.7838
@@ -2221,7 +2261,7 @@
   },
   {
     "city_name": "Gelsenkirchen",
-    "infected": 18,
+    "infected": 21,
     "geo": [
       51.511111,
       7.100556
@@ -2261,7 +2301,7 @@
   },
   {
     "city_name": "Heinsberg",
-    "infected": 789,
+    "infected": 811,
     "geo": [
       51.061,
       6.1081
@@ -2271,7 +2311,7 @@
   },
   {
     "city_name": "Herford",
-    "infected": 36,
+    "infected": 52,
     "geo": [
       52.115833,
       8.661667
@@ -2291,7 +2331,7 @@
   },
   {
     "city_name": "Hochsauerlandkreis",
-    "infected": 54,
+    "infected": 80,
     "geo": [
       51.306667,
       8.384722
@@ -2301,7 +2341,7 @@
   },
   {
     "city_name": "H\u00f6xter",
-    "infected": 6,
+    "infected": 7,
     "geo": [
       51.68,
       9.18
@@ -2321,7 +2361,7 @@
   },
   {
     "city_name": "Krefeld",
-    "infected": 36,
+    "infected": 53,
     "geo": [
       51.336944,
       6.564167
@@ -2331,7 +2371,7 @@
   },
   {
     "city_name": "K\u00f6ln",
-    "infected": 384,
+    "infected": 478,
     "geo": [
       50.936389,
       6.952778
@@ -2351,7 +2391,7 @@
   },
   {
     "city_name": "Lippe",
-    "infected": 85,
+    "infected": 107,
     "geo": [
       51.93619,
       8.847872
@@ -2371,7 +2411,7 @@
   },
   {
     "city_name": "Minden-L\u00fcbbecke",
-    "infected": 91,
+    "infected": 97,
     "geo": [
       52.281944,
       8.911111
@@ -2381,7 +2421,7 @@
   },
   {
     "city_name": "M\u00e4rkischer Kreis",
-    "infected": 21,
+    "infected": 27,
     "geo": [
       51.216667,
       7.633333
@@ -2411,7 +2451,7 @@
   },
   {
     "city_name": "M\u00fcnster",
-    "infected": 103,
+    "infected": 114,
     "geo": [
       51.962944,
       7.628694
@@ -2421,7 +2461,7 @@
   },
   {
     "city_name": "Oberbergischer Kreis",
-    "infected": 32,
+    "infected": 50,
     "geo": [
       51.01,
       7.52
@@ -2441,7 +2481,7 @@
   },
   {
     "city_name": "Olpe",
-    "infected": 12,
+    "infected": 14,
     "geo": [
       51.085833,
       7.976111
@@ -2451,7 +2491,7 @@
   },
   {
     "city_name": "Paderborn",
-    "infected": 53,
+    "infected": 56,
     "geo": [
       51.719444,
       8.757222
@@ -2461,7 +2501,7 @@
   },
   {
     "city_name": "Recklinghausen",
-    "infected": 63,
+    "infected": 69,
     "geo": [
       51.608889,
       7.204722
@@ -2501,7 +2541,7 @@
   },
   {
     "city_name": "Rhein-Sieg-Kreis",
-    "infected": 90,
+    "infected": 139,
     "geo": [
       50.793,
       7.2071
@@ -2511,7 +2551,7 @@
   },
   {
     "city_name": "Rheinisch-Bergischer Kreis",
-    "infected": 52,
+    "infected": 60,
     "geo": [
       50.9768,
       7.1432
@@ -2521,7 +2561,7 @@
   },
   {
     "city_name": "Siegen-Wittgenstein",
-    "infected": 15,
+    "infected": 26,
     "geo": [
       50.94,
       8.19
@@ -2531,7 +2571,7 @@
   },
   {
     "city_name": "Soest",
-    "infected": 29,
+    "infected": 39,
     "geo": [
       51.56,
       8.22
@@ -2551,7 +2591,7 @@
   },
   {
     "city_name": "Steinfurt",
-    "infected": 95,
+    "infected": 114,
     "geo": [
       52.21,
       7.58
@@ -2561,7 +2601,7 @@
   },
   {
     "city_name": "St\u00e4dteregion Aachen",
-    "infected": 259,
+    "infected": 273,
     "geo": [
       50.775556,
       6.083611
@@ -2571,7 +2611,7 @@
   },
   {
     "city_name": "Unna",
-    "infected": 20,
+    "infected": 25,
     "geo": [
       51.534722,
       7.688889
@@ -2591,7 +2631,7 @@
   },
   {
     "city_name": "Warendorf",
-    "infected": 84,
+    "infected": 89,
     "geo": [
       51.9414,
       7.9862
@@ -2611,7 +2651,7 @@
   },
   {
     "city_name": "Wuppertal",
-    "infected": 30,
+    "infected": 31,
     "geo": [
       51.256176,
       7.150829
@@ -2621,7 +2661,7 @@
   },
   {
     "city_name": "Ahrweiler",
-    "infected": 10,
+    "infected": 14,
     "geo": [
       50.546357,
       7.10366
@@ -2631,7 +2671,7 @@
   },
   {
     "city_name": "Altenkirchen (Westerwald)",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       50.75,
       7.74
@@ -2641,7 +2681,7 @@
   },
   {
     "city_name": "Alzey-Worms",
-    "infected": 12,
+    "infected": 37,
     "geo": [
       49.76,
       8.16
@@ -2651,7 +2691,7 @@
   },
   {
     "city_name": "Bad D\u00fcrkheim",
-    "infected": 19,
+    "infected": 35,
     "geo": [
       49.45,
       8.11
@@ -2661,7 +2701,7 @@
   },
   {
     "city_name": "Bad Kreuznach",
-    "infected": 19,
+    "infected": 21,
     "geo": [
       49.82,
       7.69
@@ -2671,7 +2711,7 @@
   },
   {
     "city_name": "Bernkastel-Wittlich",
-    "infected": 6,
+    "infected": 7,
     "geo": [
       49.92,
       6.97
@@ -2681,7 +2721,7 @@
   },
   {
     "city_name": "Birkenfeld",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       49.71,
       7.28
@@ -2691,7 +2731,7 @@
   },
   {
     "city_name": "Cochem-Zell",
-    "infected": 23,
+    "infected": 29,
     "geo": [
       50.13,
       7.18
@@ -2701,7 +2741,7 @@
   },
   {
     "city_name": "Donnersbergkreis",
-    "infected": 2,
+    "infected": 9,
     "geo": [
       49.63,
       7.91
@@ -2711,7 +2751,7 @@
   },
   {
     "city_name": "Eifelkreis Bitburg-Pr\u00fcm",
-    "infected": 21,
+    "infected": 22,
     "geo": [
       50.06,
       6.41
@@ -2721,7 +2761,7 @@
   },
   {
     "city_name": "Frankenthal (Pfalz)",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       49.533333,
       8.35
@@ -2731,7 +2771,7 @@
   },
   {
     "city_name": "Germersheim",
-    "infected": 8,
+    "infected": 10,
     "geo": [
       49.216667,
       8.366667
@@ -2741,7 +2781,7 @@
   },
   {
     "city_name": "Kaiserslautern (city and county)",
-    "infected": 19,
+    "infected": 22,
     "geo": [
       49.444722,
       7.768889
@@ -2751,7 +2791,7 @@
   },
   {
     "city_name": "Koblenz",
-    "infected": 21,
+    "infected": 24,
     "geo": [
       50.356667,
       7.593889
@@ -2761,7 +2801,7 @@
   },
   {
     "city_name": "Kusel",
-    "infected": 14,
+    "infected": 15,
     "geo": [
       49.55,
       7.47
@@ -2781,7 +2821,7 @@
   },
   {
     "city_name": "Ludwigshafen am Rhein",
-    "infected": 6,
+    "infected": 10,
     "geo": [
       49.483056,
       8.397778
@@ -2791,7 +2831,7 @@
   },
   {
     "city_name": "Mainz",
-    "infected": 28,
+    "infected": 35,
     "geo": [
       50,
       8.271111
@@ -2801,7 +2841,7 @@
   },
   {
     "city_name": "Mainz-Bingen",
-    "infected": 20,
+    "infected": 24,
     "geo": [
       49.92,
       8.08
@@ -2811,7 +2851,7 @@
   },
   {
     "city_name": "Mayen-Koblenz",
-    "infected": 62,
+    "infected": 90,
     "geo": [
       50.33,
       7.33
@@ -2821,7 +2861,7 @@
   },
   {
     "city_name": "Neustadt an der Weinstra\u00dfe",
-    "infected": 4,
+    "infected": 6,
     "geo": [
       49.35,
       8.15
@@ -2831,7 +2871,7 @@
   },
   {
     "city_name": "Neuwied",
-    "infected": 30,
+    "infected": 36,
     "geo": [
       50.56,
       7.47
@@ -2841,7 +2881,7 @@
   },
   {
     "city_name": "Rhein-Hunsr\u00fcck-Kreis",
-    "infected": 24,
+    "infected": 30,
     "geo": [
       50.04,
       7.5
@@ -2851,7 +2891,7 @@
   },
   {
     "city_name": "Rhein-Lahn-Kreis",
-    "infected": 9,
+    "infected": 14,
     "geo": [
       50.332988,
       7.707049
@@ -2861,7 +2901,7 @@
   },
   {
     "city_name": "Rhein-Pfalz-Kreis",
-    "infected": 2,
+    "infected": 4,
     "geo": [
       49.42,
       8.36
@@ -2871,7 +2911,7 @@
   },
   {
     "city_name": "Speyer",
-    "infected": 2,
+    "infected": 4,
     "geo": [
       49.317222,
       8.434167
@@ -2881,7 +2921,7 @@
   },
   {
     "city_name": "S\u00fcdliche Weinstra\u00dfe",
-    "infected": 21,
+    "infected": 22,
     "geo": [
       49.19,
       8.05
@@ -2891,7 +2931,7 @@
   },
   {
     "city_name": "S\u00fcdwestpfalz",
-    "infected": 1,
+    "infected": 2,
     "geo": [
       49.21,
       7.67
@@ -2901,7 +2941,7 @@
   },
   {
     "city_name": "Tier-Saarburg",
-    "infected": 7,
+    "infected": 8,
     "geo": [
       49.7,
       6.69
@@ -2911,7 +2951,7 @@
   },
   {
     "city_name": "Trier",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       49.7596,
       6.6439
@@ -2921,7 +2961,7 @@
   },
   {
     "city_name": "Vulkaneifel",
-    "infected": 10,
+    "infected": 13,
     "geo": [
       50.24,
       6.75
@@ -2931,13 +2971,23 @@
   },
   {
     "city_name": "Westerwaldkreis",
-    "infected": 22,
+    "infected": 42,
     "geo": [
       50.55,
       7.87
     ],
     "state": "Rheinland-Pfalz",
     "population": 201597
+  },
+  {
+    "city_name": "Worms",
+    "infected": 1,
+    "geo": [
+      49.633056,
+      8.360833
+    ],
+    "state": "Rheinland-Pfalz",
+    "population": 83330
   },
   {
     "city_name": "Merzig-Wadern",
@@ -3001,7 +3051,7 @@
   },
   {
     "city_name": "Bautzen",
-    "infected": 24,
+    "infected": 32,
     "geo": [
       51.18,
       14.43
@@ -3011,7 +3061,7 @@
   },
   {
     "city_name": "Chemnitz",
-    "infected": 16,
+    "infected": 18,
     "geo": [
       50.832222,
       12.924167
@@ -3020,8 +3070,18 @@
     "population": 248600
   },
   {
+    "city_name": "currently unknown",
+    "infected": 2,
+    "geo": [
+      -90,
+      0
+    ],
+    "state": "Sachsen",
+    "population": -1
+  },
+  {
     "city_name": "Dresden",
-    "infected": 40,
+    "infected": 49,
     "geo": [
       51.049259,
       13.73836
@@ -3031,7 +3091,7 @@
   },
   {
     "city_name": "Erzgebirgskreis",
-    "infected": 8,
+    "infected": 11,
     "geo": [
       50.61,
       12.95
@@ -3051,7 +3111,7 @@
   },
   {
     "city_name": "Leipzig (city and county)",
-    "infected": 88,
+    "infected": 93,
     "geo": [
       51.340333,
       12.37475
@@ -3061,7 +3121,7 @@
   },
   {
     "city_name": "Mei\u00dfen",
-    "infected": 11,
+    "infected": 12,
     "geo": [
       51.166667,
       13.483333
@@ -3071,7 +3131,7 @@
   },
   {
     "city_name": "Mittelsachsen",
-    "infected": 6,
+    "infected": 12,
     "geo": [
       50.913097,
       13.354863
@@ -3081,7 +3141,7 @@
   },
   {
     "city_name": "Nordsachsen",
-    "infected": 6,
+    "infected": 5,
     "geo": [
       51.47,
       12.78
@@ -3091,7 +3151,7 @@
   },
   {
     "city_name": "S\u00e4chsische Schweiz-Osterzgebirge",
-    "infected": 14,
+    "infected": 19,
     "geo": [
       50.92,
       13.87
@@ -3101,7 +3161,7 @@
   },
   {
     "city_name": "Vogtlandkreis",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       50.48,
       12.12
@@ -3111,7 +3171,7 @@
   },
   {
     "city_name": "Zwickau",
-    "infected": 23,
+    "infected": 31,
     "geo": [
       50.718889,
       12.492222
@@ -3141,7 +3201,7 @@
   },
   {
     "city_name": "Burgenlandkreis",
-    "infected": 8,
+    "infected": 7,
     "geo": [
       51.15,
       11.88
@@ -3151,7 +3211,7 @@
   },
   {
     "city_name": "B\u00f6rde",
-    "infected": 16,
+    "infected": 22,
     "geo": [
       52.22,
       11.35
@@ -3161,7 +3221,7 @@
   },
   {
     "city_name": "Dessau-Ro\u00dflau",
-    "infected": 3,
+    "infected": 4,
     "geo": [
       51.860556,
       12.246944
@@ -3171,7 +3231,7 @@
   },
   {
     "city_name": "Halle (Saale)",
-    "infected": 18,
+    "infected": 29,
     "geo": [
       51.482778,
       11.97
@@ -3191,7 +3251,7 @@
   },
   {
     "city_name": "Jerichower Land",
-    "infected": 1,
+    "infected": 3,
     "geo": [
       52.26,
       12.03
@@ -3201,7 +3261,7 @@
   },
   {
     "city_name": "Magdeburg",
-    "infected": 20,
+    "infected": 27,
     "geo": [
       52.133333,
       11.616667
@@ -3211,7 +3271,7 @@
   },
   {
     "city_name": "Mansfeld-S\u00fcdharz",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       51.54,
       11.36
@@ -3221,7 +3281,7 @@
   },
   {
     "city_name": "Saalekreis",
-    "infected": 3,
+    "infected": 6,
     "geo": [
       51.43,
       11.87
@@ -3241,7 +3301,7 @@
   },
   {
     "city_name": "Stendal",
-    "infected": 8,
+    "infected": 5,
     "geo": [
       52.7,
       11.84
@@ -3251,7 +3311,7 @@
   },
   {
     "city_name": "Wittenberg",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       51.82,
       12.7

@@ -1,5 +1,5 @@
 {
-  "ts": 1584542291000,
+  "ts": 1584560220000,
   "data": [
     {
       "id": 1,
@@ -8,7 +8,7 @@
         0,
         0
       ],
-      "infected": 1641,
+      "infected": 2184,
       "cured": 0,
       "death": 0,
       "population": 11069533
@@ -20,7 +20,7 @@
         0,
         0
       ],
-      "infected": 1352,
+      "infected": 1798,
       "cured": 14,
       "death": 0,
       "population": 13076721
@@ -44,7 +44,7 @@
         0,
         0
       ],
-      "infected": 159,
+      "infected": 171,
       "cured": 0,
       "death": 0,
       "population": 2511917
@@ -68,7 +68,7 @@
         0,
         0
       ],
-      "infected": 312,
+      "infected": 414,
       "cured": 0,
       "death": 0,
       "population": 1841179
@@ -80,7 +80,7 @@
         0,
         0
       ],
-      "infected": 381,
+      "infected": 547,
       "cured": 0,
       "death": 0,
       "population": 6265809
@@ -92,7 +92,7 @@
         0,
         0
       ],
-      "infected": 69,
+      "infected": 100,
       "cured": 0,
       "death": 0,
       "population": 1609675
@@ -104,7 +104,7 @@
         0,
         0
       ],
-      "infected": 563,
+      "infected": 740,
       "cured": 0,
       "death": 0,
       "population": 7982448
@@ -116,7 +116,7 @@
         0,
         0
       ],
-      "infected": 3928,
+      "infected": 4359,
       "cured": 0,
       "death": 0,
       "population": 17932651
@@ -128,7 +128,7 @@
         0,
         0
       ],
-      "infected": 435,
+      "infected": 603,
       "cured": 0,
       "death": 0,
       "population": 4084844
@@ -152,7 +152,7 @@
         0,
         0
       ],
-      "infected": 247,
+      "infected": 296,
       "cured": 0,
       "death": 0,
       "population": 4077937
@@ -164,7 +164,7 @@
         0,
         0
       ],
-      "infected": 105,
+      "infected": 133,
       "cured": 0,
       "death": 0,
       "population": 2208321
@@ -194,7 +194,7 @@
       "population": 2143145
     }
   ],
-  "recoveries": 72,
-  "deaths": 26,
+  "recoveries": 99,
+  "deaths": 31,
   "population": 83019213
 }
