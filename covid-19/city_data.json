@@ -1371,7 +1371,7 @@
   },
   {
     "city_name": "Bremen",
-    "infected": 54,
+    "infected": 62,
     "geo": [
       53.075878,
       8.807311
@@ -1381,7 +1381,7 @@
   },
   {
     "city_name": "Bremerhaven",
-    "infected": 12,
+    "infected": 13,
     "geo": [
       53.541939,
       8.578039
