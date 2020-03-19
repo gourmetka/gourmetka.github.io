@@ -120,7 +120,7 @@ $(document).ready(async () => {
           coordinateSystem: 'geo',
           symbolSize: function (val) {
             let r = 2
-            return val[2] / 2 < r ? r : Math.log2(val[2]) + 3
+            return val[2] / 2 < r ? r : Math.pow(val[2], 0.6)
           },
           symbol: `circle`,
           itemStyle: {

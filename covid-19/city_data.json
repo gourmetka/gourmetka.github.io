@@ -1421,7 +1421,7 @@
   },
   {
     "city_name": "Bergstra\u00dfe",
-    "infected": 25,
+    "infected": 26,
     "geo": [
       49.640764,
       8.644375
@@ -1431,7 +1431,7 @@
   },
   {
     "city_name": "Darmstadt",
-    "infected": 8,
+    "infected": 14,
     "geo": [
       49.866667,
       8.65
@@ -1441,7 +1441,7 @@
   },
   {
     "city_name": "Darmstadt-Dieburg",
-    "infected": 13,
+    "infected": 17,
     "geo": [
       49.898472,
       8.675556
@@ -1451,7 +1451,7 @@
   },
   {
     "city_name": "Frankfurt am Main",
-    "infected": 83,
+    "infected": 95,
     "geo": [
       50.110556,
       8.682222
@@ -1461,7 +1461,7 @@
   },
   {
     "city_name": "Fulda",
-    "infected": 42,
+    "infected": 62,
     "geo": [
       50.560139,
       9.686111
@@ -1471,7 +1471,7 @@
   },
   {
     "city_name": "Gie\u00dfen",
-    "infected": 27,
+    "infected": 39,
     "geo": [
       50.587222,
       8.669722
@@ -1481,7 +1481,7 @@
   },
   {
     "city_name": "Gro\u00df-Gerau",
-    "infected": 21,
+    "infected": 25,
     "geo": [
       49.921389,
       8.481806
@@ -1491,7 +1491,7 @@
   },
   {
     "city_name": "Hersfeld-Rotenburg",
-    "infected": 12,
+    "infected": 16,
     "geo": [
       50.871597,
       9.716042
@@ -1501,7 +1501,7 @@
   },
   {
     "city_name": "Hochtaunuskreis",
-    "infected": 28,
+    "infected": 40,
     "geo": [
       50.215417,
       8.616389
@@ -1511,7 +1511,7 @@
   },
   {
     "city_name": "Kassel (city and county)",
-    "infected": 49,
+    "infected": 58,
     "geo": [
       51.311111,
       9.485903
@@ -1521,7 +1521,7 @@
   },
   {
     "city_name": "Lahn-Dill-Kreis",
-    "infected": 16,
+    "infected": 23,
     "geo": [
       50.5,
       8.500139
@@ -1531,7 +1531,7 @@
   },
   {
     "city_name": "Limburg-Weilburg",
-    "infected": 12,
+    "infected": 32,
     "geo": [
       50.386875,
       8.059514
@@ -1541,7 +1541,7 @@
   },
   {
     "city_name": "Main-Kinzig-Kreis",
-    "infected": 32,
+    "infected": 40,
     "geo": [
       50.25,
       9.3
@@ -1551,7 +1551,7 @@
   },
   {
     "city_name": "Main-Taunus-Kreis",
-    "infected": 18,
+    "infected": 28,
     "geo": [
       50.079583,
       8.449583
@@ -1561,7 +1561,7 @@
   },
   {
     "city_name": "Marburg-Biedenkopf",
-    "infected": 23,
+    "infected": 27,
     "geo": [
       50.786173,
       8.771918
@@ -1581,7 +1581,7 @@
   },
   {
     "city_name": "Offenbach am Main (city and county)",
-    "infected": 30,
+    "infected": 36,
     "geo": [
       50.018236,
       8.785651
@@ -1591,7 +1591,7 @@
   },
   {
     "city_name": "Rheingau-Taunus-Kreis",
-    "infected": 19,
+    "infected": 21,
     "geo": [
       50.148403,
       8.073264
@@ -1601,7 +1601,7 @@
   },
   {
     "city_name": "Schwalm-Eder-Kreis",
-    "infected": 32,
+    "infected": 52,
     "geo": [
       51.035,
       9.400833
@@ -1611,7 +1611,7 @@
   },
   {
     "city_name": "Vogelsbergkreis",
-    "infected": 9,
+    "infected": 13,
     "geo": [
       50.640764,
       9.399792
@@ -1621,7 +1621,7 @@
   },
   {
     "city_name": "Waldeck-Frankenberg",
-    "infected": 18,
+    "infected": 21,
     "geo": [
       51.269298,
       8.856665
@@ -1641,7 +1641,7 @@
   },
   {
     "city_name": "Wetteraukreis",
-    "infected": 13,
+    "infected": 26,
     "geo": [
       50.333333,
       8.752431
@@ -1651,7 +1651,7 @@
   },
   {
     "city_name": "Wiesbaden",
-    "infected": 8,
+    "infected": 20,
     "geo": [
       50.0825,
       8.24
