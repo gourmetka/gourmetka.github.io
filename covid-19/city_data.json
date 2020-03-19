@@ -3011,7 +3011,7 @@
   },
   {
     "city_name": "Merzig-Wadern",
-    "infected": 9,
+    "infected": 10,
     "geo": [
       49.5,
       6.68
@@ -3021,7 +3021,7 @@
   },
   {
     "city_name": "Neunkirchen",
-    "infected": 13,
+    "infected": 22,
     "geo": [
       49.38,
       7.12
@@ -3031,7 +3031,7 @@
   },
   {
     "city_name": "Regionalverband Saarbr\u00fccken",
-    "infected": 25,
+    "infected": 61,
     "geo": [
       49.25,
       6.96
@@ -3041,7 +3041,7 @@
   },
   {
     "city_name": "Saarlouis",
-    "infected": 17,
+    "infected": 26,
     "geo": [
       49.36,
       6.78
@@ -3051,7 +3051,7 @@
   },
   {
     "city_name": "Saarpfalz-Kreis",
-    "infected": 19,
+    "infected": 28,
     "geo": [
       49.316667,
       7.333333
@@ -3061,7 +3061,7 @@
   },
   {
     "city_name": "St. Wendel",
-    "infected": 18,
+    "infected": 22,
     "geo": [
       49.52,
       7.1
