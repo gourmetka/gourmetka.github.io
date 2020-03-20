@@ -19,6 +19,7 @@ $(document).ready(async () => {
         currentSortDir:'asc',
         stateSortIcon:'▴',
         totalSortIcon:' ',
+        stateRatioSortIcon: ' ',
         infectedSortIcon:' ',
         curedSortIcon:' ',
         updateTimestamp: ts,
@@ -61,11 +62,13 @@ $(document).ready(async () => {
         this.totalSortIcon = ' '
         this.infectedSortIcon = ' '
         this.curedSortIcon = ' '
+        this.stateRatioSortIcon = ' '
 
         if(s === 'totalInfectedState') this.totalSortIcon = currentSortIcon
         else if(s === 'stateName') this.stateSortIcon = currentSortIcon        
         else if(s === 'infected') this.infectedSortIcon = currentSortIcon
         else if(s === 'cured') this.curedSortIcon = currentSortIcon
+        else if(s === 'ratio') this.stateRatioSortIcon = currentSortIcon
       },
       sortCity: function (s) {
         if (s === this.sortCityBy) {
@@ -286,11 +289,11 @@ $(document).ready(async () => {
               } else {
                 return a[this.sortCityBy] > b[this.sortCityBy] ? -1 : 1
               }
-            } else if (this.sortCityBy === 'infected') {
+            } else if (this.sortCityBy === 'infected' || this.sortCityBy === 'ratio') { 
               if (this.sortCityOrder === 'asc') {
-                return a.infected - b.infected
+                return a[this.sortCityBy] - b[this.sortCityBy]
               } else {
-                return b.infected - a.infected
+                return b[this.sortCityBy] - a[this.sortCityBy]
               }
             }
           })

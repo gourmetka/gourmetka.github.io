@@ -171,7 +171,13 @@ missing_population_map = {
     "Leipzig (city)": 587857,
     "Leipzig (county)": 257763,
     "Coburg (city)": 41249,
-    "Sonneberg": 23830
+    "Sonneberg": 23830,
+    "Forchheim": 32171,
+    "Schwerin": 95818,
+    "Oberhausen": 210829,
+    "Heidenheim": 49526,
+    "Hamm": 179111,
+    "Biberach": 199742
 }
 
 def loader(data, keyword):
@@ -248,6 +254,12 @@ def locationofGeo(city,lat,long):
     location = geolocator.geocode(city,addressdetails=True)
   return location
 
+def calc_city_infection_ratio(infected, population):
+  if population <= 0:
+    return -1
+  else:
+    return float(infected) / float(population)
+
 url = "https://www.gcber.org/corona/"
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36"
 headers = { 'User-Agent' : user_agent }
@@ -293,7 +305,8 @@ for city in city_list:
     "infected": int(city[3]),
     "geo": [city[0], city[1]],
     "state": stateofCity(region_city_map, city[2], city[0], city[1]),
-    "population": getPopupation(city_data_exists_population, city[2])
+    "population": getPopupation(city_data_exists_population, city[2]),
+    "ratio": calc_city_infection_ratio(int(city[3]), getPopupation(city_data_exists_population, city[2]))
   }
   city_objects.append(city_object)
 
@@ -310,6 +323,7 @@ for region in region_list:
   for d in data:
     if region_name == d["stateName"]:
       d["infected"] = number_cases
+      d["ratio"] = float(number_cases) / float(d["population"])
       found = True
       break
     else:
@@ -317,6 +331,7 @@ for region in region_list:
         mapped_region_name = diff_name_region_map[region_name]
         if mapped_region_name == d["stateName"]:
           d["infected"] = number_cases
+          d["ratio"] = float(number_cases) / float(d["population"])
           found = True
           break
   if found == False:

@@ -60,7 +60,7 @@
                   <tr>
                     <th @click="sort('stateName')" scope="col">联邦州 {{stateSortIcon}}</th>
                     <th @click="sort('infected')" scope="col" class="text-align-center">现存确诊 {{infectedSortIcon}}</th>
-                    <th scope="col" class="text-align-center">确诊比</th>
+                    <th @click="sort('ratio')" scope="col" class="text-align-center">确诊比 {{stateRatioSortIcon}}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -76,7 +76,7 @@
                     </td>
                     <td class="text-align-center infected-text"> 
                       <span v-if="d" :title="`人口：${d.population}`">
-                        {{ `${((d.infected / d.population) * 100).toFixed(4)}%` }} 
+                        {{ `${(d.ratio * 100).toFixed(4)}%` }} 
                       </span>
                       <span v-else>
                         ...
@@ -147,7 +147,7 @@
                     <th style="width: 50px;">#</th>
                     <th @click="sortCity('city_name')" scope="col">地区 {{ citySort.category === "city_name" ? citySort.icon : '' }}</th>
                     <th style="width: 80px;" @click="sortCity('infected')" scope="col" class="text-align-center">现存 {{ citySort.category === "infected" ? citySort.icon : '' }}</th>
-                    <th scope="col" class="text-align-center">确诊比*</th>
+                    <th @click="sortCity('ratio')" scope="col" class="text-align-center">确诊比* {{ citySort.category === "ratio" ? citySort.icon : '' }}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -175,7 +175,7 @@
                     </td>
                     <td class="text-align-center infected-text"> 
                       <span v-if="d && d.population > 0" :title="`人口：${d.population}`">
-                        {{ `${((d.infected / d.population) * 100).toFixed(4)}%` }} 
+                        {{ `${(d.ratio * 100).toFixed(4)}%` }} 
                       </span>
                       <span v-else>
                         -
