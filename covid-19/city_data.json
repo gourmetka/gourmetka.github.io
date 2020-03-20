@@ -1211,7 +1211,7 @@
   },
   {
     "city_name": "Berlin",
-    "infected": 519,
+    "infected": 688,
     "geo": [
       52.518611,
       13.408333
@@ -1261,7 +1261,7 @@
   },
   {
     "city_name": "Elbe-Elster",
-    "infected": 6,
+    "infected": 7,
     "geo": [
       51.6925,
       13.235556
@@ -1271,7 +1271,7 @@
   },
   {
     "city_name": "Frankfurt (Oder)",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       52.341667,
       14.550833
@@ -1291,7 +1291,7 @@
   },
   {
     "city_name": "M\u00e4rkisch-Oderland",
-    "infected": 18,
+    "infected": 20,
     "geo": [
       52.61,
       14.15
@@ -1311,7 +1311,7 @@
   },
   {
     "city_name": "Oberspreewald-Lausitz",
-    "infected": 5,
+    "infected": 6,
     "geo": [
       51.518889,
       14.005556
@@ -1321,7 +1321,7 @@
   },
   {
     "city_name": "Oder-Spree",
-    "infected": 23,
+    "infected": 24,
     "geo": [
       52.24,
       14.22
@@ -1331,7 +1331,7 @@
   },
   {
     "city_name": "Ostprignitz-Ruppin",
-    "infected": 1,
+    "infected": 6,
     "geo": [
       52.991375,
       12.636131
@@ -1360,8 +1360,18 @@
     "population": 214664
   },
   {
+    "city_name": "Prignitz",
+    "infected": 1,
+    "geo": [
+      53.11,
+      11.96
+    ],
+    "state": "Brandenburg",
+    "population": 77813
+  },
+  {
     "city_name": "Spree-Nei\u00dfe",
-    "infected": 20,
+    "infected": 25,
     "geo": [
       51.75,
       14.652778
@@ -1391,7 +1401,7 @@
   },
   {
     "city_name": "Bremen",
-    "infected": 62,
+    "infected": 104,
     "geo": [
       53.075878,
       8.807311
@@ -1401,7 +1411,7 @@
   },
   {
     "city_name": "Bremerhaven",
-    "infected": 13,
+    "infected": 15,
     "geo": [
       53.541939,
       8.578039
@@ -1660,18 +1670,8 @@
     "population": 278342
   },
   {
-    "city_name": "currently unknown",
-    "infected": 31,
-    "geo": [
-      -90,
-      0
-    ],
-    "state": "Mecklenburg-Vorpommern",
-    "population": -1
-  },
-  {
     "city_name": "Ludwigslust-Parchim",
-    "infected": 2,
+    "infected": 13,
     "geo": [
       53.45,
       11.55
@@ -1681,7 +1681,7 @@
   },
   {
     "city_name": "Mecklenburgische Seenplatte",
-    "infected": 13,
+    "infected": 20,
     "geo": [
       53.55,
       12.98
@@ -1691,7 +1691,7 @@
   },
   {
     "city_name": "Nordwestmecklenburg",
-    "infected": 3,
+    "infected": 15,
     "geo": [
       53.82,
       11.25
@@ -1701,7 +1701,7 @@
   },
   {
     "city_name": "Rostock (city and county)",
-    "infected": 29,
+    "infected": 33,
     "geo": [
       54.08816,
       12.13468
@@ -1711,7 +1711,7 @@
   },
   {
     "city_name": "Schwerin",
-    "infected": 7,
+    "infected": 22,
     "geo": [
       53.633333,
       11.416667
@@ -1721,7 +1721,7 @@
   },
   {
     "city_name": "Vorpommern-Greifswald",
-    "infected": 9,
+    "infected": 20,
     "geo": [
       53.76,
       13.89
@@ -1731,7 +1731,7 @@
   },
   {
     "city_name": "Vorpommern-R\u00fcgen",
-    "infected": 6,
+    "infected": 10,
     "geo": [
       54.25,
       13.02
@@ -2033,8 +2033,8 @@
     "city_name": "Region Hannover",
     "infected": 198,
     "geo": [
-      52.42,
-      9.72
+      52.374444,
+      9.738611
     ],
     "state": "Niedersachsen",
     "population": 1149594
@@ -3211,7 +3211,7 @@
   },
   {
     "city_name": "Anhalt-Bitterfeld",
-    "infected": 7,
+    "infected": 8,
     "geo": [
       51.77,
       12.07
@@ -3221,7 +3221,7 @@
   },
   {
     "city_name": "Burgenlandkreis",
-    "infected": 12,
+    "infected": 14,
     "geo": [
       51.15,
       11.88
@@ -3231,7 +3231,7 @@
   },
   {
     "city_name": "B\u00f6rde",
-    "infected": 22,
+    "infected": 25,
     "geo": [
       52.22,
       11.35
@@ -3241,7 +3241,7 @@
   },
   {
     "city_name": "Dessau-Ro\u00dflau",
-    "infected": 4,
+    "infected": 5,
     "geo": [
       51.860556,
       12.246944
@@ -3261,7 +3261,7 @@
   },
   {
     "city_name": "Harz",
-    "infected": 7,
+    "infected": 8,
     "geo": [
       51.82,
       10.96
@@ -3281,7 +3281,7 @@
   },
   {
     "city_name": "Magdeburg",
-    "infected": 27,
+    "infected": 29,
     "geo": [
       52.133333,
       11.616667
@@ -3301,7 +3301,7 @@
   },
   {
     "city_name": "Saalekreis",
-    "infected": 8,
+    "infected": 12,
     "geo": [
       51.43,
       11.87
@@ -3311,7 +3311,7 @@
   },
   {
     "city_name": "Salzlandkreis",
-    "infected": 8,
+    "infected": 11,
     "geo": [
       51.85,
       11.64
@@ -3331,7 +3331,7 @@
   },
   {
     "city_name": "Wittenberg",
-    "infected": 3,
+    "infected": 8,
     "geo": [
       51.82,
       12.7
