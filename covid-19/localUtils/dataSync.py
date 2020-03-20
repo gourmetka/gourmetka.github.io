@@ -121,7 +121,10 @@ missing_population_map = {
     "Ostprignitz-Ruppin": 99078,
     "Uckermark": 120878,
     "Rhön-Grabfeld": 79690,
-    "Prignitz": 77813
+    "Prignitz": 77813,
+    "Neuburg-Schrobenhausen": 95759,
+    "Lüchow-Dannenberg": 48357
+
 }
 
 def loader(data, keyword):
