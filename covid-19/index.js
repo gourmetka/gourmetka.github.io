@@ -158,6 +158,15 @@ $(document).ready(async () => {
           return [geoSerie, scatterSerie]
         }
       },
+      getWikiwandLink: function (name) {
+        if (name.indexOf('(county)') > -1) {
+          name = name.replace('(county)', '')
+          name = `Landkreis ${name}`
+        } else if (name.indexOf('(city)') > -1) {
+          name = name.replace('(city)', '')
+        }
+        return `https://www.wikiwand.com/de/${name}`
+      },
       loadMap: function () {
         let deChart = echarts.init(document.getElementById('mapContainer'))
         deChart.clear()
