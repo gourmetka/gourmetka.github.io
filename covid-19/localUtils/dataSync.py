@@ -302,11 +302,11 @@ city_objects = []
 for city in city_list:
   city_object = {
     "city_name": city[2],
-    "infected": int(city[3]),
+    "infected": int(city[3].replace("&thinsp;", "").strip()),
     "geo": [city[0], city[1]],
     "state": stateofCity(region_city_map, city[2], city[0], city[1]),
     "population": getPopupation(city_data_exists_population, city[2]),
-    "ratio": calc_city_infection_ratio(int(city[3]), getPopupation(city_data_exists_population, city[2]))
+    "ratio": calc_city_infection_ratio(int(city[3].replace("&thinsp;", "").strip()), getPopupation(city_data_exists_population, city[2]))
   }
   city_objects.append(city_object)
 
