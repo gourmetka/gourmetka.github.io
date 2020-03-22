@@ -177,7 +177,8 @@ missing_population_map = {
     "Oberhausen": 210829,
     "Heidenheim": 49526,
     "Hamm": 179111,
-    "Biberach": 199742
+    "Biberach": 199742,
+    "Nienburg (Weser)": 121503
 }
 
 def loader(data, keyword):
