@@ -170,6 +170,52 @@ $(document).ready(async () => {
         }
         return `https://www.wikiwand.com/de/${name}`
       },
+      loadTrend: function () {
+        let trendChart = echarts.init(document.getElementById('trendContainer'))
+        trendChart.clear()
+        if (this.population && this.totalInfected && this.totalInfected > 0) {
+          let r0 = 2.85
+          let n = Math.ceil((Math.log2(1 - (this.population * (1-r0) / this.totalInfected)) / Math.log2(r0)))
+          let data = [...Array(n).keys()].map(d => [d, Math.ceil(this.totalInfected * Math.pow(r0, d))])
+          let options = {
+            title: {
+              text: `作死感染人口曲线 R0=${r0}`,
+              left: 'center'
+            },
+            xAxis: {
+              type: 'value',
+              name: '天数'
+            },
+            yAxis: {
+              type: 'value',
+              name: '感染人数'
+            },
+            series: [{
+              type: 'line',
+              data: data,
+              smooth: true,
+              lineStyle: {
+                type: 'dashed'
+              },
+              label: {
+                show: true,
+                offset: [20, 0]
+              },
+              markLine: {
+                label: {
+                  position: 'middle',
+                  formatter: '{b}'
+                },
+                data: [{
+                  name: `德国人口：${this.population}`,
+                  yAxis: this.population
+                }]
+              }
+            }]
+          }
+          trendChart.setOption(options)
+        }
+      },
       loadMap: function () {
         let deChart = echarts.init(document.getElementById('mapContainer'))
         deChart.clear()
@@ -352,6 +398,7 @@ $(document).ready(async () => {
     mounted () {
       setTimeout(() => {
         this.loadMap()
+        this.loadTrend()
       }, 500)
     }
   })
