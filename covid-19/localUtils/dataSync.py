@@ -184,7 +184,8 @@ missing_population_map = {
   "Pankow": 407765,
   "Steglitz-Zehlendorf": 308697,
   "Tempelhof-Schöneberg": 351644,
-  "Treptow-Köpenick": 271.153
+  "Treptow-Köpenick": 271153,
+  "Lichtenberg": 291452
 }
 
 def loader(data, keyword):

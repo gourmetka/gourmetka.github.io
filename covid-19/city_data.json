@@ -1558,8 +1558,8 @@
       13.508
     ],
     "state": "Berlin",
-    "population": 1615,
-    "ratio": 0.025386996904024767
+    "population": 291452,
+    "ratio": 0.00014067496534592318
   },
   {
     "city_name": "Marzahn-Hellersdorf",
@@ -1657,8 +1657,8 @@
       13.6104
     ],
     "state": "Berlin",
-    "population": 271.153,
-    "ratio": 0.22865319579720672
+    "population": 271153,
+    "ratio": 0.00022865319579720673
   },
   {
     "city_name": "Barnim",
@@ -3345,14 +3345,14 @@
   },
   {
     "city_name": "Ahrweiler",
-    "infected": 40,
+    "infected": 41,
     "geo": [
       50.546357,
       7.10366
     ],
     "state": "Rheinland-Pfalz",
     "population": 7546,
-    "ratio": 0.005300821627352239
+    "ratio": 0.005433342168036046
   },
   {
     "city_name": "Altenkirchen (Westerwald)",
@@ -3367,25 +3367,25 @@
   },
   {
     "city_name": "Alzey-Worms",
-    "infected": 68,
+    "infected": 78,
     "geo": [
       49.76,
       8.16
     ],
     "state": "Rheinland-Pfalz",
     "population": 125173,
-    "ratio": 0.000543248144567918
+    "ratio": 0.0006231375775926118
   },
   {
     "city_name": "Bad D\u00fcrkheim",
-    "infected": 83,
+    "infected": 94,
     "geo": [
       49.45,
       8.11
     ],
     "state": "Rheinland-Pfalz",
     "population": 130927,
-    "ratio": 0.0006339410511200898
+    "ratio": 0.0007179573350034752
   },
   {
     "city_name": "Bad Kreuznach",
@@ -3400,25 +3400,25 @@
   },
   {
     "city_name": "Bernkastel-Wittlich",
-    "infected": 21,
+    "infected": 22,
     "geo": [
       49.92,
       6.97
     ],
     "state": "Rheinland-Pfalz",
     "population": 110833,
-    "ratio": 0.00018947425405790695
+    "ratio": 0.00019849683758447394
   },
   {
     "city_name": "Birkenfeld",
-    "infected": 5,
+    "infected": 10,
     "geo": [
       49.71,
       7.28
     ],
     "state": "Rheinland-Pfalz",
     "population": 6984,
-    "ratio": 0.0007159221076746849
+    "ratio": 0.0014318442153493699
   },
   {
     "city_name": "Cochem-Zell",
@@ -3433,25 +3433,25 @@
   },
   {
     "city_name": "Donnersbergkreis",
-    "infected": 17,
+    "infected": 29,
     "geo": [
       49.63,
       7.91
     ],
     "state": "Rheinland-Pfalz",
     "population": 75508,
-    "ratio": 0.00022514170683901044
+    "ratio": 0.0003840652646077237
   },
   {
     "city_name": "Eifelkreis Bitburg-Pr\u00fcm",
-    "infected": 44,
+    "infected": 46,
     "geo": [
       50.06,
       6.41
     ],
     "state": "Rheinland-Pfalz",
     "population": 95946,
-    "ratio": 0.00045859129093448397
+    "ratio": 0.00047943634961332415
   },
   {
     "city_name": "Frankenthal (Pfalz)",
@@ -3477,58 +3477,58 @@
   },
   {
     "city_name": "Kaiserslautern (city)",
-    "infected": 14,
+    "infected": 21,
     "geo": [
       49.444722,
       7.768889
     ],
     "state": "Rheinland-Pfalz",
     "population": 99845,
-    "ratio": 0.00014021733687215183
+    "ratio": 0.00021032600530822775
   },
   {
     "city_name": "Kaiserslautern (county)",
-    "infected": 14,
+    "infected": 23,
     "geo": [
       49.418889,
       7.480556
     ],
     "state": "Rheinland-Pfalz",
     "population": 106057,
-    "ratio": 0.0001320044881525972
+    "ratio": 0.0002168645162506954
   },
   {
     "city_name": "Koblenz",
-    "infected": 57,
+    "infected": 61,
     "geo": [
       50.356667,
       7.593889
     ],
     "state": "Rheinland-Pfalz",
     "population": 114024,
-    "ratio": 0.0004998947589981057
+    "ratio": 0.000534975092962885
   },
   {
     "city_name": "Kusel",
-    "infected": 21,
+    "infected": 23,
     "geo": [
       49.55,
       7.47
     ],
     "state": "Rheinland-Pfalz",
     "population": 13282,
-    "ratio": 0.0015810871856648096
+    "ratio": 0.0017316669176328865
   },
   {
     "city_name": "Landau in der Pfalz",
-    "infected": 5,
+    "infected": 7,
     "geo": [
       49.199444,
       8.123056
     ],
     "state": "Rheinland-Pfalz",
     "population": 46677,
-    "ratio": 0.00010711913790517814
+    "ratio": 0.0001499667930672494
   },
   {
     "city_name": "Ludwigshafen am Rhein",
@@ -3543,91 +3543,91 @@
   },
   {
     "city_name": "Mainz",
-    "infected": 81,
+    "infected": 82,
     "geo": [
       50,
       8.271111
     ],
     "state": "Rheinland-Pfalz",
     "population": 217118,
-    "ratio": 0.0003730690223749298
+    "ratio": 0.0003776748127746203
   },
   {
     "city_name": "Mainz-Bingen",
-    "infected": 54,
+    "infected": 57,
     "geo": [
       49.92,
       8.08
     ],
     "state": "Rheinland-Pfalz",
     "population": 202222,
-    "ratio": 0.0002670332604761104
+    "ratio": 0.0002818684416136721
   },
   {
     "city_name": "Mayen-Koblenz",
-    "infected": 136,
+    "infected": 151,
     "geo": [
       50.33,
       7.33
     ],
     "state": "Rheinland-Pfalz",
     "population": 210035,
-    "ratio": 0.0006475111290975314
+    "ratio": 0.0007189277977479944
   },
   {
     "city_name": "Neustadt an der Weinstra\u00dfe",
-    "infected": 10,
+    "infected": 11,
     "geo": [
       49.35,
       8.15
     ],
     "state": "Rheinland-Pfalz",
     "population": 53148,
-    "ratio": 0.00018815383457514864
+    "ratio": 0.0002069692180326635
   },
   {
     "city_name": "Neuwied",
-    "infected": 59,
+    "infected": 75,
     "geo": [
       50.56,
       7.47
     ],
     "state": "Rheinland-Pfalz",
     "population": 64574,
-    "ratio": 0.000913680428655496
+    "ratio": 0.0011614581720196984
   },
   {
     "city_name": "Pirmasens",
-    "infected": 3,
+    "infected": 6,
     "geo": [
       49.197222,
       7.608056
     ],
     "state": "Rheinland-Pfalz",
     "population": 40403,
-    "ratio": 7.425191198673365e-05
+    "ratio": 0.0001485038239734673
   },
   {
     "city_name": "Rhein-Hunsr\u00fcck-Kreis",
-    "infected": 47,
+    "infected": 48,
     "geo": [
       50.04,
       7.5
     ],
     "state": "Rheinland-Pfalz",
     "population": 102937,
-    "ratio": 0.0004565899530780963
+    "ratio": 0.00046630463293082175
   },
   {
     "city_name": "Rhein-Lahn-Kreis",
-    "infected": 34,
+    "infected": 37,
     "geo": [
       50.332988,
       7.707049
     ],
     "state": "Rheinland-Pfalz",
     "population": 122308,
-    "ratio": 0.0002779867220459823
+    "ratio": 0.0003025149622265101
   },
   {
     "city_name": "Rhein-Pfalz-Kreis",
@@ -3653,25 +3653,25 @@
   },
   {
     "city_name": "S\u00fcdliche Weinstra\u00dfe",
-    "infected": 31,
+    "infected": 32,
     "geo": [
       49.19,
       8.05
     ],
     "state": "Rheinland-Pfalz",
     "population": 108752,
-    "ratio": 0.00028505222892452554
+    "ratio": 0.00029424746211563924
   },
   {
     "city_name": "S\u00fcdwestpfalz",
-    "infected": 12,
+    "infected": 16,
     "geo": [
       49.24446,
       7.73077
     ],
     "state": "Rheinland-Pfalz",
     "population": 95113,
-    "ratio": 0.00012616571867147497
+    "ratio": 0.0001682209582286333
   },
   {
     "city_name": "Tier-Saarburg",
@@ -3697,47 +3697,47 @@
   },
   {
     "city_name": "Vulkaneifel",
-    "infected": 28,
+    "infected": 29,
     "geo": [
       50.24,
       6.75
     ],
     "state": "Rheinland-Pfalz",
     "population": 60757,
-    "ratio": 0.0004608522474776569
+    "ratio": 0.00047731125631614464
   },
   {
     "city_name": "Westerwaldkreis",
-    "infected": 62,
+    "infected": 78,
     "geo": [
       50.55,
       7.87
     ],
     "state": "Rheinland-Pfalz",
     "population": 201597,
-    "ratio": 0.0003075442590911571
+    "ratio": 0.0003869105195017783
   },
   {
     "city_name": "Worms",
-    "infected": 8,
+    "infected": 12,
     "geo": [
       49.633056,
       8.360833
     ],
     "state": "Rheinland-Pfalz",
     "population": 83330,
-    "ratio": 9.600384015360615e-05
+    "ratio": 0.00014400576023040922
   },
   {
     "city_name": "Zweibr\u00fccken",
-    "infected": 2,
+    "infected": 3,
     "geo": [
       49.249444,
       7.360833
     ],
     "state": "Rheinland-Pfalz",
     "population": 34209,
-    "ratio": 5.846414686193692e-05
+    "ratio": 8.769622029290537e-05
   },
   {
     "city_name": "Merzig-Wadern",
