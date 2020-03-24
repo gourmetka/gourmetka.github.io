@@ -1728,14 +1728,14 @@
   },
   {
     "city_name": "Havelland",
-    "infected": 18,
+    "infected": 21,
     "geo": [
       52.6075,
       12.3325
     ],
     "state": "Brandenburg",
     "population": 160710,
-    "ratio": 0.00011200298674631323
+    "ratio": 0.00013067015120403212
   },
   {
     "city_name": "M\u00e4rkisch-Oderland",
@@ -1816,25 +1816,25 @@
   },
   {
     "city_name": "Prignitz",
-    "infected": 1,
+    "infected": 4,
     "geo": [
       53.11,
       11.96
     ],
     "state": "Brandenburg",
     "population": 77813,
-    "ratio": 1.285132304370735e-05
+    "ratio": 5.14052921748294e-05
   },
   {
     "city_name": "Spree-Nei\u00dfe",
-    "infected": 23,
+    "infected": 29,
     "geo": [
       51.75,
       14.652778
     ],
     "state": "Brandenburg",
     "population": 114429,
-    "ratio": 0.00020099799875905583
+    "ratio": 0.0002534322593048965
   },
   {
     "city_name": "Teltow-Fl\u00e4ming",
@@ -1860,25 +1860,25 @@
   },
   {
     "city_name": "Bremen",
-    "infected": 158,
+    "infected": 161,
     "geo": [
       53.133333,
       8.733333
     ],
     "state": "Bremen",
     "population": 569352,
-    "ratio": 0.0002775084657645885
+    "ratio": 0.00028277761384872625
   },
   {
     "city_name": "Bremerhaven",
-    "infected": 15,
+    "infected": 14,
     "geo": [
       53.541939,
       8.578039
     ],
     "state": "Bremen",
     "population": 113634,
-    "ratio": 0.00013200274565710967
+    "ratio": 0.00012320256261330234
   },
   {
     "city_name": "Hamburg",
@@ -3961,14 +3961,14 @@
   },
   {
     "city_name": "Anhalt-Bitterfeld",
-    "infected": 13,
+    "infected": 16,
     "geo": [
       51.77,
       12.07
     ],
     "state": "Sachsen-Anhalt",
     "population": 168475,
-    "ratio": 7.71627837958154e-05
+    "ratio": 9.49695800563882e-05
   },
   {
     "city_name": "Burgenlandkreis",
@@ -3994,25 +3994,25 @@
   },
   {
     "city_name": "Dessau-Ro\u00dflau",
-    "infected": 11,
+    "infected": 12,
     "geo": [
       51.860556,
       12.246944
     ],
     "state": "Sachsen-Anhalt",
     "population": 81237,
-    "ratio": 0.0001354062803894777
+    "ratio": 0.0001477159422430666
   },
   {
     "city_name": "Halle (Saale)",
-    "infected": 71,
+    "infected": 72,
     "geo": [
       51.482778,
       11.97
     ],
     "state": "Sachsen-Anhalt",
     "population": 239257,
-    "ratio": 0.00029675202815382623
+    "ratio": 0.0003009316341841618
   },
   {
     "city_name": "Harz",
@@ -4049,14 +4049,14 @@
   },
   {
     "city_name": "Mansfeld-S\u00fcdharz",
-    "infected": 10,
+    "infected": 12,
     "geo": [
       51.54,
       11.36
     ],
     "state": "Sachsen-Anhalt",
     "population": 144735,
-    "ratio": 6.909178844094379e-05
+    "ratio": 8.291014612913255e-05
   },
   {
     "city_name": "Saalekreis",
@@ -4071,25 +4071,25 @@
   },
   {
     "city_name": "Salzlandkreis",
-    "infected": 21,
+    "infected": 26,
     "geo": [
       51.85,
       11.64
     ],
     "state": "Sachsen-Anhalt",
     "population": 190560,
-    "ratio": 0.00011020151133501259
+    "ratio": 0.0001364399664147775
   },
   {
     "city_name": "Stendal",
-    "infected": 11,
+    "infected": 10,
     "geo": [
       52.7,
       11.84
     ],
     "state": "Sachsen-Anhalt",
     "population": 39439,
-    "ratio": 0.00027891173711300997
+    "ratio": 0.00025355612464819085
   },
   {
     "city_name": "Wittenberg",
@@ -4104,14 +4104,14 @@
   },
   {
     "city_name": "Dithmarschen",
-    "infected": 12,
+    "infected": 15,
     "geo": [
       54.13,
       9.11
     ],
     "state": "Schleswig-Holstein",
     "population": 133560,
-    "ratio": 8.984725965858041e-05
+    "ratio": 0.00011230907457322552
   },
   {
     "city_name": "Flensburg",
@@ -4126,113 +4126,113 @@
   },
   {
     "city_name": "Herzogtum Lauenburg",
-    "infected": 39,
+    "infected": 51,
     "geo": [
       53.59,
       10.6
     ],
     "state": "Schleswig-Holstein",
     "population": 192999,
-    "ratio": 0.00020207358587350194
+    "ratio": 0.00026425007383457945
   },
   {
     "city_name": "Kiel",
-    "infected": 41,
+    "infected": 51,
     "geo": [
       54.32321,
       10.14019
     ],
     "state": "Schleswig-Holstein",
     "population": 247548,
-    "ratio": 0.00016562444455216766
+    "ratio": 0.00020602065054050122
   },
   {
     "city_name": "L\u00fcbeck",
-    "infected": 57,
+    "infected": 68,
     "geo": [
       53.866111,
       10.683889
     ],
     "state": "Schleswig-Holstein",
     "population": 235300,
-    "ratio": 0.00024224394390140247
+    "ratio": 0.0002889927751806205
   },
   {
     "city_name": "Neum\u00fcnster",
-    "infected": 7,
+    "infected": 10,
     "geo": [
       54.071389,
       9.99
     ],
     "state": "Schleswig-Holstein",
     "population": 79487,
-    "ratio": 8.806471498484028e-05
+    "ratio": 0.00012580673569262898
   },
   {
     "city_name": "Nordfriesland",
-    "infected": 19,
+    "infected": 20,
     "geo": [
       54.477019,
       9.051147
     ],
     "state": "Schleswig-Holstein",
     "population": 164926,
-    "ratio": 0.00011520318203315426
+    "ratio": 0.00012126650740332028
   },
   {
     "city_name": "Ostholstein",
-    "infected": 13,
+    "infected": 17,
     "geo": [
       54.19,
       10.82
     ],
     "state": "Schleswig-Holstein",
     "population": 200581,
-    "ratio": 6.481172194774181e-05
+    "ratio": 8.475379023935467e-05
   },
   {
     "city_name": "Pinneberg",
-    "infected": 88,
+    "infected": 92,
     "geo": [
       53.71,
       9.73
     ],
     "state": "Schleswig-Holstein",
     "population": 43280,
-    "ratio": 0.002033271719038817
+    "ratio": 0.0021256931608133085
   },
   {
     "city_name": "Pl\u00f6n",
-    "infected": 19,
+    "infected": 23,
     "geo": [
       54.24,
       10.36
     ],
     "state": "Schleswig-Holstein",
     "population": 8914,
-    "ratio": 0.0021314785730311868
+    "ratio": 0.0025802109041956475
   },
   {
     "city_name": "Rendsburg-Eckernf\u00f6rde",
-    "infected": 37,
+    "infected": 46,
     "geo": [
       54.29,
       9.78
     ],
     "state": "Schleswig-Holstein",
     "population": 248700,
-    "ratio": 0.00014877362283876157
+    "ratio": 0.00018496180136710896
   },
   {
     "city_name": "Schleswig-Flensburg",
-    "infected": 27,
+    "infected": 28,
     "geo": [
       54.62,
       9.51
     ],
     "state": "Schleswig-Holstein",
     "population": 200025,
-    "ratio": 0.00013498312710911135
+    "ratio": 0.0001399825021872266
   },
   {
     "city_name": "Segeberg",
@@ -4247,25 +4247,25 @@
   },
   {
     "city_name": "Steinburg",
-    "infected": 13,
+    "infected": 20,
     "geo": [
       53.92,
       9.51
     ],
     "state": "Schleswig-Holstein",
     "population": 2743,
-    "ratio": 0.004739336492890996
+    "ratio": 0.007291286912139993
   },
   {
     "city_name": "Stormarn",
-    "infected": 52,
+    "infected": 60,
     "geo": [
       53.72,
       10.33
     ],
     "state": "Schleswig-Holstein",
     "population": 236705,
-    "ratio": 0.0002196827274455546
+    "ratio": 0.0002534800701294861
   },
   {
     "city_name": "Altenburger Land",
