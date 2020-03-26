@@ -185,7 +185,9 @@ missing_population_map = {
   "Steglitz-Zehlendorf": 308697,
   "Tempelhof-Schöneberg": 351644,
   "Treptow-Köpenick": 271153,
-  "Lichtenberg": 291452
+  "Lichtenberg": 291452,
+  "Kempten (Allgäu)": 68907,
+  "Trier-Saarburg": 148945
 }
 
 def loader(data, keyword):
