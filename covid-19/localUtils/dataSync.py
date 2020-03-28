@@ -231,14 +231,20 @@ def get_state_city_map(data):
         state_city_map[city_name] = current_state
   return state_city_map
 
+city_state_map = {
+  "Spandau": "Berlin"
+}
 
 def stateofCity(city_name_obj, city, lat, long):
   # print ("Getting state info of: %s" % city)
   if city in city_name_obj.keys():
     return city_name_obj[city]
   else:
-    location = locationofGeo(city, lat, long)
-  return location.raw['address']['state']
+    if city in city_state_map.keys():
+      return city_state_map[city]
+    else:
+      location = locationofGeo(city, lat, long)
+      return location.raw['address']['state']
 
 def getPopupation(city_population_obj, city):
   # print ("Get population of: %s" % city)
