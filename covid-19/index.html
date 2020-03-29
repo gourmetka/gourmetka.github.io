@@ -135,7 +135,7 @@
           </div>
 
           <div align="center" class="col-sm-3 col-md-2" style="margin-top: 40px;">
-            <span class="stats_red stats_font">{{ (Math.log2(1 - (population * (1-2.85) / totalInfected)) / Math.log2(2.85)).toFixed(0) }}</span><br/>
+            <span class="stats_red stats_font">{{ Math.ceil(Math.log10(1 - (population * (1-1.33) / totalInfected)) / Math.log10(1.33)) + 4 }}</span><br/>
             剩余天数**
           </div>
 
@@ -199,8 +199,8 @@
         各联邦州人口数据来自维基百科 (2018)<br/>
         * 各城市人口数据来自维基百科城市最新数据，由于是直接抓取 wikidata 的数据，数据误差可能很大。城市的确诊比只作为参考。<br/>
         确诊比的计算方法为： (现存确诊人数 / 总人口) * 100% <br/>
-        ** 剩余天数是基于 R0 = 2.85 ((2.4 + 3.3) / 2)，假设每个人每天只传染一次给其他没有感染的人计算出来的，另外假设所有人都不管不顾不洗手出去作。<br/>
-        计算方法为：log_2(1 - 德国总人口 * (1 - R0) / 总确诊人数) / log_2(R0) <br/>
+        ** 剩余天数是基于现在德国翻倍天数 T = (1 + 0.33)，即每3天翻一倍，假设每个人每天只传染一次给其他没有感染的人计算出来的，另外假设所有人都不管不顾不洗手出去作。<br/>
+        计算方法为：log_2(1 - 德国总人口 * (1 - T) / 总确诊人数) / log_2(T) <br/>
         Color theme: <a href="https://experience.sap.com/fiori-design-web/" target="_blank">SAP Fiori</a> <br/>
         Icon: <a href="https://svgrepo.com" target="_blank">svgrepo.com</a>
       </div>
