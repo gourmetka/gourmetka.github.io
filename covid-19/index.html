@@ -135,7 +135,7 @@
           </div>
 
           <div align="center" class="col-sm-3 col-md-2" style="margin-top: 40px;">
-            <span class="stats_red stats_font">{{ Math.ceil(Math.log10(1 - (population * (1-1.33) / totalInfected)) / Math.log10(1.33)) + 4 }}</span><br/>
+            <span class="stats_red stats_font">{{ (Math.log10(1 - (population * (1-1.33) / totalInfected)) / Math.log10(1.33)).toFixed(2) }}</span><br/>
             剩余天数**
           </div>
 
