@@ -1541,146 +1541,146 @@
   },
   {
     "city_name": "Berlin",
-    "infected": 2777,
+    "infected": 2993,
     "geo": [
       52.518611,
       13.408333
     ],
     "state": "Berlin",
     "population": 3644826,
-    "ratio": 0.0007619019399005604
+    "ratio": 0.0008211640281319328
   },
   {
     "city_name": "Charlottenburg-Wilmersdorf",
-    "infected": 318,
+    "infected": 374,
     "geo": [
       52.5025,
       13.2772
     ],
     "state": "Berlin",
     "population": 342332,
-    "ratio": 0.0009289228000888027
+    "ratio": 0.001092506689412617
   },
   {
     "city_name": "Friedrichshain-Kreuzberg",
-    "infected": 286,
+    "infected": 297,
     "geo": [
       52.5025,
       13.4633
     ],
     "state": "Berlin",
     "population": 281076,
-    "ratio": 0.0010175183936017304
+    "ratio": 0.0010566537164325663
   },
   {
     "city_name": "Lichtenberg",
-    "infected": 118,
+    "infected": 123,
     "geo": [
       52.5533,
       13.508
     ],
     "state": "Grand Est",
     "population": 291452,
-    "ratio": 0.0004048694124589984
+    "ratio": 0.0004220248960377695
   },
   {
     "city_name": "Marzahn-Hellersdorf",
-    "infected": 88,
+    "infected": 95,
     "geo": [
       52.5197,
       13.5889
     ],
     "state": "Berlin",
     "population": 268548,
-    "ratio": 0.00032768816003098144
+    "ratio": 0.00035375426366980947
   },
   {
     "city_name": "Mitte",
-    "infected": 445,
+    "infected": 479,
     "geo": [
       52.531,
       13.3653
     ],
     "state": "Berlin",
     "population": 333905,
-    "ratio": 0.001332714394812896
+    "ratio": 0.0014345397643042183
   },
   {
     "city_name": "Neuk\u00f6lln",
-    "infected": 277,
+    "infected": 313,
     "geo": [
       52.4373,
       13.4518
     ],
     "state": "Berlin",
     "population": 306000,
-    "ratio": 0.0009052287581699346
+    "ratio": 0.0010228758169934641
   },
   {
     "city_name": "Pankow",
-    "infected": 279,
+    "infected": 286,
     "geo": [
       52.6049,
       13.4272
     ],
     "state": "Berlin",
     "population": 57113,
-    "ratio": 0.004885052439899847
+    "ratio": 0.005007616479610596
   },
   {
     "city_name": "Reinickendorf",
-    "infected": 186,
+    "infected": 198,
     "geo": [
       52.5953,
       13.2928
     ],
     "state": "Berlin",
     "population": 260253,
-    "ratio": 0.0007146891678482092
+    "ratio": 0.0007607981464190615
   },
   {
     "city_name": "Spandau",
-    "infected": 99,
+    "infected": 108,
     "geo": [
       52.5286,
       13.1954
     ],
     "state": "Berlin",
     "population": 231120,
-    "ratio": 0.0004283489096573209
+    "ratio": 0.00046728971962616824
   },
   {
     "city_name": "Steglitz-Zehlendorf",
-    "infected": 236,
+    "infected": 260,
     "geo": [
       52.4424,
       13.2284
     ],
     "state": "Berlin",
     "population": 308697,
-    "ratio": 0.000764503704279601
+    "ratio": 0.0008422498436978656
   },
   {
     "city_name": "Tempelhof-Sch\u00f6neberg",
-    "infected": 292,
+    "infected": 298,
     "geo": [
       52.465,
       13.362
     ],
     "state": "Berlin",
     "population": 351644,
-    "ratio": 0.0008303852760177908
+    "ratio": 0.0008474479871688412
   },
   {
     "city_name": "Treptow-K\u00f6penick",
-    "infected": 153,
+    "infected": 162,
     "geo": [
       52.4361,
       13.6104
     ],
     "state": "Berlin",
     "population": 271153,
-    "ratio": 0.0005642570799511715
+    "ratio": 0.0005974486728894757
   },
   {
     "city_name": "Barnim",
