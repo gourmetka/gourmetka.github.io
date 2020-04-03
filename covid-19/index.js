@@ -174,12 +174,12 @@ $(document).ready(async () => {
         let trendChart = echarts.init(document.getElementById('trendContainer'))
         trendChart.clear()
         if (this.population && this.totalInfected && this.totalInfected > 0) {
-          let r0 = 1.33
-          let n = Math.ceil(Math.log10(1 - this.population * (1-1.33) / this.totalInfected) / Math.log10(1.33))
+          let r0 = 1.09
+          let n = Math.ceil(Math.log10(1 - this.population * (1-r0) / this.totalInfected) / Math.log10(r0))
           let data = [...Array(n).keys()].map(d => [d, (this.totalInfected * (1 - r0 ** (d + 1))/ (1 - r0))])
           let options = {
             title: {
-              text: `作死感染人口曲线 T=每3天翻倍`,
+              text: `作死感染人口曲线 T=每11天翻倍`,
               left: 'center'
             },
             xAxis: {
