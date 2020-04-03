@@ -122,8 +122,8 @@ $(document).ready(async () => {
           data: this.visualCityData,
           coordinateSystem: 'geo',
           symbolSize: function (val) {
-            let r = 2
-            return val[2] / 2 < r ? r : Math.pow(val[2], 0.6)
+            let r = 1
+            return val[2] / 50 < r ? r : val[2] / 50
           },
           symbol: `circle`,
           itemStyle: {
