@@ -297,7 +297,7 @@ for d in data:
     source = d.decode("utf-8")
     germany_status = source.split("+")[3].replace('"', '').split("|")
     germany_recoveries = int(germany_status[0].replace("recoveries", "").replace("&thinsp;", "").strip())
-    germany_deaths = int(germany_status[1].replace("deaths", "").strip())
+    germany_deaths = int(germany_status[1].replace("deaths", "").replace("&thinsp;", "").strip())
     break
 
 existing_city_data = []
