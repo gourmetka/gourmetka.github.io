@@ -12,113 +12,113 @@
   },
   {
     "city_name": "Baden-Baden",
-    "infected": 162,
+    "infected": 163,
     "geo": [
       48.761944,
       8.240833
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 55123,
-    "ratio": 0.0029388821363133355
+    "ratio": 0.002957023384068356
   },
   {
     "city_name": "Biberach",
-    "infected": 459,
+    "infected": 465,
     "geo": [
       48.096111,
       9.792778
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 199742,
-    "ratio": 0.002297964374042515
+    "ratio": 0.002328003124029999
   },
   {
     "city_name": "Bodenseekreis",
-    "infected": 274,
+    "infected": 276,
     "geo": [
       47.657778,
       9.451944
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 205843,
-    "ratio": 0.0013311115753268268
+    "ratio": 0.001340827718212424
   },
   {
     "city_name": "Breisgau-Hochschwarzwald",
-    "infected": 975,
+    "infected": 979,
     "geo": [
       47.97,
       7.999
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 247711,
-    "ratio": 0.003936038367290916
+    "ratio": 0.003952186217002878
   },
   {
     "city_name": "B\u00f6blingen",
-    "infected": 1250,
+    "infected": 1268,
     "geo": [
       48.682222,
       9.009722
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 381281,
-    "ratio": 0.0032784219512642905
+    "ratio": 0.0033256312273624964
   },
   {
     "city_name": "Calw",
-    "infected": 594,
+    "infected": 605,
     "geo": [
       48.714444,
       8.7375
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 271600,
-    "ratio": 0.002187039764359352
+    "ratio": 0.002227540500736377
   },
   {
     "city_name": "Emmendingen",
-    "infected": 508,
+    "infected": 507,
     "geo": [
       48.121389,
       7.849167
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 157399,
-    "ratio": 0.0032274665023284774
+    "ratio": 0.003221113221812083
   },
   {
     "city_name": "Enzkreis",
-    "infected": 425,
+    "infected": 438,
     "geo": [
       48.9501,
       8.8394
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 198905,
-    "ratio": 0.002136698423870692
+    "ratio": 0.002202056258012619
   },
   {
     "city_name": "Esslingen",
-    "infected": 1532,
+    "infected": 1537,
     "geo": [
       48.734167,
       9.310556
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 524127,
-    "ratio": 0.002922955695852341
+    "ratio": 0.002932495368488935
   },
   {
     "city_name": "Freiburg im Breisgau",
-    "infected": 904,
+    "infected": 910,
     "geo": [
       48,
       7.849881
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 230241,
-    "ratio": 0.003926320681372996
+    "ratio": 0.003952380331913082
   },
   {
     "city_name": "Freudenstadt",
@@ -133,36 +133,36 @@
   },
   {
     "city_name": "G\u00f6ppingen",
-    "infected": 670,
+    "infected": 676,
     "geo": [
       48.693333,
       9.706667
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 252749,
-    "ratio": 0.0026508512397675162
+    "ratio": 0.0026745902060937928
   },
   {
     "city_name": "Heidelberg",
-    "infected": 262,
+    "infected": 263,
     "geo": [
       49.412222,
       8.71
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 160355,
-    "ratio": 0.00163387484019831
+    "ratio": 0.0016401110037105172
   },
   {
     "city_name": "Heidenheim",
-    "infected": 403,
+    "infected": 405,
     "geo": [
       48.681944,
       10.149444
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 49526,
-    "ratio": 0.008137140088034569
+    "ratio": 0.008177522917255584
   },
   {
     "city_name": "Heilbronn (city)",
@@ -177,47 +177,47 @@
   },
   {
     "city_name": "Heilbronn (county)",
-    "infected": 783,
+    "infected": 785,
     "geo": [
       49.239722,
       9.1025
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 343068,
-    "ratio": 0.002282346356990451
+    "ratio": 0.0022881761050287408
   },
   {
     "city_name": "Hohenlohekreis",
-    "infected": 701,
+    "infected": 703,
     "geo": [
       49.2775,
       9.686667
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 110181,
-    "ratio": 0.006362258465615668
+    "ratio": 0.0063804104155888944
   },
   {
     "city_name": "Karlsruhe (city)",
-    "infected": 315,
+    "infected": 317,
     "geo": [
       49.006889,
       8.403653
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 313092,
-    "ratio": 0.0010060940554214098
+    "ratio": 0.00101248195418599
   },
   {
     "city_name": "Karlsruhe (county)",
-    "infected": 818,
+    "infected": 829,
     "geo": [
       49.1243,
       8.5979
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 444232,
-    "ratio": 0.001841380179725909
+    "ratio": 0.0018661420158835923
   },
   {
     "city_name": "Konstanz",
@@ -232,25 +232,25 @@
   },
   {
     "city_name": "Ludwigsburg",
-    "infected": 1438,
+    "infected": 1443,
     "geo": [
       48.890278,
       9.201111
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 93499,
-    "ratio": 0.01537984363469128
+    "ratio": 0.015433320142461416
   },
   {
     "city_name": "L\u00f6rrach",
-    "infected": 501,
+    "infected": 508,
     "geo": [
       47.614444,
       7.662222
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 49347,
-    "ratio": 0.010152592862788011
+    "ratio": 0.010294445457677265
   },
   {
     "city_name": "Main-Tauber-Kreis",
@@ -265,25 +265,25 @@
   },
   {
     "city_name": "Mannheim",
-    "infected": 420,
+    "infected": 421,
     "geo": [
       49.483611,
       8.513056
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 309370,
-    "ratio": 0.0013575976985486635
+    "ratio": 0.0013608300740213983
   },
   {
     "city_name": "Neckar-Odenwald-Kreis",
-    "infected": 293,
+    "infected": 298,
     "geo": [
       49.349167,
       9.141944
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 141847,
-    "ratio": 0.0020656058993140498
+    "ratio": 0.002100855146742617
   },
   {
     "city_name": "Ortenaukreis",
@@ -298,25 +298,25 @@
   },
   {
     "city_name": "Ostalbkreis",
-    "infected": 992,
+    "infected": 1013,
     "geo": [
       48.835,
       10.093333
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 311587,
-    "ratio": 0.0031837015023091463
+    "ratio": 0.003251098409112062
   },
   {
     "city_name": "Pforzheim",
-    "infected": 188,
+    "infected": 191,
     "geo": [
       48.891111,
       8.698889
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 318300,
-    "ratio": 0.0005906377631165567
+    "ratio": 0.0006000628338045868
   },
   {
     "city_name": "Rastatt",
@@ -331,124 +331,124 @@
   },
   {
     "city_name": "Ravensburg",
-    "infected": 500,
+    "infected": 506,
     "geo": [
       47.787222,
       9.616944
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 50623,
-    "ratio": 0.009876933409714952
+    "ratio": 0.009995456610631531
   },
   {
     "city_name": "Rems-Murr-Kreis",
-    "infected": 1058,
+    "infected": 1071,
     "geo": [
       48.947523,
       9.370589
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 419456,
-    "ratio": 0.0025223146170277695
+    "ratio": 0.0025533071406774487
   },
   {
     "city_name": "Reutlingen",
-    "infected": 1262,
+    "infected": 1295,
     "geo": [
       48.494167,
       9.218056
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 115966,
-    "ratio": 0.010882500043116085
+    "ratio": 0.011167066209061277
   },
   {
     "city_name": "Rhein-Neckar-Kreis",
-    "infected": 839,
+    "infected": 841,
     "geo": [
       49.35,
       8.85
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 547625,
-    "ratio": 0.0015320703035836567
+    "ratio": 0.0015357224377995891
   },
   {
     "city_name": "Rottweil",
-    "infected": 525,
+    "infected": 531,
     "geo": [
       48.161667,
       8.632778
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 135553,
-    "ratio": 0.003873023835695263
+    "ratio": 0.003917286965246066
   },
   {
     "city_name": "Schwarzwald-Baar-Kreis",
-    "infected": 432,
+    "infected": 430,
     "geo": [
       48.06,
       8.467778
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 212381,
-    "ratio": 0.0020340802614169816
+    "ratio": 0.002024663223169681
   },
   {
     "city_name": "Schw\u00e4bisch Hall",
-    "infected": 701,
+    "infected": 720,
     "geo": [
       49.116111,
       9.737222
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 40440,
-    "ratio": 0.017334322453016814
+    "ratio": 0.017804154302670624
   },
   {
     "city_name": "Sigmaringen",
-    "infected": 709,
+    "infected": 718,
     "geo": [
       48.086389,
       9.214722
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 17278,
-    "ratio": 0.04103484199560134
+    "ratio": 0.04155573561754833
   },
   {
     "city_name": "Stuttgart",
-    "infected": 1246,
+    "infected": 1249,
     "geo": [
       48.775556,
       9.182778
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 634830,
-    "ratio": 0.001962730179733157
+    "ratio": 0.0019674558543232045
   },
   {
     "city_name": "Tuttlingen",
-    "infected": 395,
+    "infected": 401,
     "geo": [
       47.9822,
       8.8058
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 132476,
-    "ratio": 0.0029816721519369547
+    "ratio": 0.003026963374498022
   },
   {
     "city_name": "T\u00fcbingen",
-    "infected": 1153,
+    "infected": 1163,
     "geo": [
       48.520144,
       9.053363
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 214894,
-    "ratio": 0.0053654359823913185
+    "ratio": 0.005411970552923767
   },
   {
     "city_name": "Ulm",
@@ -474,14 +474,14 @@
   },
   {
     "city_name": "Zollernalbkreis",
-    "infected": 873,
+    "infected": 891,
     "geo": [
       48.273611,
       8.8575
     ],
     "state": "Baden-W\u00fcrttemberg",
     "population": 188170,
-    "ratio": 0.0046394217994366795
+    "ratio": 0.004735079980868364
   },
   {
     "city_name": "Aichach-Friedberg",
@@ -496,14 +496,14 @@
   },
   {
     "city_name": "Alt\u00f6tting",
-    "infected": 532,
+    "infected": 537,
     "geo": [
       48.21,
       12.71
     ],
     "state": "Bayern",
     "population": 12969,
-    "ratio": 0.041020895982728046
+    "ratio": 0.04140643071940782
   },
   {
     "city_name": "Amberg",
@@ -540,14 +540,14 @@
   },
   {
     "city_name": "Ansbach (county)",
-    "infected": 447,
+    "infected": 457,
     "geo": [
       49.3775,
       10.178889
     ],
     "state": "Bayern",
     "population": 183949,
-    "ratio": 0.0024300213646173668
+    "ratio": 0.0024843842586803953
   },
   {
     "city_name": "Aschaffenburg (city)",
@@ -562,80 +562,80 @@
   },
   {
     "city_name": "Aschaffenburg (county)",
-    "infected": 438,
+    "infected": 440,
     "geo": [
       50.083333,
       9.216667
     ],
     "state": "Bayern",
     "population": 174208,
-    "ratio": 0.002514235855988244
+    "ratio": 0.0025257163850110212
   },
   {
     "city_name": "Augsburg (city)",
-    "infected": 345,
+    "infected": 346,
     "geo": [
       48.371667,
       10.898333
     ],
     "state": "Bayern",
     "population": 295135,
-    "ratio": 0.0011689565791925729
+    "ratio": 0.0011723448591322615
   },
   {
     "city_name": "Augsburg (county)",
-    "infected": 337,
+    "infected": 340,
     "geo": [
       48.400278,
       10.596667
     ],
     "state": "Bayern",
     "population": 251534,
-    "ratio": 0.0013397791153482233
+    "ratio": 0.0013517059323988009
   },
   {
     "city_name": "Bad Kissingen",
-    "infected": 211,
+    "infected": 212,
     "geo": [
       50.22,
       9.96
     ],
     "state": "Bayern",
     "population": 267400,
-    "ratio": 0.0007890800299177262
+    "ratio": 0.0007928197456993269
   },
   {
     "city_name": "Bad T\u00f6lz-Wolfratshausen",
-    "infected": 381,
+    "infected": 388,
     "geo": [
       47.73,
       11.48
     ],
     "state": "Bayern",
     "population": 126572,
-    "ratio": 0.0030101444237272067
+    "ratio": 0.0030654489144518533
   },
   {
     "city_name": "Bamberg (city)",
-    "infected": 171,
+    "infected": 173,
     "geo": [
       49.891667,
       10.891667
     ],
     "state": "Bayern",
     "population": 77592,
-    "ratio": 0.002203835446953294
+    "ratio": 0.0022296113001340346
   },
   {
     "city_name": "Bamberg (county)",
-    "infected": 366,
+    "infected": 369,
     "geo": [
       49.976667,
       11.033889
     ],
     "state": "Bayern",
     "population": 147086,
-    "ratio": 0.0024883401547394044
+    "ratio": 0.0025087363855159565
   },
   {
     "city_name": "Bayreuth (city)",
@@ -650,36 +650,36 @@
   },
   {
     "city_name": "Bayreuth (county)",
-    "infected": 355,
+    "infected": 356,
     "geo": [
       49.85,
       11.433333
     ],
     "state": "Bayern",
     "population": 103656,
-    "ratio": 0.0034247896889712127
+    "ratio": 0.003434436983869723
   },
   {
     "city_name": "Berchtesgadener Land",
-    "infected": 249,
+    "infected": 254,
     "geo": [
       47.7,
       12.9
     ],
     "state": "Bayern",
     "population": 24420,
-    "ratio": 0.010196560196560197
+    "ratio": 0.010401310401310402
   },
   {
     "city_name": "Cham",
-    "infected": 370,
+    "infected": 373,
     "geo": [
       49.208539,
       12.667589
     ],
     "state": "Bayern",
     "population": 16907,
-    "ratio": 0.0218844265688768
+    "ratio": 0.022061867865381203
   },
   {
     "city_name": "Coburg (city)",
@@ -727,25 +727,25 @@
   },
   {
     "city_name": "Dillingen an der Donau",
-    "infected": 200,
+    "infected": 201,
     "geo": [
       48.6,
       10.53
     ],
     "state": "Bayern",
     "population": 18978,
-    "ratio": 0.010538518284329224
+    "ratio": 0.01059121087575087
   },
   {
     "city_name": "Dingolfing-Landau",
-    "infected": 172,
+    "infected": 174,
     "geo": [
       48.64,
       12.61
     ],
     "state": "Bayern",
     "population": 75517,
-    "ratio": 0.0022776328508812586
+    "ratio": 0.0023041169537984826
   },
   {
     "city_name": "Donau-Ries",
@@ -760,157 +760,157 @@
   },
   {
     "city_name": "Ebersberg",
-    "infected": 394,
+    "infected": 400,
     "geo": [
       48.083333,
       11.966667
     ],
     "state": "Bayern",
     "population": 96283,
-    "ratio": 0.004092103486596803
+    "ratio": 0.004154419783347008
   },
   {
     "city_name": "Eichst\u00e4tt",
-    "infected": 232,
+    "infected": 239,
     "geo": [
       48.9,
       11.37
     ],
     "state": "Bayern",
     "population": 97347,
-    "ratio": 0.002383227012645485
+    "ratio": 0.002455134724233926
   },
   {
     "city_name": "Erding",
-    "infected": 543,
+    "infected": 545,
     "geo": [
       48.306447,
       11.90755
     ],
     "state": "Bayern",
     "population": 36469,
-    "ratio": 0.01488935808494886
+    "ratio": 0.014944199182867641
   },
   {
     "city_name": "Erlangen",
-    "infected": 210,
+    "infected": 213,
     "geo": [
       49.596361,
       11.054311
     ],
     "state": "Bayern",
     "population": 242500,
-    "ratio": 0.0008659793814432989
+    "ratio": 0.0008783505154639175
   },
   {
     "city_name": "Erlangen-H\u00f6chstadt",
-    "infected": 190,
+    "infected": 191,
     "geo": [
       49.64,
       10.91
     ],
     "state": "Bayern",
     "population": 134136,
-    "ratio": 0.0014164728335420767
+    "ratio": 0.001423927953718614
   },
   {
     "city_name": "Forchheim",
-    "infected": 193,
+    "infected": 194,
     "geo": [
       49.72,
       11.17
     ],
     "state": "Bayern",
     "population": 32171,
-    "ratio": 0.005999191818718722
+    "ratio": 0.006030275714152497
   },
   {
     "city_name": "Freising",
-    "infected": 903,
+    "infected": 910,
     "geo": [
       48.402778,
       11.748889
     ],
     "state": "Bayern",
     "population": 118518,
-    "ratio": 0.007619095833544272
+    "ratio": 0.0076781585919438395
   },
   {
     "city_name": "Freyung-Grafenau",
-    "infected": 152,
+    "infected": 154,
     "geo": [
       48.83,
       13.51
     ],
     "state": "Bayern",
     "population": 78355,
-    "ratio": 0.001939888966881501
+    "ratio": 0.001965413821708889
   },
   {
     "city_name": "F\u00fcrstenfeldbruck",
-    "infected": 702,
+    "infected": 727,
     "geo": [
       48.177778,
       11.255556
     ],
     "state": "Bayern",
     "population": 172760,
-    "ratio": 0.004063440611252605
+    "ratio": 0.004208150034730262
   },
   {
     "city_name": "F\u00fcrth (city)",
-    "infected": 270,
+    "infected": 278,
     "geo": [
       49.478333,
       10.990278
     ],
     "state": "Bayern",
     "population": 127748,
-    "ratio": 0.002113536024047343
+    "ratio": 0.002176159313648746
   },
   {
     "city_name": "F\u00fcrth (county)",
-    "infected": 411,
+    "infected": 420,
     "geo": [
       49.420833,
       10.851389
     ],
     "state": "Bayern",
     "population": 117387,
-    "ratio": 0.003501239489892407
+    "ratio": 0.003577908967773263
   },
   {
     "city_name": "Garmisch-Partenkirchen",
-    "infected": 240,
+    "infected": 242,
     "geo": [
       47.56,
       11.13
     ],
     "state": "Bayern",
     "population": 27194,
-    "ratio": 0.008825476207987055
+    "ratio": 0.008899021843053615
   },
   {
     "city_name": "G\u00fcnzburg",
-    "infected": 204,
+    "infected": 205,
     "geo": [
       48.35,
       10.38
     ],
     "state": "Bayern",
     "population": 20707,
-    "ratio": 0.009851740957164243
+    "ratio": 0.00990003380499348
   },
   {
     "city_name": "Ha\u00dfberge",
-    "infected": 133,
+    "infected": 135,
     "geo": [
       50.06,
       10.61
     ],
     "state": "Bayern",
     "population": 80257,
-    "ratio": 0.0016571763210685671
+    "ratio": 0.00168209626574629
   },
   {
     "city_name": "Hof (city)",
@@ -925,25 +925,25 @@
   },
   {
     "city_name": "Hof (county)",
-    "infected": 331,
+    "infected": 336,
     "geo": [
       50.192222,
       11.788889
     ],
     "state": "Bayern",
     "population": 95311,
-    "ratio": 0.003472841539801282
+    "ratio": 0.0035253013817922382
   },
   {
     "city_name": "Ingolstadt",
-    "infected": 357,
+    "infected": 370,
     "geo": [
       48.76415,
       11.42434
     ],
     "state": "Bayern",
     "population": 136981,
-    "ratio": 0.002606200859973281
+    "ratio": 0.0027011045327454174
   },
   {
     "city_name": "Kaufbeuren",
@@ -969,58 +969,58 @@
   },
   {
     "city_name": "Kempten (Allg\u00e4u)",
-    "infected": 98,
+    "infected": 101,
     "geo": [
       47.733333,
       10.316667
     ],
     "state": "Bayern",
     "population": 68907,
-    "ratio": 0.0014222067424209442
+    "ratio": 0.0014657436835154628
   },
   {
     "city_name": "Kitzingen",
-    "infected": 94,
+    "infected": 102,
     "geo": [
       49.75,
       10.26
     ],
     "state": "Bayern",
     "population": 79304,
-    "ratio": 0.0011853122162816504
+    "ratio": 0.0012861898517098759
   },
   {
     "city_name": "Kronach",
-    "infected": 113,
+    "infected": 115,
     "geo": [
       50.33,
       11.37
     ],
     "state": "Bayern",
     "population": 75353,
-    "ratio": 0.0014996085092829749
+    "ratio": 0.001526150252810107
   },
   {
     "city_name": "Kulmbach",
-    "infected": 173,
+    "infected": 176,
     "geo": [
       50.086666,
       11.397285
     ],
     "state": "Bayern",
     "population": 25915,
-    "ratio": 0.006675670461122902
+    "ratio": 0.006791433532703068
   },
   {
     "city_name": "Landsberg am Lech",
-    "infected": 303,
+    "infected": 306,
     "geo": [
       48.02,
       10.95
     ],
     "state": "Bayern",
     "population": 29132,
-    "ratio": 0.01040093368117534
+    "ratio": 0.010503913222573116
   },
   {
     "city_name": "Landshut (city)",
@@ -1035,14 +1035,14 @@
   },
   {
     "city_name": "Landshut (county)",
-    "infected": 606,
+    "infected": 610,
     "geo": [
       48.45,
       12.333333
     ],
     "state": "Bayern",
     "population": 158698,
-    "ratio": 0.003818573643020076
+    "ratio": 0.003843778749574664
   },
   {
     "city_name": "Lichtenfels",
@@ -1057,14 +1057,14 @@
   },
   {
     "city_name": "Lindau (Bodensee)",
-    "infected": 235,
+    "infected": 236,
     "geo": [
       47.6,
       9.86
     ],
     "state": "Bayern",
     "population": 81669,
-    "ratio": 0.002877468807013677
+    "ratio": 0.002889713355128629
   },
   {
     "city_name": "Main-Spessart",
@@ -1079,58 +1079,58 @@
   },
   {
     "city_name": "Memmingen",
-    "infected": 47,
+    "infected": 48,
     "geo": [
       47.987778,
       10.181111
     ],
     "state": "Bayern",
     "population": 43837,
-    "ratio": 0.0010721536601501014
+    "ratio": 0.0010949654401532951
   },
   {
     "city_name": "Miesbach",
-    "infected": 484,
+    "infected": 486,
     "geo": [
       47.74,
       11.81
     ],
     "state": "Bayern",
     "population": 99726,
-    "ratio": 0.004853298036620339
+    "ratio": 0.004873352987184887
   },
   {
     "city_name": "Miltenberg",
-    "infected": 244,
+    "infected": 245,
     "geo": [
       49.76,
       9.23
     ],
     "state": "Bayern",
     "population": 128484,
-    "ratio": 0.0018990691447962392
+    "ratio": 0.0019068522150617975
   },
   {
     "city_name": "M\u00fchldorf am Inn",
-    "infected": 435,
+    "infected": 439,
     "geo": [
       48.241074,
       12.383252
     ],
     "state": "Bayern",
     "population": 20323,
-    "ratio": 0.021404320228312748
+    "ratio": 0.02160114156374551
   },
   {
     "city_name": "M\u00fcnchen (city)",
-    "infected": 5106,
+    "infected": 5204,
     "geo": [
       48.133333,
       11.566667
     ],
     "state": "Bayern",
     "population": 1471508,
-    "ratio": 0.0034699097796274296
+    "ratio": 0.003536508126357451
   },
   {
     "city_name": "M\u00fcnchen (county)",
@@ -1145,36 +1145,36 @@
   },
   {
     "city_name": "Neu-Ulm",
-    "infected": 393,
+    "infected": 394,
     "geo": [
       48.394167,
       9.998889
     ],
     "state": "Bayern",
     "population": 171011,
-    "ratio": 0.002298097783183538
+    "ratio": 0.0023039453602399845
   },
   {
     "city_name": "Neuburg-Schrobenhausen",
-    "infected": 221,
+    "infected": 223,
     "geo": [
       48.66,
       11.2
     ],
     "state": "Bayern",
     "population": 95759,
-    "ratio": 0.002307877066385405
+    "ratio": 0.00232876283169206
   },
   {
     "city_name": "Neumarkt in der Oberpfalz",
-    "infected": 269,
+    "infected": 291,
     "geo": [
       49.22,
       11.57
     ],
     "state": "Bayern",
     "population": 40002,
-    "ratio": 0.00672466376681166
+    "ratio": 0.00727463626818659
   },
   {
     "city_name": "Neustadt an der Aisch-Bad Windsheim",
@@ -1189,36 +1189,36 @@
   },
   {
     "city_name": "Neustadt an der Waldnaab",
-    "infected": 677,
+    "infected": 676,
     "geo": [
       49.73082,
       12.1707
     ],
     "state": "Bayern",
     "population": 94486,
-    "ratio": 0.0071650826577482375
+    "ratio": 0.007154499079228669
   },
   {
     "city_name": "N\u00fcrnberg",
-    "infected": 825,
+    "infected": 820,
     "geo": [
       49.455556,
       11.078611
     ],
     "state": "Bayern",
     "population": 518365,
-    "ratio": 0.0015915426388741524
+    "ratio": 0.0015818969259112788
   },
   {
     "city_name": "N\u00fcrnberger Land",
-    "infected": 546,
+    "infected": 557,
     "geo": [
       49.49,
       11.37
     ],
     "state": "Bayern",
     "population": 149127,
-    "ratio": 0.0036613088173167835
+    "ratio": 0.0037350714491674883
   },
   {
     "city_name": "Oberallg\u00e4u",
@@ -1255,47 +1255,47 @@
   },
   {
     "city_name": "Passau (county)",
-    "infected": 405,
+    "infected": 407,
     "geo": [
       48.350833,
       13.313611
     ],
     "state": "Bayern",
     "population": 192043,
-    "ratio": 0.002108902693667564
+    "ratio": 0.0021193170279572805
   },
   {
     "city_name": "Pfaffenhofen an der Ilm",
-    "infected": 307,
+    "infected": 310,
     "geo": [
       48.6,
       11.52
     ],
     "state": "Bayern",
     "population": 25917,
-    "ratio": 0.011845506810201798
+    "ratio": 0.011961260948412239
   },
   {
     "city_name": "Regen",
-    "infected": 143,
+    "infected": 144,
     "geo": [
       49.02,
       13.1
     ],
     "state": "Bayern",
     "population": 11001,
-    "ratio": 0.012998818289246433
+    "ratio": 0.01308971911644396
   },
   {
     "city_name": "Regensburg (city)",
-    "infected": 385,
+    "infected": 391,
     "geo": [
       49.017222,
       12.096944
     ],
     "state": "Bayern",
     "population": 152610,
-    "ratio": 0.0025227704606513336
+    "ratio": 0.002562086363934211
   },
   {
     "city_name": "Regensburg (county)",
@@ -1310,14 +1310,14 @@
   },
   {
     "city_name": "Rh\u00f6n-Grabfeld",
-    "infected": 140,
+    "infected": 142,
     "geo": [
       50.37,
       10.25
     ],
     "state": "Bayern",
     "population": 79690,
-    "ratio": 0.0017568076295645626
+    "ratio": 0.001781904881415485
   },
   {
     "city_name": "Rosenheim (city)",
@@ -1343,25 +1343,25 @@
   },
   {
     "city_name": "Roth",
-    "infected": 267,
+    "infected": 270,
     "geo": [
       49.2,
       11.12
     ],
     "state": "Bayern",
     "population": 103944,
-    "ratio": 0.0025686908335257447
+    "ratio": 0.002597552528284461
   },
   {
     "city_name": "Rottal-Inn",
-    "infected": 681,
+    "infected": 684,
     "geo": [
       48.42,
       12.87
     ],
     "state": "Bayern",
     "population": 104013,
-    "ratio": 0.006547258515762453
+    "ratio": 0.00657610106429004
   },
   {
     "city_name": "Schwabach",
@@ -1387,58 +1387,58 @@
   },
   {
     "city_name": "Schweinfurt (city)",
-    "infected": 137,
+    "infected": 139,
     "geo": [
       50.045,
       10.234167
     ],
     "state": "Bayern",
     "population": 54032,
-    "ratio": 0.0025355344980752146
+    "ratio": 0.0025725496002368966
   },
   {
     "city_name": "Schweinfurt (county)",
-    "infected": 389,
+    "infected": 396,
     "geo": [
       49.95,
       10.333333
     ],
     "state": "Bayern",
     "population": 115106,
-    "ratio": 0.003379493684082498
+    "ratio": 0.0034403071951071185
   },
   {
     "city_name": "Starnberg",
-    "infected": 484,
+    "infected": 487,
     "geo": [
       47.997222,
       11.340556
     ],
     "state": "Bayern",
     "population": 108887,
-    "ratio": 0.004444975065894
+    "ratio": 0.004472526564236318
   },
   {
     "city_name": "Straubing",
-    "infected": 300,
+    "infected": 304,
     "geo": [
       48.883333,
       12.466667
     ],
     "state": "Bayern",
     "population": 222400,
-    "ratio": 0.0013489208633093526
+    "ratio": 0.001366906474820144
   },
   {
     "city_name": "Straubing-Bogen",
-    "infected": 355,
+    "infected": 356,
     "geo": [
       48.9,
       12.58
     ],
     "state": "Bayern",
     "population": 81062,
-    "ratio": 0.004379363943648072
+    "ratio": 0.004391700180109052
   },
   {
     "city_name": "Tirschenreuth",
@@ -1453,47 +1453,47 @@
   },
   {
     "city_name": "Traunstein",
-    "infected": 904,
+    "infected": 938,
     "geo": [
       47.866667,
       12.633333
     ],
     "state": "Bayern",
     "population": 145408,
-    "ratio": 0.006216989436619719
+    "ratio": 0.00645081426056338
   },
   {
     "city_name": "Unterallg\u00e4u",
-    "infected": 250,
+    "infected": 251,
     "geo": [
       48.04,
       10.39
     ],
     "state": "Bayern",
     "population": 144041,
-    "ratio": 0.0017356169423983448
+    "ratio": 0.0017425594101679383
   },
   {
     "city_name": "Weiden in der Oberpfalz",
-    "infected": 252,
+    "infected": 254,
     "geo": [
       49.666667,
       12.15
     ],
     "state": "Bayern",
     "population": 42520,
-    "ratio": 0.00592662276575729
+    "ratio": 0.005973659454374412
   },
   {
     "city_name": "Weilheim-Schongau",
-    "infected": 336,
+    "infected": 334,
     "geo": [
       47.79,
       11.05
     ],
     "state": "Bayern",
     "population": 106376,
-    "ratio": 0.0031586072046326237
+    "ratio": 0.0031398059712717153
   },
   {
     "city_name": "Wei\u00dfenburg-Gunzenhausen",
@@ -1508,201 +1508,201 @@
   },
   {
     "city_name": "Wunsiedel im Fichtelgebirge",
-    "infected": 577,
+    "infected": 580,
     "geo": [
       50.09,
       12.04
     ],
     "state": "Bayern",
     "population": 9259,
-    "ratio": 0.06231774489685711
+    "ratio": 0.06264175396911113
   },
   {
     "city_name": "W\u00fcrzburg (city)",
-    "infected": 453,
+    "infected": 455,
     "geo": [
       49.794444,
       9.929444
     ],
     "state": "Bayern",
     "population": 127880,
-    "ratio": 0.0035423834845167345
+    "ratio": 0.0035580231467000315
   },
   {
     "city_name": "W\u00fcrzburg (county)",
-    "infected": 388,
+    "infected": 397,
     "geo": [
       49.65,
       9.95
     ],
     "state": "Bayern",
     "population": 161834,
-    "ratio": 0.0023975184448261798
+    "ratio": 0.002453130986072148
   },
   {
     "city_name": "Berlin",
-    "infected": 5265,
+    "infected": 5341,
     "geo": [
       52.518611,
       13.408333
     ],
     "state": "Berlin",
     "population": 3644826,
-    "ratio": 0.0014445134006397012
+    "ratio": 0.0014653648761285174
   },
   {
     "city_name": "Charlottenburg-Wilmersdorf",
-    "infected": 620,
+    "infected": 630,
     "geo": [
       52.5025,
       13.2772
     ],
     "state": "Berlin",
     "population": 342332,
-    "ratio": 0.001811107346085087
+    "ratio": 0.001840318754892911
   },
   {
     "city_name": "Friedrichshain-Kreuzberg",
-    "infected": 427,
+    "infected": 428,
     "geo": [
       52.5025,
       13.4633
     ],
     "state": "Berlin",
     "population": 281076,
-    "ratio": 0.0015191620771606257
+    "ratio": 0.0015227198337816107
   },
   {
     "city_name": "Lichtenberg",
-    "infected": 198,
+    "infected": 202,
     "geo": [
       52.5533,
       13.508
     ],
     "state": "Grand Est",
     "population": 291452,
-    "ratio": 0.0006793571497193363
+    "ratio": 0.0006930815365823532
   },
   {
     "city_name": "Marzahn-Hellersdorf",
-    "infected": 221,
+    "infected": 232,
     "geo": [
       52.5197,
       13.5889
     ],
     "state": "Berlin",
     "population": 268548,
-    "ratio": 0.0008229441291687147
+    "ratio": 0.0008639051491725874
   },
   {
     "city_name": "Mitte",
-    "infected": 803,
+    "infected": 807,
     "geo": [
       52.531,
       13.3653
     ],
     "state": "Berlin",
     "population": 333905,
-    "ratio": 0.002404875638280349
+    "ratio": 0.0024168550935146226
   },
   {
     "city_name": "Neuk\u00f6lln",
-    "infected": 555,
+    "infected": 572,
     "geo": [
       52.4373,
       13.4518
     ],
     "state": "Berlin",
     "population": 306000,
-    "ratio": 0.0018137254901960784
+    "ratio": 0.001869281045751634
   },
   {
     "city_name": "Pankow",
-    "infected": 551,
+    "infected": 560,
     "geo": [
       52.6049,
       13.4272
     ],
     "state": "Berlin",
     "population": 57113,
-    "ratio": 0.009647540840088946
+    "ratio": 0.00980512317685991
   },
   {
     "city_name": "Reinickendorf",
-    "infected": 419,
+    "infected": 424,
     "geo": [
       52.5953,
       13.2928
     ],
     "state": "Berlin",
     "population": 260253,
-    "ratio": 0.001609971835098923
+    "ratio": 0.0016291839095034448
   },
   {
     "city_name": "Spandau",
-    "infected": 219,
+    "infected": 220,
     "geo": [
       52.5286,
       13.1954
     ],
     "state": "Berlin",
     "population": 231120,
-    "ratio": 0.0009475597092419522
+    "ratio": 0.0009518864659051575
   },
   {
     "city_name": "Steglitz-Zehlendorf",
-    "infected": 445,
+    "infected": 448,
     "geo": [
       52.4424,
       13.2284
     ],
     "state": "Berlin",
     "population": 308697,
-    "ratio": 0.0014415430017136544
+    "ratio": 0.0014512612691409375
   },
   {
     "city_name": "Tempelhof-Sch\u00f6neberg",
-    "infected": 538,
+    "infected": 544,
     "geo": [
       52.465,
       13.362
     ],
     "state": "Berlin",
     "population": 351644,
-    "ratio": 0.001529956433210861
+    "ratio": 0.0015470191443619115
   },
   {
     "city_name": "Treptow-K\u00f6penick",
-    "infected": 269,
+    "infected": 274,
     "geo": [
       52.4361,
       13.6104
     ],
     "state": "Berlin",
     "population": 271153,
-    "ratio": 0.0009920598333782035
+    "ratio": 0.001010499607232817
   },
   {
     "city_name": "Barnim",
-    "infected": 301,
+    "infected": 321,
     "geo": [
       52.82,
       13.7
     ],
     "state": "Brandenburg",
     "population": 180864,
-    "ratio": 0.0016642338995046001
+    "ratio": 0.0017748142250530786
   },
   {
     "city_name": "Brandenburg an der Havel",
-    "infected": 49,
+    "infected": 51,
     "geo": [
       52.408889,
       12.563056
     ],
     "state": "Brandenburg",
     "population": 72124,
-    "ratio": 0.0006793855027452721
+    "ratio": 0.0007071155232654872
   },
   {
     "city_name": "Cottbus",
@@ -1728,14 +1728,14 @@
   },
   {
     "city_name": "Elbe-Elster",
-    "infected": 72,
+    "infected": 73,
     "geo": [
       51.6925,
       13.235556
     ],
     "state": "Brandenburg",
     "population": 102638,
-    "ratio": 0.0007014945731600382
+    "ratio": 0.0007112375533428165
   },
   {
     "city_name": "Frankfurt (Oder)",
@@ -1750,14 +1750,14 @@
   },
   {
     "city_name": "Havelland",
-    "infected": 143,
+    "infected": 147,
     "geo": [
       52.6075,
       12.3325
     ],
     "state": "Brandenburg",
     "population": 160710,
-    "ratio": 0.000889801505817933
+    "ratio": 0.0009146910584282247
   },
   {
     "city_name": "M\u00e4rkisch-Oderland",
@@ -1772,14 +1772,14 @@
   },
   {
     "city_name": "Oberhavel",
-    "infected": 195,
+    "infected": 202,
     "geo": [
       52.91,
       13.21
     ],
     "state": "Brandenburg",
     "population": 211249,
-    "ratio": 0.0009230812926925097
+    "ratio": 0.0009562175442250614
   },
   {
     "city_name": "Oberspreewald-Lausitz",
@@ -1794,25 +1794,25 @@
   },
   {
     "city_name": "Oder-Spree",
-    "infected": 105,
+    "infected": 110,
     "geo": [
       52.24,
       14.22
     ],
     "state": "Brandenburg",
     "population": 178658,
-    "ratio": 0.0005877150757312854
+    "ratio": 0.0006157015079089657
   },
   {
     "city_name": "Ostprignitz-Ruppin",
-    "infected": 43,
+    "infected": 44,
     "geo": [
       52.991375,
       12.636131
     ],
     "state": "Brandenburg",
     "population": 99078,
-    "ratio": 0.0004340014937725832
+    "ratio": 0.0004440945517672945
   },
   {
     "city_name": "Potsdam",
@@ -1827,14 +1827,14 @@
   },
   {
     "city_name": "Potsdam-Mittelmark",
-    "infected": 375,
+    "infected": 379,
     "geo": [
       52.142222,
       12.595556
     ],
     "state": "Brandenburg",
     "population": 214664,
-    "ratio": 0.0017469161107591398
+    "ratio": 0.0017655498826072375
   },
   {
     "city_name": "Prignitz",
@@ -1849,25 +1849,25 @@
   },
   {
     "city_name": "Spree-Nei\u00dfe",
-    "infected": 53,
+    "infected": 54,
     "geo": [
       51.75,
       14.652778
     ],
     "state": "Brandenburg",
     "population": 114429,
-    "ratio": 0.0004631693014882591
+    "ratio": 0.0004719083449125659
   },
   {
     "city_name": "Teltow-Fl\u00e4ming",
-    "infected": 110,
+    "infected": 111,
     "geo": [
       52.07,
       13.28
     ],
     "state": "Brandenburg",
     "population": 168296,
-    "ratio": 0.0006536103056519466
+    "ratio": 0.0006595522175215097
   },
   {
     "city_name": "Uckermark",
@@ -1882,91 +1882,91 @@
   },
   {
     "city_name": "Bremen",
-    "infected": 578,
+    "infected": 595,
     "geo": [
       53.133333,
       8.733333
     ],
     "state": "Bremen",
     "population": 569352,
-    "ratio": 0.0010151891975438744
+    "ratio": 0.0010450477033539885
   },
   {
     "city_name": "Bremerhaven",
-    "infected": 29,
+    "infected": 30,
     "geo": [
       53.541939,
       8.578039
     ],
     "state": "Bremen",
     "population": 113634,
-    "ratio": 0.000255205308270412
+    "ratio": 0.00026400549131421933
   },
   {
     "city_name": "Hamburg",
-    "infected": 4368,
+    "infected": 4401,
     "geo": [
       53.550556,
       9.993333
     ],
     "state": "Hamburg",
     "population": 1841179,
-    "ratio": 0.002372392906936262
+    "ratio": 0.002390316204996907
   },
   {
     "city_name": "Bergstra\u00dfe",
-    "infected": 288,
+    "infected": 291,
     "geo": [
       49.640764,
       8.644375
     ],
     "state": "Hessen",
     "population": 268780,
-    "ratio": 0.00107150829674827
+    "ratio": 0.0010826698415060643
   },
   {
     "city_name": "Darmstadt",
-    "infected": 159,
+    "infected": 160,
     "geo": [
       49.866667,
       8.65
     ],
     "state": "Hessen",
     "population": 159207,
-    "ratio": 0.0009986998059130566
+    "ratio": 0.0010049809367678557
   },
   {
     "city_name": "Darmstadt-Dieburg",
-    "infected": 335,
+    "infected": 337,
     "geo": [
       49.898472,
       8.838472
     ],
     "state": "Hessen",
     "population": 284413,
-    "ratio": 0.001177864584248962
+    "ratio": 0.0011848966116176124
   },
   {
     "city_name": "Frankfurt am Main",
-    "infected": 1079,
+    "infected": 1096,
     "geo": [
       50.110556,
       8.682222
     ],
     "state": "Hessen",
     "population": 753056,
-    "ratio": 0.0014328283686737772
+    "ratio": 0.0014554030510347171
   },
   {
     "city_name": "Fulda",
-    "infected": 291,
+    "infected": 290,
     "geo": [
       50.560139,
       9.686111
     ],
     "state": "Hessen",
     "population": 68586,
-    "ratio": 0.004242848394716123
+    "ratio": 0.004228268159682734
   },
   {
     "city_name": "Gie\u00dfen",
@@ -1981,14 +1981,14 @@
   },
   {
     "city_name": "Gro\u00df-Gerau",
-    "infected": 359,
+    "infected": 358,
     "geo": [
       49.921389,
       8.481806
     ],
     "state": "Hessen",
     "population": 266000,
-    "ratio": 0.001349624060150376
+    "ratio": 0.0013458646616541353
   },
   {
     "city_name": "Hersfeld-Rotenburg",
@@ -2003,36 +2003,36 @@
   },
   {
     "city_name": "Hochtaunuskreis",
-    "infected": 222,
+    "infected": 224,
     "geo": [
       50.215417,
       8.616389
     ],
     "state": "Hessen",
     "population": 236564,
-    "ratio": 0.0009384352648754671
+    "ratio": 0.0009468896366311019
   },
   {
     "city_name": "Kassel (city)",
-    "infected": 194,
+    "infected": 196,
     "geo": [
       51.311111,
       9.485903
     ],
     "state": "Hessen",
     "population": 201585,
-    "ratio": 0.000962373192449835
+    "ratio": 0.0009722945655678746
   },
   {
     "city_name": "Kassel (county)",
-    "infected": 260,
+    "infected": 263,
     "geo": [
       51.494167,
       9.383056
     ],
     "state": "Hessen",
     "population": 236633,
-    "ratio": 0.0010987478500462742
+    "ratio": 0.0011114257098545004
   },
   {
     "city_name": "Lahn-Dill-Kreis",
@@ -2047,69 +2047,69 @@
   },
   {
     "city_name": "Limburg-Weilburg",
-    "infected": 235,
+    "infected": 239,
     "geo": [
       50.386875,
       8.059514
     ],
     "state": "Hessen",
     "population": 172083,
-    "ratio": 0.001365620078682961
+    "ratio": 0.0013888646757669264
   },
   {
     "city_name": "Main-Kinzig-Kreis",
-    "infected": 479,
+    "infected": 489,
     "geo": [
       50.25,
       9.3
     ],
     "state": "Hessen",
     "population": 407619,
-    "ratio": 0.0011751169597099252
+    "ratio": 0.0011996496728562702
   },
   {
     "city_name": "Main-Taunus-Kreis",
-    "infected": 218,
+    "infected": 219,
     "geo": [
       50.079583,
       8.449583
     ],
     "state": "Hessen",
     "population": 226113,
-    "ratio": 0.0009641197100564762
+    "ratio": 0.0009685422775337995
   },
   {
     "city_name": "Marburg-Biedenkopf",
-    "infected": 179,
+    "infected": 180,
     "geo": [
       50.786173,
       8.771918
     ],
     "state": "Hessen",
     "population": 241279,
-    "ratio": 0.0007418797325917299
+    "ratio": 0.0007460243121034156
   },
   {
     "city_name": "Odenwaldkreis",
-    "infected": 252,
+    "infected": 275,
     "geo": [
       49.663354,
       8.994015
     ],
     "state": "Hessen",
     "population": 96648,
-    "ratio": 0.002607400049664763
+    "ratio": 0.002845377038324642
   },
   {
     "city_name": "Offenbach",
-    "infected": 397,
+    "infected": 399,
     "geo": [
       50.008611,
       8.775556
     ],
     "state": "Hessen",
     "population": 128744,
-    "ratio": 0.0030836388491890885
+    "ratio": 0.0030991735537190084
   },
   {
     "city_name": "Offenbach am Main",
@@ -2124,25 +2124,25 @@
   },
   {
     "city_name": "Rheingau-Taunus-Kreis",
-    "infected": 187,
+    "infected": 190,
     "geo": [
       50.148403,
       8.073264
     ],
     "state": "Hessen",
     "population": 187157,
-    "ratio": 0.0009991611320976507
+    "ratio": 0.0010151904550724793
   },
   {
     "city_name": "Schwalm-Eder-Kreis",
-    "infected": 422,
+    "infected": 423,
     "geo": [
       51.035,
       9.400833
     ],
     "state": "Hessen",
     "population": 180279,
-    "ratio": 0.0023408161793664266
+    "ratio": 0.002346363137137437
   },
   {
     "city_name": "Vogelsbergkreis",
@@ -2168,36 +2168,36 @@
   },
   {
     "city_name": "Werra-Mei\u00dfner-Kreis",
-    "infected": 122,
+    "infected": 123,
     "geo": [
       51.188542,
       10.053333
     ],
     "state": "Hessen",
     "population": 101017,
-    "ratio": 0.0012077175128938694
+    "ratio": 0.0012176168367700486
   },
   {
     "city_name": "Wetteraukreis",
-    "infected": 243,
+    "infected": 245,
     "geo": [
       50.333333,
       8.752431
     ],
     "state": "Hessen",
     "population": 306460,
-    "ratio": 0.0007929256672975266
+    "ratio": 0.0007994518044769301
   },
   {
     "city_name": "Wiesbaden",
-    "infected": 281,
+    "infected": 282,
     "geo": [
       50.0825,
       8.24
     ],
     "state": "Hessen",
     "population": 278342,
-    "ratio": 0.0010095494032521142
+    "ratio": 0.0010131421057547909
   },
   {
     "city_name": "Ludwigslust-Parchim",
@@ -2223,14 +2223,14 @@
   },
   {
     "city_name": "Nordwestmecklenburg",
-    "infected": 68,
+    "infected": 69,
     "geo": [
       53.82,
       11.25
     ],
     "state": "Mecklenburg-Vorpommern",
     "population": 156729,
-    "ratio": 0.0004338699283476574
+    "ratio": 0.0004402503684704171
   },
   {
     "city_name": "Rostock (city)",
@@ -2289,47 +2289,47 @@
   },
   {
     "city_name": "Ammerland",
-    "infected": 157,
+    "infected": 156,
     "geo": [
       53.22,
       8.01
     ],
     "state": "Niedersachsen",
     "population": 122698,
-    "ratio": 0.0012795644590783877
+    "ratio": 0.0012714143669823469
   },
   {
     "city_name": "Aurich",
-    "infected": 72,
+    "infected": 76,
     "geo": [
       53.5,
       7.37
     ],
     "state": "Niedersachsen",
     "population": 190066,
-    "ratio": 0.00037881577978176
+    "ratio": 0.0003998611008807467
   },
   {
     "city_name": "Braunschweig",
-    "infected": 290,
+    "infected": 291,
     "geo": [
       52.269167,
       10.521111
     ],
     "state": "Niedersachsen",
     "population": 248292,
-    "ratio": 0.0011679796368791583
+    "ratio": 0.0011720071528683968
   },
   {
     "city_name": "Celle",
-    "infected": 147,
+    "infected": 145,
     "geo": [
       52.71,
       10.1
     ],
     "state": "Niedersachsen",
     "population": 178370,
-    "ratio": 0.0008241296182093401
+    "ratio": 0.0008129169703425463
   },
   {
     "city_name": "Cloppenburg",
@@ -2344,14 +2344,14 @@
   },
   {
     "city_name": "Cuxhaven",
-    "infected": 81,
+    "infected": 82,
     "geo": [
       53.8617,
       8.694067
     ],
     "state": "Niedersachsen",
     "population": 198670,
-    "ratio": 0.0004077112800120803
+    "ratio": 0.00041274475260482204
   },
   {
     "city_name": "Delmenhorst",
@@ -2366,14 +2366,14 @@
   },
   {
     "city_name": "Diepholz",
-    "infected": 291,
+    "infected": 293,
     "geo": [
       52.72,
       8.73
     ],
     "state": "Niedersachsen",
     "population": 215082,
-    "ratio": 0.0013529723547298239
+    "ratio": 0.001362271133800132
   },
   {
     "city_name": "Emden",
@@ -2388,14 +2388,14 @@
   },
   {
     "city_name": "Emsland",
-    "infected": 364,
+    "infected": 369,
     "geo": [
       52.74,
       7.4
     ],
     "state": "Niedersachsen",
     "population": 321391,
-    "ratio": 0.0011325768300916952
+    "ratio": 0.0011481342041314163
   },
   {
     "city_name": "Friesland",
@@ -2421,36 +2421,36 @@
   },
   {
     "city_name": "Goslar",
-    "infected": 139,
+    "infected": 162,
     "geo": [
       51.87,
       10.4
     ],
     "state": "Niedersachsen",
     "population": 137979,
-    "ratio": 0.0010073996767624058
+    "ratio": 0.0011740917096079839
   },
   {
     "city_name": "Grafschaft Bentheim",
-    "infected": 203,
+    "infected": 204,
     "geo": [
       52.48,
       7.02
     ],
     "state": "Niedersachsen",
     "population": 135770,
-    "ratio": 0.001495175664727112
+    "ratio": 0.0015025410620902997
   },
   {
     "city_name": "G\u00f6ttingen",
-    "infected": 581,
+    "infected": 613,
     "geo": [
       51.5,
       9.93
     ],
     "state": "Niedersachsen",
     "population": 119801,
-    "ratio": 0.004849709100925702
+    "ratio": 0.005116818724384605
   },
   {
     "city_name": "Hameln-Pyrmont",
@@ -2465,25 +2465,25 @@
   },
   {
     "city_name": "Harburg",
-    "infected": 426,
+    "infected": 435,
     "geo": [
       53.32,
       9.96
     ],
     "state": "Niedersachsen",
     "population": 250326,
-    "ratio": 0.001701780877735433
+    "ratio": 0.0017377339948706886
   },
   {
     "city_name": "Heidekreis",
-    "infected": 62,
+    "infected": 63,
     "geo": [
       52.92,
       9.75
     ],
     "state": "Niedersachsen",
     "population": 139755,
-    "ratio": 0.00044363350148474113
+    "ratio": 0.00045078888054094667
   },
   {
     "city_name": "Helmstedt",
@@ -2498,14 +2498,14 @@
   },
   {
     "city_name": "Hildesheim",
-    "infected": 273,
+    "infected": 270,
     "geo": [
       52.09,
       9.94
     ],
     "state": "Niedersachsen",
     "population": 101990,
-    "ratio": 0.002676733013040494
+    "ratio": 0.0026473183645455436
   },
   {
     "city_name": "Holzminden",
@@ -2542,36 +2542,36 @@
   },
   {
     "city_name": "L\u00fcneburg",
-    "infected": 157,
+    "infected": 160,
     "geo": [
       53.23,
       10.57
     ],
     "state": "Niedersachsen",
     "population": 181605,
-    "ratio": 0.0008645136422455329
+    "ratio": 0.0008810330112056387
   },
   {
     "city_name": "Nienburg (Weser)",
-    "infected": 62,
+    "infected": 63,
     "geo": [
       52.61,
       9.11
     ],
     "state": "Niedersachsen",
     "population": 121503,
-    "ratio": 0.000510275466449388
+    "ratio": 0.0005185057159082492
   },
   {
     "city_name": "Northeim",
-    "infected": 105,
+    "infected": 108,
     "geo": [
       51.74,
       9.85
     ],
     "state": "Niedersachsen",
     "population": 133610,
-    "ratio": 0.0007858693211585959
+    "ratio": 0.0008083227303345558
   },
   {
     "city_name": "Oldenburg (city)",
@@ -2586,36 +2586,36 @@
   },
   {
     "city_name": "Oldenburg (county)",
-    "infected": 191,
+    "infected": 193,
     "geo": [
       52.893056,
       8.431389
     ],
     "state": "Niedersachsen",
     "population": 130144,
-    "ratio": 0.0014676051143348906
+    "ratio": 0.0014829727071551512
   },
   {
     "city_name": "Osnabr\u00fcck (city)",
-    "infected": 415,
+    "infected": 422,
     "geo": [
       52.278889,
       8.043056
     ],
     "state": "Niedersachsen",
     "population": 164748,
-    "ratio": 0.0025189987131861995
+    "ratio": 0.0025614878481074127
   },
   {
     "city_name": "Osnabr\u00fcck (county)",
-    "infected": 857,
+    "infected": 883,
     "geo": [
       52.543333,
       7.870833
     ],
     "state": "Niedersachsen",
     "population": 357343,
-    "ratio": 0.0023982560173278896
+    "ratio": 0.0024710152430577905
   },
   {
     "city_name": "Osterholz",
@@ -2630,69 +2630,69 @@
   },
   {
     "city_name": "Peine",
-    "infected": 133,
+    "infected": 132,
     "geo": [
       52.3,
       10.26
     ],
     "state": "Niedersachsen",
     "population": 49952,
-    "ratio": 0.002662556053811659
+    "ratio": 0.0026425368353619476
   },
   {
     "city_name": "Region Hannover",
-    "infected": 1711,
+    "infected": 1719,
     "geo": [
       52.374444,
       9.738611
     ],
     "state": "Niedersachsen",
     "population": 1149594,
-    "ratio": 0.0014883515397609939
+    "ratio": 0.0014953105183221206
   },
   {
     "city_name": "Rotenburg (W\u00fcmme)",
-    "infected": 90,
+    "infected": 91,
     "geo": [
       53.23,
       9.31
     ],
     "state": "Niedersachsen",
     "population": 163372,
-    "ratio": 0.0005508899933893201
+    "ratio": 0.0005570109933158681
   },
   {
     "city_name": "Salzgitter",
-    "infected": 115,
+    "infected": 116,
     "geo": [
       52.153657,
       10.405849
     ],
     "state": "Niedersachsen",
     "population": 104948,
-    "ratio": 0.001095780767618249
+    "ratio": 0.0011053092960323207
   },
   {
     "city_name": "Schaumburg",
-    "infected": 139,
+    "infected": 137,
     "geo": [
       52.29,
       9.21
     ],
     "state": "Niedersachsen",
     "population": 157616,
-    "ratio": 0.0008818901634351842
+    "ratio": 0.0008692010963353975
   },
   {
     "city_name": "Stade",
-    "infected": 176,
+    "infected": 177,
     "geo": [
       53.599014,
       9.473678
     ],
     "state": "Niedersachsen",
     "population": 201638,
-    "ratio": 0.0008728513474642677
+    "ratio": 0.0008778107301203146
   },
   {
     "city_name": "Uelzen",
@@ -2707,25 +2707,25 @@
   },
   {
     "city_name": "Vechta",
-    "infected": 299,
+    "infected": 300,
     "geo": [
       52.69,
       8.22
     ],
     "state": "Niedersachsen",
     "population": 139671,
-    "ratio": 0.0021407450365501786
+    "ratio": 0.0021479047189466673
   },
   {
     "city_name": "Verden",
-    "infected": 113,
+    "infected": 114,
     "geo": [
       52.97,
       9.18
     ],
     "state": "Niedersachsen",
     "population": 135842,
-    "ratio": 0.0008318487654775401
+    "ratio": 0.0008392102589773414
   },
   {
     "city_name": "Wesermarsch",
@@ -2795,14 +2795,14 @@
   },
   {
     "city_name": "Bochum",
-    "infected": 400,
+    "infected": 403,
     "geo": [
       51.4825,
       7.216944
     ],
     "state": "Nordrhein-Westfalen",
     "population": 364628,
-    "ratio": 0.0010970084579352106
+    "ratio": 0.0011052360213697247
   },
   {
     "city_name": "Bonn",
@@ -2817,36 +2817,36 @@
   },
   {
     "city_name": "Borken",
-    "infected": 835,
+    "infected": 836,
     "geo": [
       51.8515,
       6.8424
     ],
     "state": "Nordrhein-Westfalen",
     "population": 42530,
-    "ratio": 0.019633200094051256
+    "ratio": 0.019656712908535153
   },
   {
     "city_name": "Bottrop",
-    "infected": 112,
+    "infected": 121,
     "geo": [
       51.524722,
       6.922778
     ],
     "state": "Nordrhein-Westfalen",
     "population": 117383,
-    "ratio": 0.0009541415707555609
+    "ratio": 0.001030813661262704
   },
   {
     "city_name": "Coesfeld",
-    "infected": 474,
+    "infected": 476,
     "geo": [
       51.9442,
       7.1744
     ],
     "state": "Nordrhein-Westfalen",
     "population": 36217,
-    "ratio": 0.01308777645856918
+    "ratio": 0.013142999144048375
   },
   {
     "city_name": "Dortmund",
@@ -2861,47 +2861,47 @@
   },
   {
     "city_name": "Duisburg",
-    "infected": 632,
+    "infected": 649,
     "geo": [
       51.435147,
       6.762692
     ],
     "state": "Nordrhein-Westfalen",
     "population": 498590,
-    "ratio": 0.0012675745602599331
+    "ratio": 0.0013016707114061653
   },
   {
     "city_name": "D\u00fcren",
-    "infected": 511,
+    "infected": 516,
     "geo": [
       50.8,
       6.483333
     ],
     "state": "Nordrhein-Westfalen",
     "population": 262800,
-    "ratio": 0.0019444444444444444
+    "ratio": 0.0019634703196347034
   },
   {
     "city_name": "D\u00fcsseldorf",
-    "infected": 909,
+    "infected": 925,
     "geo": [
       51.225556,
       6.782778
     ],
     "state": "Nordrhein-Westfalen",
     "population": 619294,
-    "ratio": 0.0014678004308131517
+    "ratio": 0.0014936363019825802
   },
   {
     "city_name": "Ennepe-Ruhr-Kreis",
-    "infected": 357,
+    "infected": 362,
     "geo": [
       51.346667,
       7.323889
     ],
     "state": "Nordrhein-Westfalen",
     "population": 322731,
-    "ratio": 0.0011061844074476887
+    "ratio": 0.0011216771862634827
   },
   {
     "city_name": "Essen",
@@ -2916,58 +2916,58 @@
   },
   {
     "city_name": "Euskirchen",
-    "infected": 308,
+    "infected": 313,
     "geo": [
       50.6692,
       6.7838
     ],
     "state": "Nordrhein-Westfalen",
     "population": 57975,
-    "ratio": 0.0053126347563605
+    "ratio": 0.0053988788270806385
   },
   {
     "city_name": "Gelsenkirchen",
-    "infected": 246,
+    "infected": 248,
     "geo": [
       51.511111,
       7.100556
     ],
     "state": "Nordrhein-Westfalen",
     "population": 260400,
-    "ratio": 0.0009447004608294931
+    "ratio": 0.0009523809523809524
   },
   {
     "city_name": "G\u00fctersloh",
-    "infected": 517,
+    "infected": 529,
     "geo": [
       51.93,
       8.35
     ],
     "state": "Nordrhein-Westfalen",
     "population": 100194,
-    "ratio": 0.005159989620136934
+    "ratio": 0.005279757270894464
   },
   {
     "city_name": "Hagen",
-    "infected": 199,
+    "infected": 203,
     "geo": [
       51.359444,
       7.475
     ],
     "state": "Nordrhein-Westfalen",
     "population": 188814,
-    "ratio": 0.0010539472708591523
+    "ratio": 0.0010751321406251655
   },
   {
     "city_name": "Hamm",
-    "infected": 379,
+    "infected": 386,
     "geo": [
       51.681069,
       7.817117
     ],
     "state": "Nordrhein-Westfalen",
     "population": 179111,
-    "ratio": 0.002116006275438136
+    "ratio": 0.0021550881855385766
   },
   {
     "city_name": "Heinsberg",
@@ -3015,25 +3015,25 @@
   },
   {
     "city_name": "H\u00f6xter",
-    "infected": 254,
+    "infected": 258,
     "geo": [
       51.68,
       9.18
     ],
     "state": "Nordrhein-Westfalen",
     "population": 28824,
-    "ratio": 0.008812101026922009
+    "ratio": 0.008950874271440467
   },
   {
     "city_name": "Kleve",
-    "infected": 497,
+    "infected": 502,
     "geo": [
       51.781,
       6.1382
     ],
     "state": "Nordrhein-Westfalen",
     "population": 51845,
-    "ratio": 0.009586266756678561
+    "ratio": 0.009682708072138104
   },
   {
     "city_name": "Krefeld",
@@ -3048,14 +3048,14 @@
   },
   {
     "city_name": "K\u00f6ln",
-    "infected": 2180,
+    "infected": 2184,
     "geo": [
       50.936389,
       6.952778
     ],
     "state": "Nordrhein-Westfalen",
     "population": 1085664,
-    "ratio": 0.002007987738379462
+    "ratio": 0.0020116721195508
   },
   {
     "city_name": "Leverkusen",
@@ -3070,25 +3070,25 @@
   },
   {
     "city_name": "Lippe",
-    "infected": 604,
+    "infected": 611,
     "geo": [
       51.93619,
       8.847872
     ],
     "state": "Nordrhein-Westfalen",
     "population": 348391,
-    "ratio": 0.0017336842800187147
+    "ratio": 0.0017537766475023751
   },
   {
     "city_name": "Mettmann",
-    "infected": 766,
+    "infected": 774,
     "geo": [
       51.25,
       6.966667
     ],
     "state": "Nordrhein-Westfalen",
     "population": 38829,
-    "ratio": 0.01972752324293698
+    "ratio": 0.019933554817275746
   },
   {
     "city_name": "Minden-L\u00fcbbecke",
@@ -3136,14 +3136,14 @@
   },
   {
     "city_name": "M\u00fcnster",
-    "infected": 610,
+    "infected": 612,
     "geo": [
       51.962944,
       7.628694
     ],
     "state": "Nordrhein-Westfalen",
     "population": 314319,
-    "ratio": 0.001940703552760094
+    "ratio": 0.00194706651522816
   },
   {
     "city_name": "Oberbergischer Kreis",
@@ -3169,36 +3169,36 @@
   },
   {
     "city_name": "Olpe",
-    "infected": 483,
+    "infected": 486,
     "geo": [
       51.085833,
       7.976111
     ],
     "state": "Nordrhein-Westfalen",
     "population": 24688,
-    "ratio": 0.019564160725858717
+    "ratio": 0.019685677252106286
   },
   {
     "city_name": "Paderborn",
-    "infected": 524,
+    "infected": 527,
     "geo": [
       51.719444,
       8.757222
     ],
     "state": "Nordrhein-Westfalen",
     "population": 150580,
-    "ratio": 0.0034798778058175057
+    "ratio": 0.0034998007703546286
   },
   {
     "city_name": "Recklinghausen",
-    "infected": 814,
+    "infected": 865,
     "geo": [
       51.608889,
       7.204722
     ],
     "state": "Nordrhein-Westfalen",
     "population": 112267,
-    "ratio": 0.007250572296400545
+    "ratio": 0.007704846482047262
   },
   {
     "city_name": "Remscheid",
@@ -3213,47 +3213,47 @@
   },
   {
     "city_name": "Rhein-Erft-Kreis",
-    "infected": 867,
+    "infected": 890,
     "geo": [
       50.9513,
       6.6308
     ],
     "state": "Nordrhein-Westfalen",
     "population": 470089,
-    "ratio": 0.0018443316052917638
+    "ratio": 0.0018932585106224565
   },
   {
     "city_name": "Rhein-Kreis Neuss",
-    "infected": 540,
+    "infected": 552,
     "geo": [
       51.1966,
       6.6953
     ],
     "state": "Nordrhein-Westfalen",
     "population": 451007,
-    "ratio": 0.0011973206624287427
+    "ratio": 0.0012239277882604926
   },
   {
     "city_name": "Rhein-Sieg-Kreis",
-    "infected": 1025,
+    "infected": 1055,
     "geo": [
       50.793,
       7.2071
     ],
     "state": "Nordrhein-Westfalen",
     "population": 599780,
-    "ratio": 0.0017089599519823937
+    "ratio": 0.0017589782920404149
   },
   {
     "city_name": "Rheinisch-Bergischer Kreis",
-    "infected": 397,
+    "infected": 395,
     "geo": [
       50.9768,
       7.1432
     ],
     "state": "Nordrhein-Westfalen",
     "population": 282700,
-    "ratio": 0.0014043155288291475
+    "ratio": 0.0013972408914043155
   },
   {
     "city_name": "Siegen-Wittgenstein",
@@ -3290,91 +3290,91 @@
   },
   {
     "city_name": "Steinfurt",
-    "infected": 1096,
+    "infected": 1141,
     "geo": [
       52.21,
       7.58
     ],
     "state": "Nordrhein-Westfalen",
     "population": 34084,
-    "ratio": 0.032155850252317805
+    "ratio": 0.03347611782654618
   },
   {
     "city_name": "St\u00e4dteregion Aachen",
-    "infected": 1632,
+    "infected": 1657,
     "geo": [
       50.775556,
       6.083611
     ],
     "state": "Nordrhein-Westfalen",
     "population": 545067,
-    "ratio": 0.0029941273274661645
+    "ratio": 0.0030399932485364184
   },
   {
     "city_name": "Unna",
-    "infected": 511,
+    "infected": 546,
     "geo": [
       51.534722,
       7.688889
     ],
     "state": "Nordrhein-Westfalen",
     "population": 58633,
-    "ratio": 0.008715228625518052
+    "ratio": 0.009312162093019289
   },
   {
     "city_name": "Viersen",
-    "infected": 498,
+    "infected": 538,
     "geo": [
       51.252778,
       6.393333
     ],
     "state": "Nordrhein-Westfalen",
     "population": 76905,
-    "ratio": 0.006475521747610688
+    "ratio": 0.006995643976334439
   },
   {
     "city_name": "Warendorf",
-    "infected": 421,
+    "infected": 422,
     "geo": [
       51.9414,
       7.9862
     ],
     "state": "Nordrhein-Westfalen",
     "population": 37226,
-    "ratio": 0.011309299951646699
+    "ratio": 0.011336162896900016
   },
   {
     "city_name": "Wesel",
-    "infected": 437,
+    "infected": 448,
     "geo": [
       51.50467,
       6.54587
     ],
     "state": "Nordrhein-Westfalen",
     "population": 60357,
-    "ratio": 0.007240253823085972
+    "ratio": 0.007422502775154497
   },
   {
     "city_name": "Wuppertal",
-    "infected": 700,
+    "infected": 719,
     "geo": [
       51.256176,
       7.150829
     ],
     "state": "Nordrhein-Westfalen",
     "population": 354382,
-    "ratio": 0.0019752696243037176
+    "ratio": 0.0020288840855348183
   },
   {
     "city_name": "Ahrweiler",
-    "infected": 111,
+    "infected": 112,
     "geo": [
       50.546357,
       7.10366
     ],
     "state": "Rheinland-Pfalz",
     "population": 7546,
-    "ratio": 0.014709780015902466
+    "ratio": 0.014842300556586271
   },
   {
     "city_name": "Altenkirchen (Westerwald)",
@@ -3400,47 +3400,47 @@
   },
   {
     "city_name": "Bad D\u00fcrkheim",
-    "infected": 304,
+    "infected": 305,
     "geo": [
       49.45,
       8.11
     ],
     "state": "Rheinland-Pfalz",
     "population": 130927,
-    "ratio": 0.0023219045727771964
+    "ratio": 0.002329542416766595
   },
   {
     "city_name": "Bad Kreuznach",
-    "infected": 166,
+    "infected": 177,
     "geo": [
       49.82,
       7.69
     ],
     "state": "Rheinland-Pfalz",
     "population": 155306,
-    "ratio": 0.0010688576101374062
+    "ratio": 0.001139685524062174
   },
   {
     "city_name": "Bernkastel-Wittlich",
-    "infected": 122,
+    "infected": 123,
     "geo": [
       49.92,
       6.97
     ],
     "state": "Rheinland-Pfalz",
     "population": 110833,
-    "ratio": 0.0011007551902411736
+    "ratio": 0.0011097777737677406
   },
   {
     "city_name": "Birkenfeld",
-    "infected": 70,
+    "infected": 73,
     "geo": [
       49.71,
       7.28
     ],
     "state": "Rheinland-Pfalz",
     "population": 6984,
-    "ratio": 0.01002290950744559
+    "ratio": 0.0104524627720504
   },
   {
     "city_name": "Cochem-Zell",
@@ -3455,25 +3455,25 @@
   },
   {
     "city_name": "Donnersbergkreis",
-    "infected": 105,
+    "infected": 110,
     "geo": [
       49.63,
       7.91
     ],
     "state": "Rheinland-Pfalz",
     "population": 75508,
-    "ratio": 0.001390581130476241
+    "ratio": 0.0014567992795465382
   },
   {
     "city_name": "Eifelkreis Bitburg-Pr\u00fcm",
-    "infected": 156,
+    "infected": 160,
     "geo": [
       50.06,
       6.41
     ],
     "state": "Rheinland-Pfalz",
     "population": 95946,
-    "ratio": 0.0016259145769495342
+    "ratio": 0.0016676046943072144
   },
   {
     "city_name": "Frankenthal (Pfalz)",
@@ -3488,25 +3488,25 @@
   },
   {
     "city_name": "Germersheim",
-    "infected": 124,
+    "infected": 125,
     "geo": [
       49.216667,
       8.366667
     ],
     "state": "Rheinland-Pfalz",
     "population": 124889,
-    "ratio": 0.0009928816789308906
+    "ratio": 0.0010008887892448495
   },
   {
     "city_name": "Kaiserslautern (city)",
-    "infected": 105,
+    "infected": 106,
     "geo": [
       49.444722,
       7.768889
     ],
     "state": "Rheinland-Pfalz",
     "population": 99845,
-    "ratio": 0.0010516300265411387
+    "ratio": 0.0010616455506034354
   },
   {
     "city_name": "Kaiserslautern (county)",
@@ -3521,25 +3521,25 @@
   },
   {
     "city_name": "Koblenz",
-    "infected": 236,
+    "infected": 237,
     "geo": [
       50.356667,
       7.593889
     ],
     "state": "Rheinland-Pfalz",
     "population": 114024,
-    "ratio": 0.002069739703921981
+    "ratio": 0.002078509787413176
   },
   {
     "city_name": "Kusel",
-    "infected": 83,
+    "infected": 84,
     "geo": [
       49.55,
       7.47
     ],
     "state": "Rheinland-Pfalz",
     "population": 13282,
-    "ratio": 0.0062490588766751995
+    "ratio": 0.006324348742659238
   },
   {
     "city_name": "Landau in der Pfalz",
@@ -3565,36 +3565,36 @@
   },
   {
     "city_name": "Mainz",
-    "infected": 435,
+    "infected": 437,
     "geo": [
       50,
       8.271111
     ],
     "state": "Rheinland-Pfalz",
     "population": 217118,
-    "ratio": 0.0020035188238653637
+    "ratio": 0.0020127304046647443
   },
   {
     "city_name": "Mainz-Bingen",
-    "infected": 322,
+    "infected": 324,
     "geo": [
       49.92,
       8.08
     ],
     "state": "Rheinland-Pfalz",
     "population": 202222,
-    "ratio": 0.001592309442098288
+    "ratio": 0.0016021995628566624
   },
   {
     "city_name": "Mayen-Koblenz",
-    "infected": 332,
+    "infected": 333,
     "geo": [
       50.33,
       7.33
     ],
     "state": "Rheinland-Pfalz",
     "population": 210035,
-    "ratio": 0.0015806889327969148
+    "ratio": 0.001585450044040279
   },
   {
     "city_name": "Neustadt an der Weinstra\u00dfe",
@@ -3631,14 +3631,14 @@
   },
   {
     "city_name": "Rhein-Hunsr\u00fcck-Kreis",
-    "infected": 154,
+    "infected": 155,
     "geo": [
       50.04,
       7.5
     ],
     "state": "Rheinland-Pfalz",
     "population": 102937,
-    "ratio": 0.0014960606973197198
+    "ratio": 0.0015057753771724452
   },
   {
     "city_name": "Rhein-Lahn-Kreis",
@@ -3719,25 +3719,25 @@
   },
   {
     "city_name": "Vulkaneifel",
-    "infected": 102,
+    "infected": 106,
     "geo": [
       50.24,
       6.75
     ],
     "state": "Rheinland-Pfalz",
     "population": 60757,
-    "ratio": 0.0016788189015257502
+    "ratio": 0.0017446549368797012
   },
   {
     "city_name": "Westerwaldkreis",
-    "infected": 315,
+    "infected": 317,
     "geo": [
       50.55,
       7.87
     ],
     "state": "Rheinland-Pfalz",
     "population": 201597,
-    "ratio": 0.0015625232518341047
+    "ratio": 0.0015724440343854323
   },
   {
     "city_name": "Worms",
@@ -3774,69 +3774,69 @@
   },
   {
     "city_name": "Neunkirchen",
-    "infected": 220,
+    "infected": 221,
     "geo": [
       49.38,
       7.12
     ],
     "state": "Saarland",
     "population": 134099,
-    "ratio": 0.0016405789752347146
+    "ratio": 0.0016480361523948724
   },
   {
     "city_name": "Regionalverband Saarbr\u00fccken",
-    "infected": 1029,
+    "infected": 1054,
     "geo": [
       49.25,
       6.96
     ],
     "state": "Saarland",
     "population": 329708,
-    "ratio": 0.003120943380203089
+    "ratio": 0.003196768049304233
   },
   {
     "city_name": "Saarlouis",
-    "infected": 458,
+    "infected": 462,
     "geo": [
       49.36,
       6.78
     ],
     "state": "Saarland",
     "population": 240800,
-    "ratio": 0.0019019933554817276
+    "ratio": 0.0019186046511627908
   },
   {
     "city_name": "Saarpfalz-Kreis",
-    "infected": 303,
+    "infected": 304,
     "geo": [
       49.316667,
       7.333333
     ],
     "state": "Saarland",
     "population": 142631,
-    "ratio": 0.002124362866417539
+    "ratio": 0.002131373964986574
   },
   {
     "city_name": "St. Wendel",
-    "infected": 155,
+    "infected": 157,
     "geo": [
       49.52,
       7.1
     ],
     "state": "Saarland",
     "population": 25862,
-    "ratio": 0.005993349315598175
+    "ratio": 0.006070682855154281
   },
   {
     "city_name": "Bautzen",
-    "infected": 326,
+    "infected": 329,
     "geo": [
       51.18,
       14.43
     ],
     "state": "Sachsen",
     "population": 39087,
-    "ratio": 0.008340368920612991
+    "ratio": 0.008417120781845627
   },
   {
     "city_name": "Chemnitz",
@@ -3851,47 +3851,47 @@
   },
   {
     "city_name": "Dresden",
-    "infected": 524,
+    "infected": 526,
     "geo": [
       51.049259,
       13.73836
     ],
     "state": "Sachsen",
     "population": 554649,
-    "ratio": 0.0009447416293908399
+    "ratio": 0.0009483475134724844
   },
   {
     "city_name": "Erzgebirgskreis",
-    "infected": 469,
+    "infected": 471,
     "geo": [
       50.61,
       12.95
     ],
     "state": "Sachsen",
     "population": 337696,
-    "ratio": 0.0013888230834833697
+    "ratio": 0.0013947455699801004
   },
   {
     "city_name": "G\u00f6rlitz",
-    "infected": 239,
+    "infected": 241,
     "geo": [
       51.28,
       14.82
     ],
     "state": "Sachsen",
     "population": 260000,
-    "ratio": 0.0009192307692307692
+    "ratio": 0.0009269230769230769
   },
   {
     "city_name": "Leipzig (city)",
-    "infected": 524,
+    "infected": 528,
     "geo": [
       51.340333,
       12.37475
     ],
     "state": "Sachsen",
     "population": 587857,
-    "ratio": 0.0008913732421320151
+    "ratio": 0.0008981776180261526
   },
   {
     "city_name": "Leipzig (county)",
@@ -3906,14 +3906,14 @@
   },
   {
     "city_name": "Mei\u00dfen",
-    "infected": 193,
+    "infected": 196,
     "geo": [
       51.166667,
       13.483333
     ],
     "state": "Sachsen",
     "population": 245200,
-    "ratio": 0.0007871125611745513
+    "ratio": 0.000799347471451876
   },
   {
     "city_name": "Mittelsachsen",
@@ -3928,36 +3928,36 @@
   },
   {
     "city_name": "Nordsachsen",
-    "infected": 123,
+    "infected": 124,
     "geo": [
       51.47,
       12.78
     ],
     "state": "Sachsen",
     "population": 198629,
-    "ratio": 0.0006192449239537026
+    "ratio": 0.000624279435530562
   },
   {
     "city_name": "S\u00e4chsische Schweiz-Osterzgebirge",
-    "infected": 320,
+    "infected": 321,
     "geo": [
       50.92,
       13.87
     ],
     "state": "Sachsen",
     "population": 246066,
-    "ratio": 0.0013004641031268034
+    "ratio": 0.0013045280534490747
   },
   {
     "city_name": "Vogtlandkreis",
-    "infected": 279,
+    "infected": 280,
     "geo": [
       50.48,
       12.12
     ],
     "state": "Sachsen",
     "population": 227796,
-    "ratio": 0.0012247800663751779
+    "ratio": 0.0012291699590862
   },
   {
     "city_name": "Zwickau",
@@ -3983,36 +3983,36 @@
   },
   {
     "city_name": "Anhalt-Bitterfeld",
-    "infected": 59,
+    "infected": 63,
     "geo": [
       51.77,
       12.07
     ],
     "state": "Sachsen-Anhalt",
     "population": 168475,
-    "ratio": 0.00035020032645793144
+    "ratio": 0.0003739427214720285
   },
   {
     "city_name": "Burgenlandkreis",
-    "infected": 67,
+    "infected": 71,
     "geo": [
       51.15,
       11.88
     ],
     "state": "Sachsen-Anhalt",
     "population": 180190,
-    "ratio": 0.00037182973527942725
+    "ratio": 0.0003940285254453632
   },
   {
     "city_name": "B\u00f6rde",
-    "infected": 103,
+    "infected": 115,
     "geo": [
       52.22,
       11.35
     ],
     "state": "Sachsen-Anhalt",
     "population": 174001,
-    "ratio": 0.0005919506209734426
+    "ratio": 0.0006609157418635526
   },
   {
     "city_name": "Dessau-Ro\u00dflau",
@@ -4027,14 +4027,14 @@
   },
   {
     "city_name": "Halle (Saale)",
-    "infected": 280,
+    "infected": 285,
     "geo": [
       51.482778,
       11.97
     ],
     "state": "Sachsen-Anhalt",
     "population": 239257,
-    "ratio": 0.0011702896884939625
+    "ratio": 0.0011911877186456404
   },
   {
     "city_name": "Harz",
@@ -4049,36 +4049,36 @@
   },
   {
     "city_name": "Jerichower Land",
-    "infected": 31,
+    "infected": 32,
     "geo": [
       52.26,
       12.03
     ],
     "state": "Sachsen-Anhalt",
     "population": 89928,
-    "ratio": 0.0003447202206209412
+    "ratio": 0.00035584022773774577
   },
   {
     "city_name": "Magdeburg",
-    "infected": 101,
+    "infected": 102,
     "geo": [
       52.133333,
       11.616667
     ],
     "state": "Sachsen-Anhalt",
     "population": 238697,
-    "ratio": 0.0004231305797726825
+    "ratio": 0.00042731999145360016
   },
   {
     "city_name": "Mansfeld-S\u00fcdharz",
-    "infected": 35,
+    "infected": 36,
     "geo": [
       51.54,
       11.36
     ],
     "state": "Sachsen-Anhalt",
     "population": 144735,
-    "ratio": 0.00024182125954330327
+    "ratio": 0.0002487304383873977
   },
   {
     "city_name": "Saalekreis",
@@ -4104,25 +4104,25 @@
   },
   {
     "city_name": "Stendal",
-    "infected": 85,
+    "infected": 86,
     "geo": [
       52.7,
       11.84
     ],
     "state": "Sachsen-Anhalt",
     "population": 39439,
-    "ratio": 0.0021552270595096225
+    "ratio": 0.0021805826719744417
   },
   {
     "city_name": "Wittenberg",
-    "infected": 149,
+    "infected": 150,
     "geo": [
       51.82,
       12.7
     ],
     "state": "Sachsen-Anhalt",
     "population": 130699,
-    "ratio": 0.0011400240246673655
+    "ratio": 0.0011476751926181531
   },
   {
     "city_name": "Dithmarschen",
@@ -4148,58 +4148,58 @@
   },
   {
     "city_name": "Herzogtum Lauenburg",
-    "infected": 236,
+    "infected": 237,
     "geo": [
       53.59,
       10.6
     ],
     "state": "Schleswig-Holstein",
     "population": 192999,
-    "ratio": 0.0012228042632345245
+    "ratio": 0.001227985637231281
   },
   {
     "city_name": "Kiel",
-    "infected": 235,
+    "infected": 240,
     "geo": [
       54.32321,
       10.14019
     ],
     "state": "Schleswig-Holstein",
     "population": 247548,
-    "ratio": 0.0009493108407258391
+    "ratio": 0.0009695089437200058
   },
   {
     "city_name": "L\u00fcbeck",
-    "infected": 154,
+    "infected": 155,
     "geo": [
       53.866111,
       10.683889
     ],
     "state": "Schleswig-Holstein",
     "population": 235300,
-    "ratio": 0.0006544836379090523
+    "ratio": 0.0006587335316617085
   },
   {
     "city_name": "Neum\u00fcnster",
-    "infected": 50,
+    "infected": 60,
     "geo": [
       54.071389,
       9.99
     ],
     "state": "Schleswig-Holstein",
     "population": 79487,
-    "ratio": 0.0006290336784631449
+    "ratio": 0.0007548404141557739
   },
   {
     "city_name": "Nordfriesland",
-    "infected": 69,
+    "infected": 70,
     "geo": [
       54.477019,
       9.051147
     ],
     "state": "Schleswig-Holstein",
     "population": 164926,
-    "ratio": 0.000418369450541455
+    "ratio": 0.00042443277591162096
   },
   {
     "city_name": "Ostholstein",
@@ -4214,47 +4214,47 @@
   },
   {
     "city_name": "Pinneberg",
-    "infected": 493,
+    "infected": 501,
     "geo": [
       53.71,
       9.73
     ],
     "state": "Schleswig-Holstein",
     "population": 43280,
-    "ratio": 0.0113909426987061
+    "ratio": 0.011575785582255083
   },
   {
     "city_name": "Pl\u00f6n",
-    "infected": 104,
+    "infected": 105,
     "geo": [
       54.24,
       10.36
     ],
     "state": "Schleswig-Holstein",
     "population": 8914,
-    "ratio": 0.01166704061027597
+    "ratio": 0.011779223693067085
   },
   {
     "city_name": "Rendsburg-Eckernf\u00f6rde",
-    "infected": 219,
+    "infected": 220,
     "geo": [
       54.29,
       9.78
     ],
     "state": "Schleswig-Holstein",
     "population": 248700,
-    "ratio": 0.0008805790108564536
+    "ratio": 0.0008845999195818255
   },
   {
     "city_name": "Schleswig-Flensburg",
-    "infected": 117,
+    "infected": 122,
     "geo": [
       54.62,
       9.51
     ],
     "state": "Schleswig-Holstein",
     "population": 200025,
-    "ratio": 0.0005849268841394826
+    "ratio": 0.0006099237595300587
   },
   {
     "city_name": "Segeberg",
@@ -4280,25 +4280,25 @@
   },
   {
     "city_name": "Stormarn",
-    "infected": 336,
+    "infected": 353,
     "geo": [
       53.72,
       10.33
     ],
     "state": "Schleswig-Holstein",
     "population": 236705,
-    "ratio": 0.001419488392725122
+    "ratio": 0.0014913077459284764
   },
   {
     "city_name": "Altenburger Land",
-    "infected": 41,
+    "infected": 45,
     "geo": [
       50.96,
       12.4
     ],
     "state": "Th\u00fcringen",
     "population": 91607,
-    "ratio": 0.0004475640507821455
+    "ratio": 0.000491228836224306
   },
   {
     "city_name": "Eichsfeld",
@@ -4324,47 +4324,47 @@
   },
   {
     "city_name": "Erfurt",
-    "infected": 122,
+    "infected": 125,
     "geo": [
       50.978056,
       11.029167
     ],
     "state": "Th\u00fcringen",
     "population": 213699,
-    "ratio": 0.0005708964478074301
+    "ratio": 0.0005849348850485964
   },
   {
     "city_name": "Gera",
-    "infected": 91,
+    "infected": 107,
     "geo": [
       50.880556,
       12.083333
     ],
     "state": "Th\u00fcringen",
     "population": 94152,
-    "ratio": 0.0009665222193899227
+    "ratio": 0.001136460192029909
   },
   {
     "city_name": "Gotha",
-    "infected": 122,
+    "infected": 136,
     "geo": [
       50.91,
       10.69
     ],
     "state": "Th\u00fcringen",
     "population": 45733,
-    "ratio": 0.002667657927535915
+    "ratio": 0.0029737826077449545
   },
   {
     "city_name": "Greiz",
-    "infected": 311,
+    "infected": 330,
     "geo": [
       50.75,
       12.07
     ],
     "state": "Th\u00fcringen",
     "population": 20103,
-    "ratio": 0.015470327811769387
+    "ratio": 0.016415460379047904
   },
   {
     "city_name": "Hildburghausen",
@@ -4379,14 +4379,14 @@
   },
   {
     "city_name": "Ilm-Kreis",
-    "infected": 112,
+    "infected": 119,
     "geo": [
       50.74,
       10.97
     ],
     "state": "Th\u00fcringen",
     "population": 109620,
-    "ratio": 0.0010217113665389529
+    "ratio": 0.0010855683269476372
   },
   {
     "city_name": "Jena",
@@ -4401,145 +4401,145 @@
   },
   {
     "city_name": "Kyffh\u00e4userkreis",
-    "infected": 35,
+    "infected": 36,
     "geo": [
       51.32,
       10.98
     ],
     "state": "Th\u00fcringen",
     "population": 77110,
-    "ratio": 0.00045389703021657374
+    "ratio": 0.00046686551679419013
   },
   {
     "city_name": "Nordhausen",
-    "infected": 51,
+    "infected": 52,
     "geo": [
       51.5,
       10.73
     ],
     "state": "Th\u00fcringen",
     "population": 85355,
-    "ratio": 0.0005975045398629254
+    "ratio": 0.0006092203151543554
   },
   {
     "city_name": "Saale-Holzland-Kreis",
-    "infected": 50,
+    "infected": 51,
     "geo": [
       50.92,
       11.75
     ],
     "state": "Th\u00fcringen",
     "population": 86184,
-    "ratio": 0.0005801540889260187
+    "ratio": 0.0005917571707045391
   },
   {
     "city_name": "Saale-Orla-Kreis",
-    "infected": 108,
+    "infected": 112,
     "geo": [
       50.58,
       11.71
     ],
     "state": "Th\u00fcringen",
     "population": 82951,
-    "ratio": 0.0013019734542079058
+    "ratio": 0.001350194693252643
   },
   {
     "city_name": "Saalfeld-Rudolstadt",
-    "infected": 54,
+    "infected": 55,
     "geo": [
       50.64,
       11.31
     ],
     "state": "Th\u00fcringen",
     "population": 109278,
-    "ratio": 0.0004941525284137704
+    "ratio": 0.0005033035011621736
   },
   {
     "city_name": "Schmalkalden-Meiningen",
-    "infected": 71,
+    "infected": 74,
     "geo": [
       50.67,
       10.42
     ],
     "state": "Th\u00fcringen",
     "population": 124623,
-    "ratio": 0.0005697182703032345
+    "ratio": 0.0005937908732737937
   },
   {
     "city_name": "Sonneberg",
-    "infected": 59,
+    "infected": 61,
     "geo": [
       50.41,
       11.13
     ],
     "state": "Th\u00fcringen",
     "population": 23830,
-    "ratio": 0.0024758707511540077
+    "ratio": 0.0025597985732270247
   },
   {
     "city_name": "Suhl",
-    "infected": 12,
+    "infected": 13,
     "geo": [
       50.610833,
       10.693333
     ],
     "state": "Th\u00fcringen",
     "population": 36955,
-    "ratio": 0.00032471925314571777
+    "ratio": 0.0003517791909078609
   },
   {
     "city_name": "S\u00f6mmerda",
-    "infected": 34,
+    "infected": 36,
     "geo": [
       51.16,
       11.16
     ],
     "state": "Th\u00fcringen",
     "population": 19034,
-    "ratio": 0.0017862771881895555
+    "ratio": 0.0018913523169065882
   },
   {
     "city_name": "Unstrut-Hainich-Kreis",
-    "infected": 62,
+    "infected": 65,
     "geo": [
       51.19,
       10.55
     ],
     "state": "Th\u00fcringen",
     "population": 105273,
-    "ratio": 0.0005889449336487038
+    "ratio": 0.0006174422691478347
   },
   {
     "city_name": "Wartburgkreis",
-    "infected": 35,
+    "infected": 36,
     "geo": [
       50.89,
       10.21
     ],
     "state": "Th\u00fcringen",
     "population": 125655,
-    "ratio": 0.0002785404480522064
+    "ratio": 0.00028649874656798375
   },
   {
     "city_name": "Weimar",
-    "infected": 58,
+    "infected": 59,
     "geo": [
       50.979444,
       11.329722
     ],
     "state": "Th\u00fcringen",
     "population": 65090,
-    "ratio": 0.0008910738976801352
+    "ratio": 0.0009064372407435858
   },
   {
     "city_name": "Weimarer Land",
-    "infected": 66,
+    "infected": 67,
     "geo": [
       51.1,
       11.41
     ],
     "state": "Th\u00fcringen",
     "population": 82127,
-    "ratio": 0.0008036333970557794
+    "ratio": 0.0008158096606475337
   }
 ]
