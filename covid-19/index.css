@@ -52,6 +52,10 @@ body::-webkit-scrollbar {
   color: #333;
 }
 
+.stats_orange {
+  color: #E78C07;
+}
+
 .stats_font {
   font-size: 2rem;
   font-weight: 700;

@@ -173,10 +173,10 @@ $(document).ready(async () => {
       loadTrend: function () {
         let trendChart = echarts.init(document.getElementById('trendContainer'))
         trendChart.clear()
-        if (this.population && this.totalInfected && this.totalInfected > 0) {
+        if (this.population && this.remainInfected && this.remainInfected > 0) {
           let r0 = 1.09
-          let n = Math.ceil(Math.log10(1 - this.population * (1-r0) / this.totalInfected) / Math.log10(r0))
-          let data = [...Array(n).keys()].map(d => [d, (this.totalInfected * (1 - r0 ** (d + 1))/ (1 - r0))])
+          let n = Math.ceil(Math.log10(1 - this.population * (1-r0) / this.remainInfected) / Math.log10(r0))
+          let data = [...Array(n).keys()].map(d => [d, (this.remainInfected * (1 - r0 ** (d + 1))/ (1 - r0))])
           let options = {
             title: {
               text: `作死感染人口曲线 T=每11天翻倍`,
@@ -292,6 +292,9 @@ $(document).ready(async () => {
           return this.data.map(d => d.cured).reduce((cur, acc) => cur + acc)
         }
         return 0
+      },
+      remainInfected () {
+        return this.totalInfected - this.recoveries - this.deaths
       },
       maxInfectedNumber () {
         if (this.data) {

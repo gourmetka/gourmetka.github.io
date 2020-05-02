@@ -109,33 +109,37 @@
             </div>
           </div>
 
-          <div align="center" class="col-sm-3 col-md-2" style="margin-top: 40px;">
+          <div align="center" class="col-sm-3 col-md-3" style="margin-top: 40px;">
             <span class="stats_red stats_font">{{ totalInfected | numberWithCommas }}</span><br/>
-            现存确诊人数
+            全部确诊人数
           </div>
 
-          <div align="center" class="col-sm-3 col-md-2" style="margin-top: 40px;">
+          <div align="center" class="col-sm-3 col-md-3" style="margin-top: 40px;">
             <span class="stats_green stats_font">{{ recoveries | numberWithCommas }}</span><br/>
             治愈人数
           </div>
 
-          <div align="center" class="col-sm-3 col-md-2" style="margin-top: 40px;">
+          <div align="center" class="col-sm-3 col-md-3" style="margin-top: 40px;">
             <span class="stats_black stats_font">{{ deaths | numberWithCommas }}</span><br/>
             死亡人数
           </div>
+          <div align="center" class="col-sm-3 col-md-3" style="margin-top: 40px;">
+            <span class="stats_orange stats_font">{{ remainInfected | numberWithCommas }}</span><br/>
+            现存确诊人数
+          </div>
 
-          <div align="center" class="col-sm-3 col-md-2" style="margin-top: 40px;">
+          <div align="center" class="col-sm-3 col-md-4" style="margin-top: 40px;">
             <span class="stats_red stats_font">{{ cityData.length | numberWithCommas }}</span><br/>
             确诊地区数量
           </div>
 
-          <div align="center" class="col-sm-3 col-md-2" style="margin-top: 40px;">
+          <div align="center" class="col-sm-3 col-md-4" style="margin-top: 40px;">
             <span class="stats_red stats_font">{{ `${(totalCityPopulation / population * 100).toFixed(2)}%` }}</span><br/>
             受影响人口比
           </div>
 
-          <div align="center" class="col-sm-3 col-md-2" style="margin-top: 40px;">
-            <span class="stats_red stats_font">{{ (Math.log10(1 - (population * (1-1.09) / totalInfected)) / Math.log10(1.09)).toFixed(2) }}</span><br/>
+          <div align="center" class="col-sm-3 col-md-4" style="margin-top: 40px;">
+            <span class="stats_red stats_font">{{ (Math.log10(1 - (population * (1-1.09) / remainInfected)) / Math.log10(1.09)).toFixed(2) }}</span><br/>
             剩余天数**
           </div>
 
