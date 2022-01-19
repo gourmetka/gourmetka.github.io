@@ -11,14 +11,14 @@ All data will be and will only be stored on your devices, except for the apps wh
 via a you-defined and you-owned remote storages (including but are not limited to OneDrive or Google Drive).
 No data will be stored in a storage media where you cannot access or do not own.
 
-## How can the privacy data deleted? 
+## How can I delete my private data? 
 
 ### Apps that do not have the synchronisation function
 All data, including your private data for the apps only, will be deleted when you uninstall the apps.
 
 ### Apps that have the synchronisation function
 For the data stored on your devices, all data will be deleted when you uninstall the apps.
-For the data stored in your owned storage media, all data will be dleted when you delete the folders that the apps create for synchronisation.
+For the data stored in your owned storage media, all data will be deleted when you delete the folders that the apps create for synchronisation.
 
 ## Will be my private data seen by anyone else?
 No, except you authorise them or when your devices or your storage medias are hacked by someone else.
