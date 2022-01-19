@@ -4,7 +4,7 @@ This document about privacy is applied to all apps in general that are developed
 and delivered to any distribution platform, including but is not limited to Google Play Store.
 
 ## What data will be collected and sent by the apps?
-No data will be collected and sent to any servers, services, and remote storages which do not own or can be accessed by you. 
+No data will be collected and sent to any servers, services, and remote storages which do not own or cannot be accessed by you. 
 
 ## Where is data stored?
 All data will be and will only be stored on your devices, except for the apps which can synchronise data 
